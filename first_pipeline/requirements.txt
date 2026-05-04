@@ -1,0 +1,12 @@
+torch
+torchaudio
+transformers
+demucs
+pydub
+openai
+librosa
+soundfile
+numpy
+openai-whisper
+tqdm
+python-dotenv
