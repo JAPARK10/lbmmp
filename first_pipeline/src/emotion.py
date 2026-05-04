@@ -1,7 +1,7 @@
 import torch
 import librosa
 import numpy as np
-from transformers import Wav2Vec2Processor, Wav2Vec2ForSequenceClassification
+from transformers import Wav2Vec2FeatureExtractor, Wav2Vec2ForSequenceClassification
 import torch.nn.functional as F
 from pathlib import Path
 
@@ -16,8 +16,8 @@ class EmotionDetector:
         print(f"[*] Loading emotion detection model: {model_name}")
         self.device = "cuda" if torch.cuda.is_available() else "cpu"
         
-        # Load processor and model
-        self.processor = Wav2Vec2Processor.from_pretrained(model_name)
+        # Load feature extractor (handles audio) and model
+        self.processor = Wav2Vec2FeatureExtractor.from_pretrained(model_name)
         self.model = Wav2Vec2ForSequenceClassification.from_pretrained(model_name).to(self.device)
         self.model.eval()
         
