@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+.env
+
+# Project Specific - Data
+# Ignore all processed audio and large raw files to keep repo clean
+**/data/processed/isolated/
+**/data/processed/segments/
+**/data/stored/
+**/data/raw/*.mp3
+**/data/raw/*.wav
+**/data/raw/*.m4a
+
+# OS files
+.DS_Store
+Thumbs.db
