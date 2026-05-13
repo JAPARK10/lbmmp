@@ -9,7 +9,7 @@ venv/
 
 # Project Specific - Data
 # Ignore all processed audio and large raw files to keep repo clean
-**/data/processed/isolated/
+**/data/processed/isolated/hamlet_act4_shakespeare_64kb
 **/data/processed/segments/
 **/data/stored/
 **/data/raw/*.mp3
