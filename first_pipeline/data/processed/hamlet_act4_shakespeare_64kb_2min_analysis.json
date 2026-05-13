@@ -1,0 +1,5196 @@
+{
+    "raw_chunks": [
+        {
+            "index": 0,
+            "timestamp": {
+                "start": 0.0,
+                "end": 1.0
+            },
+            "emotions": {
+                "angry": 0.857037456517723,
+                "calm": 1.147657237500786,
+                "disgust": 1.0249512202291555,
+                "fearful": 1.453460214921052,
+                "happy": 0.8897698848499561,
+                "neutral": 0.5644413720981073,
+                "sad": 1.0850190086829257,
+                "surprised": 0.9606119532485098
+            },
+            "transcript": "The Tragedy of Hamlet,"
+        },
+        {
+            "index": 1,
+            "timestamp": {
+                "start": 1.0,
+                "end": 2.0
+            },
+            "emotions": {
+                "angry": 0.7619062451149661,
+                "calm": 1.2078223616242052,
+                "disgust": 1.0379272330213984,
+                "fearful": 1.1346189298799676,
+                "happy": 0.8620588090435739,
+                "neutral": 0.6884509086576769,
+                "sad": 1.2879810109788796,
+                "surprised": 1.0021832390702263
+            },
+            "transcript": "Hamlet, Prince of Denmark,"
+        },
+        {
+            "index": 2,
+            "timestamp": {
+                "start": 2.0,
+                "end": 3.0
+            },
+            "emotions": {
+                "angry": 0.7490263999643362,
+                "calm": 1.10812104586009,
+                "disgust": 1.0136034385188002,
+                "fearful": 1.2164322856186742,
+                "happy": 1.0029595883713465,
+                "neutral": 0.5877661132874286,
+                "sad": 1.2240875413652261,
+                "surprised": 1.080950377691599
+            },
+            "transcript": "Denmark, by William Shakespeare."
+        },
+        {
+            "index": 3,
+            "timestamp": {
+                "start": 3.0,
+                "end": 4.0
+            },
+            "emotions": {
+                "angry": 0.8236077154481246,
+                "calm": 1.1761563428886463,
+                "disgust": 0.9220335445971598,
+                "fearful": 1.3523938637257797,
+                "happy": 0.9243252156033751,
+                "neutral": 0.4814755620307569,
+                "sad": 1.342432920636583,
+                "surprised": 0.960519289691004
+            },
+            "transcript": "Shakespeare."
+        },
+        {
+            "index": 4,
+            "timestamp": {
+                "start": 4.0,
+                "end": 5.0
+            },
+            "emotions": {
+                "angry": 1.06517265498418,
+                "calm": 0.6579034714377238,
+                "disgust": 0.9801503368884862,
+                "fearful": 0.5942035051353326,
+                "happy": 1.2790821947168924,
+                "neutral": 0.653266400135647,
+                "sad": 1.5389894571842777,
+                "surprised": 1.214177212824247
+            },
+            "transcript": "Act 4."
+        },
+        {
+            "index": 5,
+            "timestamp": {
+                "start": 5.0,
+                "end": 6.0
+            },
+            "emotions": {
+                "angry": 0.5897101012816577,
+                "calm": 1.7276322144468326,
+                "disgust": 0.7751092446888305,
+                "fearful": 1.6488549529158165,
+                "happy": 1.3216677182163512,
+                "neutral": 0.729324103056671,
+                "sad": 0.6640360079682872,
+                "surprised": 0.526612837445733
+            },
+            "transcript": "This is"
+        },
+        {
+            "index": 6,
+            "timestamp": {
+                "start": 6.0,
+                "end": 7.0
+            },
+            "emotions": {
+                "angry": 0.7782469573356346,
+                "calm": 1.2754395046159495,
+                "disgust": 0.7285240038521564,
+                "fearful": 1.0731020079764635,
+                "happy": 1.3909457970749852,
+                "neutral": 1.0136221269673729,
+                "sad": 0.7838231231784846,
+                "surprised": 0.9392444377044901
+            },
+            "transcript": "is a Libravox recording."
+        },
+        {
+            "index": 7,
+            "timestamp": {
+                "start": 7.0,
+                "end": 8.0
+            },
+            "emotions": {
+                "angry": 0.6892646348559422,
+                "calm": 1.2736859051915537,
+                "disgust": 0.7564858163435544,
+                "fearful": 1.3652258197269422,
+                "happy": 0.9885539092632994,
+                "neutral": 0.6042010464363172,
+                "sad": 1.3312689086705252,
+                "surprised": 0.9742677583575813
+            },
+            "transcript": "recording. All Libravox"
+        },
+        {
+            "index": 8,
+            "timestamp": {
+                "start": 8.0,
+                "end": 9.0
+            },
+            "emotions": {
+                "angry": 0.8334919580296379,
+                "calm": 1.298846786453133,
+                "disgust": 0.8449308459267845,
+                "fearful": 1.198865922645786,
+                "happy": 1.008939891914579,
+                "neutral": 0.9346642104334884,
+                "sad": 0.9660530171818871,
+                "surprised": 0.8971564941482769
+            },
+            "transcript": "Libravox recordings are"
+        },
+        {
+            "index": 9,
+            "timestamp": {
+                "start": 9.0,
+                "end": 10.0
+            },
+            "emotions": {
+                "angry": 1.06193955338112,
+                "calm": 1.1549379455905286,
+                "disgust": 1.1256718351258346,
+                "fearful": 0.8862716408827722,
+                "happy": 0.8298445958165519,
+                "neutral": 0.8744866273443539,
+                "sad": 1.1057585144863704,
+                "surprised": 0.9440430862181841
+            },
+            "transcript": "are in the public domain."
+        },
+        {
+            "index": 10,
+            "timestamp": {
+                "start": 10.0,
+                "end": 11.0
+            },
+            "emotions": {
+                "angry": 0.5416730015964997,
+                "calm": 1.5576740123300934,
+                "disgust": 0.699967275747864,
+                "fearful": 1.1791169046166892,
+                "happy": 1.7873355781534372,
+                "neutral": 0.9053673418971852,
+                "sad": 0.6137656386787034,
+                "surprised": 0.6980470376570292
+            },
+            "transcript": "For more information"
+        },
+        {
+            "index": 11,
+            "timestamp": {
+                "start": 11.0,
+                "end": 12.0
+            },
+            "emotions": {
+                "angry": 0.8896336149124475,
+                "calm": 0.7544273616018181,
+                "disgust": 1.2347041375251784,
+                "fearful": 1.0663087569203227,
+                "happy": 0.8661986897450837,
+                "neutral": 0.921971639111263,
+                "sad": 1.262982096271596,
+                "surprised": 0.9867197159044343
+            },
+            "transcript": "information or to volunteer,"
+        },
+        {
+            "index": 12,
+            "timestamp": {
+                "start": 12.0,
+                "end": 13.0
+            },
+            "emotions": {
+                "angry": 0.8218101203010475,
+                "calm": 0.9124210632053065,
+                "disgust": 1.0249309744098685,
+                "fearful": 1.4571994620062867,
+                "happy": 0.7584122839172468,
+                "neutral": 0.8580847883231458,
+                "sad": 1.2635707824016331,
+                "surprised": 0.8865173161129662
+            },
+            "transcript": "volunteer, please"
+        },
+        {
+            "index": 13,
+            "timestamp": {
+                "start": 13.0,
+                "end": 14.0
+            },
+            "emotions": {
+                "angry": 1.0628420497101052,
+                "calm": 1.3746074209103882,
+                "disgust": 0.9950201124694196,
+                "fearful": 0.9133021456869689,
+                "happy": 0.8523805287390378,
+                "neutral": 0.8376516952077562,
+                "sad": 0.9616495514869678,
+                "surprised": 0.9854932864668573
+            },
+            "transcript": "please visit Libravox"
+        },
+        {
+            "index": 14,
+            "timestamp": {
+                "start": 14.0,
+                "end": 15.0
+            },
+            "emotions": {
+                "angry": 0.7524397672275862,
+                "calm": 0.8651404563446602,
+                "disgust": 0.8736172251430494,
+                "fearful": 0.9752010127581756,
+                "happy": 1.1548834376155253,
+                "neutral": 0.7069259974424079,
+                "sad": 1.469286994805974,
+                "surprised": 1.1854585181656587
+            },
+            "transcript": "Libravox .org."
+        },
+        {
+            "index": 15,
+            "timestamp": {
+                "start": 15.0,
+                "end": 16.0
+            },
+            "emotions": {
+                "angry": 0.6327168935593571,
+                "calm": 1.105063148462398,
+                "disgust": 0.28589549692098076,
+                "fearful": 1.0031098746452844,
+                "happy": 1.7514864616790442,
+                "neutral": 0.926130597604024,
+                "sad": 1.0455614642633062,
+                "surprised": 1.2329793494589987
+            },
+            "transcript": "The"
+        },
+        {
+            "index": 16,
+            "timestamp": {
+                "start": 16.0,
+                "end": 17.0
+            },
+            "emotions": {
+                "angry": 0.9713889585920434,
+                "calm": 1.0112167678990076,
+                "disgust": 1.107040230584308,
+                "fearful": 1.2810647276363025,
+                "happy": 0.9058123605788202,
+                "neutral": 0.6935820558188918,
+                "sad": 1.0714815637481474,
+                "surprised": 0.941362072533373
+            },
+            "transcript": "The Tragedy of Hamlet,"
+        },
+        {
+            "index": 17,
+            "timestamp": {
+                "start": 17.0,
+                "end": 18.0
+            },
+            "emotions": {
+                "angry": 0.7848268486039047,
+                "calm": 1.1768556023394043,
+                "disgust": 1.13372266303384,
+                "fearful": 1.0827506982374262,
+                "happy": 0.8837023685467181,
+                "neutral": 0.6841128525327618,
+                "sad": 1.2827248848178354,
+                "surprised": 0.9542528192790035
+            },
+            "transcript": "Hamlet, Prince of Denmark,"
+        },
+        {
+            "index": 18,
+            "timestamp": {
+                "start": 18.0,
+                "end": 19.0
+            },
+            "emotions": {
+                "angry": 0.701705301465116,
+                "calm": 1.370341782523692,
+                "disgust": 0.9879730099868343,
+                "fearful": 1.2057144603622874,
+                "happy": 0.9941028211186477,
+                "neutral": 0.5403698716512393,
+                "sad": 1.120008456522979,
+                "surprised": 1.06273536981617
+            },
+            "transcript": "by William Shakespeare."
+        },
+        {
+            "index": 19,
+            "timestamp": {
+                "start": 19.0,
+                "end": 20.0
+            },
+            "emotions": {
+                "angry": 0.5940029936558557,
+                "calm": 1.5585508120422913,
+                "disgust": 0.856280185007854,
+                "fearful": 1.6879286054543405,
+                "happy": 1.2300468204038146,
+                "neutral": 0.555856755377747,
+                "sad": 0.8239036158838575,
+                "surprised": 0.676381285621205
+            },
+            "transcript": "Shakespeare."
+        },
+        {
+            "index": 20,
+            "timestamp": {
+                "start": 20.0,
+                "end": 21.0
+            },
+            "emotions": {
+                "angry": 0.9280983355016476,
+                "calm": 0.7338848631937429,
+                "disgust": 0.9176452632667058,
+                "fearful": 0.9439827381030018,
+                "happy": 1.0942620038727917,
+                "neutral": 0.5698621902121976,
+                "sad": 1.6253160732532677,
+                "surprised": 1.1698996060436107
+            },
+            "transcript": "Act 4."
+        },
+        {
+            "index": 21,
+            "timestamp": {
+                "start": 21.0,
+                "end": 22.0
+            },
+            "emotions": {
+                "angry": 0.810590821674629,
+                "calm": 1.0801530038858347,
+                "disgust": 0.908463784220058,
+                "fearful": 0.8214729495413835,
+                "happy": 1.2088876031928435,
+                "neutral": 0.42469616184040726,
+                "sad": 1.583835504275664,
+                "surprised": 1.1448492981027525
+            },
+            "transcript": "Scene 1."
+        },
+        {
+            "index": 22,
+            "timestamp": {
+                "start": 22.0,
+                "end": 23.0
+            },
+            "emotions": {
+                "angry": 0.7260520671857513,
+                "calm": 0.5189645898673957,
+                "disgust": 1.0206505410013855,
+                "fearful": 1.1057055638820814,
+                "happy": 1.0873137944305697,
+                "neutral": 1.1176560480589028,
+                "sad": 1.2712369397431857,
+                "surprised": 1.1353664678228717
+            },
+            "transcript": "A Room in the Castle."
+        },
+        {
+            "index": 23,
+            "timestamp": {
+                "start": 23.0,
+                "end": 24.0
+            },
+            "emotions": {
+                "angry": 0.6561627203217216,
+                "calm": 1.157323058839607,
+                "disgust": 0.9142108714988116,
+                "fearful": 1.3778015882455887,
+                "happy": 1.0197005448656116,
+                "neutral": 0.45243254492089824,
+                "sad": 1.2262219179292888,
+                "surprised": 1.1790896506291875
+            },
+            "transcript": "Castle."
+        },
+        {
+            "index": 24,
+            "timestamp": {
+                "start": 24.0,
+                "end": 25.0
+            },
+            "emotions": {
+                "angry": 1.0467310496698081,
+                "calm": 1.1651799940936716,
+                "disgust": 1.0134492588180763,
+                "fearful": 0.8249836524742824,
+                "happy": 0.9193533095977059,
+                "neutral": 1.011539143636885,
+                "sad": 0.9765236098373657,
+                "surprised": 1.0251902766338132
+            },
+            "transcript": "Enter King Claudius,"
+        },
+        {
+            "index": 25,
+            "timestamp": {
+                "start": 25.0,
+                "end": 26.0
+            },
+            "emotions": {
+                "angry": 0.5824932453912047,
+                "calm": 1.4024804632710663,
+                "disgust": 1.0271728095532235,
+                "fearful": 1.1321084482883814,
+                "happy": 1.2267763419036093,
+                "neutral": 0.7111149353214209,
+                "sad": 0.9502566060258956,
+                "surprised": 0.9505458876360923
+            },
+            "transcript": "Claudius, Queen Gertrude,"
+        },
+        {
+            "index": 26,
+            "timestamp": {
+                "start": 26.0,
+                "end": 27.0
+            },
+            "emotions": {
+                "angry": 0.4874286115864877,
+                "calm": 1.6224037900173705,
+                "disgust": 0.932273257044231,
+                "fearful": 1.2141024590299565,
+                "happy": 1.1538874990436772,
+                "neutral": 0.5834183235955485,
+                "sad": 1.0387721066339515,
+                "surprised": 0.9506615224116353
+            },
+            "transcript": "Gertrude, Rosencrantz,"
+        },
+        {
+            "index": 27,
+            "timestamp": {
+                "start": 27.0,
+                "end": 28.0
+            },
+            "emotions": {
+                "angry": 0.8095676291152791,
+                "calm": 1.4098211301333128,
+                "disgust": 1.0548675329671047,
+                "fearful": 0.7948707216836424,
+                "happy": 1.0554640059507134,
+                "neutral": 0.8744033080111344,
+                "sad": 0.9015163534631934,
+                "surprised": 1.0824392240945495
+            },
+            "transcript": "Rosencrantz, and Gildenstone."
+        },
+        {
+            "index": 28,
+            "timestamp": {
+                "start": 28.0,
+                "end": 29.0
+            },
+            "emotions": {
+                "angry": 0.8904461730826772,
+                "calm": 1.2835541847232446,
+                "disgust": 0.4844423532416574,
+                "fearful": 0.6361501172992154,
+                "happy": 1.412555094422413,
+                "neutral": 0.9742868361488325,
+                "sad": 1.0815382851362787,
+                "surprised": 1.2199784187353255
+            },
+            "transcript": "There's"
+        },
+        {
+            "index": 29,
+            "timestamp": {
+                "start": 29.0,
+                "end": 30.0
+            },
+            "emotions": {
+                "angry": 1.0964532244679293,
+                "calm": 1.3938744327033834,
+                "disgust": 0.9582856307438995,
+                "fearful": 0.646991753527396,
+                "happy": 0.8782348293111963,
+                "neutral": 1.1393042796741903,
+                "sad": 0.9401862576440134,
+                "surprised": 0.929621054717636
+            },
+            "transcript": "There's matter in these"
+        },
+        {
+            "index": 30,
+            "timestamp": {
+                "start": 30.0,
+                "end": 31.0
+            },
+            "emotions": {
+                "angry": 1.240571531691618,
+                "calm": 1.399334574428012,
+                "disgust": 0.756581594642489,
+                "fearful": 0.6581300688766666,
+                "happy": 0.7445431190203048,
+                "neutral": 0.8396875680741339,
+                "sad": 1.302319723146208,
+                "surprised": 1.0417809468541404
+            },
+            "transcript": "these sides, these profound"
+        },
+        {
+            "index": 31,
+            "timestamp": {
+                "start": 31.0,
+                "end": 32.0
+            },
+            "emotions": {
+                "angry": 0.9190243150342924,
+                "calm": 0.8414528477788876,
+                "disgust": 1.0534448748195153,
+                "fearful": 0.9016273161265932,
+                "happy": 1.1254530245404637,
+                "neutral": 0.7765163291292759,
+                "sad": 1.1898105906270033,
+                "surprised": 1.175619049992184
+            },
+            "transcript": "profound heaves,"
+        },
+        {
+            "index": 32,
+            "timestamp": {
+                "start": 32.0,
+                "end": 33.0
+            },
+            "emotions": {
+                "angry": 0.5392326016870608,
+                "calm": 1.3831784106369978,
+                "disgust": 0.5810207513807552,
+                "fearful": 1.0276641600136114,
+                "happy": 1.8526844106996818,
+                "neutral": 0.9362827079484113,
+                "sad": 0.7341869931123334,
+                "surprised": 0.928697144541328
+            },
+            "transcript": "heaves, you must translate,"
+        },
+        {
+            "index": 33,
+            "timestamp": {
+                "start": 33.0,
+                "end": 34.0
+            },
+            "emotions": {
+                "angry": 0.7244401884963644,
+                "calm": 1.278670270162938,
+                "disgust": 0.6196439344401438,
+                "fearful": 1.6762857019936097,
+                "happy": 0.9177756930640354,
+                "neutral": 0.6794913549378288,
+                "sad": 1.2479604770460104,
+                "surprised": 0.8386799492219279
+            },
+            "transcript": "translate, to"
+        },
+        {
+            "index": 34,
+            "timestamp": {
+                "start": 34.0,
+                "end": 35.0
+            },
+            "emotions": {
+                "angry": 0.7024738639126642,
+                "calm": 1.1835445095576813,
+                "disgust": 1.0453115062636478,
+                "fearful": 1.0857969153547602,
+                "happy": 1.0769331399338469,
+                "neutral": 0.8529003012149633,
+                "sad": 1.054982778399969,
+                "surprised": 0.9810080588094329
+            },
+            "transcript": "to fit we understand"
+        },
+        {
+            "index": 35,
+            "timestamp": {
+                "start": 35.0,
+                "end": 36.0
+            },
+            "emotions": {
+                "angry": 0.4771456821020923,
+                "calm": 1.71281772552626,
+                "disgust": 0.8875545250087457,
+                "fearful": 0.953887226503802,
+                "happy": 1.3189438768368944,
+                "neutral": 0.6016095815675832,
+                "sad": 0.9573445894897333,
+                "surprised": 1.07364085824364
+            },
+            "transcript": "them."
+        },
+        {
+            "index": 36,
+            "timestamp": {
+                "start": 36.0,
+                "end": 37.0
+            },
+            "emotions": {
+                "angry": 0.6336972584240615,
+                "calm": 1.4102992429426287,
+                "disgust": 1.0604600512024556,
+                "fearful": 0.9030838470872203,
+                "happy": 1.1064437576006991,
+                "neutral": 0.8959479744739153,
+                "sad": 0.9214943049873046,
+                "surprised": 1.0515254154140377
+            },
+            "transcript": "Where is your son?"
+        },
+        {
+            "index": 37,
+            "timestamp": {
+                "start": 37.0,
+                "end": 38.0
+            },
+            "emotions": {
+                "angry": 0.5469524883182596,
+                "calm": 1.351140180300701,
+                "disgust": 0.968022312450225,
+                "fearful": 1.545724306838629,
+                "happy": 1.2207290714196584,
+                "neutral": 0.9910713990231003,
+                "sad": 0.7310730303689236,
+                "surprised": 0.6282347806433615
+            },
+            "transcript": "The stove is"
+        },
+        {
+            "index": 38,
+            "timestamp": {
+                "start": 38.0,
+                "end": 39.0
+            },
+            "emotions": {
+                "angry": 0.7398476463164386,
+                "calm": 1.4403635058984443,
+                "disgust": 0.9575123961842081,
+                "fearful": 0.9930290140110803,
+                "happy": 1.104177004525914,
+                "neutral": 0.9742662009868669,
+                "sad": 0.9211049623087086,
+                "surprised": 0.8526487858445904
+            },
+            "transcript": "is placed on us in a little"
+        },
+        {
+            "index": 39,
+            "timestamp": {
+                "start": 39.0,
+                "end": 40.0
+            },
+            "emotions": {
+                "angry": 0.5443699783311332,
+                "calm": 1.2135776250992094,
+                "disgust": 0.9291713639238578,
+                "fearful": 1.4712905522300284,
+                "happy": 0.9863759263192341,
+                "neutral": 0.6214629434345436,
+                "sad": 1.3182897811368535,
+                "surprised": 0.898409788230677
+            },
+            "transcript": "little while."
+        },
+        {
+            "index": 40,
+            "timestamp": {
+                "start": 40.0,
+                "end": 41.0
+            },
+            "emotions": {
+                "angry": 0.473219161188453,
+                "calm": 1.0153438002921238,
+                "disgust": 0.9684720032440032,
+                "fearful": 1.2951262278164708,
+                "happy": 1.2076082231509775,
+                "neutral": 0.5944044059574881,
+                "sad": 1.3817004658290477,
+                "surprised": 1.047071335170901
+            },
+            "transcript": "Exumpt, Rosencrantz,"
+        },
+        {
+            "index": 41,
+            "timestamp": {
+                "start": 41.0,
+                "end": 42.0
+            },
+            "emotions": {
+                "angry": 0.8352833236938575,
+                "calm": 1.2220738610315285,
+                "disgust": 1.0128473350369671,
+                "fearful": 0.780389120753269,
+                "happy": 1.1571276088149518,
+                "neutral": 1.0438623728139138,
+                "sad": 0.9028736020407786,
+                "surprised": 1.0284903451775917
+            },
+            "transcript": "Rosencrantz, and Gildenstone."
+        },
+        {
+            "index": 42,
+            "timestamp": {
+                "start": 42.0,
+                "end": 43.0
+            },
+            "emotions": {
+                "angry": 0.5169092498670882,
+                "calm": 1.5741112815350535,
+                "disgust": 0.7600716624134224,
+                "fearful": 1.620204782568661,
+                "happy": 1.1285397332963718,
+                "neutral": 0.5786924821627518,
+                "sad": 0.9803087993586748,
+                "surprised": 0.8241154183010136
+            },
+            "transcript": "Gildenstone. Oh"
+        },
+        {
+            "index": 43,
+            "timestamp": {
+                "start": 43.0,
+                "end": 44.0
+            },
+            "emotions": {
+                "angry": 0.8840780842315631,
+                "calm": 1.229991533743454,
+                "disgust": 0.8152570936776005,
+                "fearful": 0.8818623350476741,
+                "happy": 1.2594748974228045,
+                "neutral": 1.2637747979652172,
+                "sad": 0.8984245832524637,
+                "surprised": 0.7500846333647597
+            },
+            "transcript": "Oh my good"
+        },
+        {
+            "index": 44,
+            "timestamp": {
+                "start": 44.0,
+                "end": 45.0
+            },
+            "emotions": {
+                "angry": 0.5324089819019896,
+                "calm": 0.925161523676999,
+                "disgust": 0.991580269904025,
+                "fearful": 1.3842529964299224,
+                "happy": 1.4104635455529961,
+                "neutral": 0.8453197992627017,
+                "sad": 0.987348114987688,
+                "surprised": 0.906414673702608
+            },
+            "transcript": "lord,"
+        },
+        {
+            "index": 45,
+            "timestamp": {
+                "start": 45.0,
+                "end": 46.0
+            },
+            "emotions": {
+                "angry": 1.2724509102150476,
+                "calm": 0.7009437471857825,
+                "disgust": 1.0630522947565468,
+                "fearful": 1.0760859302652221,
+                "happy": 0.7526698687506364,
+                "neutral": 1.2268674480904007,
+                "sad": 1.0739593405547316,
+                "surprised": 0.8169219229712764
+            },
+            "transcript": "what have I seen"
+        },
+        {
+            "index": 46,
+            "timestamp": {
+                "start": 46.0,
+                "end": 47.0
+            },
+            "emotions": {
+                "angry": 0.970639863278425,
+                "calm": 1.363843653217927,
+                "disgust": 0.9741054024606068,
+                "fearful": 0.9277802425332348,
+                "happy": 1.015462160466417,
+                "neutral": 0.7353456769238347,
+                "sad": 1.0097816507857034,
+                "surprised": 0.9859889196967099
+            },
+            "transcript": "seen tonight?"
+        },
+        {
+            "index": 47,
+            "timestamp": {
+                "start": 47.0,
+                "end": 48.0
+            },
+            "emotions": {
+                "angry": 0.5998637689967593,
+                "calm": 1.3437434480927368,
+                "disgust": 0.776790815717686,
+                "fearful": 1.782805965430653,
+                "happy": 1.2541292224456833,
+                "neutral": 0.6438045943604103,
+                "sad": 0.8739738630366432,
+                "surprised": 0.7078378379956795
+            },
+            "transcript": "What, Gertrude?"
+        },
+        {
+            "index": 48,
+            "timestamp": {
+                "start": 48.0,
+                "end": 49.0
+            },
+            "emotions": {
+                "angry": 0.4771410099899491,
+                "calm": 1.3592642046322825,
+                "disgust": 0.772721406041002,
+                "fearful": 1.9242596113620316,
+                "happy": 1.0160679776743122,
+                "neutral": 0.4718007858103282,
+                "sad": 1.127330434936653,
+                "surprised": 0.8343613602309425
+            },
+            "transcript": "Gertrude?"
+        },
+        {
+            "index": 49,
+            "timestamp": {
+                "start": 49.0,
+                "end": 50.0
+            },
+            "emotions": {
+                "angry": 0.9638691940976428,
+                "calm": 1.1426611922490437,
+                "disgust": 0.9866543063344302,
+                "fearful": 1.3853330330203473,
+                "happy": 0.8525428846360122,
+                "neutral": 0.9710650254834516,
+                "sad": 0.8759135682614078,
+                "surprised": 0.8049110906792726
+            },
+            "transcript": "How does Hamlet?"
+        },
+        {
+            "index": 50,
+            "timestamp": {
+                "start": 50.0,
+                "end": 51.0
+            },
+            "emotions": {
+                "angry": 0.9665548798945971,
+                "calm": 0.800417297482919,
+                "disgust": 0.8463192419186574,
+                "fearful": 0.7780149090991915,
+                "happy": 1.2289737919816044,
+                "neutral": 0.5340991184697742,
+                "sad": 1.68157063951287,
+                "surprised": 1.1470023631153878
+            },
+            "transcript": "Mad."
+        },
+        {
+            "index": 51,
+            "timestamp": {
+                "start": 51.0,
+                "end": 52.0
+            },
+            "emotions": {
+                "angry": 0.5176785909999936,
+                "calm": 1.9297034006941591,
+                "disgust": 0.531748656719091,
+                "fearful": 1.4139286953924992,
+                "happy": 1.7994597091649125,
+                "neutral": 0.5231979128117685,
+                "sad": 0.6049213303917196,
+                "surprised": 0.662306937132643
+            },
+            "transcript": "After"
+        },
+        {
+            "index": 52,
+            "timestamp": {
+                "start": 52.0,
+                "end": 53.0
+            },
+            "emotions": {
+                "angry": 0.7073908726006514,
+                "calm": 0.9578900585824461,
+                "disgust": 1.0170428917415162,
+                "fearful": 0.6927173257297304,
+                "happy": 1.4253387719314297,
+                "neutral": 0.4469007641434081,
+                "sad": 1.5314182994563024,
+                "surprised": 1.2042497532054095
+            },
+            "transcript": "After sea and wind,"
+        },
+        {
+            "index": 53,
+            "timestamp": {
+                "start": 53.0,
+                "end": 54.0
+            },
+            "emotions": {
+                "angry": 0.7824464074669696,
+                "calm": 0.9173886864415111,
+                "disgust": 0.8032999906752428,
+                "fearful": 0.9865094708579926,
+                "happy": 1.1132401233982685,
+                "neutral": 0.9736728427446868,
+                "sad": 1.2638822565445098,
+                "surprised": 1.1425109059751057
+            },
+            "transcript": "wind, when both contend,"
+        },
+        {
+            "index": 54,
+            "timestamp": {
+                "start": 54.0,
+                "end": 55.0
+            },
+            "emotions": {
+                "angry": 0.7776757916261344,
+                "calm": 1.3471938029104533,
+                "disgust": 1.1283045703184997,
+                "fearful": 0.7821742569346312,
+                "happy": 1.0050869567671943,
+                "neutral": 0.8503890409380199,
+                "sad": 1.0086120653792012,
+                "surprised": 1.0835122525167598
+            },
+            "transcript": "contend, which is the mightier."
+        },
+        {
+            "index": 55,
+            "timestamp": {
+                "start": 55.0,
+                "end": 56.0
+            },
+            "emotions": {
+                "angry": 0.5576598013223245,
+                "calm": 1.876058209066506,
+                "disgust": 0.4815507051677259,
+                "fearful": 1.1299109982103863,
+                "happy": 1.9201279068567723,
+                "neutral": 0.7428720602437714,
+                "sad": 0.5380661310219875,
+                "surprised": 0.7366990320746338
+            },
+            "transcript": "mightier. In"
+        },
+        {
+            "index": 56,
+            "timestamp": {
+                "start": 56.0,
+                "end": 57.0
+            },
+            "emotions": {
+                "angry": 0.6122102146777129,
+                "calm": 1.4326077997408146,
+                "disgust": 1.0456058493286662,
+                "fearful": 1.2248841364856333,
+                "happy": 1.1486757579479927,
+                "neutral": 1.041210949172676,
+                "sad": 0.6549499178778955,
+                "surprised": 0.822802944131467
+            },
+            "transcript": "In his naulous"
+        },
+        {
+            "index": 57,
+            "timestamp": {
+                "start": 57.0,
+                "end": 58.0
+            },
+            "emotions": {
+                "angry": 0.5611105454827197,
+                "calm": 1.6870074206767827,
+                "disgust": 0.5343763304569346,
+                "fearful": 1.1750288064914327,
+                "happy": 2.0,
+                "neutral": 0.708599392275013,
+                "sad": 0.5154967146291424,
+                "surprised": 0.8013314740922621
+            },
+            "transcript": "naulous fit,"
+        },
+        {
+            "index": 58,
+            "timestamp": {
+                "start": 58.0,
+                "end": 59.0
+            },
+            "emotions": {
+                "angry": 0.7243747789263603,
+                "calm": 1.165348190130825,
+                "disgust": 1.0401246830993935,
+                "fearful": 1.1298868589643134,
+                "happy": 1.165214256249388,
+                "neutral": 0.7153015371443622,
+                "sad": 1.107853178097216,
+                "surprised": 0.9348444760936782
+            },
+            "transcript": "behind the arse hearing"
+        },
+        {
+            "index": 59,
+            "timestamp": {
+                "start": 59.0,
+                "end": 60.0
+            },
+            "emotions": {
+                "angry": 0.734412811865919,
+                "calm": 1.453923532708581,
+                "disgust": 1.1070869517057396,
+                "fearful": 0.6993813150165772,
+                "happy": 1.156832487064576,
+                "neutral": 0.9167602873582573,
+                "sad": 0.9069562493685348,
+                "surprised": 1.007591208875923
+            },
+            "transcript": "hearing something stir,"
+        },
+        {
+            "index": 60,
+            "timestamp": {
+                "start": 60.0,
+                "end": 61.0
+            },
+            "emotions": {
+                "angry": 1.0222997965879175,
+                "calm": 0.6688229762016235,
+                "disgust": 0.9082375761237939,
+                "fearful": 0.7103198975717281,
+                "happy": 1.2071573643291635,
+                "neutral": 0.7252838940808817,
+                "sad": 1.5282295829186023,
+                "surprised": 1.2126011536612908
+            },
+            "transcript": "stir, whips out"
+        },
+        {
+            "index": 61,
+            "timestamp": {
+                "start": 61.0,
+                "end": 62.0
+            },
+            "emotions": {
+                "angry": 1.1132837297782714,
+                "calm": 0.8919046507566972,
+                "disgust": 0.9632552006934971,
+                "fearful": 0.9027252624802335,
+                "happy": 1.0727913125189439,
+                "neutral": 0.9800467717359798,
+                "sad": 1.1761158512500722,
+                "surprised": 0.8828282942332704
+            },
+            "transcript": "out his rapier cries,"
+        },
+        {
+            "index": 62,
+            "timestamp": {
+                "start": 62.0,
+                "end": 63.0
+            },
+            "emotions": {
+                "angry": 1.05784133234622,
+                "calm": 0.2941067340125676,
+                "disgust": 0.9764184873141448,
+                "fearful": 0.7494811522129362,
+                "happy": 1.183575656971969,
+                "neutral": 0.7385511351967144,
+                "sad": 1.7257875088356454,
+                "surprised": 1.2571847837873036
+            },
+            "transcript": "a rat, a"
+        },
+        {
+            "index": 63,
+            "timestamp": {
+                "start": 63.0,
+                "end": 64.0
+            },
+            "emotions": {
+                "angry": 0.8792000098114355,
+                "calm": 0.47001681765700193,
+                "disgust": 0.9525973342096139,
+                "fearful": 1.2635855774234197,
+                "happy": 1.1321076696030243,
+                "neutral": 0.7905089156553329,
+                "sad": 1.4916671906570216,
+                "surprised": 1.0032640543460085
+            },
+            "transcript": "a rat, and"
+        },
+        {
+            "index": 64,
+            "timestamp": {
+                "start": 64.0,
+                "end": 65.0
+            },
+            "emotions": {
+                "angry": 0.4596198107677779,
+                "calm": 1.2984706814256093,
+                "disgust": 0.6486001281326755,
+                "fearful": 0.9289007707622337,
+                "happy": 1.6702578986435885,
+                "neutral": 1.1343471686903077,
+                "sad": 0.753357058578358,
+                "surprised": 1.0893928843342717
+            },
+            "transcript": "and in this"
+        },
+        {
+            "index": 65,
+            "timestamp": {
+                "start": 65.0,
+                "end": 66.0
+            },
+            "emotions": {
+                "angry": 0.7955812720720797,
+                "calm": 0.3697836597939248,
+                "disgust": 0.8451255172660824,
+                "fearful": 0.9920073788224447,
+                "happy": 1.2163108107029523,
+                "neutral": 1.0188019419634122,
+                "sad": 1.2868768351423816,
+                "surprised": 1.4584578175435086
+            },
+            "transcript": "this brainish apprehension"
+        },
+        {
+            "index": 66,
+            "timestamp": {
+                "start": 66.0,
+                "end": 67.0
+            },
+            "emotions": {
+                "angry": 0.32078566237799216,
+                "calm": 1.566197502249914,
+                "disgust": 0.8934114069228632,
+                "fearful": 1.1055108925427835,
+                "happy": 1.586861475573711,
+                "neutral": 0.9114200631786364,
+                "sad": 0.7160662061651245,
+                "surprised": 0.8827005898346909
+            },
+            "transcript": "apprehension kills"
+        },
+        {
+            "index": 67,
+            "timestamp": {
+                "start": 67.0,
+                "end": 68.0
+            },
+            "emotions": {
+                "angry": 1.0379513722674714,
+                "calm": 0.052777346797062724,
+                "disgust": 1.0100129203367891,
+                "fearful": 0.8746762372288301,
+                "happy": 0.9414605762310577,
+                "neutral": 0.9405117481233196,
+                "sad": 1.8123975663746532,
+                "surprised": 1.3131598020036743
+            },
+            "transcript": "kills the unseen"
+        },
+        {
+            "index": 68,
+            "timestamp": {
+                "start": 68.0,
+                "end": 69.0
+            },
+            "emotions": {
+                "angry": 0.6643015396750896,
+                "calm": 1.1979945737310884,
+                "disgust": 0.8469600999676261,
+                "fearful": 1.0547086811542374,
+                "happy": 1.206192573171603,
+                "neutral": 0.472386746541615,
+                "sad": 1.4755359447974377,
+                "surprised": 1.0648689676948753
+            },
+            "transcript": "unseen good old"
+        },
+        {
+            "index": 69,
+            "timestamp": {
+                "start": 69.0,
+                "end": 70.0
+            },
+            "emotions": {
+                "angry": 0.7939253976600116,
+                "calm": 1.141601401477906,
+                "disgust": 0.8208667429908098,
+                "fearful": 1.0999074727124316,
+                "happy": 1.0541636014042033,
+                "neutral": 0.5518165464019578,
+                "sad": 1.4166579875694563,
+                "surprised": 1.1040088084887605
+            },
+            "transcript": "old man."
+        },
+        {
+            "index": 70,
+            "timestamp": {
+                "start": 70.0,
+                "end": 71.0
+            },
+            "emotions": {
+                "angry": 0.922135552378952,
+                "calm": 1.0127499993673181,
+                "disgust": 1.0051757268979142,
+                "fearful": 1.4380134334904395,
+                "happy": 0.9219517826346546,
+                "neutral": 0.6288818681751879,
+                "sad": 1.2247899155574131,
+                "surprised": 0.829250069546336
+            },
+            "transcript": "Oh heavy deed,"
+        },
+        {
+            "index": 71,
+            "timestamp": {
+                "start": 71.0,
+                "end": 72.0
+            },
+            "emotions": {
+                "angry": 0.6687840419337638,
+                "calm": 0.9530937461248237,
+                "disgust": 0.7668014506129519,
+                "fearful": 1.4071432311899306,
+                "happy": 1.0805945184833623,
+                "neutral": 0.4726733027530616,
+                "sad": 1.5054016429871695,
+                "surprised": 1.128455635277795
+            },
+            "transcript": "deed,"
+        },
+        {
+            "index": 72,
+            "timestamp": {
+                "start": 72.0,
+                "end": 73.0
+            },
+            "emotions": {
+                "angry": 0.4749910597187427,
+                "calm": 1.880390814393921,
+                "disgust": 0.5891140176407275,
+                "fearful": 1.329493506056128,
+                "happy": 1.7045138248771672,
+                "neutral": 0.569557334894857,
+                "sad": 0.5789556778134827,
+                "surprised": 0.8559340593665823
+            },
+            "transcript": "it had been so"
+        },
+        {
+            "index": 73,
+            "timestamp": {
+                "start": 73.0,
+                "end": 74.0
+            },
+            "emotions": {
+                "angry": 1.0318176677088722,
+                "calm": 1.3157271276263354,
+                "disgust": 0.9930656122228683,
+                "fearful": 0.8423362663166216,
+                "happy": 0.8661212105520432,
+                "neutral": 0.9976123560235108,
+                "sad": 0.9590094187834093,
+                "surprised": 0.9772594674999119
+            },
+            "transcript": "so with us had we been"
+        },
+        {
+            "index": 74,
+            "timestamp": {
+                "start": 74.0,
+                "end": 75.0
+            },
+            "emotions": {
+                "angry": 1.201944844548122,
+                "calm": 1.5084104832073582,
+                "disgust": 0.8294568105086704,
+                "fearful": 0.8332042337901556,
+                "happy": 0.7895920136472395,
+                "neutral": 0.6672951955308133,
+                "sad": 1.1293721479432097,
+                "surprised": 1.0236765122994325
+            },
+            "transcript": "been there."
+        },
+        {
+            "index": 75,
+            "timestamp": {
+                "start": 75.0,
+                "end": 76.0
+            },
+            "emotions": {
+                "angry": 0.5107864469034895,
+                "calm": 1.3838005802373938,
+                "disgust": 0.617961584725931,
+                "fearful": 0.9518677060299253,
+                "happy": 1.6527608386674904,
+                "neutral": 0.9171336669870308,
+                "sad": 0.8501091035521096,
+                "surprised": 1.0985276422594878
+            },
+            "transcript": "His liberty"
+        },
+        {
+            "index": 76,
+            "timestamp": {
+                "start": 76.0,
+                "end": 77.0
+            },
+            "emotions": {
+                "angry": 1.1708449300672414,
+                "calm": 0.6856854076116105,
+                "disgust": 1.0306620986387995,
+                "fearful": 0.9205836324620688,
+                "happy": 0.8621137063612558,
+                "neutral": 1.013724134749165,
+                "sad": 1.1300091125653926,
+                "surprised": 1.1693226001939316
+            },
+            "transcript": "is full of threats to"
+        },
+        {
+            "index": 77,
+            "timestamp": {
+                "start": 77.0,
+                "end": 78.0
+            },
+            "emotions": {
+                "angry": 0.9639852182158645,
+                "calm": 0.3567543070547141,
+                "disgust": 0.8607864371699225,
+                "fearful": 1.1674662143023864,
+                "happy": 0.903194031065263,
+                "neutral": 0.8341082874898552,
+                "sad": 1.7254145185495506,
+                "surprised": 1.1712389448579805
+            },
+            "transcript": "to all,"
+        },
+        {
+            "index": 78,
+            "timestamp": {
+                "start": 78.0,
+                "end": 79.0
+            },
+            "emotions": {
+                "angry": 1.0566779764225753,
+                "calm": 1.1649090115893688,
+                "disgust": 1.0018188143230606,
+                "fearful": 0.8394434502146544,
+                "happy": 0.867032661762636,
+                "neutral": 1.0809605006012424,
+                "sad": 1.0251022851884506,
+                "surprised": 0.9470013118901556
+            },
+            "transcript": "to you yourself,"
+        },
+        {
+            "index": 79,
+            "timestamp": {
+                "start": 79.0,
+                "end": 80.0
+            },
+            "emotions": {
+                "angry": 0.9564016015221741,
+                "calm": 0.9784123111712343,
+                "disgust": 0.8132169380417582,
+                "fearful": 1.0626567225950936,
+                "happy": 1.0631029093047644,
+                "neutral": 1.1211095176180481,
+                "sad": 1.1211313208080496,
+                "surprised": 0.8669158589590573
+            },
+            "transcript": "to us to everyone."
+        },
+        {
+            "index": 80,
+            "timestamp": {
+                "start": 80.0,
+                "end": 81.0
+            },
+            "emotions": {
+                "angry": 0.757936117821324,
+                "calm": 1.1307325112622237,
+                "disgust": 0.9050437981312719,
+                "fearful": 1.1934470512450888,
+                "happy": 1.0705191086466586,
+                "neutral": 0.5471428768880929,
+                "sad": 1.3901281774499339,
+                "surprised": 0.9879998746316575
+            },
+            "transcript": "everyone."
+        },
+        {
+            "index": 81,
+            "timestamp": {
+                "start": 81.0,
+                "end": 82.0
+            },
+            "emotions": {
+                "angry": 0.8836311188365351,
+                "calm": 1.157607278994982,
+                "disgust": 0.986633281829786,
+                "fearful": 1.3107248528917357,
+                "happy": 0.9085564477775638,
+                "neutral": 1.0007138598012055,
+                "sad": 0.883748700325471,
+                "surprised": 0.8513355329896866
+            },
+            "transcript": "Last how shall this"
+        },
+        {
+            "index": 82,
+            "timestamp": {
+                "start": 82.0,
+                "end": 83.0
+            },
+            "emotions": {
+                "angry": 1.373801481565695,
+                "calm": 0.52283426674996,
+                "disgust": 0.9715933634983063,
+                "fearful": 1.1153067543362554,
+                "happy": 0.6513021663221309,
+                "neutral": 1.182604636331551,
+                "sad": 1.2906986228754787,
+                "surprised": 0.8748074457115169
+            },
+            "transcript": "this bloody deed be answered?"
+        },
+        {
+            "index": 83,
+            "timestamp": {
+                "start": 83.0,
+                "end": 84.0
+            },
+            "emotions": {
+                "angry": 0.5841343247814863,
+                "calm": 1.2815521846699045,
+                "disgust": 0.797013663786634,
+                "fearful": 1.263640085398423,
+                "happy": 1.1246525359932706,
+                "neutral": 0.5894457376028911,
+                "sad": 1.294326517954635,
+                "surprised": 1.048187969973114
+            },
+            "transcript": "answered? It will"
+        },
+        {
+            "index": 84,
+            "timestamp": {
+                "start": 84.0,
+                "end": 85.0
+            },
+            "emotions": {
+                "angry": 0.7180386161748912,
+                "calm": 1.358421667075801,
+                "disgust": 0.5603964910101749,
+                "fearful": 0.8879205071266257,
+                "happy": 1.3468659763750757,
+                "neutral": 0.929225093213504,
+                "sad": 0.9959899650818018,
+                "surprised": 1.186085359878198
+            },
+            "transcript": "will be"
+        },
+        {
+            "index": 85,
+            "timestamp": {
+                "start": 85.0,
+                "end": 86.0
+            },
+            "emotions": {
+                "angry": 0.749181747693096,
+                "calm": 0.8652245543632369,
+                "disgust": 0.8982306905985229,
+                "fearful": 0.6981879797066809,
+                "happy": 1.4440202123358166,
+                "neutral": 1.037678053707097,
+                "sad": 1.0406682054787133,
+                "surprised": 1.2497545681089801
+            },
+            "transcript": "be laid to us whose providence"
+        },
+        {
+            "index": 86,
+            "timestamp": {
+                "start": 86.0,
+                "end": 87.0
+            },
+            "emotions": {
+                "angry": 0.8661909028915118,
+                "calm": 0.6528283896222267,
+                "disgust": 1.0032406937852927,
+                "fearful": 1.3385519528163394,
+                "happy": 0.9825447943618508,
+                "neutral": 0.84301605863345,
+                "sad": 1.2778035933603835,
+                "surprised": 1.0187653437516242
+            },
+            "transcript": "providence should have kept"
+        },
+        {
+            "index": 87,
+            "timestamp": {
+                "start": 87.0,
+                "end": 88.0
+            },
+            "emotions": {
+                "angry": 0.8145410924916627,
+                "calm": 0.0,
+                "disgust": 1.0505606242564771,
+                "fearful": 0.9840842553130189,
+                "happy": 1.1260775301969315,
+                "neutral": 0.67167997277716,
+                "sad": 1.902139496420286,
+                "surprised": 1.4338645979073221
+            },
+            "transcript": "kept short, restrained"
+        },
+        {
+            "index": 88,
+            "timestamp": {
+                "start": 88.0,
+                "end": 89.0
+            },
+            "emotions": {
+                "angry": 0.8765493648555548,
+                "calm": 0.3442233129441062,
+                "disgust": 0.9748439855219031,
+                "fearful": 0.9410322992846023,
+                "happy": 1.104688600805589,
+                "neutral": 1.1048030675530962,
+                "sad": 1.4285578571980604,
+                "surprised": 1.2082467451438748
+            },
+            "transcript": "restrained and out of haunt this"
+        },
+        {
+            "index": 89,
+            "timestamp": {
+                "start": 89.0,
+                "end": 90.0
+            },
+            "emotions": {
+                "angry": 1.2614387418936421,
+                "calm": 1.39932678757444,
+                "disgust": 0.773180051716388,
+                "fearful": 0.7214410818431405,
+                "happy": 0.6928874684802768,
+                "neutral": 0.7837176113125851,
+                "sad": 1.3253843834262273,
+                "surprised": 1.025574947200266
+            },
+            "transcript": "this mad young man."
+        },
+        {
+            "index": 90,
+            "timestamp": {
+                "start": 90.0,
+                "end": 91.0
+            },
+            "emotions": {
+                "angry": 0.6908379686201481,
+                "calm": 0.7314802828107348,
+                "disgust": 0.5018253358129271,
+                "fearful": 1.0860741273419205,
+                "happy": 1.5012995285254833,
+                "neutral": 0.9837283961047822,
+                "sad": 1.2170217504340684,
+                "surprised": 1.2706825157688653
+            },
+            "transcript": "But"
+        },
+        {
+            "index": 91,
+            "timestamp": {
+                "start": 91.0,
+                "end": 92.0
+            },
+            "emotions": {
+                "angry": 0.8898294542797812,
+                "calm": 1.0233190957204816,
+                "disgust": 1.1669250279791383,
+                "fearful": 0.901764364749459,
+                "happy": 0.9575563919068895,
+                "neutral": 1.005930273009033,
+                "sad": 1.0726729523446508,
+                "surprised": 0.9649476733173534
+            },
+            "transcript": "But so much was our love,"
+        },
+        {
+            "index": 92,
+            "timestamp": {
+                "start": 92.0,
+                "end": 93.0
+            },
+            "emotions": {
+                "angry": 0.6987217685190359,
+                "calm": 1.3178389223150393,
+                "disgust": 0.7887198860471848,
+                "fearful": 0.8044637359415658,
+                "happy": 1.5033108728031097,
+                "neutral": 1.2891186702857367,
+                "sad": 0.7837682258608026,
+                "surprised": 0.7970023728489547
+            },
+            "transcript": "we would not understand"
+        },
+        {
+            "index": 93,
+            "timestamp": {
+                "start": 93.0,
+                "end": 94.0
+            },
+            "emotions": {
+                "angry": 0.8856876268648785,
+                "calm": 0.6016111389382975,
+                "disgust": 0.9147590659902746,
+                "fearful": 0.9267274599303116,
+                "happy": 1.1818072625257867,
+                "neutral": 1.326715935387025,
+                "sad": 1.1284673155581528,
+                "surprised": 1.0171729321961671
+            },
+            "transcript": "understand what was most fit,"
+        },
+        {
+            "index": 94,
+            "timestamp": {
+                "start": 94.0,
+                "end": 95.0
+            },
+            "emotions": {
+                "angry": 0.5427300669688875,
+                "calm": 1.6182572904903245,
+                "disgust": 0.6110881290779996,
+                "fearful": 1.1682456783449353,
+                "happy": 1.9931865031245724,
+                "neutral": 0.7680808306548179,
+                "sad": 0.5112065476536944,
+                "surprised": 0.7701478509354834
+            },
+            "transcript": "fit, but like"
+        },
+        {
+            "index": 95,
+            "timestamp": {
+                "start": 95.0,
+                "end": 96.0
+            },
+            "emotions": {
+                "angry": 0.6272614239468719,
+                "calm": 0.8608191419549246,
+                "disgust": 0.6587584679599203,
+                "fearful": 0.8408746739011728,
+                "happy": 1.4275424514922823,
+                "neutral": 1.161364435843432,
+                "sad": 1.1020963572514977,
+                "surprised": 1.3042267235859706
+            },
+            "transcript": "like the owner of a foul disease"
+        },
+        {
+            "index": 96,
+            "timestamp": {
+                "start": 96.0,
+                "end": 97.0
+            },
+            "emotions": {
+                "angry": 1.1241043415018077,
+                "calm": 1.192803078454691,
+                "disgust": 0.6432957234794854,
+                "fearful": 0.7212175991456264,
+                "happy": 1.0304596404459296,
+                "neutral": 0.8971249573913106,
+                "sad": 1.2518928380998287,
+                "surprised": 1.1220478334734643
+            },
+            "transcript": "disease to keep it from"
+        },
+        {
+            "index": 97,
+            "timestamp": {
+                "start": 97.0,
+                "end": 98.0
+            },
+            "emotions": {
+                "angry": 0.846880284718514,
+                "calm": 1.3490104758487815,
+                "disgust": 1.149237190090528,
+                "fearful": 0.8026482310312734,
+                "happy": 1.0740473320000943,
+                "neutral": 0.813206425789436,
+                "sad": 1.0411237364126706,
+                "surprised": 0.90678844267406
+            },
+            "transcript": "from devolging,"
+        },
+        {
+            "index": 98,
+            "timestamp": {
+                "start": 98.0,
+                "end": 99.0
+            },
+            "emotions": {
+                "angry": 0.7402342635962843,
+                "calm": 1.0198251345227622,
+                "disgust": 0.8006703702240063,
+                "fearful": 1.1614477551766516,
+                "happy": 1.365707825963044,
+                "neutral": 0.7075691915474484,
+                "sad": 1.148879773511577,
+                "surprised": 1.0386171482478703
+            },
+            "transcript": "let it feed even on"
+        },
+        {
+            "index": 99,
+            "timestamp": {
+                "start": 99.0,
+                "end": 100.0
+            },
+            "emotions": {
+                "angry": 0.895542668745497,
+                "calm": 1.057195802185108,
+                "disgust": 1.1215159913745023,
+                "fearful": 0.9614926463874937,
+                "happy": 1.0306511970437988,
+                "neutral": 0.8919918635167027,
+                "sad": 0.9876401219966349,
+                "surprised": 1.036914163371692
+            },
+            "transcript": "on the pit of life."
+        },
+        {
+            "index": 100,
+            "timestamp": {
+                "start": 100.0,
+                "end": 101.0
+            },
+            "emotions": {
+                "angry": 0.5379909878850185,
+                "calm": 1.8845466581452532,
+                "disgust": 0.47362719231562145,
+                "fearful": 1.4278422453548012,
+                "happy": 1.866578493528054,
+                "neutral": 0.5931542266165167,
+                "sad": 0.5270154177754011,
+                "surprised": 0.6721974091970139
+            },
+            "transcript": "Where's"
+        },
+        {
+            "index": 101,
+            "timestamp": {
+                "start": 101.0,
+                "end": 102.0
+            },
+            "emotions": {
+                "angry": 0.6582784084372116,
+                "calm": 1.3811499352815133,
+                "disgust": 0.9468806156597908,
+                "fearful": 1.078615878990738,
+                "happy": 1.0934451629330975,
+                "neutral": 0.48241348854349436,
+                "sad": 1.3369486396658816,
+                "surprised": 1.005215439851131
+            },
+            "transcript": "Where's he gone?"
+        },
+        {
+            "index": 102,
+            "timestamp": {
+                "start": 102.0,
+                "end": 103.0
+            },
+            "emotions": {
+                "angry": 0.5593378682670728,
+                "calm": 0.47185490444265304,
+                "disgust": 0.8497400066928007,
+                "fearful": 1.3389919100431529,
+                "happy": 1.3120602982793195,
+                "neutral": 1.0090021867431542,
+                "sad": 1.3767597072376663,
+                "surprised": 1.0651991302863246
+            },
+            "transcript": "To draw apart the"
+        },
+        {
+            "index": 103,
+            "timestamp": {
+                "start": 103.0,
+                "end": 104.0
+            },
+            "emotions": {
+                "angry": 1.1095078844812485,
+                "calm": 0.4717275893867522,
+                "disgust": 0.7828318567187795,
+                "fearful": 0.9949523668433439,
+                "happy": 1.0401052159654638,
+                "neutral": 1.1428270522301256,
+                "sad": 1.3923957092100763,
+                "surprised": 1.0486014518977826
+            },
+            "transcript": "the body, he had killed."
+        },
+        {
+            "index": 104,
+            "timestamp": {
+                "start": 104.0,
+                "end": 105.0
+            },
+            "emotions": {
+                "angry": 0.4139643202475908,
+                "calm": 1.4871064305199497,
+                "disgust": 0.6075287583102761,
+                "fearful": 1.065936545319585,
+                "happy": 1.9225247003862085,
+                "neutral": 0.9222099168305637,
+                "sad": 0.6498339550811458,
+                "surprised": 0.9138433320102172
+            },
+            "transcript": "killed. Or"
+        },
+        {
+            "index": 105,
+            "timestamp": {
+                "start": 105.0,
+                "end": 106.0
+            },
+            "emotions": {
+                "angry": 0.621691876929558,
+                "calm": 1.5472497514533676,
+                "disgust": 0.8365673758478667,
+                "fearful": 1.1238224574025042,
+                "happy": 1.1350285183778503,
+                "neutral": 0.5281044092474337,
+                "sad": 1.2183151468123639,
+                "surprised": 0.9721711480333425
+            },
+            "transcript": "Or whom his very madness,"
+        },
+        {
+            "index": 106,
+            "timestamp": {
+                "start": 106.0,
+                "end": 107.0
+            },
+            "emotions": {
+                "angry": 0.7436188195013183,
+                "calm": 1.2623334513690554,
+                "disgust": 0.7962875396910527,
+                "fearful": 1.565710045216312,
+                "happy": 0.9934090124653898,
+                "neutral": 0.5348528858955358,
+                "sad": 1.288059658199956,
+                "surprised": 0.7986757676815598
+            },
+            "transcript": "madness, like"
+        },
+        {
+            "index": 107,
+            "timestamp": {
+                "start": 107.0,
+                "end": 108.0
+            },
+            "emotions": {
+                "angry": 0.9127313693201473,
+                "calm": 0.24948027619190935,
+                "disgust": 1.1534218452000764,
+                "fearful": 0.5697901618166573,
+                "happy": 0.986530106019958,
+                "neutral": 0.6971640084619738,
+                "sad": 1.986431407650934,
+                "surprised": 1.427399173386559
+            },
+            "transcript": "like some or"
+        },
+        {
+            "index": 108,
+            "timestamp": {
+                "start": 108.0,
+                "end": 109.0
+            },
+            "emotions": {
+                "angry": 1.2059862215519472,
+                "calm": 0.13242751461349075,
+                "disgust": 0.9773276024686662,
+                "fearful": 0.7728565079504748,
+                "happy": 0.817901119807945,
+                "neutral": 1.0741672495451018,
+                "sad": 1.8509494997238587,
+                "surprised": 1.1513279602745878
+            },
+            "transcript": "or among a mineral"
+        },
+        {
+            "index": 109,
+            "timestamp": {
+                "start": 109.0,
+                "end": 110.0
+            },
+            "emotions": {
+                "angry": 0.9663364586519049,
+                "calm": 0.7098145307749106,
+                "disgust": 0.8059845084441614,
+                "fearful": 1.1276528106745303,
+                "happy": 0.9098946185638979,
+                "neutral": 1.2241093445552276,
+                "sad": 1.303732258384154,
+                "surprised": 0.9354277114262148
+            },
+            "transcript": "mineral of metal's base,"
+        },
+        {
+            "index": 110,
+            "timestamp": {
+                "start": 110.0,
+                "end": 111.0
+            },
+            "emotions": {
+                "angry": 0.8134092733249846,
+                "calm": 0.6759787052915369,
+                "disgust": 1.1690594045432008,
+                "fearful": 1.0262368297538789,
+                "happy": 0.9244007480830226,
+                "neutral": 0.7378873059297084,
+                "sad": 1.4616013703304915,
+                "surprised": 1.1743754894767489
+            },
+            "transcript": "shows itself pure."
+        },
+        {
+            "index": 111,
+            "timestamp": {
+                "start": 111.0,
+                "end": 112.0
+            },
+            "emotions": {
+                "angry": 0.4788591792305927,
+                "calm": 1.2062813433023227,
+                "disgust": 0.935205007414058,
+                "fearful": 1.6793186814598715,
+                "happy": 1.2749318017630604,
+                "neutral": 0.7618458969997837,
+                "sad": 0.9164748991748466,
+                "surprised": 0.7300292026476081
+            },
+            "transcript": "pure."
+        },
+        {
+            "index": 112,
+            "timestamp": {
+                "start": 112.0,
+                "end": 113.0
+            },
+            "emotions": {
+                "angry": 0.6447156562283246,
+                "calm": 0.6315181074519605,
+                "disgust": 0.712758350767774,
+                "fearful": 1.0651267125481056,
+                "happy": 1.5570113510911232,
+                "neutral": 1.1055381465302851,
+                "sad": 1.2103421874400777,
+                "surprised": 1.0559390040186005
+            },
+            "transcript": "He weeps for"
+        },
+        {
+            "index": 113,
+            "timestamp": {
+                "start": 113.0,
+                "end": 114.0
+            },
+            "emotions": {
+                "angry": 0.7714611037903872,
+                "calm": 1.4892065449282956,
+                "disgust": 1.008696163397778,
+                "fearful": 0.8103151670581832,
+                "happy": 0.9932486032818084,
+                "neutral": 0.9782772092617615,
+                "sad": 0.9953374267524752,
+                "surprised": 0.9364014574653831
+            },
+            "transcript": "for what it's done."
+        },
+        {
+            "index": 114,
+            "timestamp": {
+                "start": 114.0,
+                "end": 115.0
+            },
+            "emotions": {
+                "angry": 0.7916119234637949,
+                "calm": 0.2339898883812942,
+                "disgust": 0.8596826506761033,
+                "fearful": 1.3101673141759864,
+                "happy": 1.1379454737258907,
+                "neutral": 0.9165796323553889,
+                "sad": 1.496416392650534,
+                "surprised": 1.2365550726192232
+            },
+            "transcript": "Oh Gertrude,"
+        },
+        {
+            "index": 115,
+            "timestamp": {
+                "start": 115.0,
+                "end": 116.0
+            },
+            "emotions": {
+                "angry": 0.8847181635951747,
+                "calm": 0.692827509707773,
+                "disgust": 0.8860952686493683,
+                "fearful": 1.0501011998957341,
+                "happy": 1.1690687487674871,
+                "neutral": 0.5869278585004116,
+                "sad": 1.7342362449611757,
+                "surprised": 0.9789667351455548
+            },
+            "transcript": "Gertrude, come away."
+        },
+        {
+            "index": 116,
+            "timestamp": {
+                "start": 116.0,
+                "end": 117.0
+            },
+            "emotions": {
+                "angry": 0.4734971518609704,
+                "calm": 1.517470487338284,
+                "disgust": 0.898499337046754,
+                "fearful": 0.9292457283754696,
+                "happy": 1.2850500392944098,
+                "neutral": 1.0319305770856648,
+                "sad": 0.7889383072898771,
+                "surprised": 1.0583163304141068
+            },
+            "transcript": "The sun knows sooner"
+        },
+        {
+            "index": 117,
+            "timestamp": {
+                "start": 117.0,
+                "end": 118.0
+            },
+            "emotions": {
+                "angry": 0.6469629421691799,
+                "calm": 1.3172502361850025,
+                "disgust": 0.9736132733148616,
+                "fearful": 1.0219587324014676,
+                "happy": 1.2192729298017098,
+                "neutral": 0.8539219364035988,
+                "sad": 0.9309471558809336,
+                "surprised": 1.0190238672902119
+            },
+            "transcript": "sooner shall the mountains touch,"
+        },
+        {
+            "index": 118,
+            "timestamp": {
+                "start": 118.0,
+                "end": 119.0
+            },
+            "emotions": {
+                "angry": 0.6002943819992863,
+                "calm": 1.1933006583979366,
+                "disgust": 0.6956813915418807,
+                "fearful": 1.082655698623849,
+                "happy": 1.6529695263432176,
+                "neutral": 0.8372681926693393,
+                "sad": 0.8530151573051491,
+                "surprised": 1.0677610051114854
+            },
+            "transcript": "touch, but we will ship"
+        },
+        {
+            "index": 119,
+            "timestamp": {
+                "start": 119.0,
+                "end": 120.0
+            },
+            "emotions": {
+                "angry": 0.4930873180772,
+                "calm": 0.8609814978518991,
+                "disgust": 0.8437756661993906,
+                "fearful": 1.1058371617074467,
+                "happy": 1.7040388268092803,
+                "neutral": 0.8803150872429341,
+                "sad": 1.102691272864392,
+                "surprised": 0.992223853351744
+            },
+            "transcript": "ship him hence."
+        }
+    ],
+    "sentences": [
+        {
+            "sentence_index": 0,
+            "timestamp": {
+                "start": 0.0,
+                "end": 3.42
+            },
+            "transcript": "The Tragedy of Hamlet, Prince of Denmark, by William Shakespeare.",
+            "average_emotions": {
+                "angry": 0.12117323759058879,
+                "calm": 0.12810143766052776,
+                "disgust": 0.12503368896513797,
+                "fearful": 0.13057551476635354,
+                "happy": 0.12350564562822393,
+                "neutral": 0.11701375156860569,
+                "sad": 0.12953552917383962,
+                "surprised": 0.1250611946467227
+            },
+            "llm_text_scores": {
+                "angry": 0,
+                "calm": 10,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 10,
+                "sad": 0,
+                "surprised": 0
+            }
+        },
+        {
+            "sentence_index": 1,
+            "timestamp": {
+                "start": 4.34,
+                "end": 4.86
+            },
+            "transcript": "Act 4.",
+            "average_emotions": {
+                "angry": 0.1262879595928168,
+                "calm": 0.11849433144893237,
+                "disgust": 0.12466094640856662,
+                "fearful": 0.11727534933539327,
+                "happy": 0.13038139822372188,
+                "neutral": 0.1184055950287339,
+                "sad": 0.1353550633999743,
+                "surprised": 0.12913935656186085
+            },
+            "llm_text_scores": {
+                "angry": 0,
+                "calm": 10,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 10,
+                "sad": 0,
+                "surprised": 0
+            }
+        },
+        {
+            "sentence_index": 2,
+            "timestamp": {
+                "start": 5.3,
+                "end": 7.14
+            },
+            "transcript": "This is a Libravox recording.",
+            "average_emotions": {
+                "angry": 0.1190270205580438,
+                "calm": 0.13318492638108814,
+                "disgust": 0.12032125591433902,
+                "fearful": 0.1319756723449709,
+                "happy": 0.12951336976107533,
+                "neutral": 0.12087638872672149,
+                "sad": 0.12363189400156602,
+                "surprised": 0.12146947231219529
+            },
+            "llm_text_scores": {
+                "angry": 0,
+                "calm": 10,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 10,
+                "sad": 0,
+                "surprised": 0
+            }
+        },
+        {
+            "sentence_index": 3,
+            "timestamp": {
+                "start": 7.56,
+                "end": 9.94
+            },
+            "transcript": "All Libravox recordings are in the public domain.",
+            "average_emotions": {
+                "angry": 0.1223916518893104,
+                "calm": 0.1296811454235654,
+                "disgust": 0.12329993968457433,
+                "fearful": 0.12791354249565234,
+                "happy": 0.12393941055192968,
+                "neutral": 0.12129868656655005,
+                "sad": 0.12761193556497974,
+                "surprised": 0.12386368782343807
+            },
+            "llm_text_scores": {
+                "angry": 0,
+                "calm": 10,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 10,
+                "sad": 0,
+                "surprised": 0
+            }
+        },
+        {
+            "sentence_index": 4,
+            "timestamp": {
+                "start": 10.6,
+                "end": 14.72
+            },
+            "transcript": "For more information or to volunteer, please visit Libravox .org.",
+            "average_emotions": {
+                "angry": 0.12147530705835899,
+                "calm": 0.1268176728994971,
+                "disgust": 0.12438341769861741,
+                "fearful": 0.12730319147782915,
+                "happy": 0.12664521728936745,
+                "neutral": 0.1220938036001757,
+                "sad": 0.1272271314801807,
+                "surprised": 0.12405425849597349
+            },
+            "llm_text_scores": {
+                "angry": 0,
+                "calm": 10,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 10,
+                "sad": 0,
+                "surprised": 0
+            }
+        },
+        {
+            "sentence_index": 5,
+            "timestamp": {
+                "start": 15.68,
+                "end": 19.32
+            },
+            "transcript": "The Tragedy of Hamlet, Prince of Denmark, by William Shakespeare.",
+            "average_emotions": {
+                "angry": 0.12000656521317409,
+                "calm": 0.1297178083819845,
+                "disgust": 0.1226331019879888,
+                "fearful": 0.12986531199575077,
+                "happy": 0.12796921970858027,
+                "neutral": 0.11891736931092722,
+                "sad": 0.12635614070435103,
+                "surprised": 0.12453448269724332
+            },
+            "llm_text_scores": {
+                "angry": 0,
+                "calm": 10,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 10,
+                "sad": 0,
+                "surprised": 0
+            }
+        },
+        {
+            "sentence_index": 6,
+            "timestamp": {
+                "start": 20.24,
+                "end": 20.78
+            },
+            "transcript": "Act 4.",
+            "average_emotions": {
+                "angry": 0.12366484950740675,
+                "calm": 0.11994832128555888,
+                "disgust": 0.12346481632997308,
+                "fearful": 0.12396881827874684,
+                "happy": 0.12684460812872456,
+                "neutral": 0.11680953340480675,
+                "sad": 0.1370070207189832,
+                "surprised": 0.12829203234579992
+            },
+            "llm_text_scores": {
+                "angry": 0,
+                "calm": 10,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 10,
+                "sad": 0,
+                "surprised": 0
+            }
+        },
+        {
+            "sentence_index": 7,
+            "timestamp": {
+                "start": 21.18,
+                "end": 21.7
+            },
+            "transcript": "Scene 1.",
+            "average_emotions": {
+                "angry": 0.12141619441783139,
+                "calm": 0.12657461871840628,
+                "disgust": 0.12328912134037731,
+                "fearful": 0.12162443814241233,
+                "happy": 0.12903812335374767,
+                "neutral": 0.114031596272713,
+                "sad": 0.13621324097792445,
+                "surprised": 0.12781266677658756
+            },
+            "llm_text_scores": {
+                "angry": 0,
+                "calm": 10,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 10,
+                "sad": 0,
+                "surprised": 0
+            }
+        },
+        {
+            "sentence_index": 8,
+            "timestamp": {
+                "start": 22.18,
+                "end": 23.24
+            },
+            "transcript": "A Room in the Castle.",
+            "average_emotions": {
+                "angry": 0.11912973367644353,
+                "calm": 0.12194346800025314,
+                "disgust": 0.1244175415052132,
+                "fearful": 0.1296670682480237,
+                "happy": 0.1260647271621769,
+                "neutral": 0.12092733911628567,
+                "sad": 0.12980056031052473,
+                "surprised": 0.12804956198107914
+            },
+            "llm_text_scores": {
+                "angry": 0,
+                "calm": 9,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 7,
+                "neutral": 6,
+                "sad": 0,
+                "surprised": 4
+            }
+        },
+        {
+            "sentence_index": 9,
+            "timestamp": {
+                "start": 24.06,
+                "end": 27.98
+            },
+            "transcript": "Enter King Claudius, Queen Gertrude, Rosencrantz, and Gildenstone.",
+            "average_emotions": {
+                "angry": 0.11990374334299947,
+                "calm": 0.1326947602228111,
+                "disgust": 0.125173605975902,
+                "fearful": 0.12487844005408227,
+                "happy": 0.1267414353528405,
+                "neutral": 0.12112011952519239,
+                "sad": 0.12440483272962521,
+                "surprised": 0.12508306279654707
+            },
+            "llm_text_scores": {
+                "angry": 0,
+                "calm": 10,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 10,
+                "sad": 0,
+                "surprised": 0
+            }
+        },
+        {
+            "sentence_index": 10,
+            "timestamp": {
+                "start": 28.82,
+                "end": 35.34
+            },
+            "transcript": "There's matter in these sides, these profound heaves, you must translate, to fit we understand them.",
+            "average_emotions": {
+                "angry": 0.1216675051534478,
+                "calm": 0.13096449507523286,
+                "disgust": 0.12118071961158283,
+                "fearful": 0.1240517589110268,
+                "happy": 0.12821531653968818,
+                "neutral": 0.12217053016691025,
+                "sad": 0.12625673121184988,
+                "surprised": 0.1254929433302614
+            },
+            "llm_text_scores": {
+                "angry": 0,
+                "calm": 0,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 9,
+                "sad": 0,
+                "surprised": 0
+            }
+        },
+        {
+            "sentence_index": 11,
+            "timestamp": {
+                "start": 36.06,
+                "end": 36.92
+            },
+            "transcript": "Where is your son?",
+            "average_emotions": {
+                "angry": 0.11803109897464595,
+                "calm": 0.1328923911151922,
+                "disgust": 0.1261977617757033,
+                "fearful": 0.12318616279456418,
+                "happy": 0.1270777199886778,
+                "neutral": 0.12304960856254044,
+                "sad": 0.12353847092504622,
+                "surprised": 0.12602678586362992
+            },
+            "llm_text_scores": {
+                "angry": 7,
+                "calm": 2,
+                "disgust": 1,
+                "fearful": 9,
+                "happy": 1,
+                "neutral": 3,
+                "sad": 6,
+                "surprised": 4
+            }
+        },
+        {
+            "sentence_index": 12,
+            "timestamp": {
+                "start": 37.54,
+                "end": 39.36
+            },
+            "transcript": "The stove is placed on us in a little while.",
+            "average_emotions": {
+                "angry": 0.11758509278297424,
+                "calm": 0.13145196934541067,
+                "disgust": 0.12411399185657501,
+                "fearful": 0.13148362437884012,
+                "happy": 0.1270263840754827,
+                "neutral": 0.12240508447090785,
+                "sad": 0.12485240896542867,
+                "surprised": 0.12108144412438075
+            },
+            "llm_text_scores": {
+                "angry": 0,
+                "calm": 10,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 10,
+                "sad": 0,
+                "surprised": 0
+            }
+        },
+        {
+            "sentence_index": 13,
+            "timestamp": {
+                "start": 40.30000000000001,
+                "end": 42.14
+            },
+            "transcript": "Exumpt, Rosencrantz, and Gildenstone.",
+            "average_emotions": {
+                "angry": 0.11754836025289336,
+                "calm": 0.13021734227520881,
+                "disgust": 0.1233911800047638,
+                "fearful": 0.1294786246669429,
+                "happy": 0.12818727763307813,
+                "neutral": 0.12004595130636343,
+                "sad": 0.12673041346937008,
+                "surprised": 0.12440085039137949
+            },
+            "llm_text_scores": {
+                "angry": 0,
+                "calm": 0,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 10,
+                "sad": 0,
+                "surprised": 0
+            }
+        },
+        {
+            "sentence_index": 14,
+            "timestamp": {
+                "start": 42.78,
+                "end": 46.74
+            },
+            "transcript": "Oh my good lord, what have I seen tonight?",
+            "average_emotions": {
+                "angry": 0.12188898521429647,
+                "calm": 0.12807982740140528,
+                "disgust": 0.1235254440940026,
+                "fearful": 0.1284477594109614,
+                "happy": 0.127209349276713,
+                "neutral": 0.12370124351765609,
+                "sad": 0.12484874167044116,
+                "surprised": 0.12229864941452401
+            },
+            "llm_text_scores": {
+                "angry": 0,
+                "calm": 0,
+                "disgust": 0,
+                "fearful": 10,
+                "happy": 0,
+                "neutral": 1,
+                "sad": 0,
+                "surprised": 10
+            }
+        },
+        {
+            "sentence_index": 15,
+            "timestamp": {
+                "start": 47.38,
+                "end": 48.36
+            },
+            "transcript": "What, Gertrude?",
+            "average_emotions": {
+                "angry": 0.11620942919034298,
+                "calm": 0.1317672734400901,
+                "disgust": 0.12073045268926938,
+                "fearful": 0.14137425326322858,
+                "happy": 0.12762607681611954,
+                "neutral": 0.11657876564777928,
+                "sad": 0.12505326839183745,
+                "surprised": 0.1206604805613327
+            },
+            "llm_text_scores": {
+                "angry": 0,
+                "calm": 0,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 10,
+                "sad": 0,
+                "surprised": 10
+            }
+        },
+        {
+            "sentence_index": 16,
+            "timestamp": {
+                "start": 49.1,
+                "end": 49.74
+            },
+            "transcript": "How does Hamlet?",
+            "average_emotions": {
+                "angry": 0.12434937341699848,
+                "calm": 0.12777079165835709,
+                "disgust": 0.12478539627844853,
+                "fearful": 0.13241463406329476,
+                "happy": 0.12221899918396029,
+                "neutral": 0.12448707504246104,
+                "sad": 0.12266622771821067,
+                "surprised": 0.12130750263826912
+            },
+            "llm_text_scores": {
+                "angry": 0,
+                "calm": 9,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 7,
+                "sad": 0,
+                "surprised": 0
+            }
+        },
+        {
+            "sentence_index": 17,
+            "timestamp": {
+                "start": 50.42,
+                "end": 50.74
+            },
+            "transcript": "Mad.",
+            "average_emotions": {
+                "angry": 0.12440076288575211,
+                "calm": 0.12122150352437022,
+                "disgust": 0.12209989710897974,
+                "fearful": 0.12079280459934438,
+                "happy": 0.12942249108683385,
+                "neutral": 0.11612515776416973,
+                "sad": 0.1380835221645592,
+                "surprised": 0.12785386086599076
+            },
+            "llm_text_scores": {
+                "angry": 10,
+                "calm": 0,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 0,
+                "sad": 0,
+                "surprised": 0
+            }
+        },
+        {
+            "sentence_index": 18,
+            "timestamp": {
+                "start": 51.68,
+                "end": 55.3
+            },
+            "transcript": "After sea and wind, when both contend, which is the mightier.",
+            "average_emotions": {
+                "angry": 0.11869844953460403,
+                "calm": 0.13280337183956853,
+                "disgust": 0.12106788916827887,
+                "fearful": 0.1250608475886995,
+                "happy": 0.13370285213489186,
+                "neutral": 0.11944163154806894,
+                "sad": 0.12483756262591193,
+                "surprised": 0.12438739555997634
+            },
+            "llm_text_scores": {
+                "angry": 0,
+                "calm": 9,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 9,
+                "neutral": 7,
+                "sad": 0,
+                "surprised": 6
+            }
+        },
+        {
+            "sentence_index": 19,
+            "timestamp": {
+                "start": 55.89999999999999,
+                "end": 69.48
+            },
+            "transcript": "In his naulous fit, behind the arse hearing something stir, whips out his rapier cries, a rat, a rat, and in this brainish apprehension kills the unseen good old man.",
+            "average_emotions": {
+                "angry": 0.12036458724809604,
+                "calm": 0.1257636579389645,
+                "disgust": 0.1225839801084677,
+                "fearful": 0.12509298647461928,
+                "happy": 0.1309880070507288,
+                "neutral": 0.12170905445358962,
+                "sad": 0.1277275435680698,
+                "surprised": 0.12577018315746424
+            },
+            "llm_text_scores": {
+                "angry": 9,
+                "calm": 2,
+                "disgust": 7,
+                "fearful": 6,
+                "happy": 1,
+                "neutral": 3,
+                "sad": 1,
+                "surprised": 1
+            }
+        },
+        {
+            "sentence_index": 20,
+            "timestamp": {
+                "start": 70.22,
+                "end": 74.48
+            },
+            "transcript": "Oh heavy deed, it had been so with us had we been there.",
+            "average_emotions": {
+                "angry": 0.1223604517647523,
+                "calm": 0.1314337358303278,
+                "disgust": 0.1219162615705372,
+                "fearful": 0.12829468708571745,
+                "happy": 0.12642921373778848,
+                "neutral": 0.11867229971277043,
+                "sad": 0.1265622319304444,
+                "surprised": 0.12433111836766186
+            },
+            "llm_text_scores": {
+                "angry": 0,
+                "calm": 0,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 9,
+                "sad": 9,
+                "surprised": 0
+            }
+        },
+        {
+            "sentence_index": 21,
+            "timestamp": {
+                "start": 75.38,
+                "end": 80.1
+            },
+            "transcript": "His liberty is full of threats to all, to you yourself, to us to everyone.",
+            "average_emotions": {
+                "angry": 0.12318020682891621,
+                "calm": 0.12408491346408751,
+                "disgust": 0.12258333708014761,
+                "fearful": 0.12547283993110736,
+                "happy": 0.1263762600993367,
+                "neutral": 0.12349132072908324,
+                "sad": 0.12900166966521084,
+                "surprised": 0.12580945220211054
+            },
+            "llm_text_scores": {
+                "angry": 7,
+                "calm": 0,
+                "disgust": 0,
+                "fearful": 9,
+                "happy": 0,
+                "neutral": 3,
+                "sad": 0,
+                "surprised": 0
+            }
+        },
+        {
+            "sentence_index": 22,
+            "timestamp": {
+                "start": 81.12,
+                "end": 83.3
+            },
+            "transcript": "Last how shall this bloody deed be answered?",
+            "average_emotions": {
+                "angry": 0.12403017411479482,
+                "calm": 0.12479834880439694,
+                "disgust": 0.12347951663138883,
+                "fearful": 0.1294400379339835,
+                "happy": 0.12302835171280545,
+                "neutral": 0.12359129768653225,
+                "sad": 0.128030981717955,
+                "surprised": 0.1236012913981432
+            },
+            "llm_text_scores": {
+                "angry": 7,
+                "calm": 0,
+                "disgust": 9,
+                "fearful": 6,
+                "happy": 0,
+                "neutral": 0,
+                "sad": 0,
+                "surprised": 4
+            }
+        },
+        {
+            "sentence_index": 23,
+            "timestamp": {
+                "start": 83.3,
+                "end": 89.9
+            },
+            "transcript": "It will be laid to us whose providence should have kept short, restrained and out of haunt this mad young man.",
+            "average_emotions": {
+                "angry": 0.12195184951461648,
+                "calm": 0.12203796864938224,
+                "disgust": 0.12246413229200184,
+                "fearful": 0.12458933383154303,
+                "happy": 0.12728722213577776,
+                "neutral": 0.12219649572149865,
+                "sad": 0.13123239833546788,
+                "surprised": 0.12824059951971215
+            },
+            "llm_text_scores": {
+                "angry": 7,
+                "calm": 2,
+                "disgust": 3,
+                "fearful": 4,
+                "happy": 1,
+                "neutral": 6,
+                "sad": 1,
+                "surprised": 1
+            }
+        },
+        {
+            "sentence_index": 24,
+            "timestamp": {
+                "start": 90.78,
+                "end": 99.96
+            },
+            "transcript": "But so much was our love, we would not understand what was most fit, but like the owner of a foul disease to keep it from devolging, let it feed even on the pit of life.",
+            "average_emotions": {
+                "angry": 0.12110221656370136,
+                "calm": 0.12651842383344525,
+                "disgust": 0.12189630693157563,
+                "fearful": 0.12384469121859636,
+                "happy": 0.13090716097291644,
+                "neutral": 0.12474385787461925,
+                "sad": 0.12550919272532995,
+                "surprised": 0.12547814987981576
+            },
+            "llm_text_scores": {
+                "angry": 2,
+                "calm": 3,
+                "disgust": 7,
+                "fearful": 6,
+                "happy": 4,
+                "neutral": 3,
+                "sad": 5,
+                "surprised": 9
+            }
+        },
+        {
+            "sentence_index": 25,
+            "timestamp": {
+                "start": 100.6,
+                "end": 101.38
+            },
+            "transcript": "Where's he gone?",
+            "average_emotions": {
+                "angry": 0.11735056692304052,
+                "calm": 0.13715116219833323,
+                "disgust": 0.11949611427089189,
+                "fearful": 0.12988665264479862,
+                "happy": 0.13422643688306982,
+                "neutral": 0.11619567481517391,
+                "sad": 0.12373917134980655,
+                "surprised": 0.12195422091488545
+            },
+            "llm_text_scores": {
+                "angry": 0,
+                "calm": 0,
+                "disgust": 0,
+                "fearful": 10,
+                "happy": 0,
+                "neutral": 1,
+                "sad": 0,
+                "surprised": 0
+            }
+        },
+        {
+            "sentence_index": 26,
+            "timestamp": {
+                "start": 102.16,
+                "end": 104.1
+            },
+            "transcript": "To draw apart the body, he had killed.",
+            "average_emotions": {
+                "angry": 0.11919024734683642,
+                "calm": 0.12140928607942271,
+                "disgust": 0.1201935673777457,
+                "fearful": 0.12759153703341305,
+                "happy": 0.13317174381479302,
+                "neutral": 0.1255130684066945,
+                "sad": 0.12771342604996544,
+                "surprised": 0.12521712389112916
+            },
+            "llm_text_scores": {
+                "angry": 0,
+                "calm": 0,
+                "disgust": 0,
+                "fearful": 6,
+                "happy": 0,
+                "neutral": 0,
+                "sad": 0,
+                "surprised": 0
+            }
+        },
+        {
+            "sentence_index": 27,
+            "timestamp": {
+                "start": 104.84,
+                "end": 111.4
+            },
+            "transcript": "Or whom his very madness, like some or among a mineral of metal's base, shows itself pure.",
+            "average_emotions": {
+                "angry": 0.12063129943099357,
+                "calm": 0.12329620820766765,
+                "disgust": 0.12332182702914561,
+                "fearful": 0.12726855139161852,
+                "happy": 0.12734819809849635,
+                "neutral": 0.1214057062618647,
+                "sad": 0.13144044347644018,
+                "surprised": 0.12528776610377343
+            },
+            "llm_text_scores": {
+                "angry": 0,
+                "calm": 7,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 9,
+                "sad": 6,
+                "surprised": 0
+            }
+        },
+        {
+            "sentence_index": 28,
+            "timestamp": {
+                "start": 112.32,
+                "end": 113.74
+            },
+            "transcript": "He weeps for what it's done.",
+            "average_emotions": {
+                "angry": 0.11945468215306156,
+                "calm": 0.12619590437324024,
+                "disgust": 0.12237562649466335,
+                "fearful": 0.12384900120884557,
+                "happy": 0.13030576397758675,
+                "neutral": 0.12584275056639596,
+                "sad": 0.12700876646890827,
+                "surprised": 0.12496750475729831
+            },
+            "llm_text_scores": {
+                "angry": 0,
+                "calm": 0,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 0,
+                "sad": 10,
+                "surprised": 0
+            }
+        },
+        {
+            "sentence_index": 29,
+            "timestamp": {
+                "start": 114.38,
+                "end": 115.9
+            },
+            "transcript": "Oh Gertrude, come away.",
+            "average_emotions": {
+                "angry": 0.12194387269409684,
+                "calm": 0.11477242019448855,
+                "disgust": 0.12260836021729604,
+                "fearful": 0.12848790058603254,
+                "happy": 0.12797835534673943,
+                "neutral": 0.12029027955582274,
+                "sad": 0.13681586953204045,
+                "surprised": 0.1271029418734834
+            },
+            "llm_text_scores": {
+                "angry": 0,
+                "calm": 0,
+                "disgust": 0,
+                "fearful": 10,
+                "happy": 0,
+                "neutral": 0,
+                "sad": 0,
+                "surprised": 0
+            }
+        },
+        {
+            "sentence_index": 30,
+            "timestamp": {
+                "start": 116.42,
+                "end": 119.52
+            },
+            "transcript": "The sun knows sooner shall the mountains touch, but we will ship him hence.",
+            "average_emotions": {
+                "angry": 0.11649566944879663,
+                "calm": 0.129293844521487,
+                "disgust": 0.12222569112972516,
+                "fearful": 0.1257091094660486,
+                "happy": 0.13394553809673856,
+                "neutral": 0.12314359333578206,
+                "sad": 0.12348879363214083,
+                "surprised": 0.12569776036928118
+            },
+            "llm_text_scores": {
+                "angry": 0,
+                "calm": 0,
+                "disgust": 0,
+                "fearful": 7,
+                "happy": 2,
+                "neutral": 6,
+                "sad": 0,
+                "surprised": 3
+            }
+        }
+    ],
+    "boosted_chunks": [
+        {
+            "index": 0,
+            "timestamp": {
+                "start": 0.0,
+                "end": 1.0
+            },
+            "emotions": {
+                "angry": 0.2715898334487265,
+                "calm": 1.2035890485123955,
+                "disgust": 0.31468305373704486,
+                "fearful": 0.42465517332765934,
+                "happy": 0.27999025110071,
+                "neutral": 0.979075144399405,
+                "sad": 0.33009879085624216,
+                "surprised": 0.2981710886431606
+            },
+            "transcript": "The Tragedy of Hamlet,"
+        },
+        {
+            "index": 1,
+            "timestamp": {
+                "start": 1.0,
+                "end": 2.0
+            },
+            "emotions": {
+                "angry": 0.24464224706980184,
+                "calm": 1.222681195671867,
+                "disgust": 0.3153689418134956,
+                "fearful": 0.34014489881530174,
+                "happy": 0.27030500507419736,
+                "neutral": 1.023058189694123,
+                "sad": 0.37944188553146146,
+                "surprised": 0.3062100203550956
+            },
+            "transcript": "Hamlet, Prince of Denmark,"
+        },
+        {
+            "index": 2,
+            "timestamp": {
+                "start": 2.0,
+                "end": 3.0
+            },
+            "emotions": {
+                "angry": 0.24409292832286708,
+                "calm": 1.1887227843260584,
+                "disgust": 0.3120031025546801,
+                "fearful": 0.36406409175104487,
+                "happy": 0.3092710978351468,
+                "neutral": 0.9883800354250513,
+                "sad": 0.3660290005518153,
+                "surprised": 0.3292893432586803
+            },
+            "transcript": "Denmark, by William Shakespeare."
+        },
+        {
+            "index": 3,
+            "timestamp": {
+                "start": 3.0,
+                "end": 4.0
+            },
+            "emotions": {
+                "angry": 0.2637686004096979,
+                "calm": 1.215760294499943,
+                "disgust": 0.28904024354833174,
+                "fearful": 0.39953880373398054,
+                "happy": 0.28962864897362445,
+                "neutral": 0.9482127674805044,
+                "sad": 0.39698124946950736,
+                "surprised": 0.29892177590975433
+            },
+            "transcript": "Shakespeare."
+        },
+        {
+            "index": 4,
+            "timestamp": {
+                "start": 4.0,
+                "end": 5.0
+            },
+            "emotions": {
+                "angry": 0.33081458432542393,
+                "calm": 1.0232301359187543,
+                "disgust": 0.30891970042831807,
+                "fearful": 0.209530960377967,
+                "happy": 0.38590040933974235,
+                "neutral": 1.0214389332077092,
+                "sad": 0.4528315335809463,
+                "surprised": 0.36918612684648244
+            },
+            "transcript": "Act 4."
+        },
+        {
+            "index": 5,
+            "timestamp": {
+                "start": 5.0,
+                "end": 6.0
+            },
+            "emotions": {
+                "angry": 0.19306575904269668,
+                "calm": 1.4092149436845867,
+                "disgust": 0.24034616338168396,
+                "fearful": 0.46316839230482143,
+                "happy": 0.3797292540927764,
+                "neutral": 1.0273328300944808,
+                "sad": 0.21202031760442586,
+                "surprised": 0.17697472381987225
+            },
+            "transcript": "This is"
+        },
+        {
+            "index": 6,
+            "timestamp": {
+                "start": 6.0,
+                "end": 7.0
+            },
+            "emotions": {
+                "angry": 0.24343931382472964,
+                "calm": 1.2399483409565777,
+                "disgust": 0.23074092745729638,
+                "fearful": 0.3187402179970951,
+                "happy": 0.3999120502335519,
+                "neutral": 1.1396528641343524,
+                "sad": 0.24486337059048305,
+                "surprised": 0.28455529883125785
+            },
+            "transcript": "is a Libravox recording."
+        },
+        {
+            "index": 7,
+            "timestamp": {
+                "start": 7.0,
+                "end": 8.0
+            },
+            "emotions": {
+                "angry": 0.0,
+                "calm": 2.0,
+                "disgust": 0.01478314460534725,
+                "fearful": 0.14865599982635586,
+                "happy": 0.06581908446832026,
+                "neutral": 1.6687285862454027,
+                "sad": 0.14118826546958246,
+                "surprised": 0.06267730341033682
+            },
+            "transcript": "recording. All Libravox"
+        },
+        {
+            "index": 8,
+            "timestamp": {
+                "start": 8.0,
+                "end": 9.0
+            },
+            "emotions": {
+                "angry": 0.25831466843073553,
+                "calm": 1.2501492145549644,
+                "disgust": 0.2612373408359903,
+                "fearful": 0.35166888376915,
+                "happy": 0.3031421760988907,
+                "neutral": 1.1105744969367275,
+                "sad": 0.29218444258004667,
+                "surprised": 0.2745811608188387
+            },
+            "transcript": "Libravox recordings are"
+        },
+        {
+            "index": 9,
+            "timestamp": {
+                "start": 9.0,
+                "end": 10.0
+            },
+            "emotions": {
+                "angry": 0.3196081314872817,
+                "calm": 1.1994438659703486,
+                "disgust": 0.33592018848023675,
+                "fearful": 0.2746465371105962,
+                "happy": 0.26020423016870553,
+                "neutral": 1.0917730491940363,
+                "sad": 0.33082344296450206,
+                "surprised": 0.289432938649637
+            },
+            "transcript": "are in the public domain."
+        },
+        {
+            "index": 10,
+            "timestamp": {
+                "start": 10.0,
+                "end": 11.0
+            },
+            "emotions": {
+                "angry": 0.18073549726161525,
+                "calm": 1.344061123980766,
+                "disgust": 0.2211015496498918,
+                "fearful": 0.3432877697417674,
+                "happy": 0.49838742177362755,
+                "neutral": 1.0945475641276277,
+                "sad": 0.19911958083551978,
+                "surprised": 0.2206118766545283
+            },
+            "transcript": "For more information"
+        },
+        {
+            "index": 11,
+            "timestamp": {
+                "start": 11.0,
+                "end": 12.0
+            },
+            "emotions": {
+                "angry": 0.28045726903670104,
+                "calm": 1.0529490024321049,
+                "disgust": 0.3690427880918256,
+                "fearful": 0.32581280691459225,
+                "happy": 0.27444112197710757,
+                "neutral": 1.1174662350640572,
+                "sad": 0.3763022249002896,
+                "surprised": 0.30538093560866597
+            },
+            "transcript": "information or to volunteer,"
+        },
+        {
+            "index": 12,
+            "timestamp": {
+                "start": 12.0,
+                "end": 13.0
+            },
+            "emotions": {
+                "angry": 0.26173730408389684,
+                "calm": 1.1117977925118876,
+                "disgust": 0.3138400932922115,
+                "fearful": 0.4247218340639737,
+                "happy": 0.2454750442590206,
+                "neutral": 1.090890991812092,
+                "sad": 0.37505389463752437,
+                "surprised": 0.2783354293647374
+            },
+            "transcript": "volunteer, please"
+        },
+        {
+            "index": 13,
+            "timestamp": {
+                "start": 13.0,
+                "end": 14.0
+            },
+            "emotions": {
+                "angry": 0.3172185194803448,
+                "calm": 1.2796626573585137,
+                "disgust": 0.29988667076458514,
+                "fearful": 0.2790037014001642,
+                "happy": 0.26343522471814473,
+                "neutral": 1.0738346660720268,
+                "sad": 0.29135884720131294,
+                "surprised": 0.29745209703025194
+            },
+            "transcript": "please visit Libravox"
+        },
+        {
+            "index": 14,
+            "timestamp": {
+                "start": 14.0,
+                "end": 15.0
+            },
+            "emotions": {
+                "angry": 0.2466743204769088,
+                "calm": 1.09777616626117,
+                "disgust": 0.27781035129475157,
+                "fearful": 0.30391187212368576,
+                "happy": 0.3500805045906756,
+                "neutral": 1.0367973709519946,
+                "sad": 0.4308651572341604,
+                "surprised": 0.3579366410919967
+            },
+            "transcript": "Libravox .org."
+        },
+        {
+            "index": 15,
+            "timestamp": {
+                "start": 15.0,
+                "end": 16.0
+            },
+            "emotions": {
+                "angry": 0.2097266161199932,
+                "calm": 1.1802580568308974,
+                "disgust": 0.12096019908974938,
+                "fearful": 0.3045260089568494,
+                "happy": 0.49606755992285073,
+                "neutral": 1.1115633269912868,
+                "sad": 0.31539118493547913,
+                "surprised": 0.3633594311782381
+            },
+            "transcript": "The"
+        },
+        {
+            "index": 16,
+            "timestamp": {
+                "start": 16.0,
+                "end": 17.0
+            },
+            "emotions": {
+                "angry": 0.30104079096151476,
+                "calm": 1.151221937962667,
+                "disgust": 0.3358563641757866,
+                "fearful": 0.3805206163365478,
+                "happy": 0.28421023113158245,
+                "neutral": 1.0289381464647516,
+                "sad": 0.32673005558719603,
+                "surprised": 0.2933342414052981
+            },
+            "transcript": "The Tragedy of Hamlet,"
+        },
+        {
+            "index": 17,
+            "timestamp": {
+                "start": 17.0,
+                "end": 18.0
+            },
+            "emotions": {
+                "angry": 0.25100208947913955,
+                "calm": 1.2115543786943799,
+                "disgust": 0.3404288607912004,
+                "fearful": 0.3273640487451658,
+                "happy": 0.27634523819169815,
+                "neutral": 1.022109314952506,
+                "sad": 0.3786201690883145,
+                "surprised": 0.2944282840829404
+            },
+            "transcript": "Hamlet, Prince of Denmark,"
+        },
+        {
+            "index": 18,
+            "timestamp": {
+                "start": 18.0,
+                "end": 19.0
+            },
+            "emotions": {
+                "angry": 0.22902013630304557,
+                "calm": 1.2848201198676874,
+                "disgust": 0.3023633994574462,
+                "fearful": 0.3581498818971733,
+                "happy": 0.3039338886797515,
+                "neutral": 0.9658554944953808,
+                "sad": 0.33619156174308035,
+                "surprised": 0.32151790158177856
+            },
+            "transcript": "by William Shakespeare."
+        },
+        {
+            "index": 19,
+            "timestamp": {
+                "start": 19.0,
+                "end": 20.0
+            },
+            "emotions": {
+                "angry": 0.19870892182861644,
+                "calm": 1.3524327756273062,
+                "disgust": 0.26578939386274053,
+                "fearful": 0.4784932447862951,
+                "happy": 0.3613846006122213,
+                "neutral": 0.9677566037489163,
+                "sad": 0.25750870605878917,
+                "surprised": 0.21977813750045944
+            },
+            "transcript": "Shakespeare."
+        },
+        {
+            "index": 20,
+            "timestamp": {
+                "start": 20.0,
+                "end": 21.0
+            },
+            "emotions": {
+                "angry": 0.2956208247518817,
+                "calm": 1.0527336614808895,
+                "disgust": 0.29292878671385053,
+                "fearful": 0.29971162361494763,
+                "happy": 0.3384138817345592,
+                "neutral": 0.9893711497463212,
+                "sad": 0.47517920037883615,
+                "surprised": 0.3578932556040581
+            },
+            "transcript": "Act 4."
+        },
+        {
+            "index": 21,
+            "timestamp": {
+                "start": 21.0,
+                "end": 22.0
+            },
+            "emotions": {
+                "angry": 0.26255201376931564,
+                "calm": 1.182109694704334,
+                "disgust": 0.2877144927927407,
+                "fearful": 0.2653497355001802,
+                "happy": 0.36495143184555734,
+                "neutral": 0.9293393900697982,
+                "sad": 0.4613480101293143,
+                "surprised": 0.3484876152141035
+            },
+            "transcript": "Scene 1."
+        },
+        {
+            "index": 22,
+            "timestamp": {
+                "start": 22.0,
+                "end": 23.0
+            },
+            "emotions": {
+                "angry": 0.4344423994742281,
+                "calm": 0.374796568188571,
+                "disgust": 0.5192933575995552,
+                "fearful": 0.5437911090350063,
+                "happy": 0.5384938675409533,
+                "neutral": 0.5472331161144437,
+                "sad": 0.5914678524332369,
+                "surprised": 0.5523341136393491
+            },
+            "transcript": "A Room in the Castle."
+        },
+        {
+            "index": 23,
+            "timestamp": {
+                "start": 23.0,
+                "end": 24.0
+            },
+            "emotions": {
+                "angry": 0.4143128086469658,
+                "calm": 0.5586582184568363,
+                "disgust": 0.48863645972137576,
+                "fearful": 0.6221609764274739,
+                "happy": 0.519019849951081,
+                "neutral": 0.3556339520043243,
+                "sad": 0.5785026340786799,
+                "surprised": 0.5649274847386072
+            },
+            "transcript": "Castle."
+        },
+        {
+            "index": 24,
+            "timestamp": {
+                "start": 24.0,
+                "end": 25.0
+            },
+            "emotions": {
+                "angry": 0.3136088252489431,
+                "calm": 1.200158999641988,
+                "disgust": 0.3051011204533768,
+                "fearful": 0.25692433363221406,
+                "happy": 0.28104771052745475,
+                "neutral": 1.1412470105283636,
+                "sad": 0.2956619492767982,
+                "surprised": 0.3081024347162052
+            },
+            "transcript": "Enter King Claudius,"
+        },
+        {
+            "index": 25,
+            "timestamp": {
+                "start": 25.0,
+                "end": 26.0
+            },
+            "emotions": {
+                "angry": 0.1957760260740665,
+                "calm": 1.2925760082046003,
+                "disgust": 0.30950883653468453,
+                "fearful": 0.3363475448376396,
+                "happy": 0.36056013850952634,
+                "neutral": 1.0273368869820667,
+                "sad": 0.2898364775999784,
+                "surprised": 0.28991046528278147
+            },
+            "transcript": "Claudius, Queen Gertrude,"
+        },
+        {
+            "index": 26,
+            "timestamp": {
+                "start": 26.0,
+                "end": 27.0
+            },
+            "emotions": {
+                "angry": 0.1702560924386812,
+                "calm": 1.3747988242468059,
+                "disgust": 0.28394204204805445,
+                "fearful": 0.355967232825455,
+                "happy": 0.34057850110387483,
+                "neutral": 0.9765090485242301,
+                "sad": 0.31115923567180737,
+                "surprised": 0.28864140716643505
+            },
+            "transcript": "Gertrude, Rosencrantz,"
+        },
+        {
+            "index": 27,
+            "timestamp": {
+                "start": 27.0,
+                "end": 28.0
+            },
+            "emotions": {
+                "angry": 0.2515045089557856,
+                "calm": 1.2915355529788048,
+                "disgust": 0.31415245058316404,
+                "fearful": 0.24775101788456053,
+                "happy": 0.31430478576174603,
+                "neutral": 1.0864224000187246,
+                "sad": 0.2749875932342842,
+                "surprised": 0.32119407460827437
+            },
+            "transcript": "Rosencrantz, and Gildenstone."
+        },
+        {
+            "index": 28,
+            "timestamp": {
+                "start": 28.0,
+                "end": 29.0
+            },
+            "emotions": {
+                "angry": 0.3835837658022746,
+                "calm": 0.49079860306092743,
+                "disgust": 0.27285177311409964,
+                "fearful": 0.31422799225149334,
+                "happy": 0.5259818380245042,
+                "neutral": 1.2052477023856012,
+                "sad": 0.43570152755873565,
+                "surprised": 0.4734591818277085
+            },
+            "transcript": "There's"
+        },
+        {
+            "index": 29,
+            "timestamp": {
+                "start": 29.0,
+                "end": 30.0
+            },
+            "emotions": {
+                "angry": 0.4373392199245278,
+                "calm": 0.5183477839432843,
+                "disgust": 0.3997065358670756,
+                "fearful": 0.31491947535195425,
+                "happy": 0.37790311266438265,
+                "neutral": 1.2669602734282506,
+                "sad": 0.39477681268707704,
+                "surprised": 0.3918991701587909
+            },
+            "transcript": "There's matter in these"
+        },
+        {
+            "index": 30,
+            "timestamp": {
+                "start": 30.0,
+                "end": 31.0
+            },
+            "emotions": {
+                "angry": 0.4811059828535717,
+                "calm": 0.5244540119158191,
+                "disgust": 0.348959297482495,
+                "fearful": 0.3220784848792405,
+                "happy": 0.3456723600306722,
+                "neutral": 1.1547877906014976,
+                "sad": 0.49796546319345825,
+                "surprised": 0.4268289930685879
+            },
+            "transcript": "these sides, these profound"
+        },
+        {
+            "index": 31,
+            "timestamp": {
+                "start": 31.0,
+                "end": 32.0
+            },
+            "emotions": {
+                "angry": 0.39422112337003207,
+                "calm": 0.373030390784423,
+                "disgust": 0.430941714551296,
+                "fearful": 0.3894686652215819,
+                "happy": 0.4506126773254956,
+                "neutral": 1.1310672589510562,
+                "sad": 0.46819367741551904,
+                "surprised": 0.4643168764059404
+            },
+            "transcript": "profound heaves,"
+        },
+        {
+            "index": 32,
+            "timestamp": {
+                "start": 32.0,
+                "end": 33.0
+            },
+            "emotions": {
+                "angry": 0.28830868225293826,
+                "calm": 0.5185547373312364,
+                "disgust": 0.2997093628582082,
+                "fearful": 0.4215630195431007,
+                "happy": 0.6466457867844331,
+                "neutral": 1.1910117311712907,
+                "sad": 0.3414963147642126,
+                "surprised": 0.39456274931992363
+            },
+            "transcript": "heaves, you must translate,"
+        },
+        {
+            "index": 33,
+            "timestamp": {
+                "start": 33.0,
+                "end": 34.0
+            },
+            "emotions": {
+                "angry": 0.3424212027550761,
+                "calm": 0.4939441322144743,
+                "disgust": 0.3137705828478682,
+                "fearful": 0.6026496265970265,
+                "happy": 0.39527788266049535,
+                "neutral": 1.094587067617637,
+                "sad": 0.4855482728591385,
+                "surprised": 0.3736536164736296
+            },
+            "transcript": "translate, to"
+        },
+        {
+            "index": 34,
+            "timestamp": {
+                "start": 34.0,
+                "end": 35.0
+            },
+            "emotions": {
+                "angry": 0.3340022307783536,
+                "calm": 0.4653376740807446,
+                "disgust": 0.4275991570230247,
+                "fearful": 0.4386519393916738,
+                "happy": 0.4362320705329585,
+                "neutral": 1.1597459405596997,
+                "sad": 0.43023947778426924,
+                "surprised": 0.4100438938746199
+            },
+            "transcript": "to fit we understand"
+        },
+        {
+            "index": 35,
+            "timestamp": {
+                "start": 35.0,
+                "end": 36.0
+            },
+            "emotions": {
+                "angry": 0.2758594871382431,
+                "calm": 0.6138994722209883,
+                "disgust": 0.38813409905674595,
+                "fearful": 0.40628058504646725,
+                "happy": 0.5061483009907334,
+                "neutral": 1.0652627184240555,
+                "sad": 0.4072264079599252,
+                "surprised": 0.4390413131881847
+            },
+            "transcript": "them."
+        },
+        {
+            "index": 36,
+            "timestamp": {
+                "start": 36.0,
+                "end": 37.0
+            },
+            "emotions": {
+                "angry": 0.4078419476839667,
+                "calm": 0.6315206865809061,
+                "disgust": 0.5307591758133582,
+                "fearful": 0.48543130958249187,
+                "happy": 0.5440035116018416,
+                "neutral": 0.4833760186884533,
+                "sad": 0.49073393317565567,
+                "surprised": 0.5281858008986705
+            },
+            "transcript": "Where is your son?"
+        },
+        {
+            "index": 37,
+            "timestamp": {
+                "start": 37.0,
+                "end": 38.0
+            },
+            "emotions": {
+                "angry": 0.1836707284611828,
+                "calm": 1.2677585293715172,
+                "disgust": 0.2911562467614791,
+                "fearful": 0.4386248962140028,
+                "happy": 0.35566411554977984,
+                "neutral": 1.1298876442071741,
+                "sad": 0.2306707525850791,
+                "surprised": 0.20441947087512902
+            },
+            "transcript": "The stove is"
+        },
+        {
+            "index": 38,
+            "timestamp": {
+                "start": 38.0,
+                "end": 39.0
+            },
+            "emotions": {
+                "angry": 0.23192764416423792,
+                "calm": 1.300283171118742,
+                "disgust": 0.28745631803345145,
+                "fearful": 0.2965169982283106,
+                "happy": 0.32487207418923697,
+                "neutral": 1.121923340796119,
+                "sad": 0.27816838085797524,
+                "surprised": 0.26070445663727077
+            },
+            "transcript": "is placed on us in a little"
+        },
+        {
+            "index": 39,
+            "timestamp": {
+                "start": 39.0,
+                "end": 40.0
+            },
+            "emotions": {
+                "angry": 0.18971376578007987,
+                "calm": 1.2262458257874336,
+                "disgust": 0.2883654069577525,
+                "fearful": 0.42734865816910805,
+                "happy": 0.3030309569647041,
+                "neutral": 0.9985449105933326,
+                "sad": 0.38812380676546376,
+                "surprised": 0.28047905300746967
+            },
+            "transcript": "little while."
+        },
+        {
+            "index": 40,
+            "timestamp": {
+                "start": 40.0,
+                "end": 41.0
+            },
+            "emotions": {
+                "angry": 0.2657783334062386,
+                "calm": 0.4132733249703656,
+                "disgust": 0.40052098941587344,
+                "fearful": 0.4893932867114941,
+                "happy": 0.46558240185448324,
+                "neutral": 1.1324512600837073,
+                "sad": 0.512947402470645,
+                "surprised": 0.42190538511253695
+            },
+            "transcript": "Exumpt, Rosencrantz,"
+        },
+        {
+            "index": 41,
+            "timestamp": {
+                "start": 41.0,
+                "end": 42.0
+            },
+            "emotions": {
+                "angry": 0.35727330216639924,
+                "calm": 0.46208102952601615,
+                "disgust": 0.40538740707140575,
+                "fearful": 0.3423987483703793,
+                "happy": 0.44448269544525904,
+                "neutral": 1.3050149626747771,
+                "sad": 0.3755880818244144,
+                "surprised": 0.4096261569466929
+            },
+            "transcript": "Rosencrantz, and Gildenstone."
+        },
+        {
+            "index": 42,
+            "timestamp": {
+                "start": 42.0,
+                "end": 43.0
+            },
+            "emotions": {
+                "angry": 0.08790956988330469,
+                "calm": 0.34238837314313186,
+                "disgust": 0.14644112571557533,
+                "fearful": 1.2145530338756252,
+                "happy": 0.23513497127110441,
+                "neutral": 0.9488576013022616,
+                "sad": 0.19945434491529088,
+                "surprised": 0.9271133639190491
+            },
+            "transcript": "Gildenstone. Oh"
+        },
+        {
+            "index": 43,
+            "timestamp": {
+                "start": 43.0,
+                "end": 44.0
+            },
+            "emotions": {
+                "angry": 0.27015136878924273,
+                "calm": 0.3584747110146646,
+                "disgust": 0.2525790543575044,
+                "fearful": 1.088706163892641,
+                "happy": 0.3660028057559427,
+                "neutral": 0.4538885251588127,
+                "sad": 0.2738145126899719,
+                "surprised": 1.0382352423665635
+            },
+            "transcript": "Oh my good"
+        },
+        {
+            "index": 44,
+            "timestamp": {
+                "start": 44.0,
+                "end": 45.0
+            },
+            "emotions": {
+                "angry": 0.17229537574424925,
+                "calm": 0.27205631417583026,
+                "disgust": 0.2889269789030693,
+                "fearful": 1.267329209530577,
+                "happy": 0.3953252430191412,
+                "neutral": 0.3327977336706828,
+                "sad": 0.2878519922355522,
+                "surprised": 1.0852695367462415
+            },
+            "transcript": "lord,"
+        },
+        {
+            "index": 45,
+            "timestamp": {
+                "start": 45.0,
+                "end": 46.0
+            },
+            "emotions": {
+                "angry": 0.3655300631183666,
+                "calm": 0.21992293505515279,
+                "disgust": 0.3121800213521109,
+                "fearful": 1.157578790013816,
+                "happy": 0.23310158353785151,
+                "neutral": 0.4400450212915373,
+                "sad": 0.3149588904845811,
+                "surprised": 1.0585350791719288
+            },
+            "transcript": "what have I seen"
+        },
+        {
+            "index": 46,
+            "timestamp": {
+                "start": 46.0,
+                "end": 47.0
+            },
+            "emotions": {
+                "angry": 0.2890338600101613,
+                "calm": 0.3892373971768714,
+                "disgust": 0.2899170134617034,
+                "fearful": 1.101495099549159,
+                "happy": 0.3004563153299978,
+                "neutral": 0.30895816303620643,
+                "sad": 0.2990087017070343,
+                "surprised": 1.1237458337542114
+            },
+            "transcript": "seen tonight?"
+        },
+        {
+            "index": 47,
+            "timestamp": {
+                "start": 47.0,
+                "end": 48.0
+            },
+            "emotions": {
+                "angry": 0.2104417312399528,
+                "calm": 0.4019387537832626,
+                "disgust": 0.255988079132684,
+                "fearful": 0.5149666629241081,
+                "happy": 0.3788693544285306,
+                "neutral": 1.0169578773557284,
+                "sad": 0.28100592103136646,
+                "surprised": 1.041684004129711
+            },
+            "transcript": "What, Gertrude?"
+        },
+        {
+            "index": 48,
+            "timestamp": {
+                "start": 48.0,
+                "end": 49.0
+            },
+            "emotions": {
+                "angry": 0.17945139405069638,
+                "calm": 0.4066248268520393,
+                "disgust": 0.2555722960375489,
+                "fearful": 0.5521282518196029,
+                "happy": 0.31824140662679207,
+                "neutral": 0.9514419306233289,
+                "sad": 0.34689485833480105,
+                "surprised": 1.0914974196805345
+            },
+            "transcript": "Gertrude?"
+        },
+        {
+            "index": 49,
+            "timestamp": {
+                "start": 49.0,
+                "end": 50.0
+            },
+            "emotions": {
+                "angry": 0.33114463998436683,
+                "calm": 1.1638701124724402,
+                "disgust": 0.3371048768159337,
+                "fearful": 0.4413931333784383,
+                "happy": 0.3020233803179643,
+                "neutral": 0.9286158157759572,
+                "sad": 0.3081367936676726,
+                "surprised": 0.28956363161257076
+            },
+            "transcript": "How does Hamlet?"
+        },
+        {
+            "index": 50,
+            "timestamp": {
+                "start": 50.0,
+                "end": 51.0
+            },
+            "emotions": {
+                "angry": 1.2754329905406856,
+                "calm": 0.3490209068289419,
+                "disgust": 0.36146750979321096,
+                "fearful": 0.3429463573280167,
+                "happy": 0.46522671467334975,
+                "neutral": 0.2768070458021104,
+                "sad": 0.5879512165076449,
+                "surprised": 0.4429996425513839
+            },
+            "transcript": "Mad."
+        },
+        {
+            "index": 51,
+            "timestamp": {
+                "start": 51.0,
+                "end": 52.0
+            },
+            "emotions": {
+                "angry": 0.3744261976881737,
+                "calm": 0.7811209718762983,
+                "disgust": 0.3784786917811633,
+                "fearful": 0.632566303527349,
+                "happy": 0.743607871290348,
+                "neutral": 0.3760158860013681,
+                "sad": 0.39955406084813916,
+                "surprised": 0.41608240101250443
+            },
+            "transcript": "After"
+        },
+        {
+            "index": 52,
+            "timestamp": {
+                "start": 52.0,
+                "end": 53.0
+            },
+            "emotions": {
+                "angry": 0.42906746374924115,
+                "calm": 0.5012168355919888,
+                "disgust": 0.5182541754077594,
+                "fearful": 0.42484115385009835,
+                "happy": 0.6358525267406254,
+                "neutral": 0.35404048263240345,
+                "sad": 0.6664058047734381,
+                "surprised": 0.5721739412797884
+            },
+            "transcript": "After sea and wind,"
+        },
+        {
+            "index": 53,
+            "timestamp": {
+                "start": 53.0,
+                "end": 54.0
+            },
+            "emotions": {
+                "angry": 0.4506850697903162,
+                "calm": 0.48955146475359296,
+                "disgust": 0.4566913682427472,
+                "fearful": 0.5094597968769098,
+                "happy": 0.5459610597354791,
+                "neutral": 0.5057625608287284,
+                "sad": 0.5893493639012692,
+                "surprised": 0.5543916998963007
+            },
+            "transcript": "wind, when both contend,"
+        },
+        {
+            "index": 54,
+            "timestamp": {
+                "start": 54.0,
+                "end": 55.0
+            },
+            "emotions": {
+                "angry": 0.44931109343542913,
+                "calm": 0.6133450267444212,
+                "disgust": 0.5503000289223592,
+                "fearful": 0.450606752121873,
+                "happy": 0.5148105985561654,
+                "neutral": 0.4702541365911818,
+                "sad": 0.5158259087298769,
+                "surprised": 0.5373988389240366
+            },
+            "transcript": "contend, which is the mightier."
+        },
+        {
+            "index": 55,
+            "timestamp": {
+                "start": 55.0,
+                "end": 56.0
+            },
+            "emotions": {
+                "angry": 0.38594169490270464,
+                "calm": 0.765669970950866,
+                "disgust": 0.36402057022248013,
+                "fearful": 0.5507628591155828,
+                "happy": 0.7783630311590426,
+                "neutral": 0.4392869745769754,
+                "sad": 0.3802982789209351,
+                "surprised": 0.4375090041767577
+            },
+            "transcript": "mightier. In"
+        },
+        {
+            "index": 56,
+            "timestamp": {
+                "start": 56.0,
+                "end": 57.0
+            },
+            "emotions": {
+                "angry": 0.4016533436526809,
+                "calm": 0.6379462142847535,
+                "disgust": 0.5264809888037888,
+                "fearful": 0.5781171489846632,
+                "happy": 0.5561674298987767,
+                "neutral": 0.5252151591708062,
+                "sad": 0.4139633349825032,
+                "surprised": 0.4623087642473716
+            },
+            "transcript": "In his naulous"
+        },
+        {
+            "index": 57,
+            "timestamp": {
+                "start": 57.0,
+                "end": 58.0
+            },
+            "emotions": {
+                "angry": 0.3869353903215109,
+                "calm": 0.7112188763553222,
+                "disgust": 0.3792353383576534,
+                "fearful": 0.5637575826607568,
+                "happy": 0.801367740751231,
+                "neutral": 0.429415477479287,
+                "sad": 0.3737975866678636,
+                "surprised": 0.4561243914317188
+            },
+            "transcript": "naulous fit,"
+        },
+        {
+            "index": 58,
+            "timestamp": {
+                "start": 58.0,
+                "end": 59.0
+            },
+            "emotions": {
+                "angry": 0.4339592357392578,
+                "calm": 0.560969449234174,
+                "disgust": 0.5249022761154987,
+                "fearful": 0.5507557920661136,
+                "happy": 0.5609308732782472,
+                "neutral": 0.43134593900403073,
+                "sad": 0.5444095987585281,
+                "surprised": 0.49457921982949304
+            },
+            "transcript": "behind the arse hearing"
+        },
+        {
+            "index": 59,
+            "timestamp": {
+                "start": 59.0,
+                "end": 60.0
+            },
+            "emotions": {
+                "angry": 0.4368505215409912,
+                "calm": 0.6440857275446445,
+                "disgust": 0.5441890224204353,
+                "fearful": 0.4267606656765959,
+                "happy": 0.5585168509978566,
+                "neutral": 0.48937067941111173,
+                "sad": 0.48654689684107816,
+                "surprised": 0.515532019592631
+            },
+            "transcript": "hearing something stir,"
+        },
+        {
+            "index": 60,
+            "timestamp": {
+                "start": 60.0,
+                "end": 61.0
+            },
+            "emotions": {
+                "angry": 0.5197681550266524,
+                "calm": 0.41795892661830814,
+                "disgust": 0.4869156849741489,
+                "fearful": 0.4299109678904774,
+                "happy": 0.5730112681581218,
+                "neutral": 0.43422093349681373,
+                "sad": 0.6654872466458286,
+                "surprised": 0.5745792012149932
+            },
+            "transcript": "stir, whips out"
+        },
+        {
+            "index": 61,
+            "timestamp": {
+                "start": 61.0,
+                "end": 62.0
+            },
+            "emotions": {
+                "angry": 0.5459736050832839,
+                "calm": 0.48221147861604186,
+                "disgust": 0.5027620329352879,
+                "fearful": 0.48532805682306296,
+                "happy": 0.534310883196172,
+                "neutral": 0.5075983809819345,
+                "sad": 0.5640706614681816,
+                "surprised": 0.47959728492137876
+            },
+            "transcript": "out his rapier cries,"
+        },
+        {
+            "index": 62,
+            "timestamp": {
+                "start": 62.0,
+                "end": 63.0
+            },
+            "emotions": {
+                "angry": 0.5300051101192572,
+                "calm": 0.3100324448943227,
+                "disgust": 0.5065535075979352,
+                "fearful": 0.44119047369823433,
+                "happy": 0.5662194109490596,
+                "neutral": 0.43804238406178475,
+                "sad": 0.7223885650390174,
+                "surprised": 0.5874204876657327
+            },
+            "transcript": "a rat, a"
+        },
+        {
+            "index": 63,
+            "timestamp": {
+                "start": 63.0,
+                "end": 64.0
+            },
+            "emotions": {
+                "angry": 0.4785523817169675,
+                "calm": 0.36069846204565437,
+                "disgust": 0.49969245427998593,
+                "fearful": 0.589264030378864,
+                "happy": 0.5513954495477896,
+                "neutral": 0.453007361084035,
+                "sad": 0.6549566410235145,
+                "surprised": 0.5142856039485331
+            },
+            "transcript": "a rat, and"
+        },
+        {
+            "index": 64,
+            "timestamp": {
+                "start": 64.0,
+                "end": 65.0
+            },
+            "emotions": {
+                "angry": 0.35770392989225896,
+                "calm": 0.5993117652872716,
+                "disgust": 0.41213449318772216,
+                "fearful": 0.4928673551235389,
+                "happy": 0.7063948093915574,
+                "neutral": 0.5520405183512033,
+                "sad": 0.44230683501024287,
+                "surprised": 0.5390926777815486
+            },
+            "transcript": "and in this"
+        },
+        {
+            "index": 65,
+            "timestamp": {
+                "start": 65.0,
+                "end": 66.0
+            },
+            "emotions": {
+                "angry": 0.4544683947862304,
+                "calm": 0.33182914469202407,
+                "disgust": 0.46873824718058044,
+                "fearful": 0.5110435134251125,
+                "happy": 0.5756479261464604,
+                "neutral": 0.5187609478011029,
+                "sad": 0.5959725218459958,
+                "surprised": 0.6453916881478378
+            },
+            "transcript": "this brainish apprehension"
+        },
+        {
+            "index": 66,
+            "timestamp": {
+                "start": 66.0,
+                "end": 67.0
+            },
+            "emotions": {
+                "angry": 0.31771634747566885,
+                "calm": 0.6764227954703145,
+                "disgust": 0.48264536154149285,
+                "fearful": 0.5437347543611704,
+                "happy": 0.6823744816797515,
+                "neutral": 0.4878322570822719,
+                "sad": 0.4315659796084868,
+                "surprised": 0.47956040680618717
+            },
+            "transcript": "apprehension kills"
+        },
+        {
+            "index": 67,
+            "timestamp": {
+                "start": 67.0,
+                "end": 68.0
+            },
+            "emotions": {
+                "angry": 0.5242763280503836,
+                "calm": 0.24052415375229338,
+                "disgust": 0.5162294284398621,
+                "fearful": 0.47724943394006947,
+                "happy": 0.4964848186650112,
+                "neutral": 0.49621153492869136,
+                "sad": 0.7473341693793459,
+                "surprised": 0.6035425168696871
+            },
+            "transcript": "kills the unseen"
+        },
+        {
+            "index": 68,
+            "timestamp": {
+                "start": 68.0,
+                "end": 69.0
+            },
+            "emotions": {
+                "angry": 0.41665675820718256,
+                "calm": 0.5703722951506826,
+                "disgust": 0.4692665111569425,
+                "fearful": 0.5291027515958603,
+                "happy": 0.5727335024467272,
+                "neutral": 0.3613810030606063,
+                "sad": 0.6503104209179802,
+                "surprised": 0.5320291414893624
+            },
+            "transcript": "unseen good old"
+        },
+        {
+            "index": 69,
+            "timestamp": {
+                "start": 69.0,
+                "end": 70.0
+            },
+            "emotions": {
+                "angry": 0.4539913708059426,
+                "calm": 0.5541298425368273,
+                "disgust": 0.46175108133578757,
+                "fearful": 0.5421210577452895,
+                "happy": 0.5289457988445931,
+                "neutral": 0.38425860210384855,
+                "sad": 0.6333522963969137,
+                "surprised": 0.5433023342561409
+            },
+            "transcript": "old man."
+        },
+        {
+            "index": 70,
+            "timestamp": {
+                "start": 70.0,
+                "end": 71.0
+            },
+            "emotions": {
+                "angry": 0.3047120544905765,
+                "calm": 0.32819764598679974,
+                "disgust": 0.3262345344189461,
+                "fearful": 0.4384180757752086,
+                "happy": 0.30466442476609684,
+                "neutral": 0.9475188351511746,
+                "sad": 1.1714689609991573,
+                "surprised": 0.2806378524373834
+            },
+            "transcript": "Oh heavy deed,"
+        },
+        {
+            "index": 71,
+            "timestamp": {
+                "start": 71.0,
+                "end": 72.0
+            },
+            "emotions": {
+                "angry": 0.2374996988995865,
+                "calm": 0.31111655842271985,
+                "disgust": 0.2628795353919359,
+                "fearful": 0.4286844664675557,
+                "happy": 0.3441305790820424,
+                "neutral": 0.8866395019466762,
+                "sad": 1.2743786935408876,
+                "surprised": 0.35652335027394044
+            },
+            "transcript": "deed,"
+        },
+        {
+            "index": 72,
+            "timestamp": {
+                "start": 72.0,
+                "end": 73.0
+            },
+            "emotions": {
+                "angry": 0.1973776970530225,
+                "calm": 0.5636326818570011,
+                "disgust": 0.22711877398181574,
+                "fearful": 0.42006578238757236,
+                "happy": 0.5177981611745096,
+                "neutral": 0.9378271503216693,
+                "sad": 0.9413785778785049,
+                "surprised": 0.29665355937124843
+            },
+            "transcript": "it had been so"
+        },
+        {
+            "index": 73,
+            "timestamp": {
+                "start": 73.0,
+                "end": 74.0
+            },
+            "emotions": {
+                "angry": 0.3317830610938033,
+                "calm": 0.4053084938463316,
+                "disgust": 0.32174725020364586,
+                "fearful": 0.28271212826905395,
+                "happy": 0.28887183255792304,
+                "neutral": 1.0841358464708455,
+                "sad": 1.0696399166168795,
+                "surprised": 0.3176538549668603
+            },
+            "transcript": "so with us had we been"
+        },
+        {
+            "index": 74,
+            "timestamp": {
+                "start": 74.0,
+                "end": 75.0
+            },
+            "emotions": {
+                "angry": 0.3780048920327303,
+                "calm": 0.4574702237070958,
+                "disgust": 0.2814202135703272,
+                "fearful": 0.2823919056506867,
+                "happy": 0.2710834289357302,
+                "neutral": 0.9629848713483429,
+                "sad": 1.1367162323668336,
+                "surprised": 0.33178061641359746
+            },
+            "transcript": "been there."
+        },
+        {
+            "index": 75,
+            "timestamp": {
+                "start": 75.0,
+                "end": 76.0
+            },
+            "emotions": {
+                "angry": 0.7396636994385538,
+                "calm": 0.41860434504611116,
+                "disgust": 0.22075096787807083,
+                "fearful": 1.0610668973822375,
+                "happy": 0.4880898318994468,
+                "neutral": 0.548046203293465,
+                "sad": 0.28072593764343995,
+                "surprised": 0.34490450144401985
+            },
+            "transcript": "His liberty"
+        },
+        {
+            "index": 76,
+            "timestamp": {
+                "start": 76.0,
+                "end": 77.0
+            },
+            "emotions": {
+                "angry": 0.9606197549991965,
+                "calm": 0.23188926773181104,
+                "disgust": 0.32066084926160976,
+                "fearful": 1.0397803755547044,
+                "happy": 0.2772889121541162,
+                "neutral": 0.5690459283013889,
+                "sad": 0.34622545051123893,
+                "surprised": 0.3563418455112781
+            },
+            "transcript": "is full of threats to"
+        },
+        {
+            "index": 77,
+            "timestamp": {
+                "start": 77.0,
+                "end": 78.0
+            },
+            "emotions": {
+                "angry": 0.8883050140488494,
+                "calm": 0.14694201238477142,
+                "disgust": 0.27661668046063376,
+                "fearful": 1.1313954886311377,
+                "happy": 0.2875270775042056,
+                "neutral": 0.5155143535966376,
+                "sad": 0.4990635301016381,
+                "surprised": 0.35648822729747165
+            },
+            "transcript": "to all,"
+        },
+        {
+            "index": 78,
+            "timestamp": {
+                "start": 78.0,
+                "end": 79.0
+            },
+            "emotions": {
+                "angry": 0.9235608696110618,
+                "calm": 0.3571648946176914,
+                "disgust": 0.3151498082066788,
+                "fearful": 1.0122073397955678,
+                "happy": 0.280426373311404,
+                "neutral": 0.591167238637449,
+                "sad": 0.32114806596070106,
+                "surprised": 0.3010277938847905
+            },
+            "transcript": "to you yourself,"
+        },
+        {
+            "index": 79,
+            "timestamp": {
+                "start": 79.0,
+                "end": 80.0
+            },
+            "emotions": {
+                "angry": 0.8859319396492875,
+                "calm": 0.30707272535894753,
+                "disgust": 0.2645672324897445,
+                "fearful": 1.0925812822167926,
+                "happy": 0.32886398710471,
+                "neutral": 0.6006560657442347,
+                "sad": 0.34379495148124173,
+                "surprised": 0.2783841999803848
+            },
+            "transcript": "to us to everyone."
+        },
+        {
+            "index": 80,
+            "timestamp": {
+                "start": 80.0,
+                "end": 81.0
+            },
+            "emotions": {
+                "angry": 0.8206119169865624,
+                "calm": 0.3491050495480645,
+                "disgust": 0.29093819843772156,
+                "fearful": 1.145534287746434,
+                "happy": 0.3335862228588693,
+                "neutral": 0.43379899552988965,
+                "sad": 0.4159592084667431,
+                "surprised": 0.3123185044510593
+            },
+            "transcript": "everyone."
+        },
+        {
+            "index": 81,
+            "timestamp": {
+                "start": 81.0,
+                "end": 82.0
+            },
+            "emotions": {
+                "angry": 0.47982851636434354,
+                "calm": 0.5587397786671825,
+                "disgust": 0.5094954432130866,
+                "fearful": 0.6028410648154126,
+                "happy": 0.48700756861805994,
+                "neutral": 0.5135509646169769,
+                "sad": 0.4798623824631677,
+                "surprised": 0.47052666526711434
+            },
+            "transcript": "Last how shall this"
+        },
+        {
+            "index": 82,
+            "timestamp": {
+                "start": 82.0,
+                "end": 83.0
+            },
+            "emotions": {
+                "angry": 0.6210086336884727,
+                "calm": 0.3759110308076799,
+                "disgust": 0.50516369409364,
+                "fearful": 0.5465563670227365,
+                "happy": 0.412912661051552,
+                "neutral": 0.5659396631930513,
+                "sad": 0.597073150507815,
+                "surprised": 0.47728718366039585
+            },
+            "transcript": "this bloody deed be answered?"
+        },
+        {
+            "index": 83,
+            "timestamp": {
+                "start": 83.0,
+                "end": 84.0
+            },
+            "emotions": {
+                "angry": 0.3935666750171784,
+                "calm": 0.5944386107152743,
+                "disgust": 0.45488068395715126,
+                "fearful": 0.589279525667388,
+                "happy": 0.5492480041181489,
+                "neutral": 0.39509648065607894,
+                "sad": 0.598117904294832,
+                "surprised": 0.5272244995992923
+            },
+            "transcript": "answered? It will"
+        },
+        {
+            "index": 84,
+            "timestamp": {
+                "start": 84.0,
+                "end": 85.0
+            },
+            "emotions": {
+                "angry": 0.4321344266198168,
+                "calm": 0.6165790951934434,
+                "disgust": 0.38672996207575533,
+                "fearful": 0.4810642179832396,
+                "happy": 0.6132507973279142,
+                "neutral": 0.4929608643430195,
+                "sad": 0.5121906435303115,
+                "surprised": 0.5669423769518436
+            },
+            "transcript": "will be"
+        },
+        {
+            "index": 85,
+            "timestamp": {
+                "start": 85.0,
+                "end": 86.0
+            },
+            "emotions": {
+                "angry": 0.44110426546002784,
+                "calm": 0.4745271926123105,
+                "disgust": 0.48403369903546245,
+                "fearful": 0.4264169182513801,
+                "happy": 0.6412333044996635,
+                "neutral": 0.5241976625976693,
+                "sad": 0.5250588932736998,
+                "surprised": 0.5852804482951304
+            },
+            "transcript": "be laid to us whose providence"
+        },
+        {
+            "index": 86,
+            "timestamp": {
+                "start": 86.0,
+                "end": 87.0
+            },
+            "emotions": {
+                "angry": 0.47480567371368954,
+                "calm": 0.41335248650540724,
+                "disgust": 0.5142790860184171,
+                "fearful": 0.6108562459821871,
+                "happy": 0.5083182030018801,
+                "neutral": 0.4681307990091718,
+                "sad": 0.5933593565378298,
+                "surprised": 0.5187505332567608
+            },
+            "transcript": "providence should have kept"
+        },
+        {
+            "index": 87,
+            "timestamp": {
+                "start": 87.0,
+                "end": 88.0
+            },
+            "emotions": {
+                "angry": 0.45992916601811124,
+                "calm": 0.22532309635514958,
+                "disgust": 0.5279080749048994,
+                "fearful": 0.5087613924513689,
+                "happy": 0.5496586344028892,
+                "neutral": 0.4187819653270517,
+                "sad": 0.7731818542733894,
+                "surprised": 0.6383082002924846
+            },
+            "transcript": "kept short, restrained"
+        },
+        {
+            "index": 88,
+            "timestamp": {
+                "start": 88.0,
+                "end": 89.0
+            },
+            "emotions": {
+                "angry": 0.4777890191725333,
+                "calm": 0.3244671922540151,
+                "disgust": 0.5061000716989167,
+                "fearful": 0.49636154868941157,
+                "happy": 0.5434982293869391,
+                "neutral": 0.5435311983742472,
+                "sad": 0.6367798298168501,
+                "surprised": 0.5733252946324309
+            },
+            "transcript": "restrained and out of haunt this"
+        },
+        {
+            "index": 89,
+            "timestamp": {
+                "start": 89.0,
+                "end": 90.0
+            },
+            "emotions": {
+                "angry": 0.5886455624380957,
+                "calm": 0.6283604038127997,
+                "disgust": 0.44801613851327154,
+                "fearful": 0.433114157915451,
+                "happy": 0.4248900785923898,
+                "neutral": 0.45105119137643457,
+                "sad": 0.6070633375072216,
+                "surprised": 0.5207115138696801
+            },
+            "transcript": "this mad young man."
+        },
+        {
+            "index": 90,
+            "timestamp": {
+                "start": 90.0,
+                "end": 91.0
+            },
+            "emotions": {
+                "angry": 0.4242998168660412,
+                "calm": 0.4360057126838309,
+                "disgust": 0.3698599496500169,
+                "fearful": 0.5381366735894225,
+                "happy": 0.6577308793809938,
+                "neutral": 0.5086588131103327,
+                "sad": 0.5758525188613167,
+                "surprised": 0.5913080198833889
+            },
+            "transcript": "But"
+        },
+        {
+            "index": 91,
+            "timestamp": {
+                "start": 91.0,
+                "end": 92.0
+            },
+            "emotions": {
+                "angry": 0.48161398239733216,
+                "calm": 0.5200619892662328,
+                "disgust": 0.5614237144930433,
+                "fearful": 0.48505150395155516,
+                "happy": 0.5011208575000976,
+                "neutral": 0.5150536188201346,
+                "sad": 0.5342770054878154,
+                "surprised": 0.5032497121091328
+            },
+            "transcript": "But so much was our love,"
+        },
+        {
+            "index": 92,
+            "timestamp": {
+                "start": 92.0,
+                "end": 93.0
+            },
+            "emotions": {
+                "angry": 0.42657071488569337,
+                "calm": 0.6048903259027161,
+                "disgust": 0.4524921890549774,
+                "fearful": 0.4570267705503588,
+                "happy": 0.6583104029637674,
+                "neutral": 0.5966182498686807,
+                "sad": 0.45106599998412006,
+                "surprised": 0.4548777308150299
+            },
+            "transcript": "we would not understand"
+        },
+        {
+            "index": 93,
+            "timestamp": {
+                "start": 93.0,
+                "end": 94.0
+            },
+            "emotions": {
+                "angry": 0.48042091933571807,
+                "calm": 0.39860053305835,
+                "disgust": 0.48879414443519786,
+                "fearful": 0.4922413097477549,
+                "happy": 0.565710001691421,
+                "neutral": 0.6074469425941528,
+                "sad": 0.5503469031936881,
+                "surprised": 0.5182916299690605
+            },
+            "transcript": "understand what was most fit,"
+        },
+        {
+            "index": 94,
+            "timestamp": {
+                "start": 94.0,
+                "end": 95.0
+            },
+            "emotions": {
+                "angry": 0.3816416621582826,
+                "calm": 0.6914176079164758,
+                "disgust": 0.4013303161290442,
+                "fearful": 0.5618041776789019,
+                "happy": 0.7994056243014775,
+                "neutral": 0.44654773280108573,
+                "sad": 0.37256218207081665,
+                "surprised": 0.44714308096925953
+            },
+            "transcript": "fit, but like"
+        },
+        {
+            "index": 95,
+            "timestamp": {
+                "start": 95.0,
+                "end": 96.0
+            },
+            "emotions": {
+                "angry": 0.4059885610929476,
+                "calm": 0.4732584175174793,
+                "disgust": 0.4150604155648339,
+                "fearful": 0.46751396379579463,
+                "happy": 0.6364874299866758,
+                "neutral": 0.5598221968752292,
+                "sad": 0.5427516621421411,
+                "surprised": 0.6009697370502424
+            },
+            "transcript": "like the owner of a foul disease"
+        },
+        {
+            "index": 96,
+            "timestamp": {
+                "start": 96.0,
+                "end": 97.0
+            },
+            "emotions": {
+                "angry": 0.5490903690384563,
+                "calm": 0.5688771438202563,
+                "disgust": 0.41060671912097546,
+                "fearful": 0.4330499644085679,
+                "happy": 0.5221185979188145,
+                "neutral": 0.4837152231083887,
+                "sad": 0.585896317940021,
+                "surprised": 0.5484980486698634
+            },
+            "transcript": "disease to keep it from"
+        },
+        {
+            "index": 97,
+            "timestamp": {
+                "start": 97.0,
+                "end": 98.0
+            },
+            "emotions": {
+                "angry": 0.46924376906056375,
+                "calm": 0.6138685203148162,
+                "disgust": 0.5563293357161019,
+                "fearful": 0.4565039460525456,
+                "happy": 0.534672971061561,
+                "neutral": 0.45954494282502817,
+                "sad": 0.5251902374870097,
+                "surprised": 0.4864986615077171
+            },
+            "transcript": "from devolging,"
+        },
+        {
+            "index": 98,
+            "timestamp": {
+                "start": 98.0,
+                "end": 99.0
+            },
+            "emotions": {
+                "angry": 0.4385270011533507,
+                "calm": 0.5190554251447583,
+                "disgust": 0.4559339515404644,
+                "fearful": 0.5598459073411161,
+                "happy": 0.618677376087916,
+                "neutral": 0.42911872983554267,
+                "sad": 0.5562260475335064,
+                "surprised": 0.5244679453886893
+            },
+            "transcript": "let it feed even on"
+        },
+        {
+            "index": 99,
+            "timestamp": {
+                "start": 99.0,
+                "end": 100.0
+            },
+            "emotions": {
+                "angry": 0.48325954373369373,
+                "calm": 0.5298192678471243,
+                "disgust": 0.548344923365584,
+                "fearful": 0.5022546148403444,
+                "happy": 0.522173826860105,
+                "neutral": 0.48223683227542835,
+                "sad": 0.5097856736247945,
+                "surprised": 0.5239777014782692
+            },
+            "transcript": "on the pit of life."
+        },
+        {
+            "index": 100,
+            "timestamp": {
+                "start": 100.0,
+                "end": 101.0
+            },
+            "emotions": {
+                "angry": 0.2620854706216982,
+                "calm": 0.6237139333819475,
+                "disgust": 0.2448000505211852,
+                "fearful": 1.4359211242455294,
+                "happy": 0.6188884368260676,
+                "neutral": 0.3591777811421522,
+                "sad": 0.25913789211876753,
+                "surprised": 0.29812769516799686
+            },
+            "transcript": "Where's"
+        },
+        {
+            "index": 101,
+            "timestamp": {
+                "start": 101.0,
+                "end": 102.0
+            },
+            "emotions": {
+                "angry": 0.29975277885028184,
+                "calm": 0.4945118573995893,
+                "disgust": 0.37750919594329085,
+                "fearful": 1.303830538333855,
+                "happy": 0.41699723097429836,
+                "neutral": 0.33342181463501613,
+                "sad": 0.4826029589506951,
+                "surprised": 0.3932260089383176
+            },
+            "transcript": "Where's he gone?"
+        },
+        {
+            "index": 102,
+            "timestamp": {
+                "start": 102.0,
+                "end": 103.0
+            },
+            "emotions": {
+                "angry": 0.319801252630808,
+                "calm": 0.2955606924362533,
+                "disgust": 0.40026846829653095,
+                "fearful": 1.107181822628495,
+                "happy": 0.5283722998020519,
+                "neutral": 0.44439825418232815,
+                "sad": 0.5462997893250935,
+                "surprised": 0.4599698047237829
+            },
+            "transcript": "To draw apart the"
+        },
+        {
+            "index": 103,
+            "timestamp": {
+                "start": 103.0,
+                "end": 104.0
+            },
+            "emotions": {
+                "angry": 0.4757517559327445,
+                "calm": 0.29869347956736797,
+                "disgust": 0.3850611296302482,
+                "fearful": 0.9877306897952249,
+                "happy": 0.45648443620355494,
+                "neutral": 0.4850017036920601,
+                "sad": 0.5542860584762492,
+                "surprised": 0.4588431307278929
+            },
+            "transcript": "the body, he had killed."
+        },
+        {
+            "index": 104,
+            "timestamp": {
+                "start": 104.0,
+                "end": 105.0
+            },
+            "emotions": {
+                "angry": 0.0881330754003567,
+                "calm": 0.9528251419053978,
+                "disgust": 0.1355395703317416,
+                "fearful": 0.7327492687762006,
+                "happy": 0.4575994956297233,
+                "neutral": 0.9241782433051151,
+                "sad": 0.600267521652318,
+                "surprised": 0.21056006702449073
+            },
+            "transcript": "killed. Or"
+        },
+        {
+            "index": 105,
+            "timestamp": {
+                "start": 105.0,
+                "end": 106.0
+            },
+            "emotions": {
+                "angry": 0.1888286033106546,
+                "calm": 1.050080237982078,
+                "disgust": 0.24319346496282507,
+                "fearful": 0.3158708192736482,
+                "happy": 0.31870602364854106,
+                "neutral": 0.8553630224385256,
+                "sad": 0.8523081345448829,
+                "surprised": 0.2775020778641897
+            },
+            "transcript": "Or whom his very madness,"
+        },
+        {
+            "index": 106,
+            "timestamp": {
+                "start": 106.0,
+                "end": 107.0
+            },
+            "emotions": {
+                "angry": 0.22170234038000736,
+                "calm": 0.9557249259360163,
+                "disgust": 0.23504485280879783,
+                "fearful": 0.42996186058835556,
+                "happy": 0.2849814316927801,
+                "neutral": 0.8606779986129427,
+                "sad": 0.8781091138701222,
+                "surprised": 0.2356498601363223
+            },
+            "transcript": "madness, like"
+        },
+        {
+            "index": 107,
+            "timestamp": {
+                "start": 107.0,
+                "end": 108.0
+            },
+            "emotions": {
+                "angry": 0.26652355248768506,
+                "calm": 0.6117332447935555,
+                "disgust": 0.3275713471343365,
+                "fearful": 0.17954128060920926,
+                "happy": 0.28524157656720794,
+                "neutral": 0.9230744052682704,
+                "sad": 1.1111050878403241,
+                "surprised": 0.3970618893247569
+            },
+            "transcript": "like some or"
+        },
+        {
+            "index": 108,
+            "timestamp": {
+                "start": 108.0,
+                "end": 109.0
+            },
+            "emotions": {
+                "angry": 0.3383711700318769,
+                "calm": 0.5687791415168715,
+                "disgust": 0.28046099931477103,
+                "fearful": 0.228676570467375,
+                "happy": 0.2400845863690272,
+                "neutral": 1.0581256059607886,
+                "sad": 1.0628259128219908,
+                "surprised": 0.3245283975426439
+            },
+            "transcript": "or among a mineral"
+        },
+        {
+            "index": 109,
+            "timestamp": {
+                "start": 109.0,
+                "end": 110.0
+            },
+            "emotions": {
+                "angry": 0.274762641313794,
+                "calm": 0.7624090251557459,
+                "disgust": 0.23422374315351369,
+                "fearful": 0.31554535183125776,
+                "happy": 0.26049346651210187,
+                "neutral": 1.108794515681084,
+                "sad": 0.8786751014458514,
+                "surprised": 0.2669485389319972
+            },
+            "transcript": "mineral of metal's base,"
+        },
+        {
+            "index": 110,
+            "timestamp": {
+                "start": 110.0,
+                "end": 111.0
+            },
+            "emotions": {
+                "angry": 0.2410565045317544,
+                "calm": 0.7574063228312468,
+                "disgust": 0.331246789177643,
+                "fearful": 0.29502802375785997,
+                "happy": 0.2692031346690913,
+                "neutral": 0.9376567600923189,
+                "sad": 0.9376599393422348,
+                "surprised": 0.3325949096231947
+            },
+            "transcript": "shows itself pure."
+        },
+        {
+            "index": 111,
+            "timestamp": {
+                "start": 111.0,
+                "end": 112.0
+            },
+            "emotions": {
+                "angry": 0.1553736087587648,
+                "calm": 0.9376791533047488,
+                "disgust": 0.2710355796770513,
+                "fearful": 0.45963301787426236,
+                "happy": 0.35714017005879967,
+                "neutral": 0.9451860360178644,
+                "sad": 0.7567715502775685,
+                "surprised": 0.21903326805628529
+            },
+            "transcript": "pure."
+        },
+        {
+            "index": 112,
+            "timestamp": {
+                "start": 112.0,
+                "end": 113.0
+            },
+            "emotions": {
+                "angry": 0.3031302580168045,
+                "calm": 0.29955950029186185,
+                "disgust": 0.3215400385957386,
+                "fearful": 0.41687759492330817,
+                "happy": 0.5499629809007124,
+                "neutral": 0.4278114010802744,
+                "sad": 1.368578861851828,
+                "surprised": 0.41439174836481646
+            },
+            "transcript": "He weeps for"
+        },
+        {
+            "index": 113,
+            "timestamp": {
+                "start": 113.0,
+                "end": 114.0
+            },
+            "emotions": {
+                "angry": 0.34072632532094715,
+                "calm": 0.5352971315087843,
+                "disgust": 0.4050374503496891,
+                "fearful": 0.35125912146341076,
+                "happy": 0.4008498316576998,
+                "neutral": 0.39679129497146437,
+                "sad": 1.2864518676566932,
+                "surprised": 0.38543936109665544
+            },
+            "transcript": "for what it's done."
+        },
+        {
+            "index": 114,
+            "timestamp": {
+                "start": 114.0,
+                "end": 115.0
+            },
+            "emotions": {
+                "angry": 0.3413405923009327,
+                "calm": 0.19060439567389806,
+                "disgust": 0.359741447855541,
+                "fearful": 1.406602204283914,
+                "happy": 0.4349613584227782,
+                "neutral": 0.3751218203629235,
+                "sad": 0.5318630938646071,
+                "surprised": 0.4616174712607495
+            },
+            "transcript": "Oh Gertrude,"
+        },
+        {
+            "index": 115,
+            "timestamp": {
+                "start": 115.0,
+                "end": 116.0
+            },
+            "emotions": {
+                "angry": 0.37057105411184976,
+                "calm": 0.3185778068224497,
+                "disgust": 0.3709441841323882,
+                "fearful": 1.3074007389640234,
+                "happy": 0.4476165484714907,
+                "neutral": 0.2898840343976789,
+                "sad": 0.6007500794394559,
+                "surprised": 0.3961079376860077
+            },
+            "transcript": "Gertrude, come away."
+        },
+        {
+            "index": 116,
+            "timestamp": {
+                "start": 116.0,
+                "end": 117.0
+            },
+            "emotions": {
+                "angry": 0.36170086331802614,
+                "calm": 0.662388552990303,
+                "disgust": 0.4841110062080784,
+                "fearful": 0.4929666551602274,
+                "happy": 0.5954462612861231,
+                "neutral": 0.5225421901607445,
+                "sad": 0.45255497714470316,
+                "surprised": 0.5301418777571374
+            },
+            "transcript": "The sun knows sooner"
+        },
+        {
+            "index": 117,
+            "timestamp": {
+                "start": 117.0,
+                "end": 118.0
+            },
+            "emotions": {
+                "angry": 0.411662787795363,
+                "calm": 0.604720521160752,
+                "disgust": 0.505745389535014,
+                "fearful": 0.5196699631217377,
+                "happy": 0.5765008654094405,
+                "neutral": 0.47127160730184525,
+                "sad": 0.493456593377256,
+                "surprised": 0.5188246563239354
+            },
+            "transcript": "sooner shall the mountains touch,"
+        },
+        {
+            "index": 118,
+            "timestamp": {
+                "start": 118.0,
+                "end": 119.0
+            },
+            "emotions": {
+                "angry": 0.3982213697401341,
+                "calm": 0.5690204579874395,
+                "disgust": 0.4256949647237389,
+                "fearful": 0.5371522316284496,
+                "happy": 0.7014153864484427,
+                "neutral": 0.4664751343490694,
+                "sad": 0.47101061282459705,
+                "surprised": 0.5328622263234728
+            },
+            "transcript": "touch, but we will ship"
+        },
+        {
+            "index": 119,
+            "timestamp": {
+                "start": 119.0,
+                "end": 120.0
+            },
+            "emotions": {
+                "angry": 0.3673431791693746,
+                "calm": 0.47330493262776824,
+                "disgust": 0.4683492682225139,
+                "fearful": 0.5438288411664733,
+                "happy": 0.7161243023089665,
+                "neutral": 0.47887343885902545,
+                "sad": 0.5429227548070767,
+                "surprised": 0.5111056668641455
+            },
+            "transcript": "ship him hence."
+        }
+    ]
+}

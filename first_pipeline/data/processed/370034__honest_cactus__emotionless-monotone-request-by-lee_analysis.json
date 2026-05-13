@@ -1,0 +1,660 @@
+{
+    "raw_chunks": [
+        {
+            "index": 0,
+            "timestamp": {
+                "start": 0.0,
+                "end": 1.0
+            },
+            "emotions": {
+                "angry": 0.13679692149162292,
+                "calm": 0.125279501080513,
+                "disgust": 0.12769350409507751,
+                "fearful": 0.11607439815998077,
+                "happy": 0.11485937982797623,
+                "neutral": 0.12689244747161865,
+                "sad": 0.12268029153347015,
+                "surprised": 0.12972357869148254
+            },
+            "transcript": "Recrease from Lee"
+        },
+        {
+            "index": 1,
+            "timestamp": {
+                "start": 1.0,
+                "end": 2.0
+            },
+            "emotions": {
+                "angry": 0.12969084084033966,
+                "calm": 0.12673024833202362,
+                "disgust": 0.12603850662708282,
+                "fearful": 0.11727865785360336,
+                "happy": 0.12073816359043121,
+                "neutral": 0.1299934834241867,
+                "sad": 0.12630008161067963,
+                "surprised": 0.12323007732629776
+            },
+            "transcript": "Lee for Emotionalist"
+        },
+        {
+            "index": 2,
+            "timestamp": {
+                "start": 2.0,
+                "end": 3.0
+            },
+            "emotions": {
+                "angry": 0.1326971799135208,
+                "calm": 0.12468679249286652,
+                "disgust": 0.12965218722820282,
+                "fearful": 0.11869795620441437,
+                "happy": 0.1176348477602005,
+                "neutral": 0.12814989686012268,
+                "sad": 0.1267223209142685,
+                "surprised": 0.12175893038511276
+            },
+            "transcript": "Emotionalist Monatone."
+        },
+        {
+            "index": 3,
+            "timestamp": {
+                "start": 3.0,
+                "end": 4.0
+            },
+            "emotions": {
+                "angry": 0.12033801525831223,
+                "calm": 0.1312122941017151,
+                "disgust": 0.11719666421413422,
+                "fearful": 0.11515051126480103,
+                "happy": 0.13146141171455383,
+                "neutral": 0.1270228624343872,
+                "sad": 0.12947756052017212,
+                "surprised": 0.12814068794250488
+            },
+            "transcript": "Monatone."
+        },
+        {
+            "index": 4,
+            "timestamp": {
+                "start": 4.0,
+                "end": 5.0
+            },
+            "emotions": {
+                "angry": 0.13193610310554504,
+                "calm": 0.12174265086650848,
+                "disgust": 0.13332916796207428,
+                "fearful": 0.12212161719799042,
+                "happy": 0.11949962377548218,
+                "neutral": 0.12666217982769012,
+                "sad": 0.12586086988449097,
+                "surprised": 0.11884784698486328
+            },
+            "transcript": "I am a happy"
+        },
+        {
+            "index": 5,
+            "timestamp": {
+                "start": 5.0,
+                "end": 6.0
+            },
+            "emotions": {
+                "angry": 0.13812686502933502,
+                "calm": 0.12340370565652847,
+                "disgust": 0.1246558353304863,
+                "fearful": 0.11807849258184433,
+                "happy": 0.11586448550224304,
+                "neutral": 0.12817680835723877,
+                "sad": 0.12304060906171799,
+                "surprised": 0.12865324318408966
+            },
+            "transcript": "happy computer."
+        },
+        {
+            "index": 6,
+            "timestamp": {
+                "start": 6.0,
+                "end": 7.0
+            },
+            "emotions": {
+                "angry": 0.1266716569662094,
+                "calm": 0.1276577264070511,
+                "disgust": 0.12277479469776154,
+                "fearful": 0.11404360830783844,
+                "happy": 0.12569677829742432,
+                "neutral": 0.13147173821926117,
+                "sad": 0.13111110031604767,
+                "surprised": 0.12057264894247055
+            },
+            "transcript": "computer."
+        },
+        {
+            "index": 7,
+            "timestamp": {
+                "start": 7.0,
+                "end": 8.0
+            },
+            "emotions": {
+                "angry": 0.13793158531188965,
+                "calm": 0.1278807669878006,
+                "disgust": 0.1268020123243332,
+                "fearful": 0.11449246853590012,
+                "happy": 0.11533329635858536,
+                "neutral": 0.12778893113136292,
+                "sad": 0.1267934888601303,
+                "surprised": 0.12297753244638443
+            },
+            "transcript": "None"
+        },
+        {
+            "index": 8,
+            "timestamp": {
+                "start": 8.0,
+                "end": 9.0
+            },
+            "emotions": {
+                "angry": 0.1263931840658188,
+                "calm": 0.12601031363010406,
+                "disgust": 0.12502877414226532,
+                "fearful": 0.11402006447315216,
+                "happy": 0.1258275806903839,
+                "neutral": 0.1280631422996521,
+                "sad": 0.13317540287971497,
+                "surprised": 0.12148147821426392
+            },
+            "transcript": "I am a sad"
+        },
+        {
+            "index": 9,
+            "timestamp": {
+                "start": 9.0,
+                "end": 10.0
+            },
+            "emotions": {
+                "angry": 0.131694033741951,
+                "calm": 0.12512139976024628,
+                "disgust": 0.12502790987491608,
+                "fearful": 0.11890173703432083,
+                "happy": 0.11402394622564316,
+                "neutral": 0.13199388980865479,
+                "sad": 0.12767374515533447,
+                "surprised": 0.1255633533000946
+            },
+            "transcript": "sad computer."
+        },
+        {
+            "index": 10,
+            "timestamp": {
+                "start": 10.0,
+                "end": 11.0
+            },
+            "emotions": {
+                "angry": 0.13560503721237183,
+                "calm": 0.1225113496184349,
+                "disgust": 0.11946999281644821,
+                "fearful": 0.11010213196277618,
+                "happy": 0.12490314990282059,
+                "neutral": 0.12111536413431168,
+                "sad": 0.12596721947193146,
+                "surprised": 0.140325665473938
+            },
+            "transcript": "Your"
+        },
+        {
+            "index": 11,
+            "timestamp": {
+                "start": 11.0,
+                "end": 12.0
+            },
+            "emotions": {
+                "angry": 0.12057666480541229,
+                "calm": 0.12228886783123016,
+                "disgust": 0.1205773577094078,
+                "fearful": 0.12838102877140045,
+                "happy": 0.13045787811279297,
+                "neutral": 0.12834540009498596,
+                "sad": 0.123581662774086,
+                "surprised": 0.12579116225242615
+            },
+            "transcript": "Your computer is"
+        },
+        {
+            "index": 12,
+            "timestamp": {
+                "start": 12.0,
+                "end": 13.0
+            },
+            "emotions": {
+                "angry": 0.13247039914131165,
+                "calm": 0.12436732649803162,
+                "disgust": 0.12939323484897614,
+                "fearful": 0.11653458327054977,
+                "happy": 0.11821825802326202,
+                "neutral": 0.13209058344364166,
+                "sad": 0.12597964704036713,
+                "surprised": 0.12094597518444061
+            },
+            "transcript": "is angry at"
+        },
+        {
+            "index": 13,
+            "timestamp": {
+                "start": 13.0,
+                "end": 14.0
+            },
+            "emotions": {
+                "angry": 0.1322513222694397,
+                "calm": 0.12426383048295975,
+                "disgust": 0.13049063086509705,
+                "fearful": 0.11919157207012177,
+                "happy": 0.11954665929079056,
+                "neutral": 0.12767358124256134,
+                "sad": 0.12662900984287262,
+                "surprised": 0.11995331943035126
+            },
+            "transcript": "at you."
+        },
+        {
+            "index": 14,
+            "timestamp": {
+                "start": 14.0,
+                "end": 15.0
+            },
+            "emotions": {
+                "angry": 0.13690875470638275,
+                "calm": 0.12848877906799316,
+                "disgust": 0.12203066796064377,
+                "fearful": 0.10890081524848938,
+                "happy": 0.11631186306476593,
+                "neutral": 0.13073644042015076,
+                "sad": 0.12650994956493378,
+                "surprised": 0.13011279702186584
+            },
+            "transcript": "None"
+        }
+    ],
+    "sentences": [
+        {
+            "sentence_index": 0,
+            "timestamp": {
+                "start": 0.0,
+                "end": 3.08
+            },
+            "transcript": "Recrease from Lee for Emotionalist Monatone.",
+            "average_emotions": {
+                "angry": 0.12988073284406254,
+                "calm": 0.12697720261591586,
+                "disgust": 0.1251452092473942,
+                "fearful": 0.11680037499664328,
+                "happy": 0.12117344462930596,
+                "neutral": 0.1280146661095396,
+                "sad": 0.12629505729308996,
+                "surprised": 0.1257133122640486
+            },
+            "llm_text_scores": {
+                "angry": 7,
+                "calm": 0,
+                "disgust": 9,
+                "fearful": 6,
+                "happy": 2,
+                "neutral": 3,
+                "sad": 4,
+                "surprised": 1
+            }
+        },
+        {
+            "sentence_index": 1,
+            "timestamp": {
+                "start": 4.02,
+                "end": 6.32
+            },
+            "transcript": "I am a happy computer.",
+            "average_emotions": {
+                "angry": 0.13224486813658914,
+                "calm": 0.12426802116228033,
+                "disgust": 0.12691992604405072,
+                "fearful": 0.11808123320414152,
+                "happy": 0.12035362291478593,
+                "neutral": 0.1287702354188389,
+                "sad": 0.12667085314768572,
+                "surprised": 0.12269123997162769
+            },
+            "llm_text_scores": {
+                "angry": 0,
+                "calm": 10,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 10,
+                "neutral": 1,
+                "sad": 0,
+                "surprised": 0
+            }
+        },
+        {
+            "sentence_index": 2,
+            "timestamp": {
+                "start": 8.080000000000002,
+                "end": 9.84
+            },
+            "transcript": "I am a sad computer.",
+            "average_emotions": {
+                "angry": 0.12904361178823437,
+                "calm": 0.12556585950179083,
+                "disgust": 0.12502834480319197,
+                "fearful": 0.11646090335684053,
+                "happy": 0.11992576613856329,
+                "neutral": 0.13002851896051731,
+                "sad": 0.13042457693274118,
+                "surprised": 0.12352241851812046
+            },
+            "llm_text_scores": {
+                "angry": 0,
+                "calm": 0,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 0,
+                "sad": 10,
+                "surprised": 0
+            }
+        },
+        {
+            "sentence_index": 3,
+            "timestamp": {
+                "start": 10.78,
+                "end": 13.52
+            },
+            "transcript": "Your computer is angry at you.",
+            "average_emotions": {
+                "angry": 0.13022586022329607,
+                "calm": 0.12335784774355825,
+                "disgust": 0.12498280825035749,
+                "fearful": 0.11855233299348875,
+                "happy": 0.1232814904657506,
+                "neutral": 0.12730623649714934,
+                "sad": 0.1255393889913503,
+                "surprised": 0.12675403483504918
+            },
+            "llm_text_scores": {
+                "angry": 10,
+                "calm": 0,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 0,
+                "sad": 0,
+                "surprised": 0
+            }
+        }
+    ],
+    "boosted_chunks": [
+        {
+            "index": 0,
+            "timestamp": {
+                "start": 0.0,
+                "end": 1.0
+            },
+            "emotions": {
+                "angry": 0.1367969184339735,
+                "calm": 0.125279498280298,
+                "disgust": 0.12769350124090534,
+                "fearful": 0.11607439556551585,
+                "happy": 0.11485937726066908,
+                "neutral": 0.1268924446353515,
+                "sad": 0.12268028879135201,
+                "surprised": 0.12972357579193466
+            },
+            "transcript": "Recrease from Lee for Emotionalist Monatone."
+        },
+        {
+            "index": 1,
+            "timestamp": {
+                "start": 1.0,
+                "end": 2.0
+            },
+            "emotions": {
+                "angry": 0.12969083311016363,
+                "calm": 0.12673024077831263,
+                "disgust": 0.12603849911460285,
+                "fearful": 0.11727865086325104,
+                "happy": 0.12073815639387629,
+                "neutral": 0.12999347567597178,
+                "sad": 0.12630007408260857,
+                "surprised": 0.12323006998121322
+            },
+            "transcript": "Recrease from Lee for Emotionalist Monatone."
+        },
+        {
+            "index": 2,
+            "timestamp": {
+                "start": 2.0,
+                "end": 3.0
+            },
+            "emotions": {
+                "angry": 0.13269716508345697,
+                "calm": 0.12468677855803312,
+                "disgust": 0.12965217273844337,
+                "fearful": 0.11869794293888551,
+                "happy": 0.11763483461348326,
+                "neutral": 0.12814988253825726,
+                "sad": 0.1267223067519471,
+                "surprised": 0.12175891677749343
+            },
+            "transcript": "Recrease from Lee for Emotionalist Monatone."
+        },
+        {
+            "index": 3,
+            "timestamp": {
+                "start": 3.0,
+                "end": 4.0
+            },
+            "emotions": {
+                "angry": 0.12033801436172414,
+                "calm": 0.13121229312410732,
+                "disgust": 0.11719666334095102,
+                "fearful": 0.11515051040686286,
+                "happy": 0.13146141073509,
+                "neutral": 0.12702286148799313,
+                "sad": 0.12947755955548912,
+                "surprised": 0.12814068698778236
+            },
+            "transcript": "Recrease from Lee for Emotionalist Monatone."
+        },
+        {
+            "index": 4,
+            "timestamp": {
+                "start": 4.0,
+                "end": 5.0
+            },
+            "emotions": {
+                "angry": 0.11707316118570227,
+                "calm": 0.16204204140394687,
+                "disgust": 0.1183092936972114,
+                "fearful": 0.10836430240054648,
+                "happy": 0.15905652493812916,
+                "neutral": 0.11801302689983847,
+                "sad": 0.11168231863853213,
+                "surprised": 0.1054593308360932
+            },
+            "transcript": "I am a happy computer."
+        },
+        {
+            "index": 5,
+            "timestamp": {
+                "start": 5.0,
+                "end": 6.0
+            },
+            "emotions": {
+                "angry": 0.12266571294053032,
+                "calm": 0.16438587305930577,
+                "disgust": 0.11070255529048594,
+                "fearful": 0.1048614436620924,
+                "happy": 0.15434289030886875,
+                "neutral": 0.11952088071393925,
+                "sad": 0.10926812845558559,
+                "surprised": 0.114252515569192
+            },
+            "transcript": "I am a happy computer."
+        },
+        {
+            "index": 6,
+            "timestamp": {
+                "start": 6.0,
+                "end": 7.0
+            },
+            "emotions": {
+                "angry": 0.11177724008475426,
+                "calm": 0.16897104697716134,
+                "disgust": 0.10833858206298612,
+                "fearful": 0.10063403362093397,
+                "happy": 0.16637548567055466,
+                "neutral": 0.12181355971190294,
+                "sad": 0.1156946809475505,
+                "surprised": 0.10639537092415619
+            },
+            "transcript": "I am a happy computer."
+        },
+        {
+            "index": 7,
+            "timestamp": {
+                "start": 7.0,
+                "end": 8.0
+            },
+            "emotions": {
+                "angry": 0.13793158531188965,
+                "calm": 0.1278807669878006,
+                "disgust": 0.1268020123243332,
+                "fearful": 0.11449246853590012,
+                "happy": 0.11533329635858536,
+                "neutral": 0.12778893113136292,
+                "sad": 0.1267934888601303,
+                "surprised": 0.12297753244638443
+            },
+            "transcript": "None"
+        },
+        {
+            "index": 8,
+            "timestamp": {
+                "start": 8.0,
+                "end": 9.0
+            },
+            "emotions": {
+                "angry": 0.11850238940359528,
+                "calm": 0.1181434217757162,
+                "disgust": 0.11722316032758066,
+                "fearful": 0.10690173034160114,
+                "happy": 0.11797209695199545,
+                "neutral": 0.1200680912440553,
+                "sad": 0.18729178595755355,
+                "surprised": 0.11389732399790241
+            },
+            "transcript": "I am a sad computer."
+        },
+        {
+            "index": 9,
+            "timestamp": {
+                "start": 9.0,
+                "end": 10.0
+            },
+            "emotions": {
+                "angry": 0.12379156550404147,
+                "calm": 0.1176133307961991,
+                "disgust": 0.11752545089051941,
+                "fearful": 0.1117668868543413,
+                "happy": 0.10718179409614838,
+                "neutral": 0.12407342832552572,
+                "sad": 0.18001877918226725,
+                "surprised": 0.11802876435095738
+            },
+            "transcript": "I am a sad computer."
+        },
+        {
+            "index": 10,
+            "timestamp": {
+                "start": 10.0,
+                "end": 11.0
+            },
+            "emotions": {
+                "angry": 0.19049175227209397,
+                "calm": 0.11473222598895033,
+                "disgust": 0.11188398672780957,
+                "fearful": 0.10311095849945341,
+                "happy": 0.11697215373118199,
+                "neutral": 0.11342488162828042,
+                "sad": 0.11796865789713416,
+                "surprised": 0.13141538325509614
+            },
+            "transcript": "Your computer is angry at you."
+        },
+        {
+            "index": 11,
+            "timestamp": {
+                "start": 11.0,
+                "end": 12.0
+            },
+            "emotions": {
+                "angry": 0.17058095224483055,
+                "calm": 0.11533548141208344,
+                "disgust": 0.11372128833512682,
+                "fearful": 0.12108124001902501,
+                "happy": 0.12303999900386126,
+                "neutral": 0.1210476372012116,
+                "sad": 0.1165547675968829,
+                "surprised": 0.11863863418697841
+            },
+            "transcript": "Your computer is angry at you."
+        },
+        {
+            "index": 12,
+            "timestamp": {
+                "start": 12.0,
+                "end": 13.0
+            },
+            "emotions": {
+                "angry": 0.18636188094660225,
+                "calm": 0.11664154933082656,
+                "disgust": 0.12135524506873556,
+                "fearful": 0.10929538107835969,
+                "happy": 0.11087446488803426,
+                "neutral": 0.12388503265866252,
+                "sad": 0.11815371149890942,
+                "surprised": 0.11343273452986974
+            },
+            "transcript": "Your computer is angry at you."
+        },
+        {
+            "index": 13,
+            "timestamp": {
+                "start": 13.0,
+                "end": 14.0
+            },
+            "emotions": {
+                "angry": 0.1860728097066191,
+                "calm": 0.11655646580613606,
+                "disgust": 0.12239705387590223,
+                "fearful": 0.11179881016363671,
+                "happy": 0.11213187338350705,
+                "neutral": 0.11975472950261408,
+                "sad": 0.11877494680835228,
+                "surprised": 0.11251331075323248
+            },
+            "transcript": "Your computer is angry at you."
+        },
+        {
+            "index": 14,
+            "timestamp": {
+                "start": 14.0,
+                "end": 15.0
+            },
+            "emotions": {
+                "angry": 0.13690875470638275,
+                "calm": 0.12848877906799316,
+                "disgust": 0.12203066796064377,
+                "fearful": 0.10890081524848938,
+                "happy": 0.11631186306476593,
+                "neutral": 0.13073644042015076,
+                "sad": 0.12650994956493378,
+                "surprised": 0.13011279702186584
+            },
+            "transcript": "None"
+        }
+    ]
+}

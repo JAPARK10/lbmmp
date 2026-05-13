@@ -1,0 +1,21 @@
+[
+    {
+        "index": 0,
+        "timestamp": {
+            "start": 0.0,
+            "end": 4.0
+        },
+        "emotions": {
+            "angry": 0.1288418024778366,
+            "calm": 0.13235878944396973,
+            "disgust": 0.11419496685266495,
+            "fearful": 0.13121217489242554,
+            "happy": 0.1343061476945877,
+            "neutral": 0.11226586997509003,
+            "sad": 0.1115928441286087,
+            "surprised": 0.13522744178771973
+        },
+        "transcript": "Hey dude, I rock. Yeah.",
+        "content_summary": "Hey dude, I"
+    }
+]

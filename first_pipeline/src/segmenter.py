@@ -3,7 +3,7 @@ from pathlib import Path
 import os
 
 class AudioSegmenter:
-    def __init__(self, segment_length_ms=2000, output_dir="data/processed/segments"):
+    def __init__(self, segment_length_ms=1000, output_dir="data/processed/segments"):
         """
         Initializes the segmenter.
         

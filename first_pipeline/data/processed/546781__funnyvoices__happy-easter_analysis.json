@@ -1,0 +1,21 @@
+[
+    {
+        "index": 0,
+        "timestamp": {
+            "start": 0.0,
+            "end": 2.0
+        },
+        "emotions": {
+            "angry": 0.13322997093200684,
+            "calm": 0.12468946725130081,
+            "disgust": 0.120905801653862,
+            "fearful": 0.13212978839874268,
+            "happy": 0.12189275026321411,
+            "neutral": 0.12333353608846664,
+            "sad": 0.1314624696969986,
+            "surprised": 0.11235620081424713
+        },
+        "transcript": "Happy Easter!",
+        "content_summary": "Happy Easter!"
+    }
+]
