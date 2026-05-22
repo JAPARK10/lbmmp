@@ -1,21 +1,42 @@
-[
-    {
-        "index": 0,
-        "timestamp": {
-            "start": 0.0,
-            "end": 2.0
-        },
-        "emotions": {
-            "angry": 0.13322997093200684,
-            "calm": 0.12468946725130081,
-            "disgust": 0.120905801653862,
-            "fearful": 0.13212978839874268,
-            "happy": 0.12189275026321411,
-            "neutral": 0.12333353608846664,
-            "sad": 0.1314624696969986,
-            "surprised": 0.11235620081424713
-        },
-        "transcript": "Happy Easter!",
-        "content_summary": "Happy Easter!"
-    }
-]
+{
+    "sentences": [
+        {
+            "sentence_index": 0,
+            "timestamp": {
+                "start": 0.0,
+                "end": 1.1
+            },
+            "transcript": "Happy Easter!",
+            "acoustic_emotion": {
+                "angry": 1.0815763430652632,
+                "calm": 1.9893181444495116,
+                "disgust": 0.8640675557871943,
+                "fearful": 2.0,
+                "happy": 1.9365566279188808,
+                "neutral": 0.0,
+                "sad": 0.6356920155983881,
+                "surprised": 0.16881128990727212
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 10,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 10,
+                "neutral": 0,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.12291733099932121,
+                "calm": 0.1319177280723337,
+                "disgust": 0.12275691338505632,
+                "fearful": 0.12359700368752918,
+                "happy": 0.13185505886698068,
+                "neutral": 0.12212170930750721,
+                "sad": 0.122588706600961,
+                "surprised": 0.12224554908031071
+            }
+        }
+    ]
+}

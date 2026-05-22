@@ -453,9 +453,9 @@
             displayVectors.boosted[e] += (targets.boosted[e] - displayVectors.boosted[e]) * smoothFactor;
             
             // Update DOM Bars
-            updateDOMBar('raw', e, displayVectors.raw[e], 50); 
+            updateDOMBar('raw', e, displayVectors.raw[e], 50); // Raw is globally normalized 0-2
             updateDOMBar('llm', e, displayVectors.llm[e] / 10, 100);
-            updateDOMBar('boosted', e, displayVectors.boosted[e], 50);
+            updateDOMBar('boosted', e, displayVectors.boosted[e], 100); // Fused is Softmax 0-1
         });
 
         // ALL-VECTORS MIX: Blend all 8 emotions to capture the full spectrum combination
@@ -546,26 +546,27 @@
 
         if(!currentData) return result;
 
-        // A) Search Raw Chunks
-        if (currentData.raw_chunks) {
+        if (currentData.sentences) {
+            const sent = currentData.sentences.find(s => time >= s.timestamp.start && time <= s.timestamp.end);
+            if (sent) {
+                if (sent.acoustic_emotion) result.raw = sent.acoustic_emotion;
+                if (sent.text_emotion) result.llm = sent.text_emotion;
+                if (sent.fused_emotion) result.boosted = sent.fused_emotion;
+                result.text = sent.transcript;
+                result.sentenceText = sent.transcript;
+            }
+        }
+
+        // Backward compatibility for old raw_chunks
+        if (currentData.raw_chunks && !currentData.sentences?.find(s => time >= s.timestamp.start && time <= s.timestamp.end)) {
             const chunk = currentData.raw_chunks.find(c => time >= c.timestamp.start && time <= c.timestamp.end);
             if (chunk) {
                 result.raw = chunk.emotions;
                 result.text = chunk.transcript;
             }
         }
-
-        // B) Search Sentences for LLM Confidence Scores
-        if (currentData.sentences) {
-            const sent = currentData.sentences.find(s => time >= s.timestamp.start && time <= s.timestamp.end);
-            if (sent) {
-                result.llm = sent.llm_text_scores;
-                result.sentenceText = sent.transcript;
-            }
-        }
-
-        // C) Search Boosted
-        if (currentData.boosted_chunks) {
+        
+        if (currentData.boosted_chunks && !currentData.sentences?.find(s => time >= s.timestamp.start && time <= s.timestamp.end)) {
             const bchunk = currentData.boosted_chunks.find(c => time >= c.timestamp.start && time <= c.timestamp.end);
             if (bchunk) {
                 result.boosted = bchunk.emotions;

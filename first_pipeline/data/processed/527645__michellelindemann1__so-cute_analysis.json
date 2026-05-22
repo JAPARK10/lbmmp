@@ -1,175 +1,4 @@
 {
-    "raw_chunks": [
-        {
-            "index": 0,
-            "timestamp": {
-                "start": 0.0,
-                "end": 1.0
-            },
-            "emotions": {
-                "angry": 0.1325462907552719,
-                "calm": 0.11422103643417358,
-                "disgust": 0.12166741490364075,
-                "fearful": 0.13059046864509583,
-                "happy": 0.1241895779967308,
-                "neutral": 0.12046872079372406,
-                "sad": 0.13013425469398499,
-                "surprised": 0.1261822134256363
-            },
-            "sentence_index": null,
-            "content_summary": "None"
-        },
-        {
-            "index": 1,
-            "timestamp": {
-                "start": 1.0,
-                "end": 2.0
-            },
-            "emotions": {
-                "angry": 0.13396796584129333,
-                "calm": 0.12441590428352356,
-                "disgust": 0.1253499537706375,
-                "fearful": 0.1388022005558014,
-                "happy": 0.1211586445569992,
-                "neutral": 0.11579611152410507,
-                "sad": 0.12224175035953522,
-                "surprised": 0.11826753616333008
-            },
-            "sentence_index": null,
-            "content_summary": "None"
-        },
-        {
-            "index": 2,
-            "timestamp": {
-                "start": 2.0,
-                "end": 3.0
-            },
-            "emotions": {
-                "angry": 0.13905668258666992,
-                "calm": 0.12322356551885605,
-                "disgust": 0.12076419591903687,
-                "fearful": 0.13580743968486786,
-                "happy": 0.11644665896892548,
-                "neutral": 0.11471474915742874,
-                "sad": 0.12775230407714844,
-                "surprised": 0.12223435938358307
-            },
-            "sentence_index": null,
-            "content_summary": "None"
-        },
-        {
-            "index": 3,
-            "timestamp": {
-                "start": 3.0,
-                "end": 4.0
-            },
-            "emotions": {
-                "angry": 0.13366073369979858,
-                "calm": 0.11867842823266983,
-                "disgust": 0.11977981775999069,
-                "fearful": 0.13600978255271912,
-                "happy": 0.13170501589775085,
-                "neutral": 0.12000557780265808,
-                "sad": 0.12381960451602936,
-                "surprised": 0.11634106934070587
-            },
-            "sentence_index": null,
-            "content_summary": "None"
-        },
-        {
-            "index": 4,
-            "timestamp": {
-                "start": 4.0,
-                "end": 5.0
-            },
-            "emotions": {
-                "angry": 0.12511973083019257,
-                "calm": 0.12205173820257187,
-                "disgust": 0.13070978224277496,
-                "fearful": 0.1295803040266037,
-                "happy": 0.1250026673078537,
-                "neutral": 0.11519935727119446,
-                "sad": 0.12771175801753998,
-                "surprised": 0.12462455779314041
-            },
-            "sentence_index": null,
-            "content_summary": "None"
-        },
-        {
-            "index": 5,
-            "timestamp": {
-                "start": 5.0,
-                "end": 6.0
-            },
-            "emotions": {
-                "angry": 0.13575595617294312,
-                "calm": 0.12253221124410629,
-                "disgust": 0.1221032366156578,
-                "fearful": 0.13516207039356232,
-                "happy": 0.11865914613008499,
-                "neutral": 0.11948730051517487,
-                "sad": 0.12551885843276978,
-                "surprised": 0.12078126519918442
-            },
-            "sentence_index": null,
-            "content_summary": "None"
-        },
-        {
-            "index": 6,
-            "timestamp": {
-                "start": 6.0,
-                "end": 7.0
-            },
-            "emotions": {
-                "angry": 0.13045525550842285,
-                "calm": 0.13841162621974945,
-                "disgust": 0.1360977739095688,
-                "fearful": 0.13013909757137299,
-                "happy": 0.11136177182197571,
-                "neutral": 0.12024519592523575,
-                "sad": 0.11942031979560852,
-                "surprised": 0.11386900395154953
-            },
-            "sentence_index": null,
-            "content_summary": "None"
-        }
-    ],
-    "sentence_averages": [
-        {
-            "sentence_index": 0,
-            "timestamp": {
-                "start": 0.0,
-                "end": 2.94
-            },
-            "average_emotions": {
-                "angry": 0.1351903130610784,
-                "calm": 0.12062016874551773,
-                "disgust": 0.12259385486443837,
-                "fearful": 0.1350667029619217,
-                "happy": 0.12059829384088516,
-                "neutral": 0.11699319382508595,
-                "sad": 0.12670943637688956,
-                "surprised": 0.12222803632418315
-            }
-        },
-        {
-            "sentence_index": 1,
-            "timestamp": {
-                "start": 3.58,
-                "end": 6.1
-            },
-            "average_emotions": {
-                "angry": 0.1312479185639027,
-                "calm": 0.12541850050755404,
-                "disgust": 0.12717265215824303,
-                "fearful": 0.13272281314163353,
-                "happy": 0.12168214983611499,
-                "neutral": 0.11873435743624584,
-                "sad": 0.12411763472811269,
-                "surprised": 0.11890397362819324
-            }
-        }
-    ],
     "sentences": [
         {
             "sentence_index": 0,
@@ -178,153 +7,74 @@
                 "end": 2.94
             },
             "transcript": "Ah, so cute.",
-            "summary": "Cute. \n\nThis summary captures the essence of the original sentence by using only two words - \"C",
-            "llm_emotion": "neutral"
+            "acoustic_emotion": {
+                "angry": 0.8564102580913117,
+                "calm": 0.0,
+                "disgust": 1.8478679677058873,
+                "fearful": 1.1958898402176368,
+                "happy": 0.9302825980704698,
+                "neutral": 0.5483016875112888,
+                "sad": 0.7526938258112291,
+                "surprised": 1.6852776203399542
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 10,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 10,
+                "neutral": 1,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.1228585217850908,
+                "calm": 0.12879847315585188,
+                "disgust": 0.12425062669378961,
+                "fearful": 0.12333341995379218,
+                "happy": 0.1308572462751058,
+                "neutral": 0.12316665715449315,
+                "sad": 0.12271379781346223,
+                "surprised": 0.12402125716841436
+            }
         },
         {
             "sentence_index": 1,
             "timestamp": {
                 "start": 3.58,
-                "end": 6.1
+                "end": 6.12
             },
-            "transcript": "Ah, she's so cute.",
-            "summary": "She is adorable. \n\nThis summary captures the essence of the original sentence by using \"adorable\"",
-            "llm_emotion": "calm"
-        }
-    ],
-    "boosted_chunks": [
-        {
-            "index": 0,
-            "timestamp": {
-                "start": 0.0,
-                "end": 1.0
+            "transcript": "Ah, she's so cute!",
+            "acoustic_emotion": {
+                "angry": 0.6787572359024673,
+                "calm": 0.28389421445774204,
+                "disgust": 2.0,
+                "fearful": 1.08977649219642,
+                "happy": 0.7375518219936033,
+                "neutral": 0.5521232470996565,
+                "sad": 0.6134629171369314,
+                "surprised": 1.8611532796802714
             },
-            "emotions": {
-                "angry": 0.1250160327759835,
-                "calm": 0.10773187807214059,
-                "disgust": 0.11475521074706313,
-                "fearful": 0.12317132539385675,
-                "happy": 0.11713408398535163,
-                "neutral": 0.17043692578734035,
-                "sad": 0.12274103000090428,
-                "surprised": 0.11901351323735977
+            "text_emotion": {
+                "angry": 0,
+                "calm": 10,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 10,
+                "neutral": 9,
+                "sad": 0,
+                "surprised": 0
             },
-            "sentence_index": 0,
-            "content_summary": "Cute. \n\nThis summary captures the essence of the original sentence by using only two words - \"C"
-        },
-        {
-            "index": 1,
-            "timestamp": {
-                "start": 1.0,
-                "end": 2.0
-            },
-            "emotions": {
-                "angry": 0.1266359803007539,
-                "calm": 0.11760669728025683,
-                "disgust": 0.11848962680529133,
-                "fearful": 0.13120564028052026,
-                "happy": 0.1145277054035627,
-                "neutral": 0.1641879908280718,
-                "sad": 0.11555153348225483,
-                "surprised": 0.11179482561928836
-            },
-            "sentence_index": 0,
-            "content_summary": "Cute. \n\nThis summary captures the essence of the original sentence by using only two words - \"C"
-        },
-        {
-            "index": 2,
-            "timestamp": {
-                "start": 2.0,
-                "end": 3.0
-            },
-            "emotions": {
-                "angry": 0.1315134237572068,
-                "calm": 0.11653918882218989,
-                "disgust": 0.11421323000927903,
-                "fearful": 0.1284404390527971,
-                "happy": 0.11012990185887896,
-                "neutral": 0.16273791165418772,
-                "sad": 0.12082226175348246,
-                "surprised": 0.11560364309197804
-            },
-            "sentence_index": 0,
-            "content_summary": "Cute. \n\nThis summary captures the essence of the original sentence by using only two words - \"C"
-        },
-        {
-            "index": 3,
-            "timestamp": {
-                "start": 3.0,
-                "end": 4.0
-            },
-            "emotions": {
-                "angry": 0.1261736827622539,
-                "calm": 0.16804592425981535,
-                "disgust": 0.11307031099584954,
-                "fearful": 0.12839114885388198,
-                "happy": 0.12432751515043843,
-                "neutral": 0.11328342501382198,
-                "sad": 0.11688380773849345,
-                "surprised": 0.10982418522544538
-            },
-            "sentence_index": 1,
-            "content_summary": "She is adorable. \n\nThis summary captures the essence of the original sentence by using \"adorable\""
-        },
-        {
-            "index": 4,
-            "timestamp": {
-                "start": 4.0,
-                "end": 5.0
-            },
-            "emotions": {
-                "angry": 0.11792336716213872,
-                "calm": 0.17254774896022246,
-                "disgust": 0.12319190219500115,
-                "fearful": 0.12212738684235894,
-                "happy": 0.11781303664404646,
-                "neutral": 0.10857357200336419,
-                "sad": 0.1203663117854983,
-                "surprised": 0.11745667440736977
-            },
-            "sentence_index": 1,
-            "content_summary": "She is adorable. \n\nThis summary captures the essence of the original sentence by using \"adorable\""
-        },
-        {
-            "index": 5,
-            "timestamp": {
-                "start": 5.0,
-                "end": 6.0
-            },
-            "emotions": {
-                "angry": 0.1279188600628606,
-                "calm": 0.1731877689774431,
-                "disgust": 0.11505430242753281,
-                "fearful": 0.12735925889288205,
-                "happy": 0.11180903686948561,
-                "neutral": 0.11258938248291711,
-                "sad": 0.11827274279337718,
-                "surprised": 0.11380864749350153
-            },
-            "sentence_index": 1,
-            "content_summary": "She is adorable. \n\nThis summary captures the essence of the original sentence by using \"adorable\""
-        },
-        {
-            "index": 6,
-            "timestamp": {
-                "start": 6.0,
-                "end": 7.0
-            },
-            "emotions": {
-                "angry": 0.12201135502120983,
-                "calm": 0.1941791076175212,
-                "disgust": 0.1272886534571588,
-                "fearful": 0.12171566085273937,
-                "happy": 0.10415372400757567,
-                "neutral": 0.11246215595110018,
-                "sad": 0.11169067109287635,
-                "surprised": 0.1064986719998186
-            },
-            "sentence_index": 1,
-            "content_summary": "She is adorable. \n\nThis summary captures the essence of the original sentence by using \"adorable\""
+            "fused_emotion": {
+                "angry": 0.12186259451186243,
+                "calm": 0.1286335848172308,
+                "disgust": 0.12370617087092471,
+                "fearful": 0.12243314069685332,
+                "happy": 0.12963219894618416,
+                "neutral": 0.1284489783146278,
+                "sad": 0.1217722028787125,
+                "surprised": 0.12351112896360424
+            }
         }
     ]
 }

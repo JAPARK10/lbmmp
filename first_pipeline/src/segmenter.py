@@ -1,87 +1,77 @@
-from pydub import AudioSegment
+import librosa
+import numpy as np
 from pathlib import Path
-import os
 
 class AudioSegmenter:
-    def __init__(self, segment_length_ms=1000, output_dir="data/processed/segments"):
+    def __init__(self):
         """
         Initializes the segmenter.
-        
-        Args:
-            segment_length_ms (int): Length of each segment in milliseconds.
-            output_dir (str): Root directory to save segments.
         """
-        self.segment_length_ms = segment_length_ms
-        self.output_dir = Path(output_dir)
-        self.output_dir.mkdir(parents=True, exist_ok=True)
+        self.audio_path = None
+        self.audio_array = None
+        self.sample_rate = 16000
 
-    def segment_audio(self, input_file):
+    def load_audio(self, input_file):
         """
-        Splits an audio file into strict segments of specified length.
-        Pads the final segment with silence if it's shorter than the target length.
+        Loads the entire audio file into memory as a 16kHz numpy array.
         
         Args:
-            input_file (str or Path): Path to the audio file to segment.
-            
-        Returns:
-            list: A list of dictionaries containing metadata for each segment.
+            input_file (str or Path): Path to the audio file.
         """
         input_path = Path(input_file)
         if not input_path.exists():
             raise FileNotFoundError(f"Input file not found: {input_file}")
 
-        print(f"[*] Segmenting audio: {input_path.name}")
-        
+        print(f"[*] Segmenter: Loading full audio into memory ({input_path.name})...")
         try:
-            audio = AudioSegment.from_file(input_path)
+            self.audio_array, _ = librosa.load(input_path, sr=self.sample_rate)
+            self.audio_path = input_path
+            print(f"[+] Audio loaded successfully. Duration: {len(self.audio_array) / self.sample_rate:.2f} seconds.")
         except Exception as e:
-            print(f"[-] Error loading audio file with pydub: {e}")
+            print(f"[-] Error loading audio file with librosa: {e}")
             raise
 
-        duration_ms = len(audio)
-        segments_metadata = []
+    def get_slice(self, start_time, end_time):
+        """
+        Extracts a slice of the loaded audio.
         
-        # Create a sub-directory for this specific file's segments
-        filename_stem = input_path.stem
-        file_segment_dir = self.output_dir / filename_stem
-        file_segment_dir.mkdir(parents=True, exist_ok=True)
+        Args:
+            start_time (float): Start time in seconds.
+            end_time (float): End time in seconds.
+            
+        Returns:
+            np.ndarray: The audio slice.
+        """
+        if self.audio_array is None:
+            raise RuntimeError("Audio not loaded. Call load_audio first.")
+            
+        start_sample = int(start_time * self.sample_rate)
+        end_sample = int(end_time * self.sample_rate)
         
-        # Process in chunks
-        for start_ms in range(0, duration_ms, self.segment_length_ms):
-            end_ms = start_ms + self.segment_length_ms
-            
-            chunk = audio[start_ms:end_ms]
-            
-            # Check if padding is needed for the last segment
-            if len(chunk) < self.segment_length_ms:
-                padding_ms = self.segment_length_ms - len(chunk)
-                silence = AudioSegment.silent(duration=padding_ms)
-                chunk = chunk + silence
-            
-            # Generate filename with zero-padded seconds for easy sorting
-            start_sec = start_ms // 1000
-            end_sec = end_ms // 1000
-            chunk_name = f"segment_{start_sec:05d}_{end_sec:05d}.wav"
-            chunk_path = file_segment_dir / chunk_name
-            
-            # Export segment
-            chunk.export(chunk_path, format="wav")
-            
-            segments_metadata.append({
-                "path": str(chunk_path.absolute()),
-                "start_time": start_ms / 1000,
-                "end_time": end_ms / 1000,
-                "index": start_ms // self.segment_length_ms
-            })
-            
-        print(f"[+] Created {len(segments_metadata)} segments in {file_segment_dir}")
-        return segments_metadata
+        # Ensure we don't go out of bounds
+        start_sample = max(0, start_sample)
+        end_sample = min(len(self.audio_array), end_sample)
+        
+        if start_sample >= end_sample:
+             # Return an empty array if invalid slice
+             return np.array([], dtype=np.float32)
+             
+        return self.audio_array[start_sample:end_sample]
+
+    def clear(self):
+        """
+        Clears the loaded audio from memory.
+        """
+        self.audio_array = None
+        self.audio_path = None
 
 if __name__ == "__main__":
     # Quick test logic
     import sys
     if len(sys.argv) > 1:
         segmenter = AudioSegmenter()
-        segmenter.segment_audio(sys.argv[1])
+        segmenter.load_audio(sys.argv[1])
+        audio_slice = segmenter.get_slice(0.0, 2.0)
+        print(f"Slice shape: {audio_slice.shape}")
     else:
         print("Usage: python segmenter.py <path_to_audio_file>")

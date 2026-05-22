@@ -1,325 +1,232 @@
-[
-    {
-        "index": 0,
-        "timestamp": {
-            "start": 0.0,
-            "end": 2.0
+{
+    "sentences": [
+        {
+            "sentence_index": 0,
+            "timestamp": {
+                "start": 0.0,
+                "end": 6.78
+            },
+            "transcript": "This is a recording in which at the beginning I'm talking very normal and formal.",
+            "acoustic_emotion": {
+                "angry": 0.6547243407551046,
+                "calm": 1.5575506301485782,
+                "disgust": 0.8628047124210118,
+                "fearful": 1.114917191337766,
+                "happy": 1.5400346791032518,
+                "neutral": 1.281613364429057,
+                "sad": 0.9406505431632123,
+                "surprised": 0.8526393763130092
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 10,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 10,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.12231084217318201,
+                "calm": 0.13192764599819562,
+                "disgust": 0.12260788902566673,
+                "fearful": 0.12296876099770086,
+                "happy": 0.123579678252359,
+                "neutral": 0.13129261906219475,
+                "sad": 0.12271920382104944,
+                "surprised": 0.12259336066965164
+            }
         },
-        "emotions": {
-            "angry": 0.12498786300420761,
-            "calm": 0.1194792240858078,
-            "disgust": 0.13180537521839142,
-            "fearful": 0.1288013756275177,
-            "happy": 0.1277264505624771,
-            "neutral": 0.1171116828918457,
-            "sad": 0.13447223603725433,
-            "surprised": 0.1156158372759819
+        {
+            "sentence_index": 1,
+            "timestamp": {
+                "start": 8.26,
+                "end": 9.64
+            },
+            "transcript": "Now I'm very excited.",
+            "acoustic_emotion": {
+                "angry": 1.6163376540538952,
+                "calm": 0.8912548709567942,
+                "disgust": 1.885916871134472,
+                "fearful": 0.6735044876395776,
+                "happy": 0.6892430227957902,
+                "neutral": 1.074535785114829,
+                "sad": 0.8373578179136167,
+                "surprised": 1.1367868845753408
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 0,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 10,
+                "neutral": 9,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.12390386820131782,
+                "calm": 0.12286097378385567,
+                "disgust": 0.12429386038692362,
+                "fearful": 0.12254949832235608,
+                "happy": 0.13016471767872834,
+                "neutral": 0.13023013867578695,
+                "sad": 0.1227838044779329,
+                "surprised": 0.12321313847309869
+            }
         },
-        "transcript": "This is a recording",
-        "content_summary": "This is a"
-    },
-    {
-        "index": 1,
-        "timestamp": {
-            "start": 2.0,
-            "end": 4.0
+        {
+            "sentence_index": 2,
+            "timestamp": {
+                "start": 9.94,
+                "end": 17.74
+            },
+            "transcript": "I can't wait for good things to happen and I want to go out and explore the world.",
+            "acoustic_emotion": {
+                "angry": 1.0359675859675541,
+                "calm": 1.608670670592619,
+                "disgust": 0.811629067812155,
+                "fearful": 1.243103325959923,
+                "happy": 1.1966144094038786,
+                "neutral": 1.1205274598291866,
+                "sad": 0.5738036636114202,
+                "surprised": 1.214619932750917
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 0,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 10,
+                "neutral": 9,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.1230115373509154,
+                "calm": 0.12383553874905669,
+                "disgust": 0.12269025713737883,
+                "fearful": 0.12330892804718425,
+                "happy": 0.13126398064015501,
+                "neutral": 0.13027118873870006,
+                "sad": 0.12235057830660788,
+                "surprised": 0.12326799103000187
+            }
         },
-        "emotions": {
-            "angry": 0.11077143251895905,
-            "calm": 0.12397189438343048,
-            "disgust": 0.14670544862747192,
-            "fearful": 0.12000348418951035,
-            "happy": 0.11862603574991226,
-            "neutral": 0.1429770439863205,
-            "sad": 0.12359608709812164,
-            "surprised": 0.11334849894046783
+        {
+            "sentence_index": 3,
+            "timestamp": {
+                "start": 19.84,
+                "end": 21.44
+            },
+            "transcript": "Now I'm really sad.",
+            "acoustic_emotion": {
+                "angry": 0.8637800222544485,
+                "calm": 0.7711875835260837,
+                "disgust": 1.0736026577512525,
+                "fearful": 0.4644219627503226,
+                "happy": 1.7463670347832811,
+                "neutral": 1.8316305889375835,
+                "sad": 1.359056544322591,
+                "surprised": 0.6948884433454278
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 0,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 0,
+                "sad": 10,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.12362896734021682,
+                "calm": 0.12349559571382722,
+                "disgust": 0.12393173248398542,
+                "fearful": 0.1230547527672115,
+                "happy": 0.12490751197878158,
+                "neutral": 0.12503172579056937,
+                "sad": 0.1325639125721248,
+                "surprised": 0.12338580135328332
+            }
         },
-        "transcript": "in which at the beginning I'm talking",
-        "content_summary": "in which at"
-    },
-    {
-        "index": 2,
-        "timestamp": {
-            "start": 4.0,
-            "end": 6.0
+        {
+            "sentence_index": 4,
+            "timestamp": {
+                "start": 22.3,
+                "end": 24.54
+            },
+            "transcript": "Today something really bad happened.",
+            "acoustic_emotion": {
+                "angry": 1.007696383364512,
+                "calm": 0.6543913548945406,
+                "disgust": 1.2290731808330526,
+                "fearful": 0.7041551650197395,
+                "happy": 1.8979631619212454,
+                "neutral": 2.0,
+                "sad": 1.3116600655362192,
+                "surprised": 0.0
+            },
+            "text_emotion": {
+                "angry": 7,
+                "calm": 2,
+                "disgust": 1,
+                "fearful": 9,
+                "happy": 1,
+                "neutral": 3,
+                "sad": 6,
+                "surprised": 4
+            },
+            "fused_emotion": {
+                "angry": 0.12486140349746529,
+                "calm": 0.12434820421751969,
+                "disgust": 0.12518404695907895,
+                "fearful": 0.1244203616658025,
+                "happy": 0.12616398820405333,
+                "neutral": 0.12631414768836022,
+                "sad": 0.12530462582485927,
+                "surprised": 0.1234032219428607
+            }
         },
-        "emotions": {
-            "angry": 0.11215516924858093,
-            "calm": 0.11989273875951767,
-            "disgust": 0.14373371005058289,
-            "fearful": 0.11794938147068024,
-            "happy": 0.11990200728178024,
-            "neutral": 0.1451743096113205,
-            "sad": 0.1258689910173416,
-            "surprised": 0.11532364785671234
-        },
-        "transcript": "very normal and",
-        "content_summary": "i think i'm"
-    },
-    {
-        "index": 3,
-        "timestamp": {
-            "start": 6.0,
-            "end": 8.0
-        },
-        "emotions": {
-            "angry": 0.12101172655820847,
-            "calm": 0.12324579805135727,
-            "disgust": 0.12928864359855652,
-            "fearful": 0.12150408327579498,
-            "happy": 0.1311066448688507,
-            "neutral": 0.13526959717273712,
-            "sad": 0.12326063215732574,
-            "surprised": 0.11531288921833038
-        },
-        "transcript": "formal.",
-        "content_summary": "a syllable"
-    },
-    {
-        "index": 4,
-        "timestamp": {
-            "start": 8.0,
-            "end": 10.0
-        },
-        "emotions": {
-            "angry": 0.12886913120746613,
-            "calm": 0.12588216364383698,
-            "disgust": 0.12466724961996078,
-            "fearful": 0.12622229754924774,
-            "happy": 0.12445271015167236,
-            "neutral": 0.1175750121474266,
-            "sad": 0.13285042345523834,
-            "surprised": 0.11948104947805405
-        },
-        "transcript": "Now I'm very excited. I",
-        "content_summary": "i'm so excited."
-    },
-    {
-        "index": 5,
-        "timestamp": {
-            "start": 10.0,
-            "end": 12.0
-        },
-        "emotions": {
-            "angry": 0.11919346451759338,
-            "calm": 0.13277076184749603,
-            "disgust": 0.1307617425918579,
-            "fearful": 0.12462790310382843,
-            "happy": 0.1225842610001564,
-            "neutral": 0.12416975945234299,
-            "sad": 0.12127232551574707,
-            "surprised": 0.12461978197097778
-        },
-        "transcript": "can't wait for good things",
-        "content_summary": "can't wait for"
-    },
-    {
-        "index": 6,
-        "timestamp": {
-            "start": 12.0,
-            "end": 14.0
-        },
-        "emotions": {
-            "angry": 0.11835812032222748,
-            "calm": 0.12841016054153442,
-            "disgust": 0.13917213678359985,
-            "fearful": 0.1219816580414772,
-            "happy": 0.11927347630262375,
-            "neutral": 0.13016967475414276,
-            "sad": 0.12543372809886932,
-            "surprised": 0.11720096319913864
-        },
-        "transcript": "to happen and I want to go",
-        "content_summary": "i want to"
-    },
-    {
-        "index": 7,
-        "timestamp": {
-            "start": 14.0,
-            "end": 16.0
-        },
-        "emotions": {
-            "angry": 0.12206318229436874,
-            "calm": 0.1293487250804901,
-            "disgust": 0.12714868783950806,
-            "fearful": 0.12403176724910736,
-            "happy": 0.12831231951713562,
-            "neutral": 0.11674896627664566,
-            "sad": 0.1267748773097992,
-            "surprised": 0.12557148933410645
-        },
-        "transcript": "out and explore",
-        "content_summary": "out and explore"
-    },
-    {
-        "index": 8,
-        "timestamp": {
-            "start": 16.0,
-            "end": 18.0
-        },
-        "emotions": {
-            "angry": 0.12127038836479187,
-            "calm": 0.12961696088314056,
-            "disgust": 0.13117873668670654,
-            "fearful": 0.12296753376722336,
-            "happy": 0.12655968964099884,
-            "neutral": 0.12200763821601868,
-            "sad": 0.12676700949668884,
-            "surprised": 0.11963208019733429
-        },
-        "transcript": "the world.",
-        "content_summary": "the world is"
-    },
-    {
-        "index": 9,
-        "timestamp": {
-            "start": 18.0,
-            "end": 20.0
-        },
-        "emotions": {
-            "angry": 0.11675120145082474,
-            "calm": 0.12426912039518356,
-            "disgust": 0.13548316061496735,
-            "fearful": 0.11970680952072144,
-            "happy": 0.12895894050598145,
-            "neutral": 0.13454772531986237,
-            "sad": 0.12611603736877441,
-            "surprised": 0.11416701972484589
-        },
-        "transcript": "Now",
-        "content_summary": "i'm going to"
-    },
-    {
-        "index": 10,
-        "timestamp": {
-            "start": 20.0,
-            "end": 22.0
-        },
-        "emotions": {
-            "angry": 0.1145133525133133,
-            "calm": 0.12845368683338165,
-            "disgust": 0.14081721007823944,
-            "fearful": 0.11892271786928177,
-            "happy": 0.11897667497396469,
-            "neutral": 0.13486184179782867,
-            "sad": 0.1253940463066101,
-            "surprised": 0.11806054413318634
-        },
-        "transcript": "I'm really sad.",
-        "content_summary": "I'm really sad."
-    },
-    {
-        "index": 11,
-        "timestamp": {
-            "start": 22.0,
-            "end": 24.0
-        },
-        "emotions": {
-            "angry": 0.11177832633256912,
-            "calm": 0.1263989508152008,
-            "disgust": 0.14728376269340515,
-            "fearful": 0.11722785234451294,
-            "happy": 0.1163790300488472,
-            "neutral": 0.14305944740772247,
-            "sad": 0.11958558112382889,
-            "surprised": 0.11828695982694626
-        },
-        "transcript": "Today something really bad happened.",
-        "content_summary": "a lot of"
-    },
-    {
-        "index": 12,
-        "timestamp": {
-            "start": 24.0,
-            "end": 26.0
-        },
-        "emotions": {
-            "angry": 0.11228498816490173,
-            "calm": 0.12179449945688248,
-            "disgust": 0.1370532363653183,
-            "fearful": 0.11795714497566223,
-            "happy": 0.12693822383880615,
-            "neutral": 0.14625298976898193,
-            "sad": 0.12767812609672546,
-            "surprised": 0.11004083603620529
-        },
-        "transcript": "I",
-        "content_summary": "i'm gonna be"
-    },
-    {
-        "index": 13,
-        "timestamp": {
-            "start": 26.0,
-            "end": 28.0
-        },
-        "emotions": {
-            "angry": 0.11590863764286041,
-            "calm": 0.12093863636255264,
-            "disgust": 0.13398747146129608,
-            "fearful": 0.11979290097951889,
-            "happy": 0.1327715367078781,
-            "neutral": 0.1398991346359253,
-            "sad": 0.12546853721141815,
-            "surprised": 0.1112331822514534
-        },
-        "transcript": "did something",
-        "content_summary": "did something did"
-    },
-    {
-        "index": 14,
-        "timestamp": {
-            "start": 28.0,
-            "end": 30.0
-        },
-        "emotions": {
-            "angry": 0.11113478243350983,
-            "calm": 0.1242564395070076,
-            "disgust": 0.14666402339935303,
-            "fearful": 0.11829175055027008,
-            "happy": 0.11697880923748016,
-            "neutral": 0.14032651484012604,
-            "sad": 0.12498709559440613,
-            "surprised": 0.11736062169075012
-        },
-        "transcript": "I experienced a",
-        "content_summary": "tasmaniac"
-    },
-    {
-        "index": 15,
-        "timestamp": {
-            "start": 30.0,
-            "end": 32.0
-        },
-        "emotions": {
-            "angry": 0.11279313266277313,
-            "calm": 0.1271131932735443,
-            "disgust": 0.1481805294752121,
-            "fearful": 0.11831068992614746,
-            "happy": 0.11650079488754272,
-            "neutral": 0.1388201266527176,
-            "sad": 0.12154427170753479,
-            "surprised": 0.11673737317323685
-        },
-        "transcript": "very bad situation.",
-        "content_summary": "very bad situation."
-    },
-    {
-        "index": 16,
-        "timestamp": {
-            "start": 32.0,
-            "end": 34.0
-        },
-        "emotions": {
-            "angry": 0.10929784178733826,
-            "calm": 0.11916878074407578,
-            "disgust": 0.1451493203639984,
-            "fearful": 0.11639387160539627,
-            "happy": 0.12258189171552658,
-            "neutral": 0.148505300283432,
-            "sad": 0.12452574819326401,
-            "surprised": 0.11437729001045227
-        },
-        "transcript": "",
-        "content_summary": "None"
-    }
-]
+        {
+            "sentence_index": 5,
+            "timestamp": {
+                "start": 24.54,
+                "end": 31.64
+            },
+            "transcript": "I did something I experienced a very bad situation.",
+            "acoustic_emotion": {
+                "angry": 0.29008756697266,
+                "calm": 1.8571982786995784,
+                "disgust": 0.654796562256532,
+                "fearful": 1.2407193772844842,
+                "happy": 1.4370596006342709,
+                "neutral": 1.4113436330994336,
+                "sad": 1.0133667299190672,
+                "surprised": 0.9003637279332954
+            },
+            "text_emotion": {
+                "angry": 7,
+                "calm": 2,
+                "disgust": 6,
+                "fearful": 9,
+                "happy": 1,
+                "neutral": 3,
+                "sad": 4,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.12382268538492071,
+                "calm": 0.12610552251809334,
+                "disgust": 0.12435024589959945,
+                "fearful": 0.12520250792824356,
+                "happy": 0.12548940192590835,
+                "neutral": 0.12545178815536198,
+                "sad": 0.12487111769544229,
+                "surprised": 0.12470673049243033
+            }
+        }
+    ]
+}
