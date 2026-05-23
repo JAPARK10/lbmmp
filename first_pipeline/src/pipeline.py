@@ -195,13 +195,11 @@ class AudioPipeline:
                 scalar = text_multipliers.get(em, 1.0)
                 fused[em] = val * scalar
                 
-            # Apply Softmax to fused distribution so it sums to 1.0
-            import math
+            # Normalize fused distribution so it sums to 1.0 (L1 Normalization)
             if fused:
-                max_val = max(fused.values())
-                exp_fused = {k: math.exp(v - max_val) for k, v in fused.items()}
-                total_exp = sum(exp_fused.values())
-                fused = {k: v / total_exp for k, v in exp_fused.items()}
+                total = sum(fused.values())
+                if total > 0:
+                    fused = {k: v / total for k, v in fused.items()}
                 
             sentence_obj['fused_emotion'] = fused
 

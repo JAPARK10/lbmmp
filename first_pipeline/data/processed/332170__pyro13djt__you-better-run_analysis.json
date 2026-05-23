@@ -4,38 +4,38 @@
             "sentence_index": 0,
             "timestamp": {
                 "start": 0.0,
-                "end": 15.76
+                "end": 18.04
             },
-            "transcript": "you better run, you better run, you better run, you better run, you better run you better run Hohoho, you better run, you better run, you better run you better run, you better run",
+            "transcript": "You better run, you better run, you better run, you better run, you better run, you better run, you better run, You better run, you better run, you better run, you better run,",
             "acoustic_emotion": {
-                "angry": 2.0,
-                "calm": 1.683098825696539,
-                "disgust": 0.6059507319730074,
-                "fearful": 0.0,
-                "happy": 1.7041080226188554,
-                "neutral": 1.1820754791356243,
-                "sad": 0.8217628845519058,
-                "surprised": 0.3896778934862646
+                "angry": 0.2231895292565591,
+                "calm": 1.1261577172012889,
+                "disgust": 0.8522053514909245,
+                "fearful": 1.3110906547868195,
+                "happy": 0.955634045006914,
+                "neutral": 0.35397215839548996,
+                "sad": 2.0,
+                "surprised": 0.0
             },
             "text_emotion": {
                 "angry": 9,
-                "calm": 2,
-                "disgust": 3,
-                "fearful": 4,
-                "happy": 1,
-                "neutral": 6,
-                "sad": 1,
-                "surprised": 2
+                "calm": 0,
+                "disgust": 0,
+                "fearful": 9,
+                "happy": 0,
+                "neutral": 0,
+                "sad": 0,
+                "surprised": 0
             },
             "fused_emotion": {
-                "angry": 0.12629626458582793,
-                "calm": 0.12586203326037762,
-                "disgust": 0.12439721059128542,
-                "fearful": 0.12358067866408999,
-                "happy": 0.12589077468162513,
-                "neutral": 0.1251785540648539,
-                "sad": 0.12468932327426657,
-                "surprised": 0.12410516087767343
+                "angry": 0.15532460661560438,
+                "calm": 0.1147392476510296,
+                "disgust": 0.11242776388305761,
+                "fearful": 0.1686344584584112,
+                "happy": 0.11330044751761881,
+                "neutral": 0.10822390188858762,
+                "sad": 0.12211232598608696,
+                "surprised": 0.10523724799960378
             }
         }
     ]
