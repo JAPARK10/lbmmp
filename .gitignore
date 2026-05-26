@@ -1,0 +1,34 @@
+# Python environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+
+# Audio files / generated data
+*.mp3
+*.wav
+*.ogg
+*.flac
+*.m4a
+
+data/raw/
+data/processed/
+output/
+outputs/
+
+# Large models
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+# OS files
+.DS_Store
+Thumbs.db
