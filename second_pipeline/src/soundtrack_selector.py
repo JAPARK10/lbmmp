@@ -2,20 +2,76 @@ from __future__ import annotations
 
 import json
 from pathlib import Path
-from typing import Dict, List, Any, Tuple
+from typing import List, Tuple
 
 import numpy as np
 import pandas as pd
 from sklearn.metrics.pairwise import cosine_similarity
 
 
+# Same 5-emotion space used by the visualizer.
+TARGET_EMOTION_KEYS = ["joy", "sadness", "anger", "calm", "fear"]
+
+# First pipeline / fused_emotion outputs 8 emotions.
+SOURCE_EMOTION_KEYS = [
+    "angry",
+    "calm",
+    "disgust",
+    "fearful",
+    "happy",
+    "neutral",
+    "sad",
+    "surprised",
+]
+
+# Same mapping logic as the visualizer.
+EMOTION_MAPPING = {
+    "joy": [("happy", 1.0), ("surprised", 0.6)],
+    "sadness": [("sad", 1.0)],
+    "anger": [("angry", 1.0)],
+    "calm": [("calm", 1.0), ("neutral", 0.4)],
+    "fear": [("fearful", 1.0), ("disgust", 0.5)],
+}
+
+# Same sharpening value used by the visualizer.
+SOFTMAX_TEMPERATURE = 0.05
+
+
 class SoundtrackSelector:
     """
-    Selects soundtrack clips based on segment-level emotion vectors.
+    Selects soundtrack clips based on emotion vectors.
 
-    Input:
-        analysis_json:
-            JSON output from first_pipeline
+    Supported analysis JSON formats:
+
+    1) New first-pipeline format:
+       {
+         "sentences": [
+           {
+             "sentence_index": 0,
+             "timestamp": {"start": 0.0, "end": 7.1},
+             "transcript": "...",
+             "fused_emotion": {
+               "angry": ...,
+               "calm": ...,
+               ...
+             }
+           }
+         ]
+       }
+
+    2) Older raw_chunks test format:
+       {
+         "raw_chunks": [
+           {
+             "index": 0,
+             "timestamp": {"start": 0.0, "end": 4.0},
+             "emotions": {...}
+           }
+         ]
+       }
+
+    Internally, the pipeline converts everything to the same 5-emotion space:
+    joy, sadness, anger, calm, fear.
     """
 
     def __init__(
@@ -25,22 +81,28 @@ class SoundtrackSelector:
         switch_threshold: float = 0.08,
         min_switch_duration: float = 8.0,
         stable_segments_required: int = 2,
+        softmax_temperature: float = SOFTMAX_TEMPERATURE,
     ):
         self.metadata_csv = Path(metadata_csv)
         self.smoothing_window = smoothing_window
         self.switch_threshold = switch_threshold
         self.min_switch_duration = min_switch_duration
         self.stable_segments_required = stable_segments_required
+        self.softmax_temperature = softmax_temperature
 
         if not self.metadata_csv.exists():
             raise FileNotFoundError(f"Soundtrack metadata file not found: {self.metadata_csv}")
 
         self.tracks_df = pd.read_csv(self.metadata_csv)
+        self.tracks_df.columns = [self._normalize_name(c) for c in self.tracks_df.columns]
 
         required_columns = {"track_id", "filename"}
         missing = required_columns - set(self.tracks_df.columns)
+
         if missing:
             raise ValueError(f"Missing required columns in soundtrack metadata: {missing}")
+
+        self.tracks_df = self._prepare_track_emotions(self.tracks_df)
 
     def load_analysis(self, analysis_json: str | Path) -> pd.DataFrame:
         analysis_path = Path(analysis_json)
@@ -51,33 +113,50 @@ class SoundtrackSelector:
         with open(analysis_path, "r", encoding="utf-8") as f:
             data = json.load(f)
 
-        # Supports both possible formats:
-        # 1) [ {...}, {...} ]
-        # 2) { "raw_chunks": [ {...}, {...} ] }
-        if isinstance(data, dict) and "raw_chunks" in data:
-            data = data["raw_chunks"]
-
+        items = self._extract_items(data)
         rows = []
 
-        for item in data:
+        for i, item in enumerate(items):
             timestamp = item.get("timestamp", {})
-            emotions = item.get("emotions", {}) or {}
+
+            # Priority:
+            # 1. fused_emotion: new first-pipeline output
+            # 2. emotions: older test/raw_chunks format
+            fused = item.get("fused_emotion") or item.get("emotions") or {}
+
+            if not fused:
+                continue
+
+            emotion_vector = self._to_target_emotions(
+                fused,
+                use_softmax=True,
+            )
 
             row = {
-                "index": item.get("index"),
+                "index": item.get("sentence_index", item.get("index", i)),
                 "start_time": float(timestamp.get("start", 0.0)),
                 "end_time": float(timestamp.get("end", 0.0)),
                 "transcript": item.get("transcript", ""),
-                "content_summary": item.get("content_summary", ""),
             }
 
-            for emotion_name, score in emotions.items():
-                row[self._normalize_emotion_name(emotion_name)] = float(score)
+            for key in TARGET_EMOTION_KEYS:
+                row[key] = emotion_vector[key]
+
+            # Useful for debugging.
+            normalized_fused = {
+                self._normalize_name(k): float(v)
+                for k, v in fused.items()
+            }
+
+            row["source_dominant_emotion"] = max(
+                normalized_fused,
+                key=normalized_fused.get,
+            )
 
             rows.append(row)
 
         if not rows:
-            raise ValueError("Analysis JSON is empty or has no valid segments.")
+            raise ValueError("Analysis JSON is empty or has no valid emotion data.")
 
         segments_df = pd.DataFrame(rows)
         segments_df = segments_df.sort_values("start_time").reset_index(drop=True)
@@ -88,64 +167,147 @@ class SoundtrackSelector:
         """
         Returns:
             assignments_df:
-                One row per segment, with selected soundtrack.
+                One row per sentence/segment, with selected soundtrack.
 
             regions_df:
-                Consecutive segments grouped into longer regions with the same soundtrack.
+                Consecutive sentences/segments grouped into longer soundtrack regions.
         """
         segments_df = self.load_analysis(analysis_json)
 
-        emotion_columns = self._find_shared_emotion_columns(segments_df)
+        print(f"[*] Using target emotion columns: {TARGET_EMOTION_KEYS}")
 
-        if not emotion_columns:
-            raise ValueError(
-                "No shared emotion columns found between analysis JSON and soundtrack metadata. "
-                f"Segment columns: {list(segments_df.columns)}. "
-                f"Metadata columns: {list(self.tracks_df.columns)}."
-            )
-
-        print(f"[*] Using emotion columns: {emotion_columns}")
-
-        smoothed_df = self._smooth_emotions(segments_df, emotion_columns)
-        raw_assignments = self._raw_track_selection(smoothed_df, emotion_columns)
+        smoothed_df = self._smooth_emotions(segments_df)
+        raw_assignments = self._raw_track_selection(smoothed_df)
         final_assignments = self._apply_continuity_rules(raw_assignments)
         regions_df = self._build_regions(final_assignments)
 
         return final_assignments, regions_df
 
-    def _normalize_emotion_name(self, name: str) -> str:
-        return name.strip().lower().replace(" ", "_")
+    def _extract_items(self, data):
+        if isinstance(data, dict) and "sentences" in data:
+            return data["sentences"]
 
-    def _find_shared_emotion_columns(self, segments_df: pd.DataFrame) -> List[str]:
-        ignored = {
-            "index",
-            "start_time",
-            "end_time",
-            "transcript",
-            "content_summary",
-            "track_id",
-            "filename",
-            "energy",
-            "loopable",
+        if isinstance(data, dict) and "raw_chunks" in data:
+            return data["raw_chunks"]
+
+        if isinstance(data, list):
+            return data
+
+        raise ValueError("Unrecognized analysis JSON format.")
+
+    def _normalize_name(self, name: str) -> str:
+        return str(name).strip().lower().replace(" ", "_")
+
+    def _prepare_track_emotions(self, tracks_df: pd.DataFrame) -> pd.DataFrame:
+        """
+        Allows the soundtrack metadata CSV to use either:
+
+        A) 5 target columns:
+           joy, sadness, anger, calm, fear
+
+        B) 8 source columns:
+           angry, calm, disgust, fearful, happy, neutral, sad, surprised
+
+        In both cases, the dataframe is converted to the 5-emotion target space.
+        """
+        result = tracks_df.copy()
+
+        for idx, row in result.iterrows():
+            row_dict = row.to_dict()
+
+            emotion_vector = self._to_target_emotions(
+                row_dict,
+                use_softmax=False,
+            )
+
+            for key in TARGET_EMOTION_KEYS:
+                result.loc[idx, key] = emotion_vector[key]
+
+        return result
+
+    def _to_target_emotions(self, values: dict, use_softmax: bool) -> dict:
+        """
+        Converts either 8-emotion or 5-emotion dictionaries into:
+        joy, sadness, anger, calm, fear.
+
+        For first-pipeline fused_emotion values, use_softmax=True.
+        For manually labelled soundtrack metadata, use_softmax=False.
+        """
+        clean = {
+            self._normalize_name(k): float(v)
+            for k, v in values.items()
+            if self._can_be_float(v)
         }
 
-        segment_emotions = {
-            col for col in segments_df.columns
-            if col not in ignored and pd.api.types.is_numeric_dtype(segments_df[col])
+        has_target_keys = all(key in clean for key in TARGET_EMOTION_KEYS)
+
+        if has_target_keys:
+            target = {
+                key: max(0.0, float(clean.get(key, 0.0)))
+                for key in TARGET_EMOTION_KEYS
+            }
+        else:
+            target = self._map_8_to_5(clean)
+
+        if use_softmax:
+            return self._softmax(target)
+
+        return self._normalize_to_sum(target)
+
+    def _map_8_to_5(self, fused: dict) -> dict:
+        mapped = {}
+
+        for target_emotion, sources in EMOTION_MAPPING.items():
+            total = 0.0
+
+            for source_emotion, weight in sources:
+                total += float(fused.get(source_emotion, 0.0)) * weight
+
+            mapped[target_emotion] = total
+
+        return mapped
+
+    def _softmax(self, values: dict) -> dict:
+        keys = list(values.keys())
+        raw = np.array([values[k] for k in keys], dtype=float)
+
+        temperature = max(self.softmax_temperature, 1e-6)
+        scaled = raw / temperature
+        scaled -= scaled.max()
+
+        exp = np.exp(scaled)
+        probs = exp / exp.sum()
+
+        return {k: float(p) for k, p in zip(keys, probs)}
+
+    def _normalize_to_sum(self, values: dict) -> dict:
+        clean = {
+            key: max(0.0, float(values.get(key, 0.0)))
+            for key in TARGET_EMOTION_KEYS
         }
 
-        track_emotions = {
-            col for col in self.tracks_df.columns
-            if col not in ignored and pd.api.types.is_numeric_dtype(self.tracks_df[col])
+        total = sum(clean.values())
+
+        if total <= 0:
+            uniform = 1.0 / len(TARGET_EMOTION_KEYS)
+            return {key: uniform for key in TARGET_EMOTION_KEYS}
+
+        return {
+            key: clean[key] / total
+            for key in TARGET_EMOTION_KEYS
         }
 
-        return sorted(segment_emotions.intersection(track_emotions))
+    def _can_be_float(self, value) -> bool:
+        try:
+            float(value)
+            return True
+        except Exception:
+            return False
 
-    def _smooth_emotions(self, segments_df: pd.DataFrame, emotion_columns: List[str]) -> pd.DataFrame:
+    def _smooth_emotions(self, segments_df: pd.DataFrame) -> pd.DataFrame:
         smoothed = segments_df.copy()
 
-        # Centered rolling average reduces isolated emotion spikes.
-        for col in emotion_columns:
+        for col in TARGET_EMOTION_KEYS:
             smoothed[col] = (
                 smoothed[col]
                 .rolling(window=self.smoothing_window, center=True, min_periods=1)
@@ -154,11 +316,11 @@ class SoundtrackSelector:
 
         return smoothed
 
-    def _raw_track_selection(self, segments_df: pd.DataFrame, emotion_columns: List[str]) -> pd.DataFrame:
+    def _raw_track_selection(self, segments_df: pd.DataFrame) -> pd.DataFrame:
         result = segments_df.copy()
 
-        segment_vectors = result[emotion_columns].fillna(0.0).to_numpy(dtype=float)
-        track_vectors = self.tracks_df[emotion_columns].fillna(0.0).to_numpy(dtype=float)
+        segment_vectors = result[TARGET_EMOTION_KEYS].fillna(0.0).to_numpy(dtype=float)
+        track_vectors = self.tracks_df[TARGET_EMOTION_KEYS].fillna(0.0).to_numpy(dtype=float)
 
         similarities = cosine_similarity(segment_vectors, track_vectors)
 
@@ -170,21 +332,11 @@ class SoundtrackSelector:
         result["raw_track_id"] = selected_tracks["track_id"].values
         result["raw_filename"] = selected_tracks["filename"].values
         result["raw_similarity"] = best_scores
-
-        # Dominant emotion is useful for debugging and visual inspection.
-        result["dominant_emotion"] = result[emotion_columns].idxmax(axis=1)
+        result["dominant_emotion"] = result[TARGET_EMOTION_KEYS].idxmax(axis=1)
 
         return result
 
     def _apply_continuity_rules(self, assignments_df: pd.DataFrame) -> pd.DataFrame:
-        """
-        Prevents chaotic soundtrack changes.
-
-        Rules:
-        1. Keep the current track for at least min_switch_duration seconds.
-        2. Only switch if the new candidate stays stable for stable_segments_required segments.
-        3. Only switch if the new candidate is sufficiently better than the current one.
-        """
         df = assignments_df.copy()
 
         selected_track_ids = []
@@ -228,7 +380,6 @@ class SoundtrackSelector:
                     current_track_start = start_time
                     current_score = candidate_score
                 else:
-                    # Keep current track, but update score estimate softly.
                     current_score = max(float(current_score), candidate_score)
 
             selected_track_ids.append(current_track_id)
@@ -243,7 +394,6 @@ class SoundtrackSelector:
 
     def _candidate_is_stable(self, df: pd.DataFrame, start_index: int, candidate_track: str) -> bool:
         end_index = min(start_index + self.stable_segments_required, len(df))
-
         future_candidates = df.iloc[start_index:end_index]["raw_track_id"].tolist()
 
         if len(future_candidates) < self.stable_segments_required:
@@ -253,7 +403,6 @@ class SoundtrackSelector:
 
     def _build_regions(self, assignments_df: pd.DataFrame) -> pd.DataFrame:
         regions = []
-
         current = None
 
         for _, row in assignments_df.iterrows():
