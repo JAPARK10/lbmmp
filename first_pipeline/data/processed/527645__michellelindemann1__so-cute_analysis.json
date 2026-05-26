@@ -1,0 +1,80 @@
+{
+    "sentences": [
+        {
+            "sentence_index": 0,
+            "timestamp": {
+                "start": 0.0,
+                "end": 2.94
+            },
+            "transcript": "Ah, so cute.",
+            "acoustic_emotion": {
+                "angry": 1.3425640947032613,
+                "calm": 0.7338966243778671,
+                "disgust": 0.0,
+                "fearful": 1.0629638510508697,
+                "happy": 1.4499952371723914,
+                "neutral": 0.24085345491135118,
+                "sad": 1.466688126763478,
+                "surprised": 2.0
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 10,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 10,
+                "neutral": 1,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.11597781113584701,
+                "calm": 0.15749530175340404,
+                "disgust": 0.09175667082585322,
+                "fearful": 0.11093355532792609,
+                "happy": 0.17687395754129218,
+                "neutral": 0.10090699238242846,
+                "sad": 0.1182171273876623,
+                "surprised": 0.12783858364558678
+            }
+        },
+        {
+            "sentence_index": 1,
+            "timestamp": {
+                "start": 3.58,
+                "end": 6.12
+            },
+            "transcript": "Ah, she's so cute!",
+            "acoustic_emotion": {
+                "angry": 1.4126940852250518,
+                "calm": 1.035353684658476,
+                "disgust": 0.1663796196234337,
+                "fearful": 0.9482198521224146,
+                "happy": 1.0835297771617125,
+                "neutral": 0.4214033078476435,
+                "sad": 1.46238004882537,
+                "surprised": 1.7670075829325076
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 10,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 10,
+                "neutral": 9,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.11280740753697523,
+                "calm": 0.15938606213797665,
+                "disgust": 0.09117335883841873,
+                "fearful": 0.10474486918449244,
+                "happy": 0.16064045333709276,
+                "neutral": 0.13862024196630135,
+                "sad": 0.11366987731152375,
+                "surprised": 0.1189577296872191
+            }
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "sentences": [
+        {
+            "sentence_index": 0,
+            "timestamp": {
+                "start": 0.0,
+                "end": 1.1
+            },
+            "transcript": "Happy Easter!",
+            "acoustic_emotion": {
+                "angry": 1.978485543005916,
+                "calm": 0.9242174799990552,
+                "disgust": 0.19524452597543324,
+                "fearful": 0.0,
+                "happy": 1.2178400927210111,
+                "neutral": 1.9845652832412242,
+                "sad": 0.8766643972616306,
+                "surprised": 2.0
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 10,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 10,
+                "neutral": 0,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.11782631210526996,
+                "calm": 0.16409448243673347,
+                "disgust": 0.10356741028894191,
+                "fearful": 0.10200622338292559,
+                "happy": 0.1676162183932347,
+                "neutral": 0.11787492607178157,
+                "sad": 0.10901608433107712,
+                "surprised": 0.11799834299003567
+            }
+        }
+    ]
+}

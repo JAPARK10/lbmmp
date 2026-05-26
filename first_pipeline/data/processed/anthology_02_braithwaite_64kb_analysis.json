@@ -1,0 +1,384 @@
+{
+    "sentences": [
+        {
+            "sentence_index": 0,
+            "timestamp": {
+                "start": 0.0,
+                "end": 5.9
+            },
+            "transcript": "America the Beautiful by Catherine Lee Bates, read for LibraVox .org",
+            "acoustic_emotion": {
+                "angry": 0.5481463504935873,
+                "calm": 1.4318724429725151,
+                "disgust": 0.8246215112713171,
+                "fearful": 0.6147637626523552,
+                "happy": 0.9120040883450278,
+                "neutral": 0.531730021795948,
+                "sad": 1.5925768707843602,
+                "surprised": 0.7099457523991901
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 10,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 10,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.10540788437380132,
+                "calm": 0.17928113327723122,
+                "disgust": 0.10982311931127531,
+                "fearful": 0.1064717467648389,
+                "happy": 0.11121859587465648,
+                "neutral": 0.15771857994241456,
+                "sad": 0.12208716257723913,
+                "surprised": 0.1079917778785431
+            }
+        },
+        {
+            "sentence_index": 1,
+            "timestamp": {
+                "start": 5.9,
+                "end": 7.1
+            },
+            "transcript": "by Larry Wilson.",
+            "acoustic_emotion": {
+                "angry": 0.11481822146223768,
+                "calm": 1.2858673383391264,
+                "disgust": 0.7750006315565404,
+                "fearful": 0.574196297712026,
+                "happy": 0.7388867790989159,
+                "neutral": 0.8376187378062997,
+                "sad": 2.0,
+                "surprised": 0.8392814915833184
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 0,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 10,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.10447608407516408,
+                "calm": 0.1243145224723549,
+                "disgust": 0.11566006251365486,
+                "fearful": 0.11225828854068312,
+                "happy": 0.11504826713552714,
+                "neutral": 0.17508128933881711,
+                "sad": 0.13641245808547792,
+                "surprised": 0.11674902783832086
+            }
+        },
+        {
+            "sentence_index": 2,
+            "timestamp": {
+                "start": 8.64,
+                "end": 16.48
+            },
+            "transcript": "Oh, beautiful for spacious skies, for amber waves agrain, for purple mountain majesties above the footed plain.",
+            "acoustic_emotion": {
+                "angry": 0.2780815921354024,
+                "calm": 1.1917012228177029,
+                "disgust": 1.0279288796932415,
+                "fearful": 0.6323914375013718,
+                "happy": 0.9323745821891116,
+                "neutral": 0.5470422654202295,
+                "sad": 1.5879476648766353,
+                "surprised": 0.9681972974349693
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 9,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 9,
+                "neutral": 9,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.09745549020681808,
+                "calm": 0.16170470724171448,
+                "disgust": 0.108999244199457,
+                "fearful": 0.10291002176269733,
+                "happy": 0.15591589618698573,
+                "neutral": 0.14731432725581425,
+                "sad": 0.11762062510551909,
+                "surprised": 0.10807968804099402
+            }
+        },
+        {
+            "sentence_index": 3,
+            "timestamp": {
+                "start": 17.6,
+                "end": 26.4
+            },
+            "transcript": "America, America God shed his grace on thee, and crown thy good with brotherhood, from sea to shining sea.",
+            "acoustic_emotion": {
+                "angry": 0.3425964386837285,
+                "calm": 1.361100009980664,
+                "disgust": 0.8199376394859916,
+                "fearful": 0.6282148816255976,
+                "happy": 0.8209336352104574,
+                "neutral": 0.6281125901728146,
+                "sad": 1.8129333668506946,
+                "surprised": 0.7518343093815343
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 10,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 10,
+                "neutral": 9,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.09728513841255544,
+                "calm": 0.16916923364924832,
+                "disgust": 0.10454686254489104,
+                "fearful": 0.10163021136302608,
+                "happy": 0.15684302173033432,
+                "neutral": 0.14736155006556587,
+                "sad": 0.11965316601207798,
+                "surprised": 0.10351081622230088
+            }
+        },
+        {
+            "sentence_index": 4,
+            "timestamp": {
+                "start": 27.84,
+                "end": 35.14
+            },
+            "transcript": "Oh, beautiful for pilgrim feet, those stern impassioned stress, a thoroughfare for freedom beat across the wilderness.",
+            "acoustic_emotion": {
+                "angry": 0.7750213383283588,
+                "calm": 1.2029035863714654,
+                "disgust": 0.7654722034365786,
+                "fearful": 0.6509956437093448,
+                "happy": 0.8944724929172487,
+                "neutral": 1.076694983867354,
+                "sad": 1.1364240813130082,
+                "surprised": 0.663676470770942
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 9,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 7,
+                "neutral": 6,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.10765425309664836,
+                "calm": 0.16588164541449124,
+                "disgust": 0.10750368157030173,
+                "fearful": 0.10569860597713147,
+                "happy": 0.14787598747683334,
+                "neutral": 0.14613438759678984,
+                "sad": 0.113352880590528,
+                "surprised": 0.10589855827727608
+            }
+        },
+        {
+            "sentence_index": 5,
+            "timestamp": {
+                "start": 36.24,
+                "end": 45.46
+            },
+            "transcript": "America, America, God mend thine every flaw, confirm thy soul in self -control thy liberty and law.",
+            "acoustic_emotion": {
+                "angry": 0.8433839172159828,
+                "calm": 1.3815193718062393,
+                "disgust": 0.8404597068997862,
+                "fearful": 0.6038554352584143,
+                "happy": 0.942052099066166,
+                "neutral": 0.7834912362729632,
+                "sad": 1.2991677120135305,
+                "surprised": 0.4717309080457818
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 9,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 7,
+                "neutral": 6,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.10871665415624339,
+                "calm": 0.1699411659248755,
+                "disgust": 0.10867055156527398,
+                "fearful": 0.10494028979282982,
+                "happy": 0.1488675233802131,
+                "neutral": 0.1401041155424506,
+                "sad": 0.11590246214879671,
+                "surprised": 0.10285723748931697
+            }
+        },
+        {
+            "sentence_index": 6,
+            "timestamp": {
+                "start": 53.28,
+                "end": 73.28
+            },
+            "transcript": "Oh, beautiful for patriot dream that sees beyond the years thy in alabaster cities gleam, undimmed by human tears.",
+            "acoustic_emotion": {
+                "angry": 0.7223230181859294,
+                "calm": 1.3805975063248834,
+                "disgust": 0.7545299169368556,
+                "fearful": 0.5628498150264073,
+                "happy": 0.8720246957243415,
+                "neutral": 0.8682697297227902,
+                "sad": 1.528725469205096,
+                "surprised": 0.4763389930462519
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 10,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 10,
+                "neutral": 9,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.10283758308071224,
+                "calm": 0.16924504026041126,
+                "disgust": 0.10332647583022223,
+                "fearful": 0.10041681933786406,
+                "happy": 0.1576650262256834,
+                "neutral": 0.1523268761427897,
+                "sad": 0.11507857264444722,
+                "surprised": 0.09910360647786985
+            }
+        },
+        {
+            "sentence_index": 7,
+            "timestamp": {
+                "start": 74.1,
+                "end": 83.32
+            },
+            "transcript": "America, America God shed his grace on thee, and crown thy good with brotherhood, from sea to shining sea.",
+            "acoustic_emotion": {
+                "angry": 0.6464223460855297,
+                "calm": 1.5460487545083819,
+                "disgust": 0.7644704098160038,
+                "fearful": 0.5368731697802059,
+                "happy": 0.8412502914478134,
+                "neutral": 0.6725244743689508,
+                "sad": 1.6180677351637016,
+                "surprised": 0.5400102457106958
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 10,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 10,
+                "neutral": 9,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.10171745110882136,
+                "calm": 0.17306678650177565,
+                "disgust": 0.10350995578516972,
+                "fearful": 0.10005399806595104,
+                "happy": 0.1570137336054102,
+                "neutral": 0.14806500960503977,
+                "sad": 0.11647143223003259,
+                "surprised": 0.10010163309779961
+            }
+        },
+        {
+            "sentence_index": 8,
+            "timestamp": {
+                "start": 83.32,
+                "end": 91.12
+            },
+            "transcript": "Oh, beautiful for patriot dream that sees beyond the years thy in alabaster cities gleam, undimmed by human tears.",
+            "acoustic_emotion": {
+                "angry": 0.6349259463719458,
+                "calm": 1.5214888665899964,
+                "disgust": 0.769760161744736,
+                "fearful": 0.6154346620592719,
+                "happy": 0.92132379220506,
+                "neutral": 0.4473399873854346,
+                "sad": 1.638225363393492,
+                "surprised": 0.6171665764541641
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 10,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 10,
+                "neutral": 9,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.10165645951918767,
+                "calm": 0.17270034064664452,
+                "disgust": 0.10370614407683891,
+                "fearful": 0.10136016243796077,
+                "happy": 0.1590152116724377,
+                "neutral": 0.1432670592633736,
+                "sad": 0.11690813222024413,
+                "surprised": 0.10138649016331275
+            }
+        },
+        {
+            "sentence_index": 9,
+            "timestamp": {
+                "start": 94.6,
+                "end": 96.0
+            },
+            "transcript": "America, America God shed his grace on",
+            "acoustic_emotion": {
+                "angry": 0.0,
+                "calm": 1.2132735376981276,
+                "disgust": 0.4278449758538334,
+                "fearful": 0.8926788723423376,
+                "happy": 0.8624805304577977,
+                "neutral": 0.8097213324062221,
+                "sad": 1.9255492160623258,
+                "surprised": 1.0341144065708385
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 10,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 10,
+                "neutral": 9,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.09203324693581509,
+                "calm": 0.16572387438991676,
+                "disgust": 0.09853916292774977,
+                "fearful": 0.10560754154952194,
+                "happy": 0.1577225071968961,
+                "neutral": 0.15130179973403135,
+                "sad": 0.12131362217695611,
+                "surprised": 0.10775824508911284
+            }
+        }
+    ]
+}

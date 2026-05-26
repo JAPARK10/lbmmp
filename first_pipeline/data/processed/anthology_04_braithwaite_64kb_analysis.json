@@ -1,0 +1,726 @@
+{
+    "sentences": [
+        {
+            "sentence_index": 0,
+            "timestamp": {
+                "start": 0.0,
+                "end": 4.26
+            },
+            "transcript": "Memphis by Gordon Mel Herb Hylman, red for liverbox .org",
+            "acoustic_emotion": {
+                "angry": 0.4489745920039365,
+                "calm": 0.8858147919276763,
+                "disgust": 0.7740771562602052,
+                "fearful": 0.6946310045472043,
+                "happy": 1.86996147634148,
+                "neutral": 0.690804441023826,
+                "sad": 0.7165035603304053,
+                "surprised": 0.8205015399298854
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 7,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 6,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.11020160144548019,
+                "calm": 0.15657254857151923,
+                "disgust": 0.11450171731433467,
+                "fearful": 0.11345088691414379,
+                "happy": 0.12899692612940764,
+                "neutral": 0.14742035508692156,
+                "sad": 0.11374019414994156,
+                "surprised": 0.11511577038825142
+            }
+        },
+        {
+            "sentence_index": 1,
+            "timestamp": {
+                "start": 4.26,
+                "end": 5.28
+            },
+            "transcript": "by Noel Vox.",
+            "acoustic_emotion": {
+                "angry": 0.33924224034061157,
+                "calm": 0.6372575721364041,
+                "disgust": 0.44373020355430987,
+                "fearful": 1.5901558121830255,
+                "happy": 1.1978259322785307,
+                "neutral": 0.3252547719321748,
+                "sad": 0.9330450422649962,
+                "surprised": 1.4347434349363009
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 0,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 10,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.1110070118240694,
+                "calm": 0.11503064898396972,
+                "disgust": 0.11241775015426046,
+                "fearful": 0.12789615071890206,
+                "happy": 0.12259913101790007,
+                "neutral": 0.16622724121478227,
+                "sad": 0.11902420679547797,
+                "surprised": 0.12579785929063803
+            }
+        },
+        {
+            "sentence_index": 2,
+            "timestamp": {
+                "start": 5.7,
+                "end": 7.38
+            },
+            "transcript": "Why should I sing of my present?",
+            "acoustic_emotion": {
+                "angry": 0.717595598279115,
+                "calm": 0.5513139249433717,
+                "disgust": 0.6557820803088357,
+                "fearful": 0.9341501116928074,
+                "happy": 1.4664266094463108,
+                "neutral": 0.4383445538712224,
+                "sad": 0.8528425435049414,
+                "surprised": 1.2848074064672104
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 0,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 9,
+                "sad": 10,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.11015412103406946,
+                "calm": 0.10802433593535132,
+                "disgust": 0.10936239512205853,
+                "fearful": 0.11292781561192827,
+                "happy": 0.1197453712124444,
+                "neutral": 0.15453721644382948,
+                "sad": 0.16782960616529044,
+                "surprised": 0.11741913847502819
+            }
+        },
+        {
+            "sentence_index": 3,
+            "timestamp": {
+                "start": 7.8,
+                "end": 9.22
+            },
+            "transcript": "It is nothing to near you.",
+            "acoustic_emotion": {
+                "angry": 0.4958978206936239,
+                "calm": 0.7277038559886032,
+                "disgust": 0.4422566038975069,
+                "fearful": 1.9905808469054016,
+                "happy": 0.7843449192738964,
+                "neutral": 0.0,
+                "sad": 1.0394611431265595,
+                "surprised": 1.4210124260365824
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 0,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 9,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.11397886822387623,
+                "calm": 0.11713228859144578,
+                "disgust": 0.11324914906289392,
+                "fearful": 0.13431209161005264,
+                "happy": 0.11790281677194527,
+                "neutral": 0.15548759153134672,
+                "sad": 0.12137334201245803,
+                "surprised": 0.12656385219598135
+            }
+        },
+        {
+            "sentence_index": 4,
+            "timestamp": {
+                "start": 9.8,
+                "end": 12.78
+            },
+            "transcript": "Rather I dream of Dixie and Thai ships on the old bayou.",
+            "acoustic_emotion": {
+                "angry": 0.409292695621397,
+                "calm": 0.8468162663092219,
+                "disgust": 0.4568716683394742,
+                "fearful": 1.8587439791308682,
+                "happy": 0.7315366746219503,
+                "neutral": 0.3683368418418901,
+                "sad": 0.957409738111577,
+                "surprised": 1.2722492306866313
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 7,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 6,
+                "neutral": 9,
+                "sad": 2,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.11851986762553157,
+                "calm": 0.12477357964456631,
+                "disgust": 0.11919993428587766,
+                "fearful": 0.13923749638879665,
+                "happy": 0.12312583900524315,
+                "neutral": 0.11793446804436597,
+                "sad": 0.126354339562826,
+                "surprised": 0.13085447544279266
+            }
+        },
+        {
+            "sentence_index": 5,
+            "timestamp": {
+                "start": 13.14,
+                "end": 16.12
+            },
+            "transcript": "Rather I dream of my packets and the lazy river days.",
+            "acoustic_emotion": {
+                "angry": 0.386427141130658,
+                "calm": 0.7503619493320455,
+                "disgust": 0.6382990479461998,
+                "fearful": 1.59332611041885,
+                "happy": 1.1640608486672577,
+                "neutral": 0.24540620814451805,
+                "sad": 0.9106298556920067,
+                "surprised": 1.2127464545906383
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 7,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 6,
+                "neutral": 4,
+                "sad": 2,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.11819303956915497,
+                "calm": 0.12339491581015163,
+                "disgust": 0.12179315271665384,
+                "fearful": 0.13544376396304017,
+                "happy": 0.1293080915407552,
+                "neutral": 0.11617736691500793,
+                "sad": 0.12568569370635888,
+                "surprised": 0.13000397577887737
+            }
+        },
+        {
+            "sentence_index": 6,
+            "timestamp": {
+                "start": 16.74,
+                "end": 20.02
+            },
+            "transcript": "Rather I dream of my levee and the crimson sunset haze.",
+            "acoustic_emotion": {
+                "angry": 0.42664749822967357,
+                "calm": 0.8794585576811056,
+                "disgust": 0.5357501688228118,
+                "fearful": 2.0,
+                "happy": 0.6078314498067823,
+                "neutral": 0.24178449947261604,
+                "sad": 1.0000706306167304,
+                "surprised": 1.2097148112924543
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 7,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 6,
+                "neutral": 9,
+                "sad": 4,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.1187679263765801,
+                "calm": 0.1252401489800237,
+                "disgust": 0.12032737762223747,
+                "fearful": 0.14125652821744275,
+                "happy": 0.12135766627427438,
+                "neutral": 0.11612560028024912,
+                "sad": 0.12696410904771252,
+                "surprised": 0.12996064320147996
+            }
+        },
+        {
+            "sentence_index": 7,
+            "timestamp": {
+                "start": 20.48,
+                "end": 24.12
+            },
+            "transcript": "Rather I dream of my triumphs of the days that are long gone by.",
+            "acoustic_emotion": {
+                "angry": 0.4371508703855207,
+                "calm": 0.7373669583719825,
+                "disgust": 0.5881831068766333,
+                "fearful": 1.3324765570206702,
+                "happy": 1.4770165106233921,
+                "neutral": 0.3280549761615153,
+                "sad": 0.8236833058673192,
+                "surprised": 1.177319596764336
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 9,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 7,
+                "neutral": 2,
+                "sad": 3,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.11891806532394028,
+                "calm": 0.12320918293088211,
+                "disgust": 0.12107683400808902,
+                "fearful": 0.13171534025892187,
+                "happy": 0.1337813119527478,
+                "neutral": 0.11735871080803305,
+                "sad": 0.12444293959258657,
+                "surprised": 0.1294976151247993
+            }
+        },
+        {
+            "sentence_index": 8,
+            "timestamp": {
+                "start": 24.12,
+                "end": 28.24
+            },
+            "transcript": "Rather I dream of flame -tipped stacks against the saffron sky.",
+            "acoustic_emotion": {
+                "angry": 0.49518525941635133,
+                "calm": 0.5485590702613046,
+                "disgust": 0.6757749755464295,
+                "fearful": 1.5422416698224566,
+                "happy": 1.290472451062235,
+                "neutral": 0.39160011707480824,
+                "sad": 0.8301281541717804,
+                "surprised": 1.1272912272343318
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 9,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 7,
+                "neutral": 6,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.1054487228168366,
+                "calm": 0.15387475642993959,
+                "disgust": 0.10772174704575707,
+                "fearful": 0.11862768251011882,
+                "happy": 0.15586930568307888,
+                "neutral": 0.1353884092619329,
+                "sad": 0.1096645404802049,
+                "surprised": 0.11340483577213124
+            }
+        },
+        {
+            "sentence_index": 9,
+            "timestamp": {
+                "start": 29.0,
+                "end": 32.5
+            },
+            "transcript": "Of level lawns of toque -as, of level fields of jade.",
+            "acoustic_emotion": {
+                "angry": 0.7409151695017518,
+                "calm": 0.6978091216704897,
+                "disgust": 0.8211833469164784,
+                "fearful": 0.9116108654387712,
+                "happy": 1.354802087017441,
+                "neutral": 0.6343614562208763,
+                "sad": 0.7648279336530911,
+                "surprised": 0.97574450794829
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 10,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 10,
+                "neutral": 10,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.10373599747833105,
+                "calm": 0.15482618607659776,
+                "disgust": 0.1047015758681513,
+                "fearful": 0.10578936508353443,
+                "happy": 0.16668103746418944,
+                "neutral": 0.1536813296101399,
+                "sad": 0.10402365379555503,
+                "surprised": 0.10656085462350108
+            }
+        },
+        {
+            "sentence_index": 10,
+            "timestamp": {
+                "start": 32.86,
+                "end": 36.4
+            },
+            "transcript": "Of the rambling pillared mansions that my father's father's made.",
+            "acoustic_emotion": {
+                "angry": 0.5984936131417775,
+                "calm": 0.6904854304154201,
+                "disgust": 0.9436516237353275,
+                "fearful": 1.1499170025096022,
+                "happy": 1.44546782097771,
+                "neutral": 0.6959560453422496,
+                "sad": 0.7682317559944152,
+                "surprised": 0.6090569301014918
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 7,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 6,
+                "neutral": 9,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.10651775899584091,
+                "calm": 0.14535871422636332,
+                "disgust": 0.11085273885330779,
+                "fearful": 0.11344330964939514,
+                "happy": 0.15230182838244655,
+                "neutral": 0.15622565252465126,
+                "sad": 0.10864956937754025,
+                "surprised": 0.10665042799045486
+            }
+        },
+        {
+            "sentence_index": 11,
+            "timestamp": {
+                "start": 37.26,
+                "end": 38.54
+            },
+            "transcript": "Why should I sing of my present?",
+            "acoustic_emotion": {
+                "angry": 0.8784233369812787,
+                "calm": 0.5926602018367609,
+                "disgust": 0.690164334770358,
+                "fearful": 0.7747516656185014,
+                "happy": 1.4273467673982625,
+                "neutral": 0.45212612490985477,
+                "sad": 0.8655617883672156,
+                "surprised": 1.2202265235949263
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 0,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 9,
+                "sad": 10,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.11219600238348038,
+                "calm": 0.10853645189104645,
+                "disgust": 0.10978511294563291,
+                "fearful": 0.11086835836881336,
+                "happy": 0.11922564603949319,
+                "neutral": 0.15476827179195407,
+                "sad": 0.16804694151170288,
+                "surprised": 0.11657321506787675
+            }
+        },
+        {
+            "sentence_index": 12,
+            "timestamp": {
+                "start": 39.14,
+                "end": 40.34
+            },
+            "transcript": "It is nothing to you or me.",
+            "acoustic_emotion": {
+                "angry": 0.5897468843688191,
+                "calm": 0.7269376050174322,
+                "disgust": 0.4284797241913511,
+                "fearful": 1.7444318444520954,
+                "happy": 0.9562587978773285,
+                "neutral": 0.018164318090064722,
+                "sad": 0.9453728214950599,
+                "surprised": 1.4918682267258434
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 9,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 7,
+                "sad": 0,
+                "surprised": 3
+            },
+            "fused_emotion": {
+                "angry": 0.10860899228727294,
+                "calm": 0.1600331185320981,
+                "disgust": 0.10654167586112018,
+                "fearful": 0.12341113292387128,
+                "happy": 0.11330738282346772,
+                "neutral": 0.1367303752864265,
+                "sad": 0.11316783328489453,
+                "surprised": 0.13819948900084872
+            }
+        },
+        {
+            "sentence_index": 13,
+            "timestamp": {
+                "start": 40.88,
+                "end": 44.4
+            },
+            "transcript": "But the river road, the great road, the high road to the sea.",
+            "acoustic_emotion": {
+                "angry": 0.2816415389342804,
+                "calm": 0.8122072641113326,
+                "disgust": 0.8016992006230089,
+                "fearful": 1.125870274753099,
+                "happy": 1.691469828346751,
+                "neutral": 0.4674167412284463,
+                "sad": 0.7983334302006613,
+                "surprised": 0.9226229865387428
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 10,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 10,
+                "neutral": 10,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.09804365390303983,
+                "calm": 0.15662273238154265,
+                "disgust": 0.1042889648298939,
+                "fearful": 0.10818189690373466,
+                "happy": 0.17246117253305,
+                "neutral": 0.15041190949016184,
+                "sad": 0.10424854569112435,
+                "surprised": 0.1057411242674528
+            }
+        },
+        {
+            "sentence_index": 14,
+            "timestamp": {
+                "start": 45.12,
+                "end": 46.88
+            },
+            "transcript": "I, that is worth the dreaming.",
+            "acoustic_emotion": {
+                "angry": 0.4888024409524135,
+                "calm": 0.6088724043574139,
+                "disgust": 0.8697527120462732,
+                "fearful": 1.2519274209165143,
+                "happy": 1.4898655490175177,
+                "neutral": 0.35808002527064425,
+                "sad": 0.7422667945141643,
+                "surprised": 1.0916902688472327
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 10,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 10,
+                "neutral": 10,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.10084282557184268,
+                "calm": 0.15343379689320605,
+                "disgust": 0.10543178292521975,
+                "fearful": 0.1100354899537225,
+                "happy": 0.1693525674371441,
+                "neutral": 0.14890219938753999,
+                "sad": 0.1038960773932847,
+                "surprised": 0.10810526043804024
+            }
+        },
+        {
+            "sentence_index": 15,
+            "timestamp": {
+                "start": 47.52,
+                "end": 49.22
+            },
+            "transcript": "I, that was worth the pain.",
+            "acoustic_emotion": {
+                "angry": 0.26805074874969476,
+                "calm": 0.3884266912839995,
+                "disgust": 0.8668399158374954,
+                "fearful": 1.8369240705232373,
+                "happy": 1.1705963960662655,
+                "neutral": 0.43477288607907033,
+                "sad": 0.9399631938904256,
+                "surprised": 0.995679543418673
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 0,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 9,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.11058498494035898,
+                "calm": 0.11221819670733911,
+                "disgust": 0.11870911251135875,
+                "fearful": 0.13187081926968566,
+                "happy": 0.12283035673476092,
+                "neutral": 0.16362815435654687,
+                "sad": 0.11970121936960555,
+                "surprised": 0.12045715611034408
+            }
+        },
+        {
+            "sentence_index": 16,
+            "timestamp": {
+                "start": 50.1,
+                "end": 52.82
+            },
+            "transcript": "Send me back my river and I shall wake again.",
+            "acoustic_emotion": {
+                "angry": 0.3420367107191474,
+                "calm": 0.6256814486209177,
+                "disgust": 0.7013604603552434,
+                "fearful": 1.519514770269358,
+                "happy": 1.2890796465758616,
+                "neutral": 0.31775958641212887,
+                "sad": 0.852830554544168,
+                "surprised": 1.2529949596845131
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 0,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 0,
+                "sad": 10,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.11065065232234451,
+                "calm": 0.11446667472995505,
+                "disgust": 0.11548482442911859,
+                "fearful": 0.12649188630028438,
+                "happy": 0.12339172092432943,
+                "neutral": 0.11032403935207319,
+                "sad": 0.17628394736101888,
+                "surprised": 0.12290625458087594
+            }
+        },
+        {
+            "sentence_index": 17,
+            "timestamp": {
+                "start": 53.68,
+                "end": 54.68
+            },
+            "transcript": "End of poem.",
+            "acoustic_emotion": {
+                "angry": 0.6060513497615109,
+                "calm": 0.8468141812725656,
+                "disgust": 0.7819122027552196,
+                "fearful": 0.2805395970614536,
+                "happy": 1.8843419741596195,
+                "neutral": 0.9266189592904411,
+                "sad": 0.5174159202452628,
+                "surprised": 1.0575603038211163
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 10,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 9,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.10842448934786193,
+                "calm": 0.1672495736288975,
+                "disgust": 0.11067073282029297,
+                "fearful": 0.10426677808207929,
+                "happy": 0.12475189776221074,
+                "neutral": 0.16315262226466432,
+                "sad": 0.10729236271713238,
+                "surprised": 0.11419154337686083
+            }
+        },
+        {
+            "sentence_index": 18,
+            "timestamp": {
+                "start": 55.22,
+                "end": 56.76
+            },
+            "transcript": "This recording is in the public domain.",
+            "acoustic_emotion": {
+                "angry": 0.48154911968449227,
+                "calm": 0.5878369907916963,
+                "disgust": 0.676023094908523,
+                "fearful": 1.1675397323282066,
+                "happy": 1.6204076090285215,
+                "neutral": 0.37437875681253147,
+                "sad": 0.9028172233410471,
+                "surprised": 1.0907113441371246
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 10,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 10,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.10678669002149914,
+                "calm": 0.16221552644263287,
+                "disgust": 0.10926957041031614,
+                "fearful": 0.11554484204201264,
+                "happy": 0.12132667875558369,
+                "neutral": 0.1581276432513125,
+                "sad": 0.11216508737157162,
+                "surprised": 0.11456396170507137
+            }
+        }
+    ]
+}

@@ -25,24 +25,17 @@ class EmotionDetector:
         self.id2label = self.model.config.id2label
         print(f"[+] Model loaded on {self.device}. Labels: {list(self.id2label.values())}")
 
-    def detect_emotion(self, audio_path):
+    def detect_emotion_from_array(self, speech):
         """
-        Predicts emotion probabilities for a single audio file.
+        Predicts emotion probabilities from a 16kHz numpy array.
         
         Args:
-            audio_path (str or Path): Path to the 2s audio segment.
+            speech (np.ndarray): The audio array at 16kHz.
             
         Returns:
             dict: A dictionary mapping emotion labels to probability scores.
         """
-        path = Path(audio_path)
-        if not path.exists():
-            raise FileNotFoundError(f"Audio file not found: {audio_path}")
-
         try:
-            # Load audio - Wav2Vec2 expects 16kHz mono
-            speech, sr = librosa.load(path, sr=16000)
-            
             # Ensure input is not empty
             if len(speech) == 0:
                 return {label: 0.0 for label in self.id2label.values()}
@@ -62,7 +55,11 @@ class EmotionDetector:
             if self.device == "cuda":
                 probs = probs.cpu()
             
-            scores = probs.numpy().tolist()
+            # If the output is a single scalar (e.g. batch size 1 with 1 class), handle it
+            if probs.dim() == 0:
+                scores = [probs.item()]
+            else:
+                scores = probs.numpy().tolist()
             
             # Create a vector of {label: score}
             emotion_vector = {self.id2label[i]: float(scores[i]) for i in range(len(scores))}
@@ -70,9 +67,31 @@ class EmotionDetector:
             return emotion_vector
             
         except Exception as e:
-            print(f"[-] Error during emotion detection for {path.name}: {e}")
-            # Return neutral vector on error or handle as needed
-            return {}
+            print(f"[-] Error during emotion detection from array: {e}")
+            return {label: 0.0 for label in self.id2label.values()}
+
+    def detect_emotion(self, audio_path):
+        """
+        Predicts emotion probabilities for a single audio file.
+        
+        Args:
+            audio_path (str or Path): Path to the audio segment.
+            
+        Returns:
+            dict: A dictionary mapping emotion labels to probability scores.
+        """
+        path = Path(audio_path)
+        if not path.exists():
+            raise FileNotFoundError(f"Audio file not found: {audio_path}")
+
+        try:
+            # Load audio - Wav2Vec2 expects 16kHz mono
+            speech, sr = librosa.load(path, sr=16000)
+            return self.detect_emotion_from_array(speech)
+            
+        except Exception as e:
+            print(f"[-] Error loading audio for emotion detection {path.name}: {e}")
+            return {label: 0.0 for label in self.id2label.values()}
 
 if __name__ == "__main__":
     # Quick test logic

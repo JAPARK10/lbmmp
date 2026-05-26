@@ -1,0 +1,42 @@
+{
+    "sentences": [
+        {
+            "sentence_index": 0,
+            "timestamp": {
+                "start": 0.0,
+                "end": 3.44
+            },
+            "transcript": "la la la la la la",
+            "acoustic_emotion": {
+                "angry": 1.108837013480676,
+                "calm": 0.8523597293111264,
+                "disgust": 1.0470661957277247,
+                "fearful": 0.4983578073640747,
+                "happy": 0.0,
+                "neutral": 2.0,
+                "sad": 0.2646629928736758,
+                "surprised": 1.8868638601286578
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 0,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 10,
+                "neutral": 10,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.11260242629724199,
+                "calm": 0.10999728482977687,
+                "disgust": 0.1119749956094581,
+                "fearful": 0.10640154694830056,
+                "happy": 0.15200929365322116,
+                "neutral": 0.1824814831404929,
+                "sad": 0.10402781605851914,
+                "surprised": 0.12050515346298926
+            }
+        }
+    ]
+}
