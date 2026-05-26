@@ -1,0 +1,19 @@
+[
+  { "t": 0,  "emotions": { "joy": 0.05, "sadness": 0.10, "anger": 0.05, "calm": 0.72, "fear": 0.08 } },
+  { "t": 4,  "emotions": { "joy": 0.08, "sadness": 0.12, "anger": 0.04, "calm": 0.68, "fear": 0.08 } },
+  { "t": 8,  "emotions": { "joy": 0.15, "sadness": 0.08, "anger": 0.05, "calm": 0.62, "fear": 0.10 } },
+  { "t": 12, "emotions": { "joy": 0.55, "sadness": 0.05, "anger": 0.05, "calm": 0.28, "fear": 0.07 } },
+  { "t": 16, "emotions": { "joy": 0.72, "sadness": 0.04, "anger": 0.06, "calm": 0.13, "fear": 0.05 } },
+  { "t": 20, "emotions": { "joy": 0.40, "sadness": 0.10, "anger": 0.18, "calm": 0.20, "fear": 0.12 } },
+  { "t": 24, "emotions": { "joy": 0.08, "sadness": 0.12, "anger": 0.55, "calm": 0.08, "fear": 0.17 } },
+  { "t": 28, "emotions": { "joy": 0.04, "sadness": 0.20, "anger": 0.45, "calm": 0.06, "fear": 0.25 } },
+  { "t": 32, "emotions": { "joy": 0.03, "sadness": 0.35, "anger": 0.15, "calm": 0.12, "fear": 0.35 } },
+  { "t": 36, "emotions": { "joy": 0.04, "sadness": 0.58, "anger": 0.08, "calm": 0.18, "fear": 0.12 } },
+  { "t": 40, "emotions": { "joy": 0.04, "sadness": 0.70, "anger": 0.04, "calm": 0.16, "fear": 0.06 } },
+  { "t": 44, "emotions": { "joy": 0.06, "sadness": 0.50, "anger": 0.05, "calm": 0.32, "fear": 0.07 } },
+  { "t": 48, "emotions": { "joy": 0.10, "sadness": 0.25, "anger": 0.05, "calm": 0.52, "fear": 0.08 } },
+  { "t": 52, "emotions": { "joy": 0.25, "sadness": 0.15, "anger": 0.05, "calm": 0.48, "fear": 0.07 } },
+  { "t": 56, "emotions": { "joy": 0.48, "sadness": 0.10, "anger": 0.06, "calm": 0.30, "fear": 0.06 } },
+  { "t": 60, "emotions": { "joy": 0.08, "sadness": 0.08, "anger": 0.05, "calm": 0.72, "fear": 0.07 } }
+]
+
