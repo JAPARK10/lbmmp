@@ -1,21 +1,24 @@
-# Python
+# Python environments
+.venv/
+venv/
+env/
+.env
+
+# Python cache
 __pycache__/
 *.py[cod]
 *$py.class
-.venv/
-env/
-venv/
-.env
 
-# Project Specific - Data
-# Ignore all processed audio and large raw files to keep repo clean
-**/data/processed/isolated/hamlet_act4_shakespeare_64kb
-**/data/processed/segments/
-**/data/stored/
-**/data/raw/*.mp3
-**/data/raw/*.wav
-**/data/raw/*.m4a
+# VS Code
+.vscode/
 
 # OS files
 .DS_Store
 Thumbs.db
+
+# Large model / checkpoint files
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
