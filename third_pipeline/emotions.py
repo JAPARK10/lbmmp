@@ -196,7 +196,7 @@ def _convert_sentences_to_keyframes(sentences: list) -> list:
 
 # Where teammates drop the real audiobook JSON files. The latest .json in
 # this folder is preferred over the argument passed to load_timeline().
-TIMELINE_DIR = "emotional_timeline"
+TIMELINE_DIR = "../emotional_timeline"
 
 
 def _find_latest_timeline():

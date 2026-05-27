@@ -1,5 +1,6 @@
 import subprocess
 import os
+import sys  # <-- ADD THIS LINE
 from pathlib import Path
 
 class AudioIsolator:
@@ -31,7 +32,7 @@ class AudioIsolator:
         # -n htdemucs: Use the high-quality hybrid transformer model
         # --two-stems=vocals: Only output vocals and 'no_vocals'
         command = [
-            "demucs",
+            sys.executable, "-m", "demucs",  # <-- FIXED TO USE MODULE PATH
             "-n", "htdemucs",
             "--two-stems", "vocals",
             str(input_path.absolute()),

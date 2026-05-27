@@ -238,7 +238,8 @@ if __name__ == "__main__":
     default_input = root_dir / "data" / "raw"
 
     parser = argparse.ArgumentParser(description="Audio Emotion and Content Pipeline")
-    parser.add_argument("--input_dir", default=str(default_input), help="Directory containing input audio files")
+    parser.add_argument("--input_dir", default=None, help="Directory containing input audio files")
+    parser.add_argument("--input_file", default=None, help="Process a single specific audio file")
     parser.add_argument("--whisper", default="base", help="Whisper model size (base, small, medium, large)")
     parser.add_argument("--summarizer", default="Qwen/Qwen2.5-1.5B-Instruct", help="HuggingFace summarization model")
     
@@ -246,19 +247,30 @@ if __name__ == "__main__":
     
     pipeline = AudioPipeline(whisper_model=args.whisper, summarizer_model=args.summarizer)
     
-    input_dir = Path(args.input_dir)
-    if not input_dir.exists() or not input_dir.is_dir():
-        print(f"[!] Error: Directory '{input_dir.absolute()}' does not exist.")
-        exit(1)
-        
     supported_extensions = ['.mp3', '.wav', '.m4a']
-    audio_files = [f for f in input_dir.iterdir() if f.is_file() and f.suffix.lower() in supported_extensions]
-    
+    audio_files = []
+
+    # NEW: Handle single file input
+    if args.input_file:
+        path = Path(args.input_file)
+        if path.exists() and path.is_file():
+            audio_files.append(path)
+        else:
+            print(f"[!] Error: File '{path}' does not exist.")
+            exit(1)
+    # Handle directory input
+    else:
+        input_dir = Path(args.input_dir) if args.input_dir else default_input
+        if not input_dir.exists() or not input_dir.is_dir():
+            print(f"[!] Error: Directory '{input_dir.absolute()}' does not exist.")
+            exit(1)
+        audio_files = [f for f in input_dir.iterdir() if f.is_file() and f.suffix.lower() in supported_extensions]
+        
     if not audio_files:
-        print(f"[*] No supported audio files found in {input_dir}")
+        print(f"[*] No supported audio files found.")
         exit(0)
         
-    print(f"[*] Found {len(audio_files)} audio files. Starting batch processing...")
+    print(f"[*] Found {len(audio_files)} audio files. Starting processing...")
     
     for audio_file in audio_files:
         expected_output = root_dir / "data" / "processed" / f"{audio_file.stem}_analysis.json"

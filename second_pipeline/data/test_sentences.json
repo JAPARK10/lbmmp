@@ -1,0 +1,184 @@
+{
+  "sentences": [
+    {
+      "sentence_index": 0,
+      "timestamp": {
+        "start": 0.0,
+        "end": 7.1
+      },
+      "transcript": "Homebound, from anthology a Massachusetts poet, edited by William Stanley Braythwaite.",
+      "fused_emotion": {
+        "angry": 0.11191861220656016,
+        "calm": 0.15370240435964808,
+        "disgust": 0.1071285988206718,
+        "fearful": 0.11376197533616277,
+        "happy": 0.1130867579885955,
+        "neutral": 0.17490408908577806,
+        "sad": 0.10499798270408213,
+        "surprised": 0.12049957949850149
+      }
+    },
+    {
+      "sentence_index": 1,
+      "timestamp": {
+        "start": 7.72,
+        "end": 9.44
+      },
+      "transcript": "This is a Librivox recording.",
+      "fused_emotion": {
+        "angry": 0.11011407052295125,
+        "calm": 0.15645913866172168,
+        "disgust": 0.11490975598027242,
+        "fearful": 0.10985142674716615,
+        "happy": 0.11184609759821772,
+        "neutral": 0.17573871965820384,
+        "sad": 0.10568976751219,
+        "surprised": 0.11539102331927695
+      }
+    },
+    {
+      "sentence_index": 2,
+      "timestamp": {
+        "start": 9.92,
+        "end": 12.52
+      },
+      "transcript": "All Librivox recordings are in the public domain.",
+      "fused_emotion": {
+        "angry": 0.11148219606163132,
+        "calm": 0.15972778922236147,
+        "disgust": 0.1152080710368985,
+        "fearful": 0.11443544613091933,
+        "happy": 0.1135208156287949,
+        "neutral": 0.17309206385152662,
+        "sad": 0.10648183444018773,
+        "surprised": 0.10605178362768014
+      }
+    },
+    {
+      "sentence_index": 3,
+      "timestamp": {
+        "start": 13.2,
+        "end": 18.06
+      },
+      "transcript": "For more information or to volunteer, please visit Librivox dot org.",
+      "fused_emotion": {
+        "angry": 0.11124074000457884,
+        "calm": 0.15749632356678023,
+        "disgust": 0.10941246489232188,
+        "fearful": 0.1131529651732555,
+        "happy": 0.11261014466484491,
+        "neutral": 0.17540913208038106,
+        "sad": 0.1051110213828921,
+        "surprised": 0.11556720823494546
+      }
+    },
+    {
+      "sentence_index": 4,
+      "timestamp": {
+        "start": 18.9,
+        "end": 20.22
+      },
+      "transcript": "Recording by Larry Wilson.",
+      "fused_emotion": {
+        "angry": 0.11141895478363571,
+        "calm": 0.15937769034482954,
+        "disgust": 0.1174214594866243,
+        "fearful": 0.1136304884229236,
+        "happy": 0.11623298532576232,
+        "neutral": 0.16809387992755154,
+        "sad": 0.10996677422891019,
+        "surprised": 0.10385776747976282
+      }
+    },
+    {
+      "sentence_index": 5,
+      "timestamp": {
+        "start": 21.5,
+        "end": 23.62
+      },
+      "transcript": "Homebound by Joseph Auslander.",
+      "fused_emotion": {
+        "angry": 0.11382163384460488,
+        "calm": 0.11035655754529733,
+        "disgust": 0.11469231641487372,
+        "fearful": 0.1611028958639984,
+        "happy": 0.11904783730682578,
+        "neutral": 0.15866737835765568,
+        "sad": 0.10832808688718802,
+        "surprised": 0.1139832937795563
+      }
+    },
+    {
+      "sentence_index": 6,
+      "timestamp": {
+        "start": 24.3,
+        "end": 27.6
+      },
+      "transcript": "The moon is a wavering rim where one fish slips.",
+      "fused_emotion": {
+        "angry": 0.11145348129600223,
+        "calm": 0.14194541553497875,
+        "disgust": 0.10989371839636153,
+        "fearful": 0.11176207813761364,
+        "happy": 0.11494431429668898,
+        "neutral": 0.16684311377963487,
+        "sad": 0.1375132196140405,
+        "surprised": 0.10564465894467957
+      }
+    },
+    {
+      "sentence_index": 7,
+      "timestamp": {
+        "start": 28.64,
+        "end": 30.72
+      },
+      "transcript": "The water makes a quietness of sound.",
+      "fused_emotion": {
+        "angry": 0.1124857988084655,
+        "calm": 0.16065748468365332,
+        "disgust": 0.11626585029718027,
+        "fearful": 0.11384413536776367,
+        "happy": 0.11446136096016496,
+        "neutral": 0.1647907335618303,
+        "sad": 0.1119846140288321,
+        "surprised": 0.10551002229210985
+      }
+    },
+    {
+      "sentence_index": 8,
+      "timestamp": {
+        "start": 31.64,
+        "end": 34.3
+      },
+      "transcript": "Night is an anchoring of many ships, homebound.",
+      "fused_emotion": {
+        "angry": 0.11540700932939954,
+        "calm": 0.15411644749818365,
+        "disgust": 0.11897510750015976,
+        "fearful": 0.11644072111431948,
+        "happy": 0.11554255071654383,
+        "neutral": 0.15892006989164142,
+        "sad": 0.11040519956851347,
+        "surprised": 0.11019289438123886
+      }
+    },
+    {
+      "sentence_index": 9,
+      "timestamp": {
+        "start": 35.5,
+        "end": 40.0
+      },
+      "transcript": "There are strange tunnelers in the dark, and whirs of wings that die.",
+      "fused_emotion": {
+        "angry": 0.11818208982381845,
+        "calm": 0.10724675699169842,
+        "disgust": 0.11643824649250734,
+        "fearful": 0.15727629268717544,
+        "happy": 0.11904039749485218,
+        "neutral": 0.15561061528577333,
+        "sad": 0.11206171526035404,
+        "surprised": 0.11414388596382075
+      }
+    }
+  ]
+}
