@@ -15,6 +15,8 @@ import os
 import sys
 import math
 import pygame
+import argparse
+import json
 
 from emotions import (load_timeline, get_total_duration, get_emotions_at,
                       lerp_emotions, blend_color, EMOTION_KEYS)
@@ -123,21 +125,31 @@ def draw_hud(screen, f_sm, f_lg, ev, t, playing, override, W, H):
         fw = int(130 * ev[key])
         if fw > 0:
             pygame.draw.rect(screen, ecol, (bx+44, by, fw, 3), border_radius=1)
-        screen.blit(f_sm.render(key[:3].upper(), True, (60, 58, 72)), (bx, by-1))
+        screen.blit(f_sm.render(key[:3].upper(), True, (160, 158, 172)), (bx, by-1))
         by += 14
 
-    st = "▶" if playing else "⏸"
+    # Close button (Top Left)
+    close_rect = pygame.Rect(20, 20, 70, 30)
+    pygame.draw.rect(screen, (60, 40, 50), close_rect, border_radius=4)
+    close_text = f_sm.render("CLOSE X", True, (240, 200, 200))
+    screen.blit(close_text, (close_rect.x + (close_rect.w - close_text.get_width())//2, close_rect.y + (close_rect.h - close_text.get_height())//2))
+    
+    # Play/Pause button
+    btn_rect = pygame.Rect(24, H - 86, 70, 30)
+    pygame.draw.rect(screen, (40, 50, 60) if playing else (60, 50, 40), btn_rect, border_radius=4)
+    btn_text = f_sm.render("PAUSE" if playing else "PLAY", True, (200, 220, 240))
+    screen.blit(btn_text, (btn_rect.x + (btn_rect.w - btn_text.get_width())//2, btn_rect.y + (btn_rect.h - btn_text.get_height())//2))
+
     ov = f"  [{override}]" if override else ""
     screen.blit(
-        f_sm.render(f"{st} t={t:.1f}s{ov}", True, (55, 53, 68)),
-        (24, H - 86)
+        f_sm.render(f"t={t:.1f}s{ov}", True, (155, 153, 168)),
+        (104, H - 80)
     )
     screen.blit(
         f_sm.render(
-            "1=joy  2=sad  3=anger  4=calm  5=fear  "
-            "0=release  SPACE=pause  R=reset  F=full  Q=quit",
-            True, (40, 38, 52)),
-        (24, H - 68))
+            "1-5=emotion  0=release  SPACE=pause  R=reset  F=full",
+            True, (120, 118, 132)),
+        (24, H - 108))
 
 
 def draw_timeline(screen, gradient_surf, t, total, W, H):
@@ -164,7 +176,21 @@ def build_timeline_gradient(timeline, total, width, height=3):
 # ── Main ─────────────────────────────────────────────────────────────────────
 
 def main():
+    parser = argparse.ArgumentParser(description="MoodBook Tree Visualizer")
+    parser.add_argument("--audio", type=str, help="Path to audio file to play", default=None)
+    parser.add_argument("--timeline", type=str, help="Path to timeline JSON file", default=None)
+    args = parser.parse_args()
+
     pygame.init()
+    if args.audio:
+        try:
+            pygame.mixer.init()
+            pygame.mixer.music.load(args.audio)
+            print(f"[moodbook] Loaded audio: {args.audio}")
+        except Exception as e:
+            print(f"[moodbook] Failed to load audio: {e}")
+            args.audio = None
+
     screen = pygame.display.set_mode((SCREEN_W, SCREEN_H))
     pygame.display.set_caption("MoodBook — Tree")
     clock  = pygame.time.Clock()
@@ -178,9 +204,23 @@ def main():
         f_lg = pygame.font.SysFont("serif", 30)
 
     try:
-        timeline = load_timeline(TIMELINE_PATH)
+        if args.timeline:
+            print(f"[moodbook] Forcing timeline file: {args.timeline}")
+            with open(args.timeline, "r") as f:
+                data = json.load(f)
+            from emotions import _convert_sentences_to_keyframes
+            if isinstance(data, dict) and "sentences" in data:
+                timeline = _convert_sentences_to_keyframes(data["sentences"])
+            elif isinstance(data, list):
+                data.sort(key=lambda x: x["t"])
+                timeline = data
+            else:
+                raise ValueError("Unrecognized timeline format")
+        else:
+            timeline = load_timeline(TIMELINE_PATH)
         print(f"[moodbook] {len(timeline)} keyframes")
-    except FileNotFoundError:
+    except Exception as e:
+        print(f"[moodbook] Timeline load error: {e}")
         timeline = [{"t": 0, "emotions": {k: 0.2 for k in EMOTION_KEYS}}]
     total_duration = get_total_duration(timeline)
     timeline_gradient = build_timeline_gradient(timeline, total_duration, W - 48)
@@ -199,12 +239,17 @@ def main():
     cur_ev     = {k: 0.2 for k in EMOTION_KEYS}
     tgt_ev     = get_emotions_at(timeline, 0.0)
     play_t     = 0.0
+    audio_start_offset = 0.0
     playing    = True
     override   = None
     frame      = 0
     fullscreen = False
+    dragging_timeline = False
 
     print("[moodbook] tree — 1-5 emotions, Q quit")
+
+    if args.audio:
+        pygame.mixer.music.play(start=0.0)
 
     while True:
         dt    = clock.tick(FPS) / 1000.0
@@ -213,13 +258,53 @@ def main():
         for ev in pygame.event.get():
             if ev.type == pygame.QUIT:
                 pygame.quit(); sys.exit()
+            elif ev.type == pygame.MOUSEBUTTONDOWN:
+                if ev.button == 1:
+                    # check close
+                    if pygame.Rect(20, 20, 70, 30).collidepoint(ev.pos):
+                        pygame.quit(); sys.exit()
+                    # check play/pause
+                    if pygame.Rect(24, H - 86, 70, 30).collidepoint(ev.pos):
+                        playing = not playing
+                        if args.audio:
+                            if playing: pygame.mixer.music.unpause()
+                            else: pygame.mixer.music.pause()
+                    # check timeline
+                    bx, by, bw, bh = 24, H - 44, W - 48, 3
+                    if pygame.Rect(bx, by - 15, bw, bh + 30).collidepoint(ev.pos):
+                        dragging_timeline = True
+                        frac = max(0.0, min(1.0, (ev.pos[0] - bx) / bw))
+                        play_t = frac * total_duration
+            elif ev.type == pygame.MOUSEBUTTONUP:
+                if ev.button == 1 and dragging_timeline:
+                    dragging_timeline = False
+                    bx, by, bw, bh = 24, H - 44, W - 48, 3
+                    frac = max(0.0, min(1.0, (ev.pos[0] - bx) / bw))
+                    play_t = frac * total_duration
+                    if args.audio:
+                        audio_start_offset = play_t
+                        pygame.mixer.music.play(start=play_t)
+                        if not playing:
+                            pygame.mixer.music.pause()
+            elif ev.type == pygame.MOUSEMOTION:
+                if dragging_timeline:
+                    bx, by, bw, bh = 24, H - 44, W - 48, 3
+                    frac = max(0.0, min(1.0, (ev.pos[0] - bx) / bw))
+                    play_t = frac * total_duration
             elif ev.type == pygame.KEYDOWN:
                 if ev.key in (pygame.K_q, pygame.K_ESCAPE):
                     pygame.quit(); sys.exit()
                 elif ev.key == pygame.K_SPACE:
                     playing = not playing
+                    if args.audio:
+                        if playing:
+                            pygame.mixer.music.unpause()
+                        else:
+                            pygame.mixer.music.pause()
                 elif ev.key == pygame.K_r:
-                    play_t = 0.0; playing = True; override = None
+                    play_t = 0.0; audio_start_offset = 0.0; playing = True; override = None
+                    if args.audio:
+                        pygame.mixer.music.play(start=0.0)
                     tree = EmotionalTree(W, H)
                     tree.draw_ground = (bg_image is None)
                     weather = create_weather_system(W, H)
@@ -245,8 +330,12 @@ def main():
                     tgt_ev = pure(override)
                     print(f"[moodbook] {override}")
 
-        if playing:
-            play_t = (play_t + dt) % total_duration
+        if playing and not dragging_timeline:
+            if args.audio and pygame.mixer.music.get_busy():
+                play_t = audio_start_offset + (pygame.mixer.music.get_pos() / 1000.0)
+            else:
+                if not args.audio:
+                    play_t = (play_t + dt) % total_duration
         if override is None:
             tgt_ev = get_emotions_at(timeline, play_t)
         cur_ev = lerp_emotions(cur_ev, tgt_ev, LERP_SPEED)

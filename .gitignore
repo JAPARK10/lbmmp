@@ -22,3 +22,15 @@ Thumbs.db
 *.ckpt
 *.bin
 *.safetensors
+
+# LaTeX and Report files
+Final_Report.*
+*.aux
+*.bbl
+*.blg
+*.log
+*.pdf
+
+# Output directories
+second_pipeline/output/
+first_pipeline/data/

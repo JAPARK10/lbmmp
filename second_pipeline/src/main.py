@@ -38,8 +38,8 @@ def parse_args():
 
     parser.add_argument(
         "--output",
-        default="output/enhanced_audiobook.mp3",
-        help="Output path for enhanced audiobook.",
+        default=None,
+        help="Output path for enhanced audiobook. Defaults to output/<original_filename>.",
     )
 
     parser.add_argument(
@@ -88,7 +88,10 @@ def parse_args():
 def main():
     args = parse_args()
 
-    output_path = Path(args.output)
+    if args.output:
+        output_path = Path(args.output)
+    else:
+        output_path = Path("output") / Path(args.audiobook).name
     assignments_output = Path(args.assignments_output)
     regions_output = Path(args.regions_output)
 
@@ -114,8 +117,8 @@ def main():
 
     mixer = AudioMixer(
         soundtrack_dir=args.soundtrack_dir,
-        base_music_gain_db=-24.0,
-        speech_duck_gain_db=-8.0,
+        base_music_gain_db=-8.0,
+        speech_duck_gain_db=-4.0,
         speech_threshold_dbfs=-38.0,
         chunk_ms=250,
         fade_ms=1500,
