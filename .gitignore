@@ -32,5 +32,4 @@ Final_Report.*
 *.pdf
 
 # Output directories
-second_pipeline/output/
 first_pipeline/data/
