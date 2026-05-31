@@ -31,5 +31,13 @@ Final_Report.*
 *.log
 *.pdf
 
-# Output directories
-first_pipeline/data/
+# Ignore heavy generated data, but keep raw audio + analysis JSONs
+first_pipeline/data/processed/isolated/
+
+# App working state — regenerated every run
+emotional_timeline/
+temp/
+
+# App working state — regenerated on every run
+emotional_timeline/
+temp/
