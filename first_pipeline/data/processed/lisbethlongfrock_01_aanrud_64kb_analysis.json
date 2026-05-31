@@ -1,0 +1,4336 @@
+{
+    "sentences": [
+        {
+            "sentence_index": 0,
+            "timestamp": {
+                "start": 0.0,
+                "end": 8.04
+            },
+            "transcript": "Chapter 1 of Lisbeth Longfuck This is a Librevox recording, all Librevox recordings are in the public domain.",
+            "acoustic_emotion": {
+                "angry": 1.4327111630952043,
+                "calm": 1.3038559373568677,
+                "disgust": 1.0630183494072865,
+                "fearful": 0.24168428461636,
+                "happy": 1.54377023260869,
+                "neutral": 1.7896548779509527,
+                "sad": 1.2727393173119967,
+                "surprised": 1.0673175604164133
+            },
+            "text_emotion": {
+                "angry": 10,
+                "calm": 0,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 0,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.18064143616103537,
+                "calm": 0.1186843058837011,
+                "disgust": 0.11542594710462911,
+                "fearful": 0.1043138898740831,
+                "happy": 0.12193017317881079,
+                "neutral": 0.1252568150025019,
+                "sad": 0.11826332046792175,
+                "surprised": 0.11548411232731688
+            }
+        },
+        {
+            "sentence_index": 1,
+            "timestamp": {
+                "start": 8.56,
+                "end": 13.92
+            },
+            "transcript": "For more information or to volunteer, please visit Librevox .org.",
+            "acoustic_emotion": {
+                "angry": 1.0404758269654257,
+                "calm": 1.3220495648776145,
+                "disgust": 1.0632429620927277,
+                "fearful": 0.5823177027401195,
+                "happy": 1.3804343719513614,
+                "neutral": 1.5736478600983845,
+                "sad": 1.3399740712084318,
+                "surprised": 1.4126109154519555
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 10,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 10,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.10856180704524464,
+                "calm": 0.1682313694061172,
+                "disgust": 0.10885227997745073,
+                "fearful": 0.10271642803670282,
+                "happy": 0.11289914482790497,
+                "neutral": 0.1730463687994658,
+                "sad": 0.11238293485554682,
+                "surprised": 0.11330966705156702
+            }
+        },
+        {
+            "sentence_index": 2,
+            "timestamp": {
+                "start": 15.46,
+                "end": 21.22
+            },
+            "transcript": "Lisbeth Longfuck translated from the Norwegian of Hans -Anward by Laura A.",
+            "acoustic_emotion": {
+                "angry": 0.875889070315674,
+                "calm": 1.2015060435821066,
+                "disgust": 1.09699489963591,
+                "fearful": 0.6743229920065831,
+                "happy": 1.3596426898662934,
+                "neutral": 1.758498924809092,
+                "sad": 1.2672740869934247,
+                "surprised": 1.480624050636187
+            },
+            "text_emotion": {
+                "angry": 7,
+                "calm": 2,
+                "disgust": 6,
+                "fearful": 4,
+                "happy": 1,
+                "neutral": 3,
+                "sad": 1,
+                "surprised": 5
+            },
+            "fused_emotion": {
+                "angry": 0.12012755960321098,
+                "calm": 0.12481518182765827,
+                "disgust": 0.12331062647186686,
+                "fearful": 0.11722578940708778,
+                "happy": 0.1270917365483324,
+                "neutral": 0.13283372024322837,
+                "sad": 0.1257619867158084,
+                "surprised": 0.1288333991828069
+            }
+        },
+        {
+            "sentence_index": 3,
+            "timestamp": {
+                "start": 21.3,
+                "end": 27.76
+            },
+            "transcript": "Poulson Chapter 1 Lisbeth Longfuck goes to Hull Farm.",
+            "acoustic_emotion": {
+                "angry": 1.071292273375375,
+                "calm": 1.2430490395737535,
+                "disgust": 1.0799683265061082,
+                "fearful": 0.45405868394562715,
+                "happy": 1.2807570586089023,
+                "neutral": 1.8266310943657926,
+                "sad": 1.3662527203235664,
+                "surprised": 1.3927456313091453
+            },
+            "text_emotion": {
+                "angry": 9,
+                "calm": 0,
+                "disgust": 9,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 0,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.16049647551960225,
+                "calm": 0.11291341109602558,
+                "disgust": 0.16065953194402424,
+                "fearful": 0.1026870904921479,
+                "happy": 0.11340215508286883,
+                "neutral": 0.12047737832122948,
+                "sad": 0.1145102878258081,
+                "surprised": 0.11485366971829376
+            }
+        },
+        {
+            "sentence_index": 4,
+            "timestamp": {
+                "start": 29.46,
+                "end": 39.22
+            },
+            "transcript": "Bear Hunter, the big, shaggy old dogger Hull Farm, sat on the stone step in front of the house, looking soably around the spacious door yard.",
+            "acoustic_emotion": {
+                "angry": 1.71314786397994,
+                "calm": 1.403043657149955,
+                "disgust": 1.039517341496676,
+                "fearful": 0.22970011101249085,
+                "happy": 1.3676552557557,
+                "neutral": 1.7249912664998461,
+                "sad": 1.3436579262659694,
+                "surprised": 0.8930408883069431
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 9,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 9,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.11833233968296639,
+                "calm": 0.16578685610002164,
+                "disgust": 0.10965068978616178,
+                "fearful": 0.09921388586945937,
+                "happy": 0.11387968237836622,
+                "neutral": 0.1718032147528612,
+                "sad": 0.11357040836815645,
+                "surprised": 0.10776292306200694
+            }
+        },
+        {
+            "sentence_index": 5,
+            "timestamp": {
+                "start": 40.14,
+                "end": 47.52
+            },
+            "transcript": "It was a clear cold winter's day toward the beginning of spring, and the sunshine brightly over the glittering snow.",
+            "acoustic_emotion": {
+                "angry": 1.3752631047787125,
+                "calm": 1.2373177933097508,
+                "disgust": 0.9533085086286982,
+                "fearful": 0.5389674544499448,
+                "happy": 1.2964685606932975,
+                "neutral": 1.6219509733647652,
+                "sad": 1.5202573212608328,
+                "surprised": 1.1712190413592691
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 9,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 7,
+                "neutral": 6,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.11169857820978332,
+                "calm": 0.15943664903363317,
+                "disgust": 0.10636923278492075,
+                "fearful": 0.10113604745747565,
+                "happy": 0.14944957936706432,
+                "neutral": 0.1492585645336225,
+                "sad": 0.11352987539505158,
+                "surprised": 0.10912147321844871
+            }
+        },
+        {
+            "sentence_index": 6,
+            "timestamp": {
+                "start": 48.62,
+                "end": 54.2
+            },
+            "transcript": "In spite of the bright sunshine, however, Bear Hunter would have liked to be indoors much better than out.",
+            "acoustic_emotion": {
+                "angry": 1.2180321548067892,
+                "calm": 1.3637198758937281,
+                "disgust": 0.8913335213731391,
+                "fearful": 0.444922537088264,
+                "happy": 1.4426231035366146,
+                "neutral": 1.6127397830986718,
+                "sad": 1.476313971271313,
+                "surprised": 1.2650672932360012
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 7,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 6,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.11539209275007621,
+                "calm": 0.15839199123474115,
+                "disgust": 0.11105224497214895,
+                "fearful": 0.10512214450668589,
+                "happy": 0.11837554731657858,
+                "neutral": 0.15682597905540205,
+                "sad": 0.11882309506398772,
+                "surprised": 0.1160169051003794
+            }
+        },
+        {
+            "sentence_index": 7,
+            "timestamp": {
+                "start": 54.78,
+                "end": 67.32
+            },
+            "transcript": "If he sensed responsibility had permitted, for his paws ached with a cold, and he had to keep holding them up one after another from the stone slab to keep from getting the claw ache.",
+            "acoustic_emotion": {
+                "angry": 1.140183675212127,
+                "calm": 1.1264641874739612,
+                "disgust": 1.3180148171916686,
+                "fearful": 0.7440036434868791,
+                "happy": 1.3527904503380834,
+                "neutral": 1.6972738541000871,
+                "sad": 1.12600978669558,
+                "surprised": 1.2100138959691338
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 0,
+                "disgust": 0,
+                "fearful": 7,
+                "happy": 0,
+                "neutral": 6,
+                "sad": 4,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.11208382732826752,
+                "calm": 0.11190520257707263,
+                "disgust": 0.11439915018120692,
+                "fearful": 0.1443496266154955,
+                "happy": 0.11485192137332238,
+                "neutral": 0.1551381266324552,
+                "sad": 0.1342791436531323,
+                "surprised": 0.1129930016390477
+            }
+        },
+        {
+            "sentence_index": 8,
+            "timestamp": {
+                "start": 68.44,
+                "end": 74.76
+            },
+            "transcript": "Bear Hunter did not wish to risk that, because claw ache is very painful as every northern dog knows.",
+            "acoustic_emotion": {
+                "angry": 1.2427995849323186,
+                "calm": 1.2245717997220806,
+                "disgust": 1.1372849294721343,
+                "fearful": 0.5077054054543619,
+                "happy": 1.439437122680447,
+                "neutral": 1.61259383660721,
+                "sad": 1.3568717766915173,
+                "surprised": 1.1934908899889505
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 0,
+                "disgust": 0,
+                "fearful": 10,
+                "happy": 0,
+                "neutral": 10,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.1116956327687216,
+                "calm": 0.11146191877687607,
+                "disgust": 0.1103427393128587,
+                "fearful": 0.1534055443209819,
+                "happy": 0.11421689047303002,
+                "neutral": 0.17465562074087854,
+                "sad": 0.11315824970144896,
+                "surprised": 0.1110634039052042
+            }
+        },
+        {
+            "sentence_index": 9,
+            "timestamp": {
+                "start": 76.32,
+                "end": 82.98
+            },
+            "transcript": "But to leave his post at Watchman was not to be thought of just now, for the pigs and the goats were out today.",
+            "acoustic_emotion": {
+                "angry": 1.2958827045644505,
+                "calm": 1.377029988898751,
+                "disgust": 0.9622179726376205,
+                "fearful": 0.3740624102390262,
+                "happy": 1.3894385459175091,
+                "neutral": 1.7446133064902198,
+                "sad": 1.4257626609875196,
+                "surprised": 1.1457436154879246
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 0,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 7,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.12057646170764226,
+                "calm": 0.12169284357775419,
+                "disgust": 0.11598607694646768,
+                "fearful": 0.10789454052533153,
+                "happy": 0.1218635540113027,
+                "neutral": 0.1711123143608141,
+                "sad": 0.12236328217651103,
+                "surprised": 0.11851092669417654
+            }
+        },
+        {
+            "sentence_index": 10,
+            "timestamp": {
+                "start": 84.0,
+                "end": 89.42
+            },
+            "transcript": "At this moment they were very busy with their separate affairs and behaving very well.",
+            "acoustic_emotion": {
+                "angry": 1.5941000354515413,
+                "calm": 1.4167491712878744,
+                "disgust": 0.9356950442885497,
+                "fearful": 0.17670497330783583,
+                "happy": 1.5077142036471096,
+                "neutral": 1.8165587162919241,
+                "sad": 1.3957111398058704,
+                "surprised": 0.8715225790090647
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 10,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 10,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.11537669410527078,
+                "calm": 0.16967825709537587,
+                "disgust": 0.10699453203245299,
+                "fearful": 0.09733182006639973,
+                "happy": 0.11427691501383211,
+                "neutral": 0.17731322747712497,
+                "sad": 0.11285100262499814,
+                "surprised": 0.10617755158454542
+            }
+        },
+        {
+            "sentence_index": 11,
+            "timestamp": {
+                "start": 90.32,
+                "end": 104.38
+            },
+            "transcript": "The pigs over at the sunny side of the door yards, scratching themselves against the corner of the cowhouse, and the goats gnawing back from the big heap of pine branches that had been laid near the sheep barn for their special use.",
+            "acoustic_emotion": {
+                "angry": 1.5214921734900102,
+                "calm": 1.3329551835587654,
+                "disgust": 1.1118897224170188,
+                "fearful": 0.31414878779017863,
+                "happy": 1.352539960615149,
+                "neutral": 1.765420514797784,
+                "sad": 1.305703557833885,
+                "surprised": 1.010606480127729
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 9,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 7,
+                "neutral": 6,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.11339408097717191,
+                "calm": 0.16097321075728707,
+                "disgust": 0.10822764250433657,
+                "fearful": 0.0981654970137148,
+                "happy": 0.1502050987098485,
+                "neutral": 0.15141206892652204,
+                "sad": 0.11067227449626534,
+                "surprised": 0.10695012661485367
+            }
+        },
+        {
+            "sentence_index": 12,
+            "timestamp": {
+                "start": 105.68,
+                "end": 122.38
+            },
+            "transcript": "They looked as if they thought of nothing but their scratching and gnawing, but Bear Hunter knew well from previous experience that no sooner would he go into the house than both pigs and goats would come rushing over to the doorway and do all the mischief they could.",
+            "acoustic_emotion": {
+                "angry": 1.2657545873518217,
+                "calm": 1.2376697210196588,
+                "disgust": 1.1634264302885549,
+                "fearful": 0.6957315826654902,
+                "happy": 1.2533688021260574,
+                "neutral": 1.5810083246429616,
+                "sad": 1.3255015616792127,
+                "surprised": 1.1922901954492642
+            },
+            "text_emotion": {
+                "angry": 7,
+                "calm": 2,
+                "disgust": 3,
+                "fearful": 1,
+                "happy": 0,
+                "neutral": 6,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.12574011462152346,
+                "calm": 0.12533580140280132,
+                "disgust": 0.12426698578199702,
+                "fearful": 0.11753399275344589,
+                "happy": 0.1255618073213639,
+                "neutral": 0.13027854652042825,
+                "sad": 0.12660023947358845,
+                "surprised": 0.12468251212485171
+            }
+        },
+        {
+            "sentence_index": 13,
+            "timestamp": {
+                "start": 123.72,
+                "end": 144.26
+            },
+            "transcript": "That big goat crook horn, the new one who had come to the farm last autumn, and whom Bear Hunter had not yet bought under discipline, had already strayed in a round about ways to the very corner of the farmhouse and was looking at Bear Hunter in a self -important manner, as if she did not fear him in the least.",
+            "acoustic_emotion": {
+                "angry": 1.1783528230554052,
+                "calm": 1.0976666675292346,
+                "disgust": 1.387677872286469,
+                "fearful": 0.873975204622674,
+                "happy": 1.3229614716788762,
+                "neutral": 1.4388160737806093,
+                "sad": 1.1418335951226959,
+                "surprised": 1.2734680146878066
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 7,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 2,
+                "neutral": 6,
+                "sad": 0,
+                "surprised": 3
+            },
+            "fused_emotion": {
+                "angry": 0.12448186705593467,
+                "calm": 0.12332029916316939,
+                "disgust": 0.12749533640210337,
+                "fearful": 0.12010000914558788,
+                "happy": 0.12656367107995609,
+                "neutral": 0.12823152828734058,
+                "sad": 0.12395613172552283,
+                "surprised": 0.12585115714038514
+            }
+        },
+        {
+            "sentence_index": 14,
+            "timestamp": {
+                "start": 145.32,
+                "end": 152.36
+            },
+            "transcript": "She was really an intolerable creature that goat crook horn, but just let her dare.",
+            "acoustic_emotion": {
+                "angry": 0.9685976974612038,
+                "calm": 1.2142204671840349,
+                "disgust": 1.76945422740223,
+                "fearful": 1.1492866994614988,
+                "happy": 0.9072158119049899,
+                "neutral": 1.4408655351500739,
+                "sad": 0.8458732594457656,
+                "surprised": 1.419238542294724
+            },
+            "text_emotion": {
+                "angry": 9,
+                "calm": 2,
+                "disgust": 3,
+                "fearful": 1,
+                "happy": 0,
+                "neutral": 4,
+                "sad": 1,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.12146220537218758,
+                "calm": 0.12499822117385598,
+                "disgust": 0.13299143512534253,
+                "fearful": 0.12406342661475281,
+                "happy": 0.12057854414848304,
+                "neutral": 0.1282610316315447,
+                "sad": 0.11969544916891231,
+                "surprised": 0.12794968676492105
+            }
+        },
+        {
+            "sentence_index": 15,
+            "timestamp": {
+                "start": 154.26,
+                "end": 158.84
+            },
+            "transcript": "Bear Hunter felt he must sit on the cold doorstep for some time longer at any rate.",
+            "acoustic_emotion": {
+                "angry": 1.6758942457231727,
+                "calm": 1.407949943458673,
+                "disgust": 1.0351203152858248,
+                "fearful": 0.218499494103917,
+                "happy": 1.3492804889725005,
+                "neutral": 1.762276972283105,
+                "sad": 1.3586117486925626,
+                "surprised": 0.9071179967032654
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 0,
+                "disgust": 0,
+                "fearful": 10,
+                "happy": 0,
+                "neutral": 1,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.12396184498915068,
+                "calm": 0.12032959861462683,
+                "disgust": 0.11527552934052411,
+                "fearful": 0.15630815634581,
+                "happy": 0.11953427693190513,
+                "neutral": 0.1313894894621596,
+                "sad": 0.1196607712592765,
+                "surprised": 0.11354033305654719
+            }
+        },
+        {
+            "sentence_index": 16,
+            "timestamp": {
+                "start": 159.82,
+                "end": 168.62
+            },
+            "transcript": "He could not stop the road occasionally as if to see whether anyone was coming, so that the pigs and goats might not think they had the whole of his attention.",
+            "acoustic_emotion": {
+                "angry": 1.3616331515902733,
+                "calm": 1.2192504457319708,
+                "disgust": 0.9434974886335112,
+                "fearful": 0.5715616533356795,
+                "happy": 1.279919677675621,
+                "neutral": 1.7050504214075555,
+                "sad": 1.5809369040194803,
+                "surprised": 1.0529024979104291
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 0,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 9,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.11998954328221487,
+                "calm": 0.11805476595140746,
+                "disgust": 0.11430767765805698,
+                "fearful": 0.1092536016148238,
+                "happy": 0.11887917404180355,
+                "neutral": 0.18075133457309892,
+                "sad": 0.12296956762016567,
+                "surprised": 0.11579433525842885
+            }
+        },
+        {
+            "sentence_index": 17,
+            "timestamp": {
+                "start": 170.04,
+                "end": 179.96
+            },
+            "transcript": "He had just turned his head leisurely towards the narrow road that came in down crosswise over the slope from the upper farms when what in the world was that?",
+            "acoustic_emotion": {
+                "angry": 1.4173112205422274,
+                "calm": 1.1227358239119352,
+                "disgust": 1.3107133522925762,
+                "fearful": 0.5118948978245175,
+                "happy": 1.4098524232551761,
+                "neutral": 1.6354774184032315,
+                "sad": 1.2423493244799362,
+                "surprised": 1.0644193322171704
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 7,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 9,
+                "sad": 0,
+                "surprised": 6
+            },
+            "fused_emotion": {
+                "angry": 0.11229899938365516,
+                "calm": 0.14657783230474256,
+                "disgust": 0.11095182151602587,
+                "fearful": 0.10085639878587453,
+                "happy": 0.11220473552276147,
+                "neutral": 0.1668314487188469,
+                "sad": 0.11008784077491492,
+                "surprised": 0.14019092299317854
+            }
+        },
+        {
+            "sentence_index": 18,
+            "timestamp": {
+                "start": 181.1,
+                "end": 185.4
+            },
+            "transcript": "Something was coming, a funny little rolly pole or something.",
+            "acoustic_emotion": {
+                "angry": 1.4063083042001019,
+                "calm": 1.4349324479936238,
+                "disgust": 0.935066232277464,
+                "fearful": 0.35102874162554376,
+                "happy": 1.2686828329145565,
+                "neutral": 1.8483346832521226,
+                "sad": 1.3760197493550148,
+                "surprised": 1.0943761434415942
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 7,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 3,
+                "neutral": 6,
+                "sad": 0,
+                "surprised": 4
+            },
+            "fused_emotion": {
+                "angry": 0.12776354716798943,
+                "calm": 0.12817562390420578,
+                "disgust": 0.12097948765632437,
+                "fearful": 0.1125716112596757,
+                "happy": 0.12578227375640116,
+                "neutral": 0.1341270139293083,
+                "sad": 0.12732750936314519,
+                "surprised": 0.12327293296295005
+            }
+        },
+        {
+            "sentence_index": 19,
+            "timestamp": {
+                "start": 186.68,
+                "end": 190.44
+            },
+            "transcript": "What a pity thought Bear Hunter that his sight was growing so poor.",
+            "acoustic_emotion": {
+                "angry": 1.0660568311497427,
+                "calm": 1.3178781864337044,
+                "disgust": 0.8637667133315909,
+                "fearful": 0.6943528541078503,
+                "happy": 1.3476585162624242,
+                "neutral": 1.4723071707858597,
+                "sad": 1.6647536635415832,
+                "surprised": 1.2879829625585144
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 0,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 9,
+                "sad": 10,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.10934346588474261,
+                "calm": 0.1125697449881094,
+                "disgust": 0.10675176996126398,
+                "fearful": 0.10458127733875411,
+                "happy": 0.1129512839394403,
+                "neutral": 0.1660949693615178,
+                "sad": 0.17552075448632076,
+                "surprised": 0.1121867340398511
+            }
+        },
+        {
+            "sentence_index": 20,
+            "timestamp": {
+                "start": 190.99,
+                "end": 194.28
+            },
+            "transcript": "Had any way he had better give the people at the house warning.",
+            "acoustic_emotion": {
+                "angry": 1.4344501000147498,
+                "calm": 1.4465129398125984,
+                "disgust": 0.8626017291036453,
+                "fearful": 0.2636585473148692,
+                "happy": 1.4784255375307613,
+                "neutral": 1.8515165237822913,
+                "sad": 1.4560015319206197,
+                "surprised": 0.9215853308249858
+            },
+            "text_emotion": {
+                "angry": 7,
+                "calm": 2,
+                "disgust": 6,
+                "fearful": 9,
+                "happy": 1,
+                "neutral": 3,
+                "sad": 4,
+                "surprised": 1
+            },
+            "fused_emotion": {
+                "angry": 0.128168674233089,
+                "calm": 0.1283423323682298,
+                "disgust": 0.11993627428913525,
+                "fearful": 0.1113138140933784,
+                "happy": 0.12880175007584319,
+                "neutral": 0.1341728141035559,
+                "sad": 0.1284789313149293,
+                "surprised": 0.12078540952183917
+            }
+        },
+        {
+            "sentence_index": 21,
+            "timestamp": {
+                "start": 195.86,
+                "end": 199.04
+            },
+            "transcript": "So he gave several deep echoing barks.",
+            "acoustic_emotion": {
+                "angry": 1.7969791146430392,
+                "calm": 1.6257890555657626,
+                "disgust": 1.010170193275593,
+                "fearful": 0.008808543562698768,
+                "happy": 1.3935322932489398,
+                "neutral": 1.918602225942765,
+                "sad": 1.215544853962939,
+                "surprised": 0.7453285478065329
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 9,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 10,
+                "neutral": 7,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.11400619989846596,
+                "calm": 0.162254738003278,
+                "disgust": 0.10432503590049068,
+                "fearful": 0.09200394231743221,
+                "happy": 0.16356307992763897,
+                "neutral": 0.15592863411454289,
+                "sad": 0.10685203542622965,
+                "surprised": 0.10106633441192152
+            }
+        },
+        {
+            "sentence_index": 22,
+            "timestamp": {
+                "start": 199.42,
+                "end": 205.62
+            },
+            "transcript": "The goats sprang together in a clump and rose there is, the pigs stopped and the very midst of their scratching to listen.",
+            "acoustic_emotion": {
+                "angry": 1.3127390067875468,
+                "calm": 1.2916378353340596,
+                "disgust": 1.44271833103459,
+                "fearful": 0.347460298155226,
+                "happy": 1.4356456191469376,
+                "neutral": 1.6924255323553539,
+                "sad": 1.0565226954557334,
+                "surprised": 1.135606027279573
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 0,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 7,
+                "sad": 0,
+                "surprised": 7
+            },
+            "fused_emotion": {
+                "angry": 0.11603037299073914,
+                "calm": 0.11575155548116789,
+                "disgust": 0.11774783742451225,
+                "fearful": 0.1032757917497756,
+                "happy": 0.11765438309100394,
+                "neutral": 0.16341386872218186,
+                "sad": 0.11264489299525485,
+                "surprised": 0.15348129754536446
+            }
+        },
+        {
+            "sentence_index": 23,
+            "timestamp": {
+                "start": 206.6,
+                "end": 209.94
+            },
+            "transcript": "That Bear Hunter was holding great respect could easily be seen.",
+            "acoustic_emotion": {
+                "angry": 1.159314569030879,
+                "calm": 1.345079093165098,
+                "disgust": 1.2073827187968214,
+                "fearful": 0.5421027163126256,
+                "happy": 1.5111320427592168,
+                "neutral": 1.4827490729551318,
+                "sad": 1.3182715174036015,
+                "surprised": 1.148719474799647
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 10,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 10,
+                "neutral": 10,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.10415666117727165,
+                "calm": 0.15959885112380964,
+                "disgust": 0.10473694598016321,
+                "fearful": 0.0967056013790283,
+                "happy": 0.16260576953841419,
+                "neutral": 0.16209180531932818,
+                "sad": 0.10607560962658487,
+                "surprised": 0.10402875585539999
+            }
+        },
+        {
+            "sentence_index": 24,
+            "timestamp": {
+                "start": 211.68,
+                "end": 215.38
+            },
+            "transcript": "He still remains sitting on the doorstep staring up the road.",
+            "acoustic_emotion": {
+                "angry": 1.4800816679303286,
+                "calm": 1.3876664863899721,
+                "disgust": 0.8153792409229822,
+                "fearful": 0.3624560413825584,
+                "happy": 1.37477558139234,
+                "neutral": 1.6415761185996383,
+                "sad": 1.6013797636391396,
+                "surprised": 1.051437340047562
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 7,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 9,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.11672780240805104,
+                "calm": 0.15595513132756236,
+                "disgust": 0.10805728529084052,
+                "fearful": 0.10214926059462016,
+                "happy": 0.11535416784801958,
+                "neutral": 0.17230983608081535,
+                "sad": 0.11831004007169758,
+                "surprised": 0.11113647637839348
+            }
+        },
+        {
+            "sentence_index": 25,
+            "timestamp": {
+                "start": 216.36,
+                "end": 220.0
+            },
+            "transcript": "Never in his life had he seen such a thing as that now approaching.",
+            "acoustic_emotion": {
+                "angry": 1.7017671428904133,
+                "calm": 1.4156302481866665,
+                "disgust": 1.1349446102012457,
+                "fearful": 0.10305788952057612,
+                "happy": 1.280444463995984,
+                "neutral": 1.9378050579257484,
+                "sad": 1.3614364861053248,
+                "surprised": 0.7796678941008117
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 0,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 9,
+                "sad": 0,
+                "surprised": 10
+            },
+            "fused_emotion": {
+                "angry": 0.11783992253616529,
+                "calm": 0.1141630209164286,
+                "disgust": 0.11055616875563347,
+                "fearful": 0.09729627104623874,
+                "happy": 0.11242586349962384,
+                "neutral": 0.17526591499183522,
+                "sad": 0.11346662301995035,
+                "surprised": 0.1589862152341245
+            }
+        },
+        {
+            "sentence_index": 26,
+            "timestamp": {
+                "start": 220.82,
+                "end": 224.08
+            },
+            "transcript": "Perhaps after all it was nothing worth giving warning about.",
+            "acoustic_emotion": {
+                "angry": 1.2323638932520449,
+                "calm": 1.2222190594731952,
+                "disgust": 0.9071024704807695,
+                "fearful": 0.515092782117932,
+                "happy": 1.5394508375103184,
+                "neutral": 1.7163090028801142,
+                "sad": 1.4049833998804482,
+                "surprised": 1.1772318297911981
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 7,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 9,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.11353247106383801,
+                "calm": 0.15309013205525765,
+                "disgust": 0.1092883492787021,
+                "fearful": 0.10417327339853846,
+                "happy": 0.1175394460655241,
+                "neutral": 0.17377836985140335,
+                "sad": 0.1157848691575898,
+                "surprised": 0.11281308912914662
+            }
+        },
+        {
+            "sentence_index": 27,
+            "timestamp": {
+                "start": 224.74,
+                "end": 228.48
+            },
+            "transcript": "He would take a turn up the road and look at it at the whole nearer.",
+            "acoustic_emotion": {
+                "angry": 1.7206076963484913,
+                "calm": 1.4985092238700144,
+                "disgust": 0.8617488219478682,
+                "fearful": 0.2568404654761504,
+                "happy": 1.2636575122333695,
+                "neutral": 1.726051189955569,
+                "sad": 1.5146554601842963,
+                "surprised": 0.8726839404517613
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 7,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 9,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.11974529694550425,
+                "calm": 0.1577489822227801,
+                "disgust": 0.10855337621766227,
+                "fearful": 0.10067072334530845,
+                "happy": 0.11379070953932732,
+                "neutral": 0.17373353631199495,
+                "sad": 0.11706150200599214,
+                "surprised": 0.10869587341143061
+            }
+        },
+        {
+            "sentence_index": 28,
+            "timestamp": {
+                "start": 229.54,
+                "end": 236.24
+            },
+            "transcript": "So arching his bushy tail into a handsome curve and putting on his most good human expression he sought it off.",
+            "acoustic_emotion": {
+                "angry": 1.4821590765002859,
+                "calm": 1.2784519321090044,
+                "disgust": 0.9866557293054862,
+                "fearful": 0.5911060622135735,
+                "happy": 1.310821000768548,
+                "neutral": 1.5800581198262098,
+                "sad": 1.479337444332023,
+                "surprised": 1.0061654629531394
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 0,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 10,
+                "neutral": 9,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.11486354781424579,
+                "calm": 0.11224939419988977,
+                "disgust": 0.10850480242087496,
+                "fearful": 0.10342875270756949,
+                "happy": 0.16899717487956775,
+                "neutral": 0.16837382098878223,
+                "sad": 0.11482733808800821,
+                "surprised": 0.1087551689010617
+            }
+        },
+        {
+            "sentence_index": 29,
+            "timestamp": {
+                "start": 238.46,
+                "end": 242.2
+            },
+            "transcript": "Yes it must be a human being although you would not think so.",
+            "acoustic_emotion": {
+                "angry": 1.6154040828789757,
+                "calm": 1.3528742919395615,
+                "disgust": 0.9038078060671302,
+                "fearful": 0.43746736258646163,
+                "happy": 1.3027225231146637,
+                "neutral": 1.7082353671822235,
+                "sad": 1.5098009279505644,
+                "surprised": 0.8844429838294393
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 7,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 6,
+                "sad": 0,
+                "surprised": 4
+            },
+            "fused_emotion": {
+                "angry": 0.11801283735390229,
+                "calm": 0.15471299726618326,
+                "disgust": 0.10876823901070164,
+                "fearful": 0.10270984574523383,
+                "happy": 0.11395068087059783,
+                "neutral": 0.1549844937250824,
+                "sad": 0.11664090950253428,
+                "surprised": 0.13021999652576458
+            }
+        },
+        {
+            "sentence_index": 30,
+            "timestamp": {
+                "start": 242.86,
+                "end": 249.28
+            },
+            "transcript": "It began to look very much like Katrina the Finn as they called her who came to the farm every winter.",
+            "acoustic_emotion": {
+                "angry": 1.2485308311963212,
+                "calm": 1.183444906493325,
+                "disgust": 1.2131341491500687,
+                "fearful": 0.47922151520405337,
+                "happy": 1.5267058790041481,
+                "neutral": 1.7365831442153177,
+                "sad": 1.2722590394961224,
+                "surprised": 1.0548763983304135
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 9,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 7,
+                "neutral": 6,
+                "sad": 0,
+                "surprised": 2
+            },
+            "fused_emotion": {
+                "angry": 0.12549215087696347,
+                "calm": 0.12455516589599974,
+                "disgust": 0.12498257588660061,
+                "fearful": 0.11441707929905208,
+                "happy": 0.1294967930951419,
+                "neutral": 0.13251821203089462,
+                "sad": 0.12583374508344586,
+                "surprised": 0.12270427783190169
+            }
+        },
+        {
+            "sentence_index": 31,
+            "timestamp": {
+                "start": 250.04,
+                "end": 252.94
+            },
+            "transcript": "But it could not be Katrina it was all together too little.",
+            "acoustic_emotion": {
+                "angry": 1.4693768550601254,
+                "calm": 1.304053637923316,
+                "disgust": 1.255357193687038,
+                "fearful": 0.450656371056016,
+                "happy": 1.4496140439857883,
+                "neutral": 1.5549149551162784,
+                "sad": 1.3030371878905815,
+                "surprised": 0.9277388903408782
+            },
+            "text_emotion": {
+                "angry": 2,
+                "calm": 3,
+                "disgust": 1,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 7,
+                "sad": 0,
+                "surprised": 4
+            },
+            "fused_emotion": {
+                "angry": 0.12867148987480936,
+                "calm": 0.12629147626706816,
+                "disgust": 0.12559043619575716,
+                "fearful": 0.11400586301123279,
+                "happy": 0.12838698198717724,
+                "neutral": 0.12990290700810594,
+                "sad": 0.1262768433259036,
+                "surprised": 0.1208740023299457
+            }
+        },
+        {
+            "sentence_index": 32,
+            "timestamp": {
+                "start": 254.0,
+                "end": 264.14
+            },
+            "transcript": "It wore a long wide skirt and from under the skirt protruded the tips of two big shoes covered with grey wool and stocking feet from which the legs had been cut off.",
+            "acoustic_emotion": {
+                "angry": 1.11843091995456,
+                "calm": 1.18430557676035,
+                "disgust": 1.290135932077952,
+                "fearful": 0.7546727460453417,
+                "happy": 1.2750899873978827,
+                "neutral": 1.4839456271688192,
+                "sad": 1.232792416992933,
+                "surprised": 1.3753779988251824
+            },
+            "text_emotion": {
+                "angry": 2,
+                "calm": 3,
+                "disgust": 9,
+                "fearful": 7,
+                "happy": 1,
+                "neutral": 4,
+                "sad": 6,
+                "surprised": 5
+            },
+            "fused_emotion": {
+                "angry": 0.12361922483501508,
+                "calm": 0.12456756456397666,
+                "disgust": 0.12609111148390506,
+                "fearful": 0.11838251705117575,
+                "happy": 0.125874508198336,
+                "neutral": 0.128881219890154,
+                "sad": 0.12526558712916336,
+                "surprised": 0.12731826684827408
+            }
+        },
+        {
+            "sentence_index": 33,
+            "timestamp": {
+                "start": 265.7,
+                "end": 275.72
+            },
+            "transcript": "Above the skirt there was a round bundle of clothes with a nethered chal tied rounded and from this protruded two stumps with red mittens on.",
+            "acoustic_emotion": {
+                "angry": 1.1909963435746023,
+                "calm": 1.2890139037322452,
+                "disgust": 1.2942607318543744,
+                "fearful": 0.7085640055583876,
+                "happy": 1.2138747499631253,
+                "neutral": 1.5054142525547105,
+                "sad": 1.2467266841422926,
+                "surprised": 1.2658994987617838
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 0,
+                "disgust": 7,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 6,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.11511936842485192,
+                "calm": 0.11642240679996539,
+                "disgust": 0.1572644129686936,
+                "fearful": 0.10870594771921706,
+                "happy": 0.11542351230925121,
+                "neutral": 0.1550889826578335,
+                "sad": 0.11586024355274788,
+                "surprised": 0.11611512556743946
+            }
+        },
+        {
+            "sentence_index": 34,
+            "timestamp": {
+                "start": 278.0,
+                "end": 283.36
+            },
+            "transcript": "Perched on top of it all was a smaller shape muffled in a smaller nethered chal.",
+            "acoustic_emotion": {
+                "angry": 1.4638940283560578,
+                "calm": 1.3904415398907473,
+                "disgust": 1.01852640622291,
+                "fearful": 0.5008516133039025,
+                "happy": 1.287685894168092,
+                "neutral": 1.5299891575212903,
+                "sad": 1.3727250849413755,
+                "surprised": 1.150641103603895
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 0,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 7,
+                "sad": 0,
+                "surprised": 6
+            },
+            "fused_emotion": {
+                "angry": 0.11878502679534085,
+                "calm": 0.11780824407329052,
+                "disgust": 0.11286245824321138,
+                "fearful": 0.1059783375833228,
+                "happy": 0.11644178336607544,
+                "neutral": 0.16154635976793963,
+                "sad": 0.11757264787427675,
+                "surprised": 0.1490051422965426
+            }
+        },
+        {
+            "sentence_index": 35,
+            "timestamp": {
+                "start": 283.98,
+                "end": 285.82
+            },
+            "transcript": "That of course must be the head.",
+            "acoustic_emotion": {
+                "angry": 0.9937087746446436,
+                "calm": 1.3027494352336566,
+                "disgust": 0.6925171370680799,
+                "fearful": 0.7431383153531051,
+                "happy": 1.4133158059532713,
+                "neutral": 1.3025134366517184,
+                "sad": 1.692608741780806,
+                "surprised": 1.5741985234562406
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 10,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 10,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.10816554022819276,
+                "calm": 0.1681735997376333,
+                "disgust": 0.10431567440428614,
+                "fearful": 0.10496272007199949,
+                "happy": 0.11352900510492048,
+                "neutral": 0.1681690748964936,
+                "sad": 0.11709895922832354,
+                "surprised": 0.11558542632815069
+            }
+        },
+        {
+            "sentence_index": 36,
+            "timestamp": {
+                "start": 286.88,
+                "end": 294.98
+            },
+            "transcript": "Carried at the back was a huge bundle tied up in the dark cloth and in front hung a pretty wooden pile painted red.",
+            "acoustic_emotion": {
+                "angry": 1.5119839148334941,
+                "calm": 1.5032747390947694,
+                "disgust": 0.9728544701288417,
+                "fearful": 0.422346374497662,
+                "happy": 1.2564968184182401,
+                "neutral": 1.6261151062381773,
+                "sad": 1.397266867299964,
+                "surprised": 1.0244149848748716
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 7,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 6,
+                "sad": 0,
+                "surprised": 4
+            },
+            "fused_emotion": {
+                "angry": 0.11658445786482927,
+                "calm": 0.15723638478682475,
+                "disgust": 0.1095855285032106,
+                "fearful": 0.10243888253132795,
+                "happy": 0.11326774764212014,
+                "neutral": 0.15348592817950416,
+                "sad": 0.11509521159911941,
+                "surprised": 0.1323058588930637
+            }
+        },
+        {
+            "sentence_index": 37,
+            "timestamp": {
+                "start": 296.9,
+                "end": 299.98
+            },
+            "transcript": "Really bare hunter had the stand still in the gaze.",
+            "acoustic_emotion": {
+                "angry": 1.4354820762699803,
+                "calm": 1.5525187414444044,
+                "disgust": 1.0120664625830977,
+                "fearful": 0.28411538053477486,
+                "happy": 1.2974612038515383,
+                "neutral": 1.6847638590943554,
+                "sad": 1.3574296856198715,
+                "surprised": 1.0909184536917476
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 0,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 7,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.12253230056688308,
+                "calm": 0.12414289379708497,
+                "disgust": 0.11670549133620706,
+                "fearful": 0.1066878350494541,
+                "happy": 0.12063293439464631,
+                "neutral": 0.17004974929763883,
+                "sad": 0.12145818715298165,
+                "surprised": 0.1177906084051039
+            }
+        },
+        {
+            "sentence_index": 38,
+            "timestamp": {
+                "start": 299.98,
+                "end": 307.6
+            },
+            "transcript": "The strange figure in the meantime had become aware of him and it also came to a stand still as if in a dilemma.",
+            "acoustic_emotion": {
+                "angry": 1.3142077874356632,
+                "calm": 1.2201965102227237,
+                "disgust": 1.201963549604987,
+                "fearful": 0.43934448288622124,
+                "happy": 1.4209164094057856,
+                "neutral": 1.7770537957732446,
+                "sad": 1.205852868340221,
+                "surprised": 1.1352178717171744
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 0,
+                "disgust": 0,
+                "fearful": 7,
+                "happy": 0,
+                "neutral": 9,
+                "sad": 0,
+                "surprised": 6
+            },
+            "fused_emotion": {
+                "angry": 0.11121276638690532,
+                "calm": 0.11002233669454144,
+                "disgust": 0.10979145952381764,
+                "fearful": 0.13518184378783785,
+                "happy": 0.1125639778137721,
+                "neutral": 0.16975673816628345,
+                "sad": 0.10984070851439355,
+                "surprised": 0.14163016911244866
+            }
+        },
+        {
+            "sentence_index": 39,
+            "timestamp": {
+                "start": 308.84,
+                "end": 317.8
+            },
+            "transcript": "At that bare hunter walked over to the father side of the road and took his station there trying to look indifferent for he did not wish to cause any fright.",
+            "acoustic_emotion": {
+                "angry": 1.3928408588071204,
+                "calm": 1.1734341157686903,
+                "disgust": 1.28987612662152,
+                "fearful": 0.4413918740926864,
+                "happy": 1.484868919866578,
+                "neutral": 1.6786444572679542,
+                "sad": 1.259016206788582,
+                "surprised": 0.9946807161728897
+            },
+            "text_emotion": {
+                "angry": 2,
+                "calm": 3,
+                "disgust": 4,
+                "fearful": 7,
+                "happy": 1,
+                "neutral": 6,
+                "sad": 1,
+                "surprised": 2
+            },
+            "fused_emotion": {
+                "angry": 0.12756966054439545,
+                "calm": 0.12441105395555496,
+                "disgust": 0.12608736753463745,
+                "fearful": 0.1138724833726883,
+                "happy": 0.12889450788497925,
+                "neutral": 0.13168412446975708,
+                "sad": 0.12564310431480408,
+                "surprised": 0.12183769792318344
+            }
+        },
+        {
+            "sentence_index": 40,
+            "timestamp": {
+                "start": 319.02,
+                "end": 326.9
+            },
+            "transcript": "The strange figure then made its way carefully forward again drawing gradually closer and closer to its own side of the road.",
+            "acoustic_emotion": {
+                "angry": 1.4328912672761571,
+                "calm": 1.293271193940633,
+                "disgust": 1.0233105529146602,
+                "fearful": 0.4543873223217913,
+                "happy": 1.3506768139156358,
+                "neutral": 1.6285071795840524,
+                "sad": 1.4474031099023659,
+                "surprised": 1.0843073881529748
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 7,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 9,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.1161712139807756,
+                "calm": 0.1543712250881498,
+                "disgust": 0.110825844186105,
+                "fearful": 0.10340092170888736,
+                "happy": 0.11509824682126522,
+                "neutral": 0.17215003884933266,
+                "sad": 0.1163606056257413,
+                "surprised": 0.1116219037397431
+            }
+        },
+        {
+            "sentence_index": 41,
+            "timestamp": {
+                "start": 327.82,
+                "end": 338.26
+            },
+            "transcript": "As it came near at a bare hunter the figure turned itself round by degrees until when directly opposite to him it walked along quite sidewise.",
+            "acoustic_emotion": {
+                "angry": 1.4657592452185704,
+                "calm": 1.3205693983330014,
+                "disgust": 1.2445116097328714,
+                "fearful": 0.40545022163682615,
+                "happy": 1.3613847320303383,
+                "neutral": 1.7066827449326292,
+                "sad": 1.2378694917491067,
+                "surprised": 0.9725237615896781
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 7,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 9,
+                "sad": 0,
+                "surprised": 6
+            },
+            "fused_emotion": {
+                "angry": 0.11280619487488021,
+                "calm": 0.1498135520457643,
+                "disgust": 0.11001268207162641,
+                "fearful": 0.09941854069146368,
+                "happy": 0.11148834332684161,
+                "neutral": 0.16797980113117372,
+                "sad": 0.109928817484384,
+                "surprised": 0.13855206837386616
+            }
+        },
+        {
+            "sentence_index": 42,
+            "timestamp": {
+                "start": 340.34,
+                "end": 359.78
+            },
+            "transcript": "Then it was that bare hunter got a peep through a little opening in the upper shore and there he saw the tip of a tiny turned up red nose then a red mouth that was drawn down a little at the corners as if ready for crying and then a pair of big blue eyes that were fastened upon him with a look of terror.",
+            "acoustic_emotion": {
+                "angry": 1.1849747569499254,
+                "calm": 1.0783722308335253,
+                "disgust": 1.5175909513175294,
+                "fearful": 0.8437021760000828,
+                "happy": 1.2935879288795502,
+                "neutral": 1.431028120576644,
+                "sad": 1.0669004225720222,
+                "surprised": 1.2985966882567417
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 0,
+                "disgust": 0,
+                "fearful": 9,
+                "happy": 0,
+                "neutral": 7,
+                "sad": 0,
+                "surprised": 6
+            },
+            "fused_emotion": {
+                "angry": 0.10960951602867718,
+                "calm": 0.10825923931979134,
+                "disgust": 0.1138225859869108,
+                "fearful": 0.15266586042033922,
+                "happy": 0.11098526050376258,
+                "neutral": 0.15218029074445039,
+                "sad": 0.10811393211114792,
+                "surprised": 0.14436331488492052
+            }
+        },
+        {
+            "sentence_index": 43,
+            "timestamp": {
+                "start": 360.76,
+                "end": 365.2
+            },
+            "transcript": "Poo, it was nothing all but a little girl well bundled up against the cold.",
+            "acoustic_emotion": {
+                "angry": 1.4626301938448878,
+                "calm": 1.5233698113305196,
+                "disgust": 0.8525795524825136,
+                "fearful": 0.4650859247029963,
+                "happy": 1.2756561769782349,
+                "neutral": 1.585894944403185,
+                "sad": 1.527108525707543,
+                "surprised": 1.0224276283953908
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 0,
+                "disgust": 7,
+                "fearful": 6,
+                "happy": 0,
+                "neutral": 2,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.1180419290268558,
+                "calm": 0.1188447145974326,
+                "disgust": 0.1484716360575768,
+                "fearful": 0.1363148148629816,
+                "happy": 0.11557072408637624,
+                "neutral": 0.13163820893841321,
+                "sad": 0.1188941285726703,
+                "surprised": 0.1122238438576935
+            }
+        },
+        {
+            "sentence_index": 44,
+            "timestamp": {
+                "start": 366.26,
+                "end": 375.72
+            },
+            "transcript": "Bare hunter did not know her but white a bit he thought he had seen that pile before at any rate it would be absurd to try to frighten this queer little creature.",
+            "acoustic_emotion": {
+                "angry": 1.096290526675344,
+                "calm": 1.0865214274808963,
+                "disgust": 1.5458476411786473,
+                "fearful": 0.8758963158861721,
+                "happy": 1.4406595539316276,
+                "neutral": 1.3183988324280682,
+                "sad": 1.1103619421234179,
+                "surprised": 1.2407760006003472
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 7,
+                "disgust": 0,
+                "fearful": 2,
+                "happy": 0,
+                "neutral": 6,
+                "sad": 0,
+                "surprised": 3
+            },
+            "fused_emotion": {
+                "angry": 0.12330048715025912,
+                "calm": 0.12315984998881593,
+                "disgust": 0.12977236702699016,
+                "fearful": 0.12012766480636097,
+                "happy": 0.12825806630042294,
+                "neutral": 0.126497985817462,
+                "sad": 0.12350306098912747,
+                "surprised": 0.1253805179205614
+            }
+        },
+        {
+            "sentence_index": 45,
+            "timestamp": {
+                "start": 377.44,
+                "end": 383.02
+            },
+            "transcript": "His style began to wag in voluntarily as he walked across the road to take a sniff at the pile.",
+            "acoustic_emotion": {
+                "angry": 1.6338326739001612,
+                "calm": 1.3271142186557914,
+                "disgust": 1.015185163141783,
+                "fearful": 0.3130552241857143,
+                "happy": 1.4541849638885942,
+                "neutral": 1.8330589504791133,
+                "sad": 1.399376363396413,
+                "surprised": 0.7389462352792003
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 0,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 7,
+                "neutral": 9,
+                "sad": 0,
+                "surprised": 6
+            },
+            "fused_emotion": {
+                "angry": 0.11487963610521527,
+                "calm": 0.11100859371202272,
+                "disgust": 0.1070717892031411,
+                "fearful": 0.09821032451865329,
+                "happy": 0.15202664869043428,
+                "neutral": 0.17022135461516627,
+                "sad": 0.11192060217102169,
+                "surprised": 0.13466105098434542
+            }
+        },
+        {
+            "sentence_index": 46,
+            "timestamp": {
+                "start": 384.48,
+                "end": 393.42
+            },
+            "transcript": "The little girl did not understand his action at once stepping back in alarm she caught her heels in her long frok and down she tumbled by the side of the road.",
+            "acoustic_emotion": {
+                "angry": 1.572838426365596,
+                "calm": 1.4058539034217206,
+                "disgust": 1.0291271934023904,
+                "fearful": 0.42319255362369096,
+                "happy": 1.2796764335231845,
+                "neutral": 1.6687635692715355,
+                "sad": 1.3809042989522387,
+                "surprised": 0.9543994845294131
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 0,
+                "disgust": 0,
+                "fearful": 7,
+                "happy": 0,
+                "neutral": 6,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.12060578156524555,
+                "calm": 0.11837832482466894,
+                "disgust": 0.11335305401038004,
+                "fearful": 0.1421149181356024,
+                "happy": 0.11669520562967108,
+                "neutral": 0.158450962641167,
+                "sad": 0.11804551455177348,
+                "surprised": 0.1123562386414916
+            }
+        },
+        {
+            "sentence_index": 47,
+            "timestamp": {
+                "start": 394.96,
+                "end": 407.48
+            },
+            "transcript": "Bare hunter darted off instantly but after running a short distance toward the health he stopped and looked at her again making his eyes as gentle as he could and waging his tail energetically.",
+            "acoustic_emotion": {
+                "angry": 1.2870907223057475,
+                "calm": 1.1683006290707814,
+                "disgust": 1.3360242002054636,
+                "fearful": 0.5600132490431965,
+                "happy": 1.4052752928633718,
+                "neutral": 1.6269535222529583,
+                "sad": 1.2188260623170817,
+                "surprised": 1.1122670096236702
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 0,
+                "disgust": 0,
+                "fearful": 7,
+                "happy": 0,
+                "neutral": 6,
+                "sad": 0,
+                "surprised": 4
+            },
+            "fused_emotion": {
+                "angry": 0.11412764982070081,
+                "calm": 0.11257924959887229,
+                "disgust": 0.11476548590594483,
+                "fearful": 0.14127799987081105,
+                "happy": 0.11566815720043801,
+                "neutral": 0.1541249833083255,
+                "sad": 0.11323783643819574,
+                "surprised": 0.13421863785671187
+            }
+        },
+        {
+            "sentence_index": 48,
+            "timestamp": {
+                "start": 408.62,
+                "end": 413.12
+            },
+            "transcript": "With bare hunter that waging of the town and hearty good natured after.",
+            "acoustic_emotion": {
+                "angry": 1.477301439022055,
+                "calm": 1.468792034012778,
+                "disgust": 0.8304055190545565,
+                "fearful": 0.3676945888526898,
+                "happy": 1.305500681859938,
+                "neutral": 1.6663373382361695,
+                "sad": 1.513549993142585,
+                "surprised": 1.085171681205249
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 7,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 6,
+                "neutral": 9,
+                "sad": 0,
+                "surprised": 2
+            },
+            "fused_emotion": {
+                "angry": 0.12878556549549103,
+                "calm": 0.1286630630493164,
+                "disgust": 0.11947277188301086,
+                "fearful": 0.11281152814626694,
+                "happy": 0.12631230056285858,
+                "neutral": 0.13150694966316223,
+                "sad": 0.12930740416049957,
+                "surprised": 0.12314041703939438
+            }
+        },
+        {
+            "sentence_index": 49,
+            "timestamp": {
+                "start": 414.36,
+                "end": 419.74
+            },
+            "transcript": "Then a little girl understood she got up smart and jogged slowly after him.",
+            "acoustic_emotion": {
+                "angry": 1.8464684313081101,
+                "calm": 1.4757643429949565,
+                "disgust": 0.9729408994340691,
+                "fearful": 0.21018468441658925,
+                "happy": 1.1942801396324942,
+                "neutral": 1.8284228204418245,
+                "sad": 1.3288055418263496,
+                "surprised": 0.8578890030353765
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 7,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 6,
+                "neutral": 9,
+                "sad": 0,
+                "surprised": 4
+            },
+            "fused_emotion": {
+                "angry": 0.13410013414546348,
+                "calm": 0.1287634324743065,
+                "disgust": 0.12152472430748029,
+                "fearful": 0.11054399197757274,
+                "happy": 0.12471115124556603,
+                "neutral": 0.13384034731088776,
+                "sad": 0.12664779548914,
+                "surprised": 0.11986842304958317
+            }
+        },
+        {
+            "sentence_index": 50,
+            "timestamp": {
+                "start": 420.76,
+                "end": 424.48
+            },
+            "transcript": "Bare hunter trotted leisurely ahead looking back at her from time to time.",
+            "acoustic_emotion": {
+                "angry": 1.6506082397662787,
+                "calm": 1.4871409237584845,
+                "disgust": 0.7736928861436227,
+                "fearful": 0.26210126719852606,
+                "happy": 1.411000328638376,
+                "neutral": 1.7185737612015226,
+                "sad": 1.5348685317110156,
+                "surprised": 0.8767652668051951
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 7,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 9,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.11884450130189272,
+                "calm": 0.15756407531987449,
+                "disgust": 0.10741618972148291,
+                "fearful": 0.10074892314999725,
+                "happy": 0.11572183518116799,
+                "neutral": 0.17360886997866354,
+                "sad": 0.11733613514041895,
+                "surprised": 0.10875947020650215
+            }
+        },
+        {
+            "sentence_index": 51,
+            "timestamp": {
+                "start": 425.48,
+                "end": 431.7
+            },
+            "transcript": "He knew now that she had an errand at high old farm and that he was therefore in duty bound to help her.",
+            "acoustic_emotion": {
+                "angry": 1.2951643580036383,
+                "calm": 1.3918306192633842,
+                "disgust": 0.7429509656016541,
+                "fearful": 0.4281857867783865,
+                "happy": 1.4227019249928192,
+                "neutral": 1.6863609898484382,
+                "sad": 1.553707015006094,
+                "surprised": 1.1938510983508563
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 9,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 7,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.11432739712169969,
+                "calm": 0.16760326844152143,
+                "disgust": 0.10712347354000985,
+                "fearful": 0.10301719084998574,
+                "happy": 0.11599119394196204,
+                "neutral": 0.16123153899004855,
+                "sad": 0.11770022648310155,
+                "surprised": 0.11300571063167113
+            }
+        },
+        {
+            "sentence_index": 52,
+            "timestamp": {
+                "start": 432.84,
+                "end": 439.4
+            },
+            "transcript": "Thus it was that Lith the longfot of Peer Out Castle made her entrance into her farm.",
+            "acoustic_emotion": {
+                "angry": 1.1340182122589877,
+                "calm": 1.1506136739441521,
+                "disgust": 1.3023033151072732,
+                "fearful": 0.7142729975701462,
+                "happy": 1.2940485401469297,
+                "neutral": 1.5292884073459734,
+                "sad": 1.297083399104137,
+                "surprised": 1.293125247449171
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 7,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 6,
+                "sad": 0,
+                "surprised": 4
+            },
+            "fused_emotion": {
+                "angry": 0.111821072920239,
+                "calm": 0.151249666766639,
+                "disgust": 0.11400853867927954,
+                "fearful": 0.1063649851910671,
+                "happy": 0.11390123840570383,
+                "neutral": 0.15204672649884424,
+                "sad": 0.11394068723355637,
+                "surprised": 0.13666708430467087
+            }
+        },
+        {
+            "sentence_index": 53,
+            "timestamp": {
+                "start": 441.08,
+                "end": 450.3
+            },
+            "transcript": "Peer Out Castle was purged tie above the upper farms when a crag that jutted out for a barren ridge just under a mountain peak called the Big Hammer.",
+            "acoustic_emotion": {
+                "angry": 1.5540227148635115,
+                "calm": 1.471449088222584,
+                "disgust": 1.0656712632910934,
+                "fearful": 0.25455293536174806,
+                "happy": 1.3677701498021702,
+                "neutral": 1.7561689563532008,
+                "sad": 1.3123498161436487,
+                "surprised": 0.932769386429564
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 7,
+                "disgust": 0,
+                "fearful": 2,
+                "happy": 0,
+                "neutral": 6,
+                "sad": 0,
+                "surprised": 3
+            },
+            "fused_emotion": {
+                "angry": 0.1298900525288276,
+                "calm": 0.128701312412302,
+                "disgust": 0.12285968478233092,
+                "fearful": 0.11118272526289932,
+                "happy": 0.12720873762356136,
+                "neutral": 0.13280017476081588,
+                "sad": 0.12641089966280908,
+                "surprised": 0.12094641296645384
+            }
+        },
+        {
+            "sentence_index": 54,
+            "timestamp": {
+                "start": 451.7,
+                "end": 465.08
+            },
+            "transcript": "The real name of the little farm was new ridge and Peer Out Castle was only a nickname given to it by a joker because there was so fine an outlook from it and because it bore no resemblance whatever to a castle.",
+            "acoustic_emotion": {
+                "angry": 1.19785582867331,
+                "calm": 1.1171893396956343,
+                "disgust": 1.24107203390927,
+                "fearful": 0.8352486653917913,
+                "happy": 1.2292420874488605,
+                "neutral": 1.5514878002706738,
+                "sad": 1.2340386551186073,
+                "surprised": 1.3086173122556237
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 7,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 6,
+                "neutral": 9,
+                "sad": 0,
+                "surprised": 2
+            },
+            "fused_emotion": {
+                "angry": 0.1247626347414248,
+                "calm": 0.12360134997072852,
+                "disgust": 0.12538478058691577,
+                "fearful": 0.1195424970882199,
+                "happy": 0.12521447521182466,
+                "neutral": 0.1298535644230298,
+                "sad": 0.12528352719434038,
+                "surprised": 0.1263571707835161
+            }
+        },
+        {
+            "sentence_index": 55,
+            "timestamp": {
+                "start": 466.56,
+                "end": 471.92
+            },
+            "transcript": "The Royal Lands belonged to this castle consists of a little plot of cold -evaded soil.",
+            "acoustic_emotion": {
+                "angry": 1.1488276408163687,
+                "calm": 1.2571064814215809,
+                "disgust": 1.3512347228439898,
+                "fearful": 0.8368219892713803,
+                "happy": 1.0837608651211175,
+                "neutral": 1.4747002792132347,
+                "sad": 1.3588860452899911,
+                "surprised": 1.2034162864898574
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 0,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 7,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.1187076299153918,
+                "calm": 0.12019921202760804,
+                "disgust": 0.12149586426709719,
+                "fearful": 0.11440963368497707,
+                "happy": 0.11781131039272089,
+                "neutral": 0.1663154763539413,
+                "sad": 0.12160126413683595,
+                "surprised": 0.11945960922142776
+            }
+        },
+        {
+            "sentence_index": 56,
+            "timestamp": {
+                "start": 472.72,
+                "end": 481.72
+            },
+            "transcript": "I a bit have made our land here and there and some Heather patches where tiny blue debris bushes and small mountain crane replans grew luxurably.",
+            "acoustic_emotion": {
+                "angry": 1.4012850536819144,
+                "calm": 1.4215798966471123,
+                "disgust": 1.0372463726862693,
+                "fearful": 0.4190858677735138,
+                "happy": 1.273680206395251,
+                "neutral": 1.5973729631536864,
+                "sad": 1.3642249956655963,
+                "surprised": 1.2002789544641772
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 9,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 7,
+                "neutral": 6,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.1119317142132569,
+                "calm": 0.16267234239832787,
+                "disgust": 0.10733777544027279,
+                "fearful": 0.0995369793719008,
+                "happy": 0.1489339189500163,
+                "neutral": 0.14872808609825286,
+                "sad": 0.11146403963267507,
+                "surprised": 0.10939514389529746
+            }
+        },
+        {
+            "sentence_index": 57,
+            "timestamp": {
+                "start": 483.18,
+                "end": 487.38
+            },
+            "transcript": "The castle's outbuildings were a Shelby Cowhouse and a pig's thigh.",
+            "acoustic_emotion": {
+                "angry": 1.8278597361059716,
+                "calm": 1.6025659670378296,
+                "disgust": 1.0038442926899958,
+                "fearful": 0.0,
+                "happy": 1.2960586684194046,
+                "neutral": 1.9207106869577144,
+                "sad": 1.2921388147799286,
+                "surprised": 0.7715771795581755
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 7,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 2,
+                "neutral": 6,
+                "sad": 0,
+                "surprised": 3
+            },
+            "fused_emotion": {
+                "angry": 0.13383224207662814,
+                "calm": 0.13058888523015721,
+                "disgust": 0.12196961426825481,
+                "fearful": 0.10751814819818294,
+                "happy": 0.1261763684100995,
+                "neutral": 0.13516893580052447,
+                "sad": 0.12611993771434016,
+                "surprised": 0.11862586830181276
+            }
+        },
+        {
+            "sentence_index": 58,
+            "timestamp": {
+                "start": 488.0,
+                "end": 497.58
+            },
+            "transcript": "The Cowhouse was built against the steep hillside with three walls of loosely built stone and its two stalls were dug half their length into the hill.",
+            "acoustic_emotion": {
+                "angry": 1.3533059209249487,
+                "calm": 1.227628395390782,
+                "disgust": 1.0898895826810164,
+                "fearful": 0.5740101386232899,
+                "happy": 1.2836035327331585,
+                "neutral": 1.553182228685731,
+                "sad": 1.5483339069409978,
+                "surprised": 1.0847985343245963
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 9,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 9,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.11392416684028926,
+                "calm": 0.16283671867837435,
+                "disgust": 0.11052244601735717,
+                "fearful": 0.10386045284459991,
+                "happy": 0.1130240401932453,
+                "neutral": 0.168932744189081,
+                "sad": 0.11644273028820623,
+                "surprised": 0.11045670094884684
+            }
+        },
+        {
+            "sentence_index": 59,
+            "timestamp": {
+                "start": 498.34,
+                "end": 501.36
+            },
+            "transcript": "The tiny pig's thigh was built in the same fashion.",
+            "acoustic_emotion": {
+                "angry": 2.0,
+                "calm": 1.587161884158854,
+                "disgust": 0.8695331523665845,
+                "fearful": 0.0026798260027998955,
+                "happy": 1.2460373198634727,
+                "neutral": 1.9357731929417792,
+                "sad": 1.3397846512939813,
+                "surprised": 0.7337806610547998
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 10,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 10,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.12032239028808145,
+                "calm": 0.17261432214756864,
+                "disgust": 0.10595688652742637,
+                "fearful": 0.09494127404318174,
+                "happy": 0.11074134530691353,
+                "neutral": 0.17925933399972335,
+                "sad": 0.11193264750656287,
+                "surprised": 0.10423180018054207
+            }
+        },
+        {
+            "sentence_index": 60,
+            "timestamp": {
+                "start": 502.4,
+                "end": 512.36
+            },
+            "transcript": "As for the castle itself that was a very very small turf -roofed cabin lying out on the jutting crag in the middle of the rocky ridge.",
+            "acoustic_emotion": {
+                "angry": 1.3958177532003426,
+                "calm": 1.306289413962732,
+                "disgust": 1.2206892090165948,
+                "fearful": 0.5649754297529002,
+                "happy": 1.1840990780011542,
+                "neutral": 1.5957199379986182,
+                "sad": 1.3082695248717147,
+                "surprised": 1.1388898233374651
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 10,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 10,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.11309086350317342,
+                "calm": 0.16792300240807964,
+                "disgust": 0.11085658785701367,
+                "fearful": 0.10249104507991455,
+                "happy": 0.11038977395755124,
+                "neutral": 0.17346179884577062,
+                "sad": 0.1119739303651131,
+                "surprised": 0.10981299798338376
+            }
+        },
+        {
+            "sentence_index": 61,
+            "timestamp": {
+                "start": 513.86,
+                "end": 537.4
+            },
+            "transcript": "It had only one small window with tiny pains of glass that looked out over the valley and yet in whatever path of the surrounding country one might be by looking in that direction and looking high enough one could always see that little castle with its single window peering out like a watchful eye over the landscape.",
+            "acoustic_emotion": {
+                "angry": 1.4769236342746537,
+                "calm": 1.2204925435316463,
+                "disgust": 1.2644917879221516,
+                "fearful": 0.6017099546375533,
+                "happy": 1.2213123280794322,
+                "neutral": 1.5199240250179198,
+                "sad": 1.3117070305323166,
+                "surprised": 1.0981950766348465
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 7,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 2,
+                "neutral": 6,
+                "sad": 3,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.12878012081473525,
+                "calm": 0.12508850730559942,
+                "disgust": 0.12572192583731148,
+                "fearful": 0.11618043707994653,
+                "happy": 0.12510030902473737,
+                "neutral": 0.12939915972653807,
+                "sad": 0.12640164227478315,
+                "surprised": 0.12332789793634871
+            }
+        },
+        {
+            "sentence_index": 62,
+            "timestamp": {
+                "start": 539.1,
+                "end": 550.48
+            },
+            "transcript": "Since the castle from which this was longfot came was no more magnificent than this, it may easily be understood that she was no disguised princess but only a poor little girl.",
+            "acoustic_emotion": {
+                "angry": 1.12750237421819,
+                "calm": 1.1342599037891745,
+                "disgust": 1.2467121930012965,
+                "fearful": 0.8226600041920801,
+                "happy": 1.2173458957724683,
+                "neutral": 1.5221722220353324,
+                "sad": 1.3535419195068872,
+                "surprised": 1.290557210248342
+            },
+            "text_emotion": {
+                "angry": 2,
+                "calm": 7,
+                "disgust": 1,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 6,
+                "sad": 3,
+                "surprised": 4
+            },
+            "fused_emotion": {
+                "angry": 0.12374981769360194,
+                "calm": 0.1238470999266304,
+                "disgust": 0.12546597701607592,
+                "fearful": 0.11936126916172957,
+                "happy": 0.12504321616239583,
+                "neutral": 0.12943153372626454,
+                "sad": 0.12700391099610725,
+                "surprised": 0.1260971753171945
+            }
+        },
+        {
+            "sentence_index": 63,
+            "timestamp": {
+                "start": 551.58,
+                "end": 561.9
+            },
+            "transcript": "Coming to her farm from the first time was for her like visiting an estate that was in very true thru oil and beside she had come on an important grown up errand.",
+            "acoustic_emotion": {
+                "angry": 1.189611404527964,
+                "calm": 1.1962995836384667,
+                "disgust": 1.4189984033867866,
+                "fearful": 0.7202122952155945,
+                "happy": 1.2760557184371304,
+                "neutral": 1.5821676159226588,
+                "sad": 1.0881040670939828,
+                "surprised": 1.2433026345411873
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 7,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 6,
+                "neutral": 9,
+                "sad": 0,
+                "surprised": 3
+            },
+            "fused_emotion": {
+                "angry": 0.12464394698986292,
+                "calm": 0.12474023084506908,
+                "disgust": 0.12794623064874627,
+                "fearful": 0.11788641924902243,
+                "happy": 0.12588841004420243,
+                "neutral": 0.13029523485068756,
+                "sad": 0.12318263478240299,
+                "surprised": 0.12541689259000627
+            }
+        },
+        {
+            "sentence_index": 64,
+            "timestamp": {
+                "start": 562.7,
+                "end": 567.12
+            },
+            "transcript": "She was taking her mother's place and visiting her as a spinning woman.",
+            "acoustic_emotion": {
+                "angry": 1.4927593461390167,
+                "calm": 1.3784894538133696,
+                "disgust": 1.0397605856491126,
+                "fearful": 0.2953863829853303,
+                "happy": 1.418844176243327,
+                "neutral": 1.8156840724246526,
+                "sad": 1.337369806155112,
+                "surprised": 0.9364589344353501
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 7,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 6,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.1189371935240332,
+                "calm": 0.1585177680579496,
+                "disgust": 0.11292485688468758,
+                "fearful": 0.10304529719843347,
+                "happy": 0.11795616902037516,
+                "neutral": 0.1601900926825819,
+                "sad": 0.11687481652413606,
+                "surprised": 0.11155380610780306
+            }
+        },
+        {
+            "sentence_index": 65,
+            "timestamp": {
+                "start": 568.4,
+                "end": 577.36
+            },
+            "transcript": "This was mother whose name was Randy had worked hard for the last four years to get food for herself and her children up at Peerhead Castle.",
+            "acoustic_emotion": {
+                "angry": 1.1950248807715498,
+                "calm": 1.2359452752411093,
+                "disgust": 0.9793330452356492,
+                "fearful": 0.6241939949746793,
+                "happy": 1.4205106574578916,
+                "neutral": 1.5481993463460328,
+                "sad": 1.4615868316931604,
+                "surprised": 1.2499551033399492
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 7,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 6,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.11518452416635694,
+                "calm": 0.15623357183826223,
+                "disgust": 0.11231684364705932,
+                "fearful": 0.10759517519101926,
+                "happy": 0.11818241774714798,
+                "neutral": 0.15584409482806252,
+                "sad": 0.11872853644639819,
+                "surprised": 0.11591483613569369
+            }
+        },
+        {
+            "sentence_index": 66,
+            "timestamp": {
+                "start": 578.66,
+                "end": 589.86
+            },
+            "transcript": "Before that the family had been in very comfortable circumstances but the father had died leaving the mother with a castle one car and a car of two children.",
+            "acoustic_emotion": {
+                "angry": 1.3781913503414476,
+                "calm": 1.2764242074510341,
+                "disgust": 1.172065220485298,
+                "fearful": 0.47289354445545656,
+                "happy": 1.3642902058000792,
+                "neutral": 1.689653584099078,
+                "sad": 1.2166865488571406,
+                "surprised": 1.1445480963557368
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 0,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 0,
+                "sad": 7,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.1220189941980902,
+                "calm": 0.12061536707430104,
+                "disgust": 0.11917599184418376,
+                "fearful": 0.1095326403577674,
+                "happy": 0.12182726214218499,
+                "neutral": 0.12631484870398843,
+                "sad": 0.16171843479883083,
+                "surprised": 0.11879646088065346
+            }
+        },
+        {
+            "sentence_index": 67,
+            "timestamp": {
+                "start": 591.58,
+                "end": 597.8
+            },
+            "transcript": "The children were Jacob at that time about six years old and Lisbeth a couple of years younger.",
+            "acoustic_emotion": {
+                "angry": 1.1103060477224325,
+                "calm": 1.3033332211995041,
+                "disgust": 1.0951788491446346,
+                "fearful": 0.6393610441902169,
+                "happy": 1.304053637923316,
+                "neutral": 1.494729106233002,
+                "sad": 1.4273670373121004,
+                "surprised": 1.3404253667423138
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 10,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 10,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.10952094319644072,
+                "calm": 0.16797780292023087,
+                "disgust": 0.10932782359160695,
+                "fearful": 0.10350867909394748,
+                "happy": 0.11199439906235407,
+                "neutral": 0.17164295256717824,
+                "sad": 0.11356866509966405,
+                "surprised": 0.11245873446857761
+            }
+        },
+        {
+            "sentence_index": 68,
+            "timestamp": {
+                "start": 599.08,
+                "end": 610.78
+            },
+            "transcript": "Life was often a hard struggle for the mother but they had it anyway a house over their heads and they could get wood without having to go very far for it since the forest lay almost within a stone's throne.",
+            "acoustic_emotion": {
+                "angry": 1.5085681458843865,
+                "calm": 1.252501403829284,
+                "disgust": 1.062641062200635,
+                "fearful": 0.42943254244481077,
+                "happy": 1.361370240889342,
+                "neutral": 1.7494492072569563,
+                "sad": 1.3613071009178586,
+                "surprised": 0.9894799491774984
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 7,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 6,
+                "neutral": 4,
+                "sad": 3,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.12923569161184015,
+                "calm": 0.12554932295415744,
+                "disgust": 0.12281606986904509,
+                "fearful": 0.11370032128618843,
+                "happy": 0.12711661226910564,
+                "neutral": 0.13270344532224623,
+                "sad": 0.1271157032982254,
+                "surprised": 0.12176283338919158
+            }
+        },
+        {
+            "sentence_index": 69,
+            "timestamp": {
+                "start": 612.66,
+                "end": 621.22
+            },
+            "transcript": "In the summer Randy managed to dig up her tonny plot of ground after a fashion so that she could harvest a few potatoes in a little grain.",
+            "acoustic_emotion": {
+                "angry": 1.4512463675108618,
+                "calm": 1.3073772846189478,
+                "disgust": 1.0844336680959417,
+                "fearful": 0.5277269869036313,
+                "happy": 1.32283208649141,
+                "neutral": 1.5746850117611135,
+                "sad": 1.3391936197576357,
+                "surprised": 1.1072592853279786
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 7,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 6,
+                "neutral": 4,
+                "sad": 0,
+                "surprised": 2
+            },
+            "fused_emotion": {
+                "angry": 0.12841047155245436,
+                "calm": 0.12633931448550054,
+                "disgust": 0.12312979067668631,
+                "fearful": 0.11511537261135321,
+                "happy": 0.12656180371997053,
+                "neutral": 0.13018750950414673,
+                "sad": 0.12679734637145182,
+                "surprised": 0.12345839107843651
+            }
+        },
+        {
+            "sentence_index": 70,
+            "timestamp": {
+                "start": 622.12,
+                "end": 633.4
+            },
+            "transcript": "By cutting grass and stripping off birch leaves she had thus far managed each year to give blueros their cow enough to eat and where there is a cow there was always food.",
+            "acoustic_emotion": {
+                "angry": 1.2653809229304191,
+                "calm": 1.3191026878478844,
+                "disgust": 1.2215141689718794,
+                "fearful": 0.41016605294959413,
+                "happy": 1.3664897539870045,
+                "neutral": 1.7266618880404097,
+                "sad": 1.2255396009243278,
+                "surprised": 1.179896647112252
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 9,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 7,
+                "neutral": 6,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.11018171682021777,
+                "calm": 0.16074618296501483,
+                "disgust": 0.10962832167949392,
+                "fearful": 0.09939286853275456,
+                "happy": 0.1504672762864316,
+                "neutral": 0.15080122831653336,
+                "sad": 0.1096791039754419,
+                "surprised": 0.10910330142411205
+            }
+        },
+        {
+            "sentence_index": 71,
+            "timestamp": {
+                "start": 634.94,
+                "end": 648.86
+            },
+            "transcript": "In the winter she spun linen and wool for the women on the farm's far and near but as she had lived at her farm as a servant before she was married it was natural that most of her spinnings should be for Kirsty Hill.",
+            "acoustic_emotion": {
+                "angry": 1.3121200280507086,
+                "calm": 1.2304127646250547,
+                "disgust": 1.2717187269532635,
+                "fearful": 0.5323770905411664,
+                "happy": 1.379958234461486,
+                "neutral": 1.612551398265721,
+                "sad": 1.2240056101417285,
+                "surprised": 1.1516104574283919
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 7,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 2,
+                "neutral": 6,
+                "sad": 3,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.12640759160507334,
+                "calm": 0.12523132376028115,
+                "disgust": 0.12582596949002192,
+                "fearful": 0.11518231607701904,
+                "happy": 0.12738419879400434,
+                "neutral": 0.1307326386759782,
+                "sad": 0.1251390855738657,
+                "surprised": 0.12409687602375633
+            }
+        },
+        {
+            "sentence_index": 72,
+            "timestamp": {
+                "start": 650.48,
+                "end": 654.04
+            },
+            "transcript": "In such ways had Randy been able to care for her family.",
+            "acoustic_emotion": {
+                "angry": 1.509936523627029,
+                "calm": 1.3216790057007113,
+                "disgust": 0.8209019182647894,
+                "fearful": 0.37638461558366954,
+                "happy": 1.3728016809723556,
+                "neutral": 1.8120902694575913,
+                "sad": 1.4881998121327078,
+                "surprised": 1.0127604847286664
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 10,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 10,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.11437768091788734,
+                "calm": 0.16796917880222814,
+                "disgust": 0.10560001102348801,
+                "fearful": 0.0999372676504866,
+                "happy": 0.1126307086025995,
+                "neutral": 0.17734026441734768,
+                "sad": 0.11410077511866897,
+                "surprised": 0.10804411346729377
+            }
+        },
+        {
+            "sentence_index": 73,
+            "timestamp": {
+                "start": 655.18,
+                "end": 659.88
+            },
+            "transcript": "Meanwhile Jacob now ten years old had grown big enough to earn his own living.",
+            "acoustic_emotion": {
+                "angry": 1.3068338668315898,
+                "calm": 1.1887103660824494,
+                "disgust": 0.9035267814399536,
+                "fearful": 0.660153243816035,
+                "happy": 1.3439446438413944,
+                "neutral": 1.4250163672262144,
+                "sad": 1.6087588596507119,
+                "surprised": 1.2778081114161726
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 7,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 3,
+                "neutral": 6,
+                "sad": 0,
+                "surprised": 2
+            },
+            "fused_emotion": {
+                "angry": 0.12633149514096223,
+                "calm": 0.1246309746001806,
+                "disgust": 0.1205254364091968,
+                "fearful": 0.11702180083128513,
+                "happy": 0.12686574648120622,
+                "neutral": 0.12803286504794456,
+                "sad": 0.13067804471668668,
+                "surprised": 0.12591363677253778
+            }
+        },
+        {
+            "sentence_index": 74,
+            "timestamp": {
+                "start": 660.94,
+                "end": 671.26
+            },
+            "transcript": "In the spring before the last a message had come from Nordrum Farm that a boy was needed to look after the flocks and Jacob had a one supply then been accepted.",
+            "acoustic_emotion": {
+                "angry": 1.3320826098544933,
+                "calm": 1.3438193989799272,
+                "disgust": 1.0609926949123156,
+                "fearful": 0.4368219892713803,
+                "happy": 1.3466192944366957,
+                "neutral": 1.6415109084651553,
+                "sad": 1.2958754589939525,
+                "surprised": 1.2570278152276015
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 7,
+                "disgust": 0,
+                "fearful": 6,
+                "happy": 2,
+                "neutral": 4,
+                "sad": 3,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.12669498294718487,
+                "calm": 0.1268639472215152,
+                "disgust": 0.122792338853732,
+                "fearful": 0.11380669983357339,
+                "happy": 0.12690425486434645,
+                "neutral": 0.1311495511747696,
+                "sad": 0.12617374030532272,
+                "surprised": 0.12561448479955575
+            }
+        },
+        {
+            "sentence_index": 75,
+            "timestamp": {
+                "start": 672.72,
+                "end": 683.66
+            },
+            "transcript": "He and Lisbeth had often knelt on the long wooden bench under the little window at pier out castle and gazed upon the different farms choosing which they would work on when they were big enough.",
+            "acoustic_emotion": {
+                "angry": 1.5025884800604488,
+                "calm": 1.3129160057240008,
+                "disgust": 1.0935056399003216,
+                "fearful": 0.5690262212020919,
+                "happy": 1.2037956438595083,
+                "neutral": 1.5848815996149497,
+                "sad": 1.3603775977311015,
+                "surprised": 1.087662604834348
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 7,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 6,
+                "sad": 2,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.1178310776809344,
+                "calm": 0.1557087724354411,
+                "disgust": 0.11245799392727662,
+                "fearful": 0.1055692379906251,
+                "happy": 0.11390659399134187,
+                "neutral": 0.1545855397845003,
+                "sad": 0.1275595353951369,
+                "surprised": 0.11238124879474369
+            }
+        },
+        {
+            "sentence_index": 76,
+            "timestamp": {
+                "start": 684.98,
+                "end": 692.9
+            },
+            "transcript": "Jacob had always chosen Nordrum Farm, possibly because he had heard Farmer Nordrum spoken of as the big man of the community.",
+            "acoustic_emotion": {
+                "angry": 1.258224369441289,
+                "calm": 1.2450809045577227,
+                "disgust": 1.252521070377779,
+                "fearful": 0.6758818247451759,
+                "happy": 1.3301304461460035,
+                "neutral": 1.5950595560017906,
+                "sad": 1.1787233822323084,
+                "surprised": 1.1791317218839519
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 10,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 10,
+                "neutral": 9,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.10603880349380145,
+                "calm": 0.15881864636861256,
+                "disgust": 0.10596950284880677,
+                "fearful": 0.09896277372473465,
+                "happy": 0.1603687986636974,
+                "neutral": 0.15969093522220312,
+                "sad": 0.1050727889765992,
+                "surprised": 0.10507775070154483
+            }
+        },
+        {
+            "sentence_index": 77,
+            "timestamp": {
+                "start": 694.5,
+                "end": 700.4
+            },
+            "transcript": "While Lisbeth had always thought it would be pleasant there at Hill Farm because it was owned by a woman.",
+            "acoustic_emotion": {
+                "angry": 1.5284644824721887,
+                "calm": 1.4826310736641626,
+                "disgust": 0.788298921186307,
+                "fearful": 0.26268608824587325,
+                "happy": 1.3726940324963837,
+                "neutral": 1.9008464378964038,
+                "sad": 1.4341375054018315,
+                "surprised": 0.9449968041858696
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 10,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 10,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.11443170191123034,
+                "calm": 0.17077313018641704,
+                "disgust": 0.10501764389994701,
+                "fearful": 0.09833245080317572,
+                "happy": 0.11245048023703043,
+                "neutral": 0.17875196067925792,
+                "sad": 0.11323197082319293,
+                "surprised": 0.10701066145974861
+            }
+        },
+        {
+            "sentence_index": 78,
+            "timestamp": {
+                "start": 702.66,
+                "end": 713.06
+            },
+            "transcript": "When Autumn came Farmer Nordrum had concluded that he would have a use for a boy such as Jacob during the winter also and so Jacob had stayed on.",
+            "acoustic_emotion": {
+                "angry": 1.3733689056342073,
+                "calm": 1.2148078759351315,
+                "disgust": 1.3535450247513863,
+                "fearful": 0.5353498446083899,
+                "happy": 1.4435795188423648,
+                "neutral": 1.5702383016382753,
+                "sad": 1.131647875624607,
+                "surprised": 1.092214375729409
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 10,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 10,
+                "neutral": 9,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.10739822803370949,
+                "calm": 0.15820840309896805,
+                "disgust": 0.10715743754539142,
+                "fearful": 0.09721924138033826,
+                "happy": 0.16237656037865814,
+                "neutral": 0.1591947740769602,
+                "sad": 0.10446216696691824,
+                "surprised": 0.1039831885190562
+            }
+        },
+        {
+            "sentence_index": 79,
+            "timestamp": {
+                "start": 714.38,
+                "end": 722.78
+            },
+            "transcript": "This last Christmas however he had gone home for the whole day and had taken within a Christmas present for his sister from a little girl at Nordrum.",
+            "acoustic_emotion": {
+                "angry": 1.3326519046793448,
+                "calm": 1.1614287229940767,
+                "disgust": 1.2078862859464397,
+                "fearful": 0.5235700996007173,
+                "happy": 1.3938055547648682,
+                "neutral": 1.6686817978330568,
+                "sad": 1.3129625843914885,
+                "surprised": 1.1137642550130291
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 7,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 6,
+                "neutral": 4,
+                "sad": 0,
+                "surprised": 3
+            },
+            "fused_emotion": {
+                "angry": 0.12670317669818332,
+                "calm": 0.1242382265400358,
+                "disgust": 0.12490703537783132,
+                "fearful": 0.11505553469227357,
+                "happy": 0.12758355222891427,
+                "neutral": 0.13154070471348478,
+                "sad": 0.12641972680150648,
+                "surprised": 0.12355204294777045
+            }
+        },
+        {
+            "sentence_index": 80,
+            "timestamp": {
+                "start": 723.52,
+                "end": 727.38
+            },
+            "transcript": "The presents was a grey woolen frock a very nice one.",
+            "acoustic_emotion": {
+                "angry": 1.6004730322453764,
+                "calm": 1.2383590852984787,
+                "disgust": 1.3760259598440132,
+                "fearful": 0.2410766917760187,
+                "happy": 1.4168971879423355,
+                "neutral": 1.8487580315855119,
+                "sad": 1.0554493159405138,
+                "surprised": 0.9377170759982714
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 10,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 10,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.11556537066550802,
+                "calm": 0.16642649929849795,
+                "disgust": 0.11270527068718103,
+                "fearful": 0.09824275913702459,
+                "happy": 0.11322608745412541,
+                "neutral": 0.17809385138980394,
+                "sad": 0.10862020402771957,
+                "surprised": 0.10711995734013947
+            }
+        },
+        {
+            "sentence_index": 81,
+            "timestamp": {
+                "start": 728.74,
+                "end": 733.46
+            },
+            "transcript": "Jacob had grown extremely pleasant and full of fun while at Nordrum Lisbeth thought.",
+            "acoustic_emotion": {
+                "angry": 0.9726365854731487,
+                "calm": 1.195716832754119,
+                "disgust": 1.5561166847374646,
+                "fearful": 0.9747631604143431,
+                "happy": 1.2199470555812888,
+                "neutral": 1.3961282776502615,
+                "sad": 1.013845250140383,
+                "surprised": 1.3856004637165118
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 10,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 10,
+                "neutral": 9,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.10278005819451795,
+                "calm": 0.15824443226433,
+                "disgust": 0.10988452467537169,
+                "fearful": 0.10280595141762494,
+                "happy": 0.15868697385088013,
+                "neutral": 0.15650792836848598,
+                "sad": 0.10328181579896452,
+                "surprised": 0.10780831542982476
+            }
+        },
+        {
+            "sentence_index": 82,
+            "timestamp": {
+                "start": 734.26,
+                "end": 744.42
+            },
+            "transcript": "When she tried the frock on that reached way down to the ground before and behind he called her Lisbeth Longfork and Lisbeth Longfork she had remained for that day.",
+            "acoustic_emotion": {
+                "angry": 1.388758497372187,
+                "calm": 1.2867387945958395,
+                "disgust": 1.143679145436714,
+                "fearful": 0.36541223414578605,
+                "happy": 1.4503220397316035,
+                "neutral": 1.8086858864049808,
+                "sad": 1.2692065841534197,
+                "surprised": 1.0019537163307395
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 0,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 7,
+                "sad": 0,
+                "surprised": 9
+            },
+            "fused_emotion": {
+                "angry": 0.11574865042233007,
+                "calm": 0.11441544129568373,
+                "disgust": 0.11254591585380029,
+                "fearful": 0.10237540446371542,
+                "happy": 0.11655317223829914,
+                "neutral": 0.16366904004998525,
+                "sad": 0.11418632768001913,
+                "surprised": 0.16050604799616702
+            }
+        },
+        {
+            "sentence_index": 83,
+            "timestamp": {
+                "start": 746.52,
+                "end": 750.48
+            },
+            "transcript": "After Christmas times had been somewhat harder at pier out castle.",
+            "acoustic_emotion": {
+                "angry": 1.5386248424735343,
+                "calm": 1.3439187668039012,
+                "disgust": 1.0732522001951128,
+                "fearful": 0.3907696607261614,
+                "happy": 1.3795576579210906,
+                "neutral": 1.598208273923968,
+                "sad": 1.323716046092179,
+                "surprised": 1.0667084149538224
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 0,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 7,
+                "sad": 6,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.11965819306631882,
+                "calm": 0.11707156843303468,
+                "disgust": 0.11347582646047985,
+                "fearful": 0.10440920569733521,
+                "happy": 0.11754502275822516,
+                "neutral": 0.1626071557557515,
+                "sad": 0.15184413402336192,
+                "surprised": 0.11338889380549294
+            }
+        },
+        {
+            "sentence_index": 84,
+            "timestamp": {
+                "start": 751.86,
+                "end": 758.86
+            },
+            "transcript": "But he Ross who generally gave milk the whole year round had become dry and would not give milk for several months.",
+            "acoustic_emotion": {
+                "angry": 1.4132412800852907,
+                "calm": 1.3046612307636571,
+                "disgust": 1.0134865944007265,
+                "fearful": 0.4636927050043603,
+                "happy": 1.3038497268678693,
+                "neutral": 1.7209565188139002,
+                "sad": 1.4630483667707785,
+                "surprised": 1.0318147825164383
+            },
+            "text_emotion": {
+                "angry": 2,
+                "calm": 3,
+                "disgust": 4,
+                "fearful": 1,
+                "happy": 0,
+                "neutral": 6,
+                "sad": 7,
+                "surprised": 5
+            },
+            "fused_emotion": {
+                "angry": 0.1278633513409898,
+                "calm": 0.12630021948517023,
+                "disgust": 0.12210843330944876,
+                "fearful": 0.1141935322938422,
+                "happy": 0.1262885369744461,
+                "neutral": 0.1322932580796855,
+                "sad": 0.1285803803378457,
+                "surprised": 0.12237228817857171
+            }
+        },
+        {
+            "sentence_index": 85,
+            "timestamp": {
+                "start": 759.64,
+                "end": 761.8
+            },
+            "transcript": "She was to have a calf in the early summer.",
+            "acoustic_emotion": {
+                "angry": 1.8380221662703167,
+                "calm": 1.4756422033779886,
+                "disgust": 0.8167388204728769,
+                "fearful": 0.16652235905424603,
+                "happy": 1.430947384219665,
+                "neutral": 1.796983254969038,
+                "sad": 1.4692650662581546,
+                "surprised": 0.7206294330599856
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 9,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 7,
+                "neutral": 2,
+                "sad": 0,
+                "surprised": 6
+            },
+            "fused_emotion": {
+                "angry": 0.13397855065683092,
+                "calm": 0.1287616837308438,
+                "disgust": 0.11927602884456623,
+                "fearful": 0.1099154319582668,
+                "happy": 0.12811825156652373,
+                "neutral": 0.1333877493958082,
+                "sad": 0.12866987767330845,
+                "surprised": 0.11789242617385187
+            }
+        },
+        {
+            "sentence_index": 86,
+            "timestamp": {
+                "start": 763.56,
+                "end": 768.42
+            },
+            "transcript": "During that last few weeks there had been not enough even for Randy and Lisbeth's coffee.",
+            "acoustic_emotion": {
+                "angry": 1.2410544375237744,
+                "calm": 1.3643843982165547,
+                "disgust": 1.0236417789945735,
+                "fearful": 0.5238407734128966,
+                "happy": 1.2858900277660612,
+                "neutral": 1.6147240343336533,
+                "sad": 1.4017197879118006,
+                "surprised": 1.2594975196859564
+            },
+            "text_emotion": {
+                "angry": 2,
+                "calm": 3,
+                "disgust": 1,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 4,
+                "sad": 6,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.12538452539879474,
+                "calm": 0.12715999876827,
+                "disgust": 0.12225462587367464,
+                "fearful": 0.11505942877426317,
+                "happy": 0.1260299841018765,
+                "neutral": 0.13076391913565932,
+                "sad": 0.12769748365653666,
+                "surprised": 0.12565003429092492
+            }
+        },
+        {
+            "sentence_index": 87,
+            "timestamp": {
+                "start": 770.58,
+                "end": 778.7
+            },
+            "transcript": "To go to Svihagen the nearest farm for milk was no short trip and milk was scarce there too as Randy well knew.",
+            "acoustic_emotion": {
+                "angry": 1.1449843832078728,
+                "calm": 1.2761437003646074,
+                "disgust": 0.9603387821748615,
+                "fearful": 0.6037495827327705,
+                "happy": 1.3277197413331332,
+                "neutral": 1.599555950036616,
+                "sad": 1.4785093791322395,
+                "surprised": 1.3237502037816702
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 7,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 6,
+                "sad": 2,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.11312917212600646,
+                "calm": 0.1550499351139559,
+                "disgust": 0.11070405765069612,
+                "fearful": 0.10602065536833288,
+                "happy": 0.11552919768665525,
+                "neutral": 0.15482930288574553,
+                "sad": 0.12926061693994614,
+                "surprised": 0.11547706222866175
+            }
+        },
+        {
+            "sentence_index": 88,
+            "timestamp": {
+                "start": 780.06,
+                "end": 786.0
+            },
+            "transcript": "Besides she could not spare the time to go she had the finished spinning Kirsty Hills wool.",
+            "acoustic_emotion": {
+                "angry": 1.5019270629821215,
+                "calm": 1.3672743457637995,
+                "disgust": 0.9214580158005191,
+                "fearful": 0.3450630494018523,
+                "happy": 1.3427118617752165,
+                "neutral": 1.7942413240762545,
+                "sad": 1.481244064454525,
+                "surprised": 0.9608319985094826
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 0,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 7,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.12338162742673835,
+                "calm": 0.12152958839777596,
+                "disgust": 0.1153977459819853,
+                "fearful": 0.10746990021755876,
+                "happy": 0.12119175133117326,
+                "neutral": 0.17199293389216883,
+                "sad": 0.12309714953947096,
+                "surprised": 0.1159393032131287
+            }
+        },
+        {
+            "sentence_index": 89,
+            "timestamp": {
+                "start": 787.12,
+                "end": 792.2
+            },
+            "transcript": "When she once got that off her hands they could have fed him up for their coffee and other good things be signed.",
+            "acoustic_emotion": {
+                "angry": 1.5840328327851714,
+                "calm": 1.2950308324901731,
+                "disgust": 0.9207650287364502,
+                "fearful": 0.4433450728826761,
+                "happy": 1.3958032620593464,
+                "neutral": 1.6790854019868389,
+                "sad": 1.4627088600388674,
+                "surprised": 0.9339804317842476
+            },
+            "text_emotion": {
+                "angry": 2,
+                "calm": 3,
+                "disgust": 4,
+                "fearful": 1,
+                "happy": 1,
+                "neutral": 6,
+                "sad": 1,
+                "surprised": 1
+            },
+            "fused_emotion": {
+                "angry": 0.13032208674375906,
+                "calm": 0.12616157813731382,
+                "disgust": 0.12077360125125053,
+                "fearful": 0.11390060440973798,
+                "happy": 0.12761231052008964,
+                "neutral": 0.13169047530793715,
+                "sad": 0.12857549179886635,
+                "surprised": 0.12096385183104541
+            }
+        },
+        {
+            "sentence_index": 90,
+            "timestamp": {
+                "start": 793.16,
+                "end": 795.54
+            },
+            "transcript": "What a relief it would be when that time came.",
+            "acoustic_emotion": {
+                "angry": 1.356850039980023,
+                "calm": 1.4471453746089333,
+                "disgust": 0.6764956280745155,
+                "fearful": 0.511039402964991,
+                "happy": 1.372934171404321,
+                "neutral": 1.6001956304034488,
+                "sad": 1.7029668023486,
+                "surprised": 1.047123637897439
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 7,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 6,
+                "neutral": 3,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.11521951322300111,
+                "calm": 0.1571377847052768,
+                "disgust": 0.10633718329431599,
+                "fearful": 0.10417707856880756,
+                "happy": 0.1500583483409825,
+                "neutral": 0.1361559730570643,
+                "sad": 0.11973822174227944,
+                "surprised": 0.11117589706827236
+            }
+        },
+        {
+            "sentence_index": 91,
+            "timestamp": {
+                "start": 797.14,
+                "end": 799.42
+            },
+            "transcript": "So Randy worked steadily at her spinning.",
+            "acoustic_emotion": {
+                "angry": 1.402013751057724,
+                "calm": 1.4462914323716565,
+                "disgust": 1.3305434436643955,
+                "fearful": 0.14039379675657213,
+                "happy": 1.4795278993279732,
+                "neutral": 1.789825666398408,
+                "sad": 1.1782834725949234,
+                "surprised": 0.9478748482958677
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 10,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 10,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.11292922407271938,
+                "calm": 0.17023937056725855,
+                "disgust": 0.1120193509591556,
+                "fearful": 0.09686781174890262,
+                "happy": 0.11391604002474479,
+                "neutral": 0.17679956125056134,
+                "sad": 0.1100809620113414,
+                "surprised": 0.10714767936531633
+            }
+        },
+        {
+            "sentence_index": 92,
+            "timestamp": {
+                "start": 800.2,
+                "end": 803.34
+            },
+            "transcript": "This was being now big enough to help in cutting the wool.",
+            "acoustic_emotion": {
+                "angry": 1.8031409548109294,
+                "calm": 1.481312379833507,
+                "disgust": 0.9542323188672068,
+                "fearful": 0.05715771795581755,
+                "happy": 1.3658273018271776,
+                "neutral": 1.939892817310703,
+                "sad": 1.29818162057535,
+                "surprised": 0.8150060940423297
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 0,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 0,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.13347639541257605,
+                "calm": 0.12884331133494709,
+                "disgust": 0.12125540141032343,
+                "fearful": 0.10834100420299185,
+                "happy": 0.12718077382984083,
+                "neutral": 0.13544509218469536,
+                "sad": 0.12620693821331674,
+                "surprised": 0.11925108341130863
+            }
+        },
+        {
+            "sentence_index": 93,
+            "timestamp": {
+                "start": 804.42,
+                "end": 812.14
+            },
+            "transcript": "For a week she spun almost without ceasing, scarcely taking time for meals for drinking a good deal of strong back coffee.",
+            "acoustic_emotion": {
+                "angry": 1.2362982380325171,
+                "calm": 1.1879609670766451,
+                "disgust": 1.1714151893034679,
+                "fearful": 0.6623077659577221,
+                "happy": 1.2686227981875724,
+                "neutral": 1.6009191523717599,
+                "sad": 1.2380775431305522,
+                "surprised": 1.3491531739480338
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 0,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 7,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.11983964137127143,
+                "calm": 0.11917418209350858,
+                "disgust": 0.11894639634745321,
+                "fearful": 0.11193751372864229,
+                "happy": 0.12028465363674298,
+                "neutral": 0.16856016032132234,
+                "sad": 0.11986413706707807,
+                "surprised": 0.1213933154339812
+            }
+        },
+        {
+            "sentence_index": 94,
+            "timestamp": {
+                "start": 813.9,
+                "end": 818.3
+            },
+            "transcript": "Not till very late one evening with Kirsty Hills wool all spun and ready.",
+            "acoustic_emotion": {
+                "angry": 1.4276765266805196,
+                "calm": 1.4433828533574162,
+                "disgust": 0.9159218823992155,
+                "fearful": 0.3868027108784478,
+                "happy": 1.326805764368872,
+                "neutral": 1.7692296147167887,
+                "sad": 1.433971892361875,
+                "surprised": 1.0109615130821363
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 10,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 10,
+                "neutral": 9,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.10786730788847694,
+                "calm": 0.16208662217434994,
+                "disgust": 0.10166224969650282,
+                "fearful": 0.09524664548760235,
+                "happy": 0.15996636504788825,
+                "neutral": 0.16241255872903995,
+                "sad": 0.10794363960491388,
+                "surprised": 0.10281461137122577
+            }
+        },
+        {
+            "sentence_index": 95,
+            "timestamp": {
+                "start": 819.3,
+                "end": 821.62
+            },
+            "transcript": "By that time Randy was far from well.",
+            "acoustic_emotion": {
+                "angry": 1.7593083585418807,
+                "calm": 1.4675913394730917,
+                "disgust": 0.8911860222594277,
+                "fearful": 0.1498575469085997,
+                "happy": 1.393128611464045,
+                "neutral": 1.8526209557425029,
+                "sad": 1.4376360808709177,
+                "surprised": 0.7634243601255554
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 0,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 9,
+                "sad": 10,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.11813810111539456,
+                "calm": 0.11440344266310186,
+                "disgust": 0.10702410978512927,
+                "fearful": 0.09753337569895179,
+                "happy": 0.11345014601476959,
+                "neutral": 0.1730324440989159,
+                "sad": 0.171029918196072,
+                "surprised": 0.10538846242766495
+            }
+        },
+        {
+            "sentence_index": 96,
+            "timestamp": {
+                "start": 822.92,
+                "end": 843.68
+            },
+            "transcript": "Whether or not her illness was caused as she thought by drinking so much black coffee, certain ideas that when Kirsty Hills wool was all spun, Randy felt a tightness in her chest and when she got up the next morning and tried to get ready to go to her with the spinning she was seized with such a sudden business that she had to go back to bed again.",
+            "acoustic_emotion": {
+                "angry": 1.2702137184526567,
+                "calm": 1.1124538418343715,
+                "disgust": 1.2705366638805724,
+                "fearful": 0.7033182125177582,
+                "happy": 1.4159635444295795,
+                "neutral": 1.47575088693546,
+                "sad": 1.2682470636031704,
+                "surprised": 1.198266238487953
+            },
+            "text_emotion": {
+                "angry": 2,
+                "calm": 3,
+                "disgust": 4,
+                "fearful": 6,
+                "happy": 1,
+                "neutral": 7,
+                "sad": 5,
+                "surprised": 9
+            },
+            "fused_emotion": {
+                "angry": 0.12580431070049006,
+                "calm": 0.1235331799179247,
+                "disgust": 0.12580895986299037,
+                "fearful": 0.11764321257069167,
+                "happy": 0.12790254330199405,
+                "neutral": 0.12876324931218844,
+                "sad": 0.1257759984929561,
+                "surprised": 0.1247685458407646
+            }
+        },
+        {
+            "sentence_index": 97,
+            "timestamp": {
+                "start": 845.02,
+                "end": 846.98
+            },
+            "transcript": "She was too weak for anything else.",
+            "acoustic_emotion": {
+                "angry": 1.297052346659145,
+                "calm": 1.0579448974363619,
+                "disgust": 0.9937362043043864,
+                "fearful": 0.5897739123234216,
+                "happy": 1.4799139847273726,
+                "neutral": 1.5729833377755582,
+                "sad": 1.6346659145074436,
+                "surprised": 1.0886837127338314
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 0,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 10,
+                "sad": 10,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.11161320832515033,
+                "calm": 0.10856863110488287,
+                "disgust": 0.10775105588885263,
+                "fearful": 0.10260736673985271,
+                "happy": 0.11394160244056993,
+                "neutral": 0.17268999465467327,
+                "sad": 0.1738681095687991,
+                "surprised": 0.10896003127721915
+            }
+        },
+        {
+            "sentence_index": 98,
+            "timestamp": {
+                "start": 848.46,
+                "end": 854.32
+            },
+            "transcript": "Now it was the custom in Norway for the spinning woman to take back to the different farms the wool she had spun.",
+            "acoustic_emotion": {
+                "angry": 1.4461755032436867,
+                "calm": 1.2003301909984136,
+                "disgust": 1.3471088879860678,
+                "fearful": 0.39681557176608195,
+                "happy": 1.3643647316680596,
+                "neutral": 1.6873060192576912,
+                "sad": 1.262144223080765,
+                "surprised": 1.0105081473852549
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 10,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 10,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.11374374772749915,
+                "calm": 0.16591047879771686,
+                "disgust": 0.11247974811028201,
+                "fearful": 0.1003548724917654,
+                "happy": 0.11269991693054579,
+                "neutral": 0.17523052963794764,
+                "sad": 0.11139567651221632,
+                "surprised": 0.10818502979202684
+            }
+        },
+        {
+            "sentence_index": 99,
+            "timestamp": {
+                "start": 855.18,
+                "end": 864.76
+            },
+            "transcript": "And for the farmer's wife to praise her work treated her something good to wait and drink to pay her and then give her directions about the way the next spinning was to be done.",
+            "acoustic_emotion": {
+                "angry": 1.4717834195469965,
+                "calm": 1.2487337071702682,
+                "disgust": 1.0636331878181258,
+                "fearful": 0.4162782092054973,
+                "happy": 1.4648587243138056,
+                "neutral": 1.8055785717427926,
+                "sad": 1.276184068543097,
+                "surprised": 0.9677080449121863
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 0,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 7,
+                "neutral": 3,
+                "sad": 0,
+                "surprised": 6
+            },
+            "fused_emotion": {
+                "angry": 0.11684900736484674,
+                "calm": 0.11393377593118584,
+                "disgust": 0.11151453563424733,
+                "fearful": 0.10305368821920574,
+                "happy": 0.15762397834389302,
+                "neutral": 0.13939341778865263,
+                "sad": 0.1142925486706201,
+                "surprised": 0.1433390480473485
+            }
+        },
+        {
+            "sentence_index": 100,
+            "timestamp": {
+                "start": 865.92,
+                "end": 868.34
+            },
+            "transcript": "All this Randy would have to give up for the present.",
+            "acoustic_emotion": {
+                "angry": 1.5266634406626591,
+                "calm": 1.427433282528083,
+                "disgust": 0.6543060684240626,
+                "fearful": 0.3133031262048996,
+                "happy": 1.5286973758096278,
+                "neutral": 1.816971713810316,
+                "sad": 1.6448687128502781,
+                "surprised": 0.8025105901775941
+            },
+            "text_emotion": {
+                "angry": 7,
+                "calm": 2,
+                "disgust": 3,
+                "fearful": 1,
+                "happy": 1,
+                "neutral": 4,
+                "sad": 6,
+                "surprised": 1
+            },
+            "fused_emotion": {
+                "angry": 0.1294961850420209,
+                "calm": 0.12806765544313706,
+                "disgust": 0.11693762068543403,
+                "fearful": 0.11202850025849789,
+                "happy": 0.1295254658233305,
+                "neutral": 0.13367549875862153,
+                "sad": 0.13119788272383984,
+                "surprised": 0.11907119126511825
+            }
+        },
+        {
+            "sentence_index": 101,
+            "timestamp": {
+                "start": 868.52,
+                "end": 874.12
+            },
+            "transcript": "There was no help for it but she wondered how it would do to send Lisbeth to her farm in her stead.",
+            "acoustic_emotion": {
+                "angry": 1.4487839086230052,
+                "calm": 1.3155875510748027,
+                "disgust": 1.065706973602834,
+                "fearful": 0.39086540576488643,
+                "happy": 1.5300988761602616,
+                "neutral": 1.633374132795781,
+                "sad": 1.3356836583920526,
+                "surprised": 0.994652768972397
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 7,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 9,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.11636344086210892,
+                "calm": 0.15474421462814658,
+                "disgust": 0.11136461982659467,
+                "fearful": 0.10255852393160135,
+                "happy": 0.11742453051034367,
+                "neutral": 0.17221966512330003,
+                "sad": 0.11488758090215952,
+                "surprised": 0.11043742421574522
+            }
+        },
+        {
+            "sentence_index": 102,
+            "timestamp": {
+                "start": 875.18,
+                "end": 883.26
+            },
+            "transcript": "The little girl would find her wise safely Randy was sure that Randy had never has yet taken to that farm because it was so far off.",
+            "acoustic_emotion": {
+                "angry": 1.3529953964750299,
+                "calm": 1.2290216150894182,
+                "disgust": 1.0945929930157876,
+                "fearful": 0.5082726301162138,
+                "happy": 1.4591823373692887,
+                "neutral": 1.5813302349893774,
+                "sad": 1.4050227329774378,
+                "surprised": 1.0843363704349671
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 7,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 6,
+                "sad": 0,
+                "surprised": 2
+            },
+            "fused_emotion": {
+                "angry": 0.11595463566855879,
+                "calm": 0.15433883698550507,
+                "disgust": 0.11255806972544316,
+                "fearful": 0.10485119181053243,
+                "happy": 0.1173504080848241,
+                "neutral": 0.1546427727285447,
+                "sad": 0.11663850809741168,
+                "surprised": 0.1236655768991801
+            }
+        },
+        {
+            "sentence_index": 103,
+            "timestamp": {
+                "start": 883.82,
+                "end": 890.88
+            },
+            "transcript": "Payment for the spinning was to be in eatables as well as money and Lisbeth could bring her in part of what was due.",
+            "acoustic_emotion": {
+                "angry": 1.225898774204734,
+                "calm": 1.4036988637392838,
+                "disgust": 0.891081479027955,
+                "fearful": 0.5782720866984264,
+                "happy": 1.305099070238043,
+                "neutral": 1.5499879671775656,
+                "sad": 1.4667539585398106,
+                "surprised": 1.2939626283824524
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 7,
+                "disgust": 2,
+                "fearful": 0,
+                "happy": 3,
+                "neutral": 6,
+                "sad": 0,
+                "surprised": 4
+            },
+            "fused_emotion": {
+                "angry": 0.12516633886472123,
+                "calm": 0.12772597087042098,
+                "disgust": 0.12034626781166491,
+                "fearful": 0.11584302524083051,
+                "happy": 0.12630651608914473,
+                "neutral": 0.12983196683603598,
+                "sad": 0.12863371978773802,
+                "surprised": 0.1261461944994436
+            }
+        },
+        {
+            "sentence_index": 104,
+            "timestamp": {
+                "start": 892.04,
+                "end": 898.04
+            },
+            "transcript": "Then though they might lack many things their drop of coffee would have cream in it as coffee ought to have.",
+            "acoustic_emotion": {
+                "angry": 1.409286233674824,
+                "calm": 1.2411424194512515,
+                "disgust": 1.001064581322472,
+                "fearful": 0.47153241228331216,
+                "happy": 1.5283392376107214,
+                "neutral": 1.7512523192294853,
+                "sad": 1.3595505676128175,
+                "surprised": 0.9525860217418869
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 10,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 10,
+                "neutral": 9,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.10765534427226468,
+                "calm": 0.1584245713889464,
+                "disgust": 0.10270512359268673,
+                "fearful": 0.09628385446456887,
+                "happy": 0.16364852614552144,
+                "neutral": 0.16211308802651858,
+                "sad": 0.10705223436559021,
+                "surprised": 0.10211725774390312
+            }
+        },
+        {
+            "sentence_index": 105,
+            "timestamp": {
+                "start": 899.0,
+                "end": 904.9
+            },
+            "transcript": "The remainder of the payment and the directions for next spinning Randy herself could get when she was better.",
+            "acoustic_emotion": {
+                "angry": 1.385665673850995,
+                "calm": 1.379054608312222,
+                "disgust": 0.8969079527899328,
+                "fearful": 0.43787725486035456,
+                "happy": 1.4215850720546108,
+                "neutral": 1.6314737231622776,
+                "sad": 1.507858079975572,
+                "surprised": 1.0543329805430555
+            },
+            "text_emotion": {
+                "angry": 2,
+                "calm": 3,
+                "disgust": 1,
+                "fearful": 4,
+                "happy": 1,
+                "neutral": 6,
+                "sad": 1,
+                "surprised": 1
+            },
+            "fused_emotion": {
+                "angry": 0.12746636189620608,
+                "calm": 0.12737118818249737,
+                "disgust": 0.12043014554887577,
+                "fearful": 0.11382188308769813,
+                "happy": 0.1279834619765442,
+                "neutral": 0.13100504484757647,
+                "sad": 0.12922545882387582,
+                "surprised": 0.12269645563672615
+            }
+        },
+        {
+            "sentence_index": 106,
+            "timestamp": {
+                "start": 906.28,
+                "end": 912.42
+            },
+            "transcript": "If only she could be sure that Lisbeth would behave properly or not act like a changeling a troll child.",
+            "acoustic_emotion": {
+                "angry": 1.4348072031321566,
+                "calm": 1.2492605636536307,
+                "disgust": 1.3462901385197816,
+                "fearful": 0.40673372269649083,
+                "happy": 1.4925823472025628,
+                "neutral": 1.7054489277849514,
+                "sad": 1.1971147103195037,
+                "surprised": 0.8825161796176927
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 0,
+                "disgust": 0,
+                "fearful": 7,
+                "happy": 0,
+                "neutral": 6,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.11875623610834277,
+                "calm": 0.1162813468031904,
+                "disgust": 0.11757556295172651,
+                "fearful": 0.14180860888784094,
+                "happy": 0.11952686222458689,
+                "neutral": 0.15907600143508044,
+                "sad": 0.1155858062367464,
+                "surprised": 0.11138957535248577
+            }
+        },
+        {
+            "sentence_index": 107,
+            "timestamp": {
+                "start": 914.12,
+                "end": 920.16
+            },
+            "transcript": "Lisbeth eagerly promised that if her mother would allow it a go she would behave exactly as a spinning woman should.",
+            "acoustic_emotion": {
+                "angry": 1.2359877135825983,
+                "calm": 1.269221075294416,
+                "disgust": 1.0535975551374976,
+                "fearful": 0.6668564316082838,
+                "happy": 1.4023532577896352,
+                "neutral": 1.5032467918942767,
+                "sad": 1.5538953998390448,
+                "surprised": 1.0295981554847675
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 7,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 6,
+                "neutral": 9,
+                "sad": 0,
+                "surprised": 2
+            },
+            "fused_emotion": {
+                "angry": 0.1253115776786993,
+                "calm": 0.1257900092397626,
+                "disgust": 0.12268586653385163,
+                "fearful": 0.11711829377182005,
+                "happy": 0.12770659650683716,
+                "neutral": 0.12915907222811554,
+                "sad": 0.12988821581505763,
+                "surprised": 0.12234036822585606
+            }
+        },
+        {
+            "sentence_index": 108,
+            "timestamp": {
+                "start": 920.6,
+                "end": 928.96
+            },
+            "transcript": "She would really and she remembered perfectly well just how everything was done that time she had gone with her mother to one of the nearer farms.",
+            "acoustic_emotion": {
+                "angry": 1.2169887926550618,
+                "calm": 1.1194416770390458,
+                "disgust": 0.8920104646739623,
+                "fearful": 0.7435585584419954,
+                "happy": 1.3873435409620565,
+                "neutral": 1.4962941494605932,
+                "sad": 1.5813954451238605,
+                "surprised": 1.2777170242441964
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 7,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 6,
+                "neutral": 9,
+                "sad": 2,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.12503807898809427,
+                "calm": 0.1236337785827849,
+                "disgust": 0.12035965057103004,
+                "fearful": 0.11822251847056768,
+                "happy": 0.12749052712644404,
+                "neutral": 0.12905899363318799,
+                "sad": 0.130284122466958,
+                "surprised": 0.12591233016093306
+            }
+        },
+        {
+            "sentence_index": 109,
+            "timestamp": {
+                "start": 930.92,
+                "end": 938.12
+            },
+            "transcript": "So Lisbeth put on her longfork which was only used for the very best and her mother wrapped her snuggling the two shores.",
+            "acoustic_emotion": {
+                "angry": 1.3343204560569089,
+                "calm": 1.2696371780573072,
+                "disgust": 0.9547995435290586,
+                "fearful": 0.5024078583387459,
+                "happy": 1.5263901791467305,
+                "neutral": 1.5953731856962088,
+                "sad": 1.4076218226232589,
+                "surprised": 1.1242061571823012
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 7,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 6,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.11699612849562743,
+                "calm": 0.15678419895577866,
+                "disgust": 0.11195203705129751,
+                "fearful": 0.10593944340117291,
+                "happy": 0.11954886594690317,
+                "neutral": 0.15660540622069363,
+                "sad": 0.11797035358771082,
+                "surprised": 0.11420356634081597
+            }
+        },
+        {
+            "sentence_index": 110,
+            "timestamp": {
+                "start": 939.08,
+                "end": 942.02
+            },
+            "transcript": "Then the bundle of yarn was long over her back.",
+            "acoustic_emotion": {
+                "angry": 1.8218655791410376,
+                "calm": 1.5411111082358848,
+                "disgust": 0.8677248649865569,
+                "fearful": 0.11782280957346879,
+                "happy": 1.275954280450157,
+                "neutral": 1.9558071953690455,
+                "sad": 1.3527035034921062,
+                "surprised": 0.7817665218415135
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 10,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 10,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.11807824314124676,
+                "calm": 0.17176491324493506,
+                "disgust": 0.10595141491140908,
+                "fearful": 0.09642039576476738,
+                "happy": 0.11113988232114651,
+                "neutral": 0.1796708984025427,
+                "sad": 0.11211534079471976,
+                "surprised": 0.10485891141923274
+            }
+        },
+        {
+            "sentence_index": 111,
+            "timestamp": {
+                "start": 942.6,
+                "end": 948.4
+            },
+            "transcript": "The pair was hung in front many directions were given to her about the road and off she started.",
+            "acoustic_emotion": {
+                "angry": 1.4169437666098235,
+                "calm": 1.352226330920731,
+                "disgust": 0.8480971320479346,
+                "fearful": 0.38451776846779473,
+                "happy": 1.4191112272702573,
+                "neutral": 1.6913273108841407,
+                "sad": 1.4484547527060911,
+                "surprised": 1.1540765391014975
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 0,
+                "disgust": 0,
+                "fearful": 10,
+                "happy": 0,
+                "neutral": 9,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.11463432515327593,
+                "calm": 0.11379938668264859,
+                "disgust": 0.10729546918617136,
+                "fearful": 0.15197204537223694,
+                "happy": 0.11466228819398819,
+                "neutral": 0.17135262930035244,
+                "sad": 0.11504085755461473,
+                "surprised": 0.11124299855671183
+            }
+        },
+        {
+            "sentence_index": 112,
+            "timestamp": {
+                "start": 950.5,
+                "end": 961.4
+            },
+            "transcript": "And that is the way Lisbeth longfork happened to come tolding out the bear hunter to her farm on that clear cold winter's day toward the beginning of spring.",
+            "acoustic_emotion": {
+                "angry": 1.0779902857601251,
+                "calm": 1.139084936200164,
+                "disgust": 1.3043538115582376,
+                "fearful": 0.713944876734732,
+                "happy": 1.3213291481538028,
+                "neutral": 1.5826085606415434,
+                "sad": 1.1504320171409497,
+                "surprised": 1.4250101567372162
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 0,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 7,
+                "sad": 0,
+                "surprised": 7
+            },
+            "fused_emotion": {
+                "angry": 0.1128348414072108,
+                "calm": 0.113641437519653,
+                "disgust": 0.11582338358876665,
+                "fearful": 0.10802856770636526,
+                "happy": 0.11604749880027472,
+                "neutral": 0.1613209696304996,
+                "sad": 0.11379124623954064,
+                "surprised": 0.15851205510768937
+            }
+        },
+        {
+            "sentence_index": 113,
+            "timestamp": {
+                "start": 963.3,
+                "end": 964.6
+            },
+            "transcript": "End of chapter 1",
+            "acoustic_emotion": {
+                "angry": 0.9360449018354583,
+                "calm": 1.4775477884189907,
+                "disgust": 0.9103624596641678,
+                "fearful": 0.7247904606888985,
+                "happy": 1.3468304510626405,
+                "neutral": 1.1773467238376683,
+                "sad": 1.3885607968057385,
+                "surprised": 1.7532717632354577
+            },
+            "text_emotion": {
+                "angry": 0,
+                "calm": 10,
+                "disgust": 0,
+                "fearful": 0,
+                "happy": 0,
+                "neutral": 10,
+                "sad": 0,
+                "surprised": 0
+            },
+            "fused_emotion": {
+                "angry": 0.10739440157413208,
+                "calm": 0.17147063683720673,
+                "disgust": 0.10706622978985257,
+                "fearful": 0.10469497967236553,
+                "happy": 0.1126434439255956,
+                "neutral": 0.1657166560621783,
+                "sad": 0.11317667678288287,
+                "surprised": 0.1178369753557863
+            }
+        }
+    ]
+}

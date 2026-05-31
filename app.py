@@ -18,6 +18,7 @@ import os
 import shutil
 import subprocess
 import sys
+from matplotlib import lines
 import pygame
 from pathlib import Path
 import atexit
@@ -25,6 +26,20 @@ import atexit
 # ── Configuration ───────────────────────────────────────────────────────
 W, H = 1280, 720
 FPS  = 60
+
+def _wrap_text(text, font, max_width):
+    """Break text into lines that fit within max_width pixels."""
+    words = text.split()
+    lines, current = [], []
+    for word in words:
+        current.append(word)
+        if font.size(" ".join(current))[0] > max_width:
+            if len(current) > 1:
+                lines.append(" ".join(current[:-1]))
+                current = [word]
+    if current:
+        lines.append(" ".join(current))
+    return lines
 
 # Paths (relative to this file's location)
 HERE                  = Path(__file__).parent.resolve()
@@ -695,6 +710,7 @@ class App:
         if not hasattr(self, "_pb_f_sm"):
             self._pb_f_sm = pygame.font.SysFont("inconsolata", 12)
             self._pb_f_lg = pygame.font.SysFont("georgia", 32, italic=True)
+            self._pb_f_sub = pygame.font.SysFont("georgia", 20, italic=True)
             self._pb_f_cap = pygame.font.SysFont("georgia", 20, italic=True)
 
         # Start audio. Prefer the enhanced output from second_pipeline; if
@@ -895,6 +911,8 @@ class App:
         self.screen.blit(self._pb_f_sm.render(hint, True, (40, 38, 52)),
                          (24, H - 68))
 
+
+
     def _draw_playback_timeline(self, play_t):
         bx, by, bw, bh = 24, H - 44, W - 48, 3
         pygame.draw.rect(self.screen, (14, 14, 24), (bx, by, bw, bh), border_radius=1)
@@ -917,37 +935,24 @@ class App:
         return text
 
     def _draw_subtitle(self, text):
-        """Render the current sentence in a subtle bar above the timeline."""
-        # Word-wrap the text to fit width
-        max_w = W - 200
-        words = text.split()
-        lines = []
-        cur = ""
-        for w in words:
-            trial = (cur + " " + w).strip()
-            if self._pb_f_cap.size(trial)[0] > max_w and cur:
-                lines.append(cur)
-                cur = w
-            else:
-                cur = trial
-        if cur:
-            lines.append(cur)
-        # Limit to 2 lines (truncate with ellipsis)
-        if len(lines) > 2:
-            lines = lines[:2]
-            lines[1] = lines[1].rstrip(".,;:!? ") + "…"
+        if not text:
+            return
+        lines = _wrap_text(text, self._pb_f_sub, W - 240)[:2]
+        if not lines or not any(lines):
+            return
 
-        # Render with shadow
-        line_h = self._pb_f_cap.get_height()
-        total_h = line_h * len(lines)
-        y0 = H - 70 - total_h
-        for i, ln in enumerate(lines):
-            shadow = self._pb_f_cap.render(ln, True, (0, 0, 0))
-            txt = self._pb_f_cap.render(ln, True, (235, 230, 215))
-            x = W // 2 - txt.get_width() // 2
-            y = y0 + i * line_h
-            self.screen.blit(shadow, (x + 1, y + 1))
-            self.screen.blit(txt, (x, y))
+        line_h = self._pb_f_sub.get_height()
+        total_h = line_h * len(lines) + 6 * (len(lines) - 1)
+        ty = H - total_h - 56
+
+        for line in lines:
+            # Soft shadow so text stays readable over the bright tree/moon
+            shadow = self._pb_f_sub.render(line, True, (0, 0, 0))
+            surf   = self._pb_f_sub.render(line, True, (245, 240, 230))
+            x = W // 2 - surf.get_width() // 2
+            self.screen.blit(shadow, (x + 2, ty + 2))
+            self.screen.blit(surf,   (x, ty))
+            ty += line_h + 6
 
     def _draw_pause_overlay(self):
         veil = pygame.Surface((W, H), pygame.SRCALPHA)
