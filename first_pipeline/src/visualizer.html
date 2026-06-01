@@ -451,11 +451,24 @@
             displayVectors.raw[e] += (targets.raw[e] - displayVectors.raw[e]) * smoothFactor;
             displayVectors.llm[e] += (targets.llm[e] - displayVectors.llm[e]) * smoothFactor;
             displayVectors.boosted[e] += (targets.boosted[e] - displayVectors.boosted[e]) * smoothFactor;
-            
+        });
+
+        // Dynamically find maximums to stretch boosted visually to match raw
+        let maxRawDisplay = 0.0001;
+        let maxBoostedDisplay = 0.0001;
+        EMOTIONS.forEach(e => {
+            if (displayVectors.raw[e] > maxRawDisplay) maxRawDisplay = displayVectors.raw[e];
+            if (displayVectors.boosted[e] > maxBoostedDisplay) maxBoostedDisplay = displayVectors.boosted[e];
+        });
+
+        // Calculate a multiplier so the tallest boosted bar equals the tallest raw bar in height
+        let dynamicMultiplier = (maxRawDisplay * 50) / maxBoostedDisplay;
+
+        EMOTIONS.forEach(e => {
             // Update DOM Bars
             updateDOMBar('raw', e, displayVectors.raw[e], 50); // Raw is globally normalized 0-2
             updateDOMBar('llm', e, displayVectors.llm[e] / 10, 100);
-            updateDOMBar('boosted', e, displayVectors.boosted[e], 400); // Fused is Softmax 0-1 (scaled 400x to match visual height of raw)
+            updateDOMBar('boosted', e, displayVectors.boosted[e], dynamicMultiplier); // Stretched dynamically
         });
 
         // ALL-VECTORS MIX: Blend all 8 emotions to capture the full spectrum combination
