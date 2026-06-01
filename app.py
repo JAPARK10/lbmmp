@@ -711,7 +711,6 @@ class App:
             self._pb_f_sm = pygame.font.SysFont("inconsolata", 12)
             self._pb_f_lg = pygame.font.SysFont("georgia", 32, italic=True)
             self._pb_f_sub = pygame.font.SysFont("georgia", 20, italic=True)
-            self._pb_f_cap = pygame.font.SysFont("georgia", 20, italic=True)
 
         # Start audio. Prefer the enhanced output from second_pipeline; if
         # that's missing, fall back to the original audiobook file.
@@ -780,6 +779,15 @@ class App:
                         pygame.mixer.music.pause()
                         self._pb_paused = True
 
+                # Demo override: force an emotion with 1-5, release with 0
+                force_map = {pygame.K_1: "joy", pygame.K_2: "sadness",
+                             pygame.K_3: "anger", pygame.K_4: "calm",
+                             pygame.K_5: "fear"}
+                if ev.key in force_map:
+                    self._pb_force_emotion = force_map[ev.key]
+                elif ev.key == pygame.K_0:
+                    self._pb_force_emotion = None
+
         # The ESC-handler in run() takes us back to START, but doesn't stop
         # audio. Catch that case here too.
         if self.state == START:
@@ -789,9 +797,13 @@ class App:
         if self._pb_paused:
             return
 
-        # Drive everything from audio position
+        # Drive everything from audio position (or a forced demo emotion)
         play_t = self._playback_time_s()
-        tgt_ev = emotions.get_emotions_at(self._pb_timeline, play_t)
+        if getattr(self, "_pb_force_emotion", None):
+            tgt_ev = {k: 0.025 for k in emotions.EMOTION_KEYS}
+            tgt_ev[self._pb_force_emotion] = 0.9
+        else:
+            tgt_ev = emotions.get_emotions_at(self._pb_timeline, play_t)
         self._pb_cur_ev = emotions.lerp_emotions(self._pb_cur_ev, tgt_ev, 0.04)
 
         # One-second emotion log (matches main_tree.py format)
@@ -907,11 +919,9 @@ class App:
         clock_text = f"▶ {play_t:.1f}s / {self._pb_total:.1f}s{chap}"
         self.screen.blit(self._pb_f_sm.render(clock_text, True, (55, 53, 68)),
                          (24, H - 86))
-        hint = "SPACE pause  ·  ESC home"
+        hint = "SPACE pause · 1-5 force emotion · 0 release · ESC home"
         self.screen.blit(self._pb_f_sm.render(hint, True, (40, 38, 52)),
                          (24, H - 68))
-
-
 
     def _draw_playback_timeline(self, play_t):
         bx, by, bw, bh = 24, H - 44, W - 48, 3
