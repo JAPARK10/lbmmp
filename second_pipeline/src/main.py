@@ -7,6 +7,9 @@ from soundtrack_selector import SoundtrackSelector
 from audio_mixer import AudioMixer
 
 
+SCRIPT_DIR = Path(__file__).parent.resolve()
+PIPELINE_DIR = SCRIPT_DIR.parent
+
 def parse_args():
     parser = argparse.ArgumentParser(
         description="Second pipeline: emotion-based soundtrack selection and audio mixing."
@@ -26,31 +29,31 @@ def parse_args():
 
     parser.add_argument(
         "--metadata",
-        default="data/metadata/soundtrack_metadata.csv",
+        default=str(PIPELINE_DIR / "data/metadata/soundtrack_metadata.csv"),
         help="Path to soundtrack metadata CSV.",
     )
 
     parser.add_argument(
         "--soundtrack-dir",
-        default="data/soundtracks",
+        default=str(PIPELINE_DIR / "data/soundtracks"),
         help="Directory containing soundtrack audio files.",
     )
 
     parser.add_argument(
         "--output",
         default=None,
-        help="Output path for enhanced audiobook. Defaults to output/<original_filename>.",
+        help="Output path for enhanced audiobook. Defaults to second_pipeline/output/<original_filename>.",
     )
 
     parser.add_argument(
         "--assignments-output",
-        default="output/selected_soundtracks.csv",
+        default=str(PIPELINE_DIR / "output/selected_soundtracks.csv"),
         help="Output CSV with per-segment selected soundtrack.",
     )
 
     parser.add_argument(
         "--regions-output",
-        default="output/soundtrack_regions.csv",
+        default=str(PIPELINE_DIR / "output/soundtrack_regions.csv"),
         help="Output CSV with grouped soundtrack regions.",
     )
 
@@ -91,7 +94,7 @@ def main():
     if args.output:
         output_path = Path(args.output)
     else:
-        output_path = Path("output") / Path(args.audiobook).name
+        output_path = PIPELINE_DIR / "output" / Path(args.audiobook).name
     assignments_output = Path(args.assignments_output)
     regions_output = Path(args.regions_output)
 
