@@ -693,6 +693,7 @@
     };
 
     let isDragging = false;
+    let wasPlayingBeforeDrag = false;
     
     audioNode.ontimeupdate = () => {
         if (!isDragging && audioNode.duration) {
@@ -700,7 +701,10 @@
             timelineProgress.style.width = `${pct}%`;
             timelineThumb.style.left = `${pct}%`;
         }
-        timeDisplay.innerText = `${formatTime(audioNode.currentTime)} / ${formatTime(audioNode.duration)}`;
+        // Always update text
+        if (!isDragging) {
+            timeDisplay.innerText = `${formatTime(audioNode.currentTime)} / ${formatTime(audioNode.duration)}`;
+        }
     };
 
     audioNode.onloadedmetadata = () => {
@@ -722,13 +726,17 @@
     timelineContainer.addEventListener('mousedown', (e) => {
         if(!audioNode.duration) return;
         isDragging = true;
+        wasPlayingBeforeDrag = !audioNode.paused;
+        if (wasPlayingBeforeDrag) audioNode.pause();
+        
         const pos = updateScrub(e);
         audioNode.currentTime = pos * audioNode.duration;
     });
 
     document.addEventListener('mousemove', (e) => {
         if (isDragging) {
-            updateScrub(e);
+            const pos = updateScrub(e);
+            audioNode.currentTime = pos * audioNode.duration;
         }
     });
 
@@ -737,6 +745,11 @@
             const pos = updateScrub(e);
             audioNode.currentTime = pos * audioNode.duration;
             isDragging = false;
+            
+            if (wasPlayingBeforeDrag) {
+                audioNode.play().catch(e => console.error("Playback failed:", e));
+                playBtn.innerText = "⏸ PAUSE";
+            }
         }
     });
 
