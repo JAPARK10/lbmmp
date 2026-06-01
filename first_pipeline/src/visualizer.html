@@ -455,7 +455,7 @@
             // Update DOM Bars
             updateDOMBar('raw', e, displayVectors.raw[e], 50); // Raw is globally normalized 0-2
             updateDOMBar('llm', e, displayVectors.llm[e] / 10, 100);
-            updateDOMBar('boosted', e, displayVectors.boosted[e], 100); // Fused is Softmax 0-1
+            updateDOMBar('boosted', e, displayVectors.boosted[e], 400); // Fused is Softmax 0-1 (scaled 400x to match visual height of raw)
         });
 
         // ALL-VECTORS MIX: Blend all 8 emotions to capture the full spectrum combination
