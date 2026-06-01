@@ -306,7 +306,7 @@
     <!-- ================= MAIN MENU ================= -->
     <div id="menu-screen" class="screen active">
         <div class="menu-header">
-            <h1 class="gradient-text" style="font-size: 3rem; margin-bottom: 10px;">Emotion Analytics Dashboard</h1>
+            <h1 class="gradient-text" style="font-size: 3rem; margin-bottom: 10px;">Emotion Analytics Dashboard v2.0</h1>
             <p>Hardware accelerated audio-vector synchronization</p>
         </div>
         
@@ -723,35 +723,39 @@
         return pos;
     }
 
-    timelineContainer.addEventListener('mousedown', (e) => {
+    timelineContainer.addEventListener('pointerdown', (e) => {
         if(!audioNode.duration) return;
         isDragging = true;
         wasPlayingBeforeDrag = !audioNode.paused;
         if (wasPlayingBeforeDrag) audioNode.pause();
         
+        timelineContainer.setPointerCapture(e.pointerId);
         const pos = updateScrub(e);
         audioNode.currentTime = pos * audioNode.duration;
     });
 
-    document.addEventListener('mousemove', (e) => {
+    document.addEventListener('pointermove', (e) => {
         if (isDragging) {
             const pos = updateScrub(e);
             audioNode.currentTime = pos * audioNode.duration;
         }
     });
 
-    document.addEventListener('mouseup', (e) => {
+    function endDrag(e) {
         if (isDragging) {
             const pos = updateScrub(e);
             audioNode.currentTime = pos * audioNode.duration;
             isDragging = false;
             
             if (wasPlayingBeforeDrag) {
-                audioNode.play().catch(e => console.error("Playback failed:", e));
+                audioNode.play().catch(err => console.error("Playback failed:", err));
                 playBtn.innerText = "⏸ PAUSE";
             }
         }
-    });
+    }
+
+    document.addEventListener('pointerup', endDrag);
+    document.addEventListener('pointercancel', endDrag);
 
     audioNode.onended = () => {
         playBtn.innerText = "▶ PLAY";
