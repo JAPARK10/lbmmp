@@ -41,3 +41,7 @@ temp/
 # App working state — regenerated on every run
 emotional_timeline/
 temp/
+
+# Generated pipeline outputs
+second_pipeline/output/
+second_pipeline/outputs/
